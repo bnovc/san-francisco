@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "replace-with-area-id",
+  "status": "planned",
+  "fidelity": "base",
+  "coordinateFrame": null,
+  "bboxWgs84": {
+    "south": null,
+    "west": null,
+    "north": null,
+    "east": null
+  },
+  "dataFiles": [],
+  "sourceRefs": [],
+  "notes": "Fill the coordinate frame and actual bounds before this manifest can pass audit; record exact sources before importing data."
+}
