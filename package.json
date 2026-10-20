@@ -1,0 +1,29 @@
+{
+  "name": "sf-streets-prototype",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node tools/geo/sync_data.mjs && vite --port 5173 --strictPort",
+    "build": "node tools/geo/sync_data.mjs && tsc --noEmit && vite build",
+    "preview": "vite preview --port 4173 --strictPort",
+    "qa:shots": "node tools/qa/capture.mjs",
+    "qa:compare": "node tools/qa/compare.mjs",
+    "qa:perf": "node tools/qa/perf.mjs",
+    "audit:areas": "node tools/geo/validate_area_manifests.mjs",
+    "audit:city": "node tools/geo/validate_city.mjs",
+    "sync": "node tools/geo/sync_data.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "three": "^0.185.1"
+  },
+  "devDependencies": {
+    "@types/three": "^0.185.4",
+    "pixelmatch": "^7.2.0",
+    "playwright": "^1.62.1",
+    "pngjs": "^7.0.0",
+    "typescript": "^7.0.2",
+    "vite": "^8.2.2"
+  }
+}
