@@ -1,0 +1,1213 @@
+{
+ "street/streetlight_sf_teardrop": {
+  "file": "assets/models/street/streetlight_sf_teardrop.glb",
+  "tris": 500,
+  "bbox_threejs": {
+   "min": [
+    -0.1979999989271164,
+    0.0,
+    -0.1979999989271164
+   ],
+   "max": [
+    0.1979999989271164,
+    9.584983825683594,
+    2.180000066757202
+   ]
+  },
+  "sizeBytes": 27024,
+  "kind": "streetlight",
+  "height": 9.585,
+  "footprint": [
+   0.396,
+   2.378
+  ],
+  "front": "-Y",
+  "origin": "pole_base",
+  "arm_dir": "-Y",
+  "lamp_height": 9.0
+ },
+ "street/streetlight_sf_double": {
+  "file": "assets/models/street/streetlight_sf_double.glb",
+  "tris": 860,
+  "bbox_threejs": {
+   "min": [
+    -0.1979999989271164,
+    0.0,
+    -2.180000066757202
+   ],
+   "max": [
+    0.1979999989271164,
+    9.584983825683594,
+    2.180000066757202
+   ]
+  },
+  "sizeBytes": 45412,
+  "kind": "streetlight",
+  "height": 9.585,
+  "footprint": [
+   0.396,
+   4.36
+  ],
+  "front": "-Y",
+  "origin": "pole_base",
+  "arm_dir": "+-Y"
+ },
+ "street/streetlight_pedestrian_4m": {
+  "file": "assets/models/street/streetlight_pedestrian_4m.glb",
+  "tris": 332,
+  "bbox_threejs": {
+   "min": [
+    -0.17000000178813934,
+    0.0,
+    -0.17000000178813934
+   ],
+   "max": [
+    0.17000000178813934,
+    4.690000057220459,
+    0.17000000178813934
+   ]
+  },
+  "sizeBytes": 19216,
+  "kind": "streetlight",
+  "height": 4.69,
+  "footprint": [
+   0.34,
+   0.34
+  ],
+  "front": "-Y",
+  "origin": "pole_base"
+ },
+ "street/streetlight_plaza_globe": {
+  "file": "assets/models/street/streetlight_plaza_globe.glb",
+  "tris": 496,
+  "bbox_threejs": {
+   "min": [
+    -0.8700000047683716,
+    0.0,
+    -0.25
+   ],
+   "max": [
+    0.8700000047683716,
+    5.050000190734863,
+    0.25
+   ]
+  },
+  "sizeBytes": 28040,
+  "kind": "streetlight",
+  "height": 5.05,
+  "footprint": [
+   1.74,
+   0.5
+  ],
+  "front": "-Y",
+  "origin": "pole_base"
+ },
+ "street/traffic_signal_mast": {
+  "file": "assets/models/street/traffic_signal_mast.glb",
+  "tris": 532,
+  "bbox_threejs": {
+   "min": [
+    -0.2800000011920929,
+    0.0,
+    -0.2800000011920929
+   ],
+   "max": [
+    5.002331733703613,
+    6.0,
+    0.3100000023841858
+   ]
+  },
+  "sizeBytes": 29148,
+  "kind": "traffic_signal",
+  "height": 6.0,
+  "footprint": [
+   5.282,
+   0.59
+  ],
+  "front": "-Y",
+  "origin": "pole_base",
+  "arm_dir": "+X",
+  "lens_dir": "-Y",
+  "lamps": [
+   "lamp_red",
+   "lamp_amber",
+   "lamp_green"
+  ]
+ },
+ "street/traffic_signal_post": {
+  "file": "assets/models/street/traffic_signal_post.glb",
+  "tris": 556,
+  "bbox_threejs": {
+   "min": [
+    -0.18000000715255737,
+    0.0,
+    -0.18000000715255737
+   ],
+   "max": [
+    0.800000011920929,
+    4.5,
+    0.3100000023841858
+   ]
+  },
+  "sizeBytes": 32244,
+  "kind": "traffic_signal",
+  "height": 4.5,
+  "footprint": [
+   0.98,
+   0.49
+  ],
+  "front": "-Y",
+  "origin": "pole_base",
+  "lens_dir": "-Y",
+  "ped_dir": "+X",
+  "lamps": [
+   "lamp_red",
+   "lamp_amber",
+   "lamp_green",
+   "ped_stop",
+   "ped_walk"
+  ]
+ },
+ "street/parking_meter_sf": {
+  "file": "assets/models/street/parking_meter_sf.glb",
+  "tris": 136,
+  "bbox_threejs": {
+   "min": [
+    -0.09000000357627869,
+    0.0,
+    -0.0650000050663948
+   ],
+   "max": [
+    0.09000000357627869,
+    1.4700000286102295,
+    0.07300000637769699
+   ]
+  },
+  "sizeBytes": 9872,
+  "kind": "parking_meter",
+  "height": 1.47,
+  "footprint": [
+   0.18,
+   0.138
+  ],
+  "front": "-Y"
+ },
+ "street/hydrant_sf": {
+  "file": "assets/models/street/hydrant_sf.glb",
+  "tris": 604,
+  "bbox_threejs": {
+   "min": [
+    -0.23000000417232513,
+    0.0,
+    -0.1899999976158142
+   ],
+   "max": [
+    0.23000000417232513,
+    0.85999995470047,
+    0.2574999928474426
+   ]
+  },
+  "sizeBytes": 32124,
+  "kind": "hydrant",
+  "height": 0.86,
+  "footprint": [
+   0.46,
+   0.447
+  ],
+  "front": "-Y",
+  "cap": "paint_blue"
+ },
+ "street/hydrant_sf_red": {
+  "file": "assets/models/street/hydrant_sf_red.glb",
+  "tris": 604,
+  "bbox_threejs": {
+   "min": [
+    -0.23000000417232513,
+    0.0,
+    -0.1899999976158142
+   ],
+   "max": [
+    0.23000000417232513,
+    0.85999995470047,
+    0.2574999928474426
+   ]
+  },
+  "sizeBytes": 32140,
+  "kind": "hydrant",
+  "height": 0.86,
+  "footprint": [
+   0.46,
+   0.447
+  ],
+  "front": "-Y",
+  "cap": "paint_red"
+ },
+ "street/trashcan_sf": {
+  "file": "assets/models/street/trashcan_sf.glb",
+  "tris": 564,
+  "bbox_threejs": {
+   "min": [
+    -0.3499999940395355,
+    0.0,
+    -0.3499999940395355
+   ],
+   "max": [
+    0.3499999940395355,
+    1.1399999856948853,
+    0.3700000047683716
+   ]
+  },
+  "sizeBytes": 29116,
+  "kind": "trashcan",
+  "height": 1.14,
+  "footprint": [
+   0.7,
+   0.72
+  ],
+  "front": "-Y"
+ },
+ "street/trashcan_black": {
+  "file": "assets/models/street/trashcan_black.glb",
+  "tris": 564,
+  "bbox_threejs": {
+   "min": [
+    -0.3499999940395355,
+    0.0,
+    -0.3499999940395355
+   ],
+   "max": [
+    0.3499999940395355,
+    1.1399999856948853,
+    0.3700000047683716
+   ]
+  },
+  "sizeBytes": 28344,
+  "kind": "trashcan",
+  "height": 1.14,
+  "footprint": [
+   0.7,
+   0.72
+  ],
+  "front": "-Y"
+ },
+ "street/bench_plaza": {
+  "file": "assets/models/street/bench_plaza.glb",
+  "tris": 72,
+  "bbox_threejs": {
+   "min": [
+    -1.2000000476837158,
+    0.0,
+    -0.2750000059604645
+   ],
+   "max": [
+    1.2000000476837158,
+    0.4399999976158142,
+    0.2750000059604645
+   ]
+  },
+  "sizeBytes": 5740,
+  "kind": "bench",
+  "height": 0.44,
+  "footprint": [
+   2.4,
+   0.55
+  ],
+  "front": "-Y"
+ },
+ "street/bench_wood": {
+  "file": "assets/models/street/bench_wood.glb",
+  "tris": 228,
+  "bbox_threejs": {
+   "min": [
+    -0.8999999761581421,
+    0.0,
+    -0.293215811252594
+   ],
+   "max": [
+    0.8999999761581421,
+    0.9297347068786621,
+    0.293215811252594
+   ]
+  },
+  "sizeBytes": 14156,
+  "kind": "bench",
+  "height": 0.93,
+  "footprint": [
+   1.8,
+   0.586
+  ],
+  "front": "-Y"
+ },
+ "street/bench_metal": {
+  "file": "assets/models/street/bench_metal.glb",
+  "tris": 220,
+  "bbox_threejs": {
+   "min": [
+    -0.8999999761581421,
+    0.0,
+    -0.2597508728504181
+   ],
+   "max": [
+    0.8999999761581421,
+    0.8795663118362427,
+    0.2597508728504181
+   ]
+  },
+  "sizeBytes": 13588,
+  "kind": "bench",
+  "height": 0.88,
+  "footprint": [
+   1.8,
+   0.52
+  ],
+  "front": "-Y"
+ },
+ "street/bollard_steel": {
+  "file": "assets/models/street/bollard_steel.glb",
+  "tris": 164,
+  "bbox_threejs": {
+   "min": [
+    -0.09000000357627869,
+    0.0,
+    -0.09000000357627869
+   ],
+   "max": [
+    0.09000000357627869,
+    1.0,
+    0.09000000357627869
+   ]
+  },
+  "sizeBytes": 9564,
+  "kind": "bollard",
+  "height": 1.0,
+  "footprint": [
+   0.18,
+   0.18
+  ],
+  "front": "-Y"
+ },
+ "street/bollard_stone": {
+  "file": "assets/models/street/bollard_stone.glb",
+  "tris": 164,
+  "bbox_threejs": {
+   "min": [
+    -0.1599999964237213,
+    0.0,
+    -0.1599999964237213
+   ],
+   "max": [
+    0.1599999964237213,
+    0.8999999761581421,
+    0.1599999964237213
+   ]
+  },
+  "sizeBytes": 9552,
+  "kind": "bollard",
+  "height": 0.9,
+  "footprint": [
+   0.32,
+   0.32
+  ],
+  "front": "-Y"
+ },
+ "street/bollard_removable": {
+  "file": "assets/models/street/bollard_removable.glb",
+  "tris": 148,
+  "bbox_threejs": {
+   "min": [
+    -0.10461621731519699,
+    0.0,
+    -0.10999999940395355
+   ],
+   "max": [
+    0.10461621731519699,
+    1.0,
+    0.10999999940395355
+   ]
+  },
+  "sizeBytes": 9628,
+  "kind": "bollard",
+  "height": 1.0,
+  "footprint": [
+   0.209,
+   0.22
+  ],
+  "front": "-Y"
+ },
+ "street/newsrack": {
+  "file": "assets/models/street/newsrack.glb",
+  "tris": 84,
+  "bbox_threejs": {
+   "min": [
+    -0.25999999046325684,
+    0.0,
+    -0.2549999952316284
+   ],
+   "max": [
+    0.25999999046325684,
+    1.1999999284744263,
+    0.2549999952316284
+   ]
+  },
+  "sizeBytes": 7768,
+  "kind": "newsrack",
+  "height": 1.2,
+  "footprint": [
+   0.52,
+   0.51
+  ],
+  "front": "-Y"
+ },
+ "street/newsrack_blue": {
+  "file": "assets/models/street/newsrack_blue.glb",
+  "tris": 84,
+  "bbox_threejs": {
+   "min": [
+    -0.25999999046325684,
+    0.0,
+    -0.2549999952316284
+   ],
+   "max": [
+    0.25999999046325684,
+    1.1999999284744263,
+    0.2549999952316284
+   ]
+  },
+  "sizeBytes": 7788,
+  "kind": "newsrack",
+  "height": 1.2,
+  "footprint": [
+   0.52,
+   0.51
+  ],
+  "front": "-Y"
+ },
+ "street/bike_rack": {
+  "file": "assets/models/street/bike_rack.glb",
+  "tris": 172,
+  "bbox_threejs": {
+   "min": [
+    -0.42500001192092896,
+    0.0,
+    -0.02500000037252903
+   ],
+   "max": [
+    0.42500001192092896,
+    0.9249999523162842,
+    0.02500000037252903
+   ]
+  },
+  "sizeBytes": 10196,
+  "kind": "bike_rack",
+  "height": 0.925,
+  "footprint": [
+   0.85,
+   0.05
+  ],
+  "front": "-Y"
+ },
+ "street/bike_rack_wave": {
+  "file": "assets/models/street/bike_rack_wave.glb",
+  "tris": 296,
+  "bbox_threejs": {
+   "min": [
+    -0.9188173413276672,
+    0.0,
+    -0.02500000037252903
+   ],
+   "max": [
+    0.9188173413276672,
+    0.9433012008666992,
+    0.02500000037252903
+   ]
+  },
+  "sizeBytes": 16996,
+  "kind": "bike_rack",
+  "height": 0.943,
+  "footprint": [
+   1.838,
+   0.05
+  ],
+  "front": "-Y"
+ },
+ "street/bus_shelter_sfmta": {
+  "file": "assets/models/street/bus_shelter_sfmta.glb",
+  "tris": 344,
+  "bbox_threejs": {
+   "min": [
+    -2.0999999046325684,
+    0.0,
+    -0.8500000238418579
+   ],
+   "max": [
+    2.0999999046325684,
+    2.745000123977661,
+    0.8500000238418579
+   ]
+  },
+  "sizeBytes": 21168,
+  "kind": "bus_shelter",
+  "height": 2.745,
+  "footprint": [
+   4.2,
+   1.7
+  ],
+  "front": "-Y",
+  "open_side": "-Y",
+  "screen": "screen"
+ },
+ "street/tree_grate": {
+  "file": "assets/models/street/tree_grate.glb",
+  "tris": 860,
+  "bbox_threejs": {
+   "min": [
+    -0.75,
+    0.0,
+    -0.75
+   ],
+   "max": [
+    0.75,
+    0.03999999910593033,
+    0.75
+   ]
+  },
+  "sizeBytes": 40560,
+  "kind": "tree_grate",
+  "height": 0.04,
+  "footprint": [
+   1.5,
+   1.5
+  ],
+  "front": "-Y"
+ },
+ "street/tree_guard": {
+  "file": "assets/models/street/tree_guard.glb",
+  "tris": 576,
+  "bbox_threejs": {
+   "min": [
+    -0.5199999809265137,
+    0.0,
+    -0.5199999809265137
+   ],
+   "max": [
+    0.5199999809265137,
+    1.459999918937683,
+    0.5199999809265137
+   ]
+  },
+  "sizeBytes": 29892,
+  "kind": "tree_guard",
+  "height": 1.46,
+  "footprint": [
+   1.04,
+   1.04
+  ],
+  "front": "-Y"
+ },
+ "street/utility_box": {
+  "file": "assets/models/street/utility_box.glb",
+  "tris": 84,
+  "bbox_threejs": {
+   "min": [
+    -0.3499999940395355,
+    0.0,
+    -0.2750000059604645
+   ],
+   "max": [
+    0.3499999940395355,
+    1.5299999713897705,
+    0.2750000059604645
+   ]
+  },
+  "sizeBytes": 7112,
+  "kind": "utility_box",
+  "height": 1.53,
+  "footprint": [
+   0.7,
+   0.55
+  ],
+  "front": "-Y"
+ },
+ "street/utility_box_small": {
+  "file": "assets/models/street/utility_box_small.glb",
+  "tris": 48,
+  "bbox_threejs": {
+   "min": [
+    -0.23999999463558197,
+    0.0,
+    -0.17899999022483826
+   ],
+   "max": [
+    0.23999999463558197,
+    0.9200000166893005,
+    0.17899999022483826
+   ]
+  },
+  "sizeBytes": 4160,
+  "kind": "utility_box",
+  "height": 0.92,
+  "footprint": [
+   0.48,
+   0.358
+  ],
+  "front": "-Y"
+ },
+ "street/mailbox_usps": {
+  "file": "assets/models/street/mailbox_usps.glb",
+  "tris": 124,
+  "bbox_threejs": {
+   "min": [
+    -0.2750000059604645,
+    0.0,
+    -0.2656424641609192
+   ],
+   "max": [
+    0.2750000059604645,
+    1.1399999856948853,
+    0.2656424641609192
+   ]
+  },
+  "sizeBytes": 8756,
+  "kind": "mailbox",
+  "height": 1.14,
+  "footprint": [
+   0.55,
+   0.531
+  ],
+  "front": "-Y"
+ },
+ "street/street_sign_pole": {
+  "file": "assets/models/street/street_sign_pole.glb",
+  "tris": 200,
+  "bbox_threejs": {
+   "min": [
+    -0.4000000059604645,
+    0.0,
+    -0.4000000059604645
+   ],
+   "max": [
+    0.4000000059604645,
+    3.0450000762939453,
+    0.4000000059604645
+   ]
+  },
+  "sizeBytes": 15124,
+  "kind": "street_sign",
+  "height": 3.045,
+  "footprint": [
+   0.8,
+   0.8
+  ],
+  "front": "-Y",
+  "origin": "pole_base",
+  "signs": {
+   "sign_a": "along X",
+   "sign_b": "along Y"
+  }
+ },
+ "street/banner_pole_bracket": {
+  "file": "assets/models/street/banner_pole_bracket.glb",
+  "tris": 176,
+  "bbox_threejs": {
+   "min": [
+    -0.800000011920929,
+    -1.0799999237060547,
+    -0.09000000357627869
+   ],
+   "max": [
+    0.800000011920929,
+    1.0799999237060547,
+    0.09000000357627869
+   ]
+  },
+  "sizeBytes": 10420,
+  "kind": "banner",
+  "height": 2.16,
+  "footprint": [
+   1.6,
+   0.18
+  ],
+  "front": "-Y",
+  "origin": "pole_attachment_point",
+  "attach_height": 5.0,
+  "note": "origin is the pole axis at the banner mid-height; place at pole_pos + 5 m up"
+ },
+ "street/planter_large": {
+  "file": "assets/models/street/planter_large.glb",
+  "tris": 312,
+  "bbox_threejs": {
+   "min": [
+    -0.75,
+    0.0,
+    -0.75
+   ],
+   "max": [
+    0.75,
+    0.6200000047683716,
+    0.75
+   ]
+  },
+  "sizeBytes": 15580,
+  "kind": "planter",
+  "height": 0.62,
+  "footprint": [
+   1.5,
+   1.5
+  ],
+  "front": "-Y"
+ },
+ "street/planter_square": {
+  "file": "assets/models/street/planter_square.glb",
+  "tris": 36,
+  "bbox_threejs": {
+   "min": [
+    -0.6200000047683716,
+    0.0,
+    -0.6200000047683716
+   ],
+   "max": [
+    0.6200000047683716,
+    0.6100000143051147,
+    0.6200000047683716
+   ]
+  },
+  "sizeBytes": 3788,
+  "kind": "planter",
+  "height": 0.61,
+  "footprint": [
+   1.24,
+   1.24
+  ],
+  "front": "-Y"
+ },
+ "street/planter_long": {
+  "file": "assets/models/street/planter_long.glb",
+  "tris": 36,
+  "bbox_threejs": {
+   "min": [
+    -1.5299999713897705,
+    0.0,
+    -0.4300000071525574
+   ],
+   "max": [
+    1.5299999713897705,
+    0.6599999666213989,
+    0.4300000071525574
+   ]
+  },
+  "sizeBytes": 3788,
+  "kind": "planter",
+  "height": 0.66,
+  "footprint": [
+   3.06,
+   0.86
+  ],
+  "front": "-Y"
+ },
+ "street/kiosk_wayfinding": {
+  "file": "assets/models/street/kiosk_wayfinding.glb",
+  "tris": 60,
+  "bbox_threejs": {
+   "min": [
+    -0.5,
+    0.0,
+    -0.15000000596046448
+   ],
+   "max": [
+    0.5,
+    2.4000000953674316,
+    0.15000000596046448
+   ]
+  },
+  "sizeBytes": 5568,
+  "kind": "kiosk",
+  "height": 2.4,
+  "footprint": [
+   1.0,
+   0.3
+  ],
+  "front": "-Y",
+  "panels": [
+   "panel_a",
+   "panel_b"
+  ]
+ },
+ "street/garage_kiosk": {
+  "file": "assets/models/street/garage_kiosk.glb",
+  "tris": 288,
+  "bbox_threejs": {
+   "min": [
+    -2.200000047683716,
+    -1.524999976158142,
+    -1.7100000381469727
+   ],
+   "max": [
+    2.200000047683716,
+    3.200000047683716,
+    1.7100000381469727
+   ]
+  },
+  "sizeBytes": 19384,
+  "kind": "garage_kiosk",
+  "height": 3.2,
+  "footprint": [
+   4.4,
+   3.42
+  ],
+  "front": "-Y",
+  "depth_below_ground": 1.5,
+  "fascia": "fascia",
+  "note": "stair pit extends 1.5 m below z=0; ground level is z=0"
+ },
+ "street/manhole": {
+  "file": "assets/models/street/manhole.glb",
+  "tris": 184,
+  "bbox_threejs": {
+   "min": [
+    -0.3799999952316284,
+    0.0,
+    -0.3799999952316284
+   ],
+   "max": [
+    0.3799999952316284,
+    0.029999999329447746,
+    0.3799999952316284
+   ]
+  },
+  "sizeBytes": 9100,
+  "kind": "manhole",
+  "height": 0.03,
+  "footprint": [
+   0.76,
+   0.76
+  ],
+  "front": "-Y"
+ },
+ "street/catch_basin": {
+  "file": "assets/models/street/catch_basin.glb",
+  "tris": 48,
+  "bbox_threejs": {
+   "min": [
+    -0.5,
+    0.0,
+    -0.42499998211860657
+   ],
+   "max": [
+    0.5,
+    0.15000000596046448,
+    0.42499998211860657
+   ]
+  },
+  "sizeBytes": 4996,
+  "kind": "catch_basin",
+  "height": 0.15,
+  "footprint": [
+   1.0,
+   0.85
+  ],
+  "front": "-Y"
+ },
+ "street/cable_car_stop_sign": {
+  "file": "assets/models/street/cable_car_stop_sign.glb",
+  "tris": 120,
+  "bbox_threejs": {
+   "min": [
+    -0.22499999403953552,
+    0.0,
+    -0.07000000029802322
+   ],
+   "max": [
+    0.22499999403953552,
+    2.5999999046325684,
+    0.029999999329447746
+   ]
+  },
+  "sizeBytes": 8340,
+  "kind": "sign",
+  "height": 2.6,
+  "footprint": [
+   0.45,
+   0.1
+  ],
+  "front": "-Y",
+  "origin": "pole_base",
+  "screen": "sign_face"
+ },
+ "street/muni_stop_pole": {
+  "file": "assets/models/street/muni_stop_pole.glb",
+  "tris": 76,
+  "bbox_threejs": {
+   "min": [
+    -0.1599999964237213,
+    0.0,
+    -0.029999999329447746
+   ],
+   "max": [
+    0.1599999964237213,
+    2.5999999046325684,
+    0.029999999329447746
+   ]
+  },
+  "sizeBytes": 7192,
+  "kind": "sign",
+  "height": 2.6,
+  "footprint": [
+   0.32,
+   0.06
+  ],
+  "front": "-Y",
+  "origin": "pole_base",
+  "screen": "sign_face"
+ },
+ "street/barricade_a_frame": {
+  "file": "assets/models/street/barricade_a_frame.glb",
+  "tris": 156,
+  "bbox_threejs": {
+   "min": [
+    -0.699999988079071,
+    0.0,
+    -0.31287625432014465
+   ],
+   "max": [
+    0.699999988079071,
+    0.9892196655273438,
+    0.31287625432014465
+   ]
+  },
+  "sizeBytes": 10260,
+  "kind": "barricade",
+  "height": 0.989,
+  "footprint": [
+   1.4,
+   0.626
+  ],
+  "front": "-Y"
+ },
+ "street/cone_traffic": {
+  "file": "assets/models/street/cone_traffic.glb",
+  "tris": 220,
+  "bbox_threejs": {
+   "min": [
+    -0.1899999976158142,
+    0.0,
+    -0.1899999976158142
+   ],
+   "max": [
+    0.1899999976158142,
+    0.699999988079071,
+    0.1899999976158142
+   ]
+  },
+  "sizeBytes": 12576,
+  "kind": "cone",
+  "height": 0.7,
+  "footprint": [
+   0.38,
+   0.38
+  ],
+  "front": "-Y"
+ },
+ "street/dumpster": {
+  "file": "assets/models/street/dumpster.glb",
+  "tris": 172,
+  "bbox_threejs": {
+   "min": [
+    -0.9200000166893005,
+    0.0,
+    -0.6727912425994873
+   ],
+   "max": [
+    0.9200000166893005,
+    1.3531758785247803,
+    0.6727912425994873
+   ]
+  },
+  "sizeBytes": 11156,
+  "kind": "dumpster",
+  "height": 1.353,
+  "footprint": [
+   1.84,
+   1.346
+  ],
+  "front": "-Y"
+ },
+ "street/scaffold_sidewalk_3m": {
+  "file": "assets/models/street/scaffold_sidewalk_3m.glb",
+  "tris": 500,
+  "bbox_threejs": {
+   "min": [
+    -1.5750000476837158,
+    0.0,
+    -0.8999999761581421
+   ],
+   "max": [
+    1.5750000476837158,
+    4.0,
+    0.8999999761581421
+   ]
+  },
+  "sizeBytes": 27420,
+  "kind": "scaffold",
+  "height": 4.0,
+  "footprint": [
+   3.15,
+   1.8
+  ],
+  "front": "-Y",
+  "tileable_axis": "X",
+  "tile_length": 3.0
+ },
+ "street/hearts_sculpture": {
+  "file": "assets/models/street/hearts_sculpture.glb",
+  "tris": 296,
+  "bbox_threejs": {
+   "min": [
+    -0.7899999618530273,
+    0.0,
+    -0.44999998807907104
+   ],
+   "max": [
+    0.7899999618530273,
+    1.9500000476837158,
+    0.44999998807907104
+   ]
+  },
+  "sizeBytes": 18572,
+  "kind": "sculpture",
+  "height": 1.95,
+  "footprint": [
+   1.58,
+   0.9
+  ],
+  "front": "-Y",
+  "recolor": "paint_red"
+ },
+ "street/flagpole_10m": {
+  "file": "assets/models/street/flagpole_10m.glb",
+  "tris": 228,
+  "bbox_threejs": {
+   "min": [
+    -0.11999999731779099,
+    0.0,
+    -0.1141267791390419
+   ],
+   "max": [
+    1.5499999523162842,
+    10.170000076293945,
+    0.1141267791390419
+   ]
+  },
+  "sizeBytes": 14004,
+  "kind": "flagpole",
+  "height": 10.17,
+  "footprint": [
+   1.67,
+   0.228
+  ],
+  "front": "-Y",
+  "origin": "pole_base",
+  "flag": "flag",
+  "flag_dir": "+X"
+ },
+ "street/pigeon": {
+  "file": "assets/models/street/pigeon.glb",
+  "tris": 112,
+  "bbox_threejs": {
+   "min": [
+    -0.06062179058790207,
+    0.0,
+    -0.20729520916938782
+   ],
+   "max": [
+    0.06062179058790207,
+    0.20500001311302185,
+    0.20729520916938782
+   ]
+  },
+  "sizeBytes": 9332,
+  "kind": "pigeon",
+  "height": 0.205,
+  "footprint": [
+   0.121,
+   0.415
+  ],
+  "front": "-Y"
+ },
+ "street/fence_iron_1m": {
+  "file": "assets/models/street/fence_iron_1m.glb",
+  "tris": 192,
+  "bbox_threejs": {
+   "min": [
+    -0.5099999904632568,
+    0.0,
+    -0.03500000014901161
+   ],
+   "max": [
+    0.5,
+    1.2450000047683716,
+    0.03500000014901161
+   ]
+  },
+  "sizeBytes": 11444,
+  "kind": "fence",
+  "height": 1.245,
+  "footprint": [
+   1.01,
+   0.07
+  ],
+  "front": "-Y",
+  "tileable_axis": "X",
+  "tile_length": 1.0
+ },
+ "street/rail_handrail_1m": {
+  "file": "assets/models/street/rail_handrail_1m.glb",
+  "tris": 168,
+  "bbox_threejs": {
+   "min": [
+    -0.5,
+    0.0,
+    -0.05000000074505806
+   ],
+   "max": [
+    0.5,
+    0.921999990940094,
+    0.05000000074505806
+   ]
+  },
+  "sizeBytes": 8988,
+  "kind": "handrail",
+  "height": 0.922,
+  "footprint": [
+   1.0,
+   0.1
+  ],
+  "front": "-Y",
+  "tileable_axis": "X",
+  "tile_length": 1.0
+ },
+ "street/curb_ramp": {
+  "file": "assets/models/street/curb_ramp.glb",
+  "tris": 36,
+  "bbox_threejs": {
+   "min": [
+    -1.25,
+    0.0,
+    -0.6000000238418579
+   ],
+   "max": [
+    1.25,
+    0.15000000596046448,
+    0.6000000238418579
+   ]
+  },
+  "sizeBytes": 3856,
+  "kind": "curb_ramp",
+  "height": 0.15,
+  "footprint": [
+   2.5,
+   1.2
+  ],
+  "front": "-Y",
+  "slope_dir": "-Y"
+ }
+}

@@ -1,0 +1,416 @@
+{
+ "vehicles/sedan": {
+  "file": "assets/models/vehicles/sedan.glb",
+  "tris": 2562,
+  "bbox_threejs": {
+   "min": [
+    -1.0080000162124634,
+    0.005013465881347656,
+    -2.509999990463257
+   ],
+   "max": [
+    1.0080000162124634,
+    1.4500000476837158,
+    2.4000000953674316
+   ]
+  },
+  "sizeBytes": 124608,
+  "kind": "vehicle",
+  "length": 4.7,
+  "width": 1.85,
+  "height": 1.45,
+  "wheelbase": 2.8,
+  "wheelRadius": 0.33,
+  "front": "-Y",
+  "wheels": [
+   "wheel_fl",
+   "wheel_fr",
+   "wheel_rl",
+   "wheel_rr"
+  ]
+ },
+ "vehicles/suv": {
+  "file": "assets/models/vehicles/suv.glb",
+  "tris": 2790,
+  "bbox_threejs": {
+   "min": [
+    -1.0579999685287476,
+    0.005773037672042847,
+    -2.684999942779541
+   ],
+   "max": [
+    1.0579999685287476,
+    1.75,
+    2.424999952316284
+   ]
+  },
+  "sizeBytes": 138844,
+  "kind": "vehicle",
+  "length": 4.9,
+  "width": 1.95,
+  "height": 1.75,
+  "wheelbase": 2.85,
+  "wheelRadius": 0.38,
+  "front": "-Y",
+  "wheels": [
+   "wheel_fl",
+   "wheel_fr",
+   "wheel_rl",
+   "wheel_rr"
+  ]
+ },
+ "vehicles/hatch": {
+  "file": "assets/models/vehicles/hatch.glb",
+  "tris": 2518,
+  "bbox_threejs": {
+   "min": [
+    -0.9830000400543213,
+    0.004709601402282715,
+    -2.234999895095825
+   ],
+   "max": [
+    0.9830000400543213,
+    1.5,
+    2.174999952316284
+   ]
+  },
+  "sizeBytes": 126260,
+  "kind": "vehicle",
+  "length": 4.2,
+  "width": 1.8,
+  "height": 1.5,
+  "wheelbase": 2.55,
+  "wheelRadius": 0.31,
+  "front": "-Y",
+  "wheels": [
+   "wheel_fl",
+   "wheel_fr",
+   "wheel_rl",
+   "wheel_rr"
+  ]
+ },
+ "vehicles/taxi": {
+  "file": "assets/models/vehicles/taxi.glb",
+  "tris": 2574,
+  "bbox_threejs": {
+   "min": [
+    -1.0080000162124634,
+    0.005013465881347656,
+    -2.509999990463257
+   ],
+   "max": [
+    1.0080000162124634,
+    1.5699999332427979,
+    2.4000000953674316
+   ]
+  },
+  "sizeBytes": 126276,
+  "kind": "vehicle",
+  "length": 4.7,
+  "width": 1.85,
+  "height": 1.45,
+  "wheelbase": 2.8,
+  "wheelRadius": 0.33,
+  "front": "-Y",
+  "wheels": [
+   "wheel_fl",
+   "wheel_fr",
+   "wheel_rl",
+   "wheel_rr"
+  ],
+  "parts": [
+   "toplight"
+  ],
+  "variant": "taxi"
+ },
+ "vehicles/police_suv": {
+  "file": "assets/models/vehicles/police_suv.glb",
+  "tris": 2910,
+  "bbox_threejs": {
+   "min": [
+    -1.0579999685287476,
+    0.005773037672042847,
+    -2.684999942779541
+   ],
+   "max": [
+    1.0579999685287476,
+    1.8949999809265137,
+    2.504999876022339
+   ]
+  },
+  "sizeBytes": 148748,
+  "kind": "vehicle",
+  "length": 4.9,
+  "width": 1.95,
+  "height": 1.75,
+  "wheelbase": 2.85,
+  "wheelRadius": 0.38,
+  "front": "-Y",
+  "wheels": [
+   "wheel_fl",
+   "wheel_fr",
+   "wheel_rl",
+   "wheel_rr"
+  ],
+  "parts": [
+   "lightbar"
+  ],
+  "variant": "police"
+ },
+ "vehicles/van_delivery": {
+  "file": "assets/models/vehicles/van_delivery.glb",
+  "tris": 2532,
+  "bbox_threejs": {
+   "min": [
+    -1.1029999256134033,
+    0.005469232797622681,
+    -2.9600000381469727
+   ],
+   "max": [
+    1.1029999256134033,
+    2.4000000953674316,
+    2.75
+   ]
+  },
+  "sizeBytes": 124144,
+  "kind": "vehicle",
+  "length": 5.5,
+  "width": 2.0,
+  "height": 2.4,
+  "wheelbase": 3.4,
+  "wheelRadius": 0.36,
+  "front": "-Y",
+  "wheels": [
+   "wheel_fl",
+   "wheel_fr",
+   "wheel_rl",
+   "wheel_rr"
+  ]
+ },
+ "vehicles/box_truck": {
+  "file": "assets/models/vehicles/box_truck.glb",
+  "tris": 2416,
+  "bbox_threejs": {
+   "min": [
+    -1.2029999494552612,
+    0.006380736827850342,
+    -3.5999999046325684
+   ],
+   "max": [
+    1.2029999494552612,
+    3.299999952316284,
+    3.0999999046325684
+   ]
+  },
+  "sizeBytes": 129980,
+  "kind": "vehicle",
+  "length": 6.5,
+  "width": 2.2,
+  "height": 3.3,
+  "wheelbase": 3.8,
+  "wheelRadius": 0.42,
+  "front": "-Y",
+  "wheels": [
+   "wheel_fl",
+   "wheel_fr",
+   "wheel_rl",
+   "wheel_rr"
+  ],
+  "parts": [
+   "box"
+  ]
+ },
+ "vehicles/bus_muni": {
+  "file": "assets/models/vehicles/bus_muni.glb",
+  "tris": 3016,
+  "bbox_threejs": {
+   "min": [
+    -1.7000000476837158,
+    0.007596135139465332,
+    -6.470000267028809
+   ],
+   "max": [
+    1.7000000476837158,
+    3.299999952316284,
+    5.970000267028809
+   ]
+  },
+  "sizeBytes": 143632,
+  "kind": "vehicle",
+  "length": 12.2,
+  "width": 2.6,
+  "height": 3.3,
+  "wheelbase": 6.5,
+  "wheelRadius": 0.5,
+  "front": "-Y",
+  "wheels": [
+   "wheel_fl",
+   "wheel_fr",
+   "wheel_rl",
+   "wheel_rr",
+   "wheel_rl2",
+   "wheel_rr2"
+  ],
+  "parts": [
+   "destsign"
+  ],
+  "doorSide": "-X",
+  "doorsY": [
+   -4.7,
+   2.0
+  ]
+ },
+ "vehicles/bus_tour": {
+  "file": "assets/models/vehicles/bus_tour.glb",
+  "tris": 3028,
+  "bbox_threejs": {
+   "min": [
+    -1.6449999809265137,
+    0.007596135139465332,
+    -5.820000171661377
+   ],
+   "max": [
+    1.6449999809265137,
+    4.300000190734863,
+    5.420000076293945
+   ]
+  },
+  "sizeBytes": 158776,
+  "kind": "vehicle",
+  "length": 11.0,
+  "width": 2.55,
+  "height": 4.3,
+  "wheelbase": 5.8,
+  "wheelRadius": 0.5,
+  "front": "-Y",
+  "wheels": [
+   "wheel_fl",
+   "wheel_fr",
+   "wheel_rl",
+   "wheel_rr"
+  ],
+  "doorSide": "-X",
+  "doorsY": [
+   -4.3
+  ]
+ },
+ "vehicles/cable_car_powell": {
+  "file": "assets/models/vehicles/cable_car_powell.glb",
+  "tris": 2674,
+  "bbox_threejs": {
+   "min": [
+    -1.5099999904632568,
+    0.0,
+    -4.449999809265137
+   ],
+   "max": [
+    1.5099999904632568,
+    3.3499999046325684,
+    4.449999809265137
+   ]
+  },
+  "sizeBytes": 158716,
+  "kind": "vehicle",
+  "length": 8.4,
+  "width": 2.4,
+  "height": 3.2,
+  "wheelbase": 2.8,
+  "wheelRadius": 0.3,
+  "front": "-Y",
+  "wheels": [
+   "wheel_fl",
+   "wheel_fr",
+   "wheel_rl",
+   "wheel_rr"
+  ],
+  "parts": [
+   "number",
+   "destboard"
+  ],
+  "openSection": "front",
+  "floorHeight": 0.75
+ },
+ "vehicles/bicycle": {
+  "file": "assets/models/vehicles/bicycle.glb",
+  "tris": 1244,
+  "bbox_threejs": {
+   "min": [
+    -0.2800000309944153,
+    0.0,
+    -0.8600000143051147
+   ],
+   "max": [
+    0.2800000309944153,
+    1.0,
+    0.8600000143051147
+   ]
+  },
+  "sizeBytes": 71380,
+  "kind": "vehicle",
+  "length": 1.7,
+  "width": 0.56,
+  "height": 1.02,
+  "wheelbase": 1.04,
+  "wheelRadius": 0.34,
+  "front": "-Y",
+  "wheels": [
+   "wheel_fl",
+   "wheel_rl"
+  ]
+ },
+ "vehicles/scooter_share": {
+  "file": "assets/models/vehicles/scooter_share.glb",
+  "tris": 784,
+  "bbox_threejs": {
+   "min": [
+    -0.25,
+    0.0,
+    -0.5299999713897705
+   ],
+   "max": [
+    0.25,
+    1.090000033378601,
+    0.5299999713897705
+   ]
+  },
+  "sizeBytes": 45544,
+  "kind": "vehicle",
+  "length": 1.2,
+  "width": 0.5,
+  "height": 1.12,
+  "wheelbase": 0.84,
+  "wheelRadius": 0.11,
+  "front": "-Y",
+  "wheels": [
+   "wheel_fl",
+   "wheel_rl"
+  ]
+ },
+ "vehicles/wheel_generic": {
+  "file": "assets/models/vehicles/wheel_generic.glb",
+  "tris": 468,
+  "bbox_threejs": {
+   "min": [
+    -0.10999999940395355,
+    0.0,
+    -0.33000001311302185
+   ],
+   "max": [
+    0.10999999940395355,
+    0.6600000262260437,
+    0.33000001311302185
+   ]
+  },
+  "sizeBytes": 22156,
+  "kind": "wheel",
+  "length": 0.66,
+  "width": 0.22,
+  "height": 0.66,
+  "wheelbase": 0.0,
+  "wheelRadius": 0.33,
+  "front": "-Y",
+  "wheels": [
+   "wheel"
+  ]
+ }
+}

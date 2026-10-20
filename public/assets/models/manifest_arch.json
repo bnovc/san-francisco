@@ -1,0 +1,1460 @@
+{
+ "arch/win_dh_stone_1.2x2.2": {
+  "file": "assets/models/arch/win_dh_stone_1.2x2.2.glb",
+  "tris": 120,
+  "bbox_threejs": {
+   "min": [
+    -0.7799999713897705,
+    0.0,
+    -0.25
+   ],
+   "max": [
+    0.7799999117851257,
+    2.430000066757202,
+    0.11999999731779099
+   ]
+  },
+  "sizeBytes": 9128,
+  "kind": "window",
+  "opening": [
+   1.2,
+   2.2
+  ],
+  "opening_z": 0.08,
+  "width": 1.56,
+  "height": 2.43,
+  "depth": 0.37
+ },
+ "arch/win_dh_stone_1.5x2.6": {
+  "file": "assets/models/arch/win_dh_stone_1.5x2.6.glb",
+  "tris": 132,
+  "bbox_threejs": {
+   "min": [
+    -0.9300000071525574,
+    0.0,
+    -0.25
+   ],
+   "max": [
+    0.9300000071525574,
+    2.890000104904175,
+    0.11999999731779099
+   ]
+  },
+  "sizeBytes": 9760,
+  "kind": "window",
+  "opening": [
+   1.5,
+   2.6
+  ],
+  "opening_z": 0.08,
+  "width": 1.86,
+  "height": 2.89,
+  "depth": 0.37
+ },
+ "arch/win_arch_stone_1.5x3.0": {
+  "file": "assets/models/arch/win_arch_stone_1.5x3.0.glb",
+  "tris": 331,
+  "bbox_threejs": {
+   "min": [
+    -1.034999966621399,
+    0.0,
+    -0.25
+   ],
+   "max": [
+    1.0350000858306885,
+    3.2655673027038574,
+    0.11999999731779099
+   ]
+  },
+  "sizeBytes": 20264,
+  "kind": "window",
+  "opening": [
+   1.5,
+   3.0
+  ],
+  "opening_z": 0.08,
+  "width": 2.07,
+  "height": 3.2656,
+  "depth": 0.37
+ },
+ "arch/win_arch_stone_1.5x3.0_lod1": {
+  "file": "assets/models/arch/win_arch_stone_1.5x3.0_lod1.glb",
+  "tris": 205,
+  "bbox_threejs": {
+   "min": [
+    -1.034999966621399,
+    0.0,
+    -0.25
+   ],
+   "max": [
+    1.0350000858306885,
+    3.2335033416748047,
+    0.11999999731779099
+   ]
+  },
+  "sizeBytes": 13596,
+  "kind": "window",
+  "opening": [
+   1.5,
+   3.0
+  ],
+  "opening_z": 0.08,
+  "width": 2.07,
+  "height": 3.2656,
+  "depth": 0.37,
+  "lod": 1
+ },
+ "arch/win_pair_stone_2.4x2.4": {
+  "file": "assets/models/arch/win_pair_stone_2.4x2.4.glb",
+  "tris": 248,
+  "bbox_threejs": {
+   "min": [
+    -1.4500000476837158,
+    0.0,
+    -0.25
+   ],
+   "max": [
+    1.4499999284744263,
+    2.8399999141693115,
+    0.23999999463558197
+   ]
+  },
+  "sizeBytes": 15960,
+  "kind": "window",
+  "opening": [
+   2.4,
+   2.4
+  ],
+  "opening_z": 0.08,
+  "width": 2.9,
+  "height": 2.84,
+  "depth": 0.49
+ },
+ "arch/win_pair_stone_2.4x2.4_lod1": {
+  "file": "assets/models/arch/win_pair_stone_2.4x2.4_lod1.glb",
+  "tris": 196,
+  "bbox_threejs": {
+   "min": [
+    -1.4500000476837158,
+    0.0,
+    -0.25
+   ],
+   "max": [
+    1.4499999284744263,
+    2.8399999141693115,
+    0.23999999463558197
+   ]
+  },
+  "sizeBytes": 13144,
+  "kind": "window",
+  "opening": [
+   2.4,
+   2.4
+  ],
+  "opening_z": 0.08,
+  "width": 2.9,
+  "height": 2.84,
+  "depth": 0.49,
+  "lod": 1
+ },
+ "arch/win_punched_modern_1.8x2.0": {
+  "file": "assets/models/arch/win_punched_modern_1.8x2.0.glb",
+  "tris": 58,
+  "bbox_threejs": {
+   "min": [
+    -0.8999999761581421,
+    0.0,
+    -0.10000000149011612
+   ],
+   "max": [
+    0.8999999761581421,
+    2.0,
+    -0.0
+   ]
+  },
+  "sizeBytes": 5000,
+  "kind": "window",
+  "opening": [
+   1.8,
+   2.0
+  ],
+  "opening_z": 0.0,
+  "width": 1.8,
+  "height": 2.0,
+  "depth": 0.1
+ },
+ "arch/win_office_strip_3.0x1.8": {
+  "file": "assets/models/arch/win_office_strip_3.0x1.8.glb",
+  "tris": 82,
+  "bbox_threejs": {
+   "min": [
+    -1.5,
+    0.0,
+    -0.07999999821186066
+   ],
+   "max": [
+    1.5,
+    1.7999999523162842,
+    -0.0
+   ]
+  },
+  "sizeBytes": 6268,
+  "kind": "window",
+  "opening": [
+   3.0,
+   1.8
+  ],
+  "opening_z": 0.0,
+  "width": 3.0,
+  "height": 1.8,
+  "depth": 0.08
+ },
+ "arch/win_curtain_3.0x3.6": {
+  "file": "assets/models/arch/win_curtain_3.0x3.6.glb",
+  "tris": 98,
+  "bbox_threejs": {
+   "min": [
+    -1.5,
+    -5.960464477539063e-08,
+    -0.0
+   ],
+   "max": [
+    1.5,
+    3.6000001430511475,
+    0.18000000715255737
+   ]
+  },
+  "sizeBytes": 7844,
+  "kind": "window",
+  "opening": [
+   3.0,
+   3.6
+  ],
+  "opening_z": 0.0,
+  "spandrel": 0.9,
+  "width": 3.0,
+  "height": 3.6,
+  "depth": 0.18
+ },
+ "arch/win_bay_oriel_2.4x3.0": {
+  "file": "assets/models/arch/win_bay_oriel_2.4x3.0.glb",
+  "tris": 264,
+  "bbox_threejs": {
+   "min": [
+    -1.2599999904632568,
+    -0.03429971635341644,
+    -0.05000000074505806
+   ],
+   "max": [
+    1.2599999904632568,
+    3.0,
+    0.6600000262260437
+   ]
+  },
+  "sizeBytes": 16888,
+  "kind": "window",
+  "opening": [
+   2.4,
+   3.0
+  ],
+  "opening_z": 1.0,
+  "width": 2.52,
+  "height": 3.0343,
+  "depth": 0.71
+ },
+ "arch/win_bay_oriel_2.4x3.0_lod1": {
+  "file": "assets/models/arch/win_bay_oriel_2.4x3.0_lod1.glb",
+  "tris": 198,
+  "bbox_threejs": {
+   "min": [
+    -1.2599999904632568,
+    0.30000001192092896,
+    -0.05000000074505806
+   ],
+   "max": [
+    1.2599999904632568,
+    3.0,
+    0.6600000262260437
+   ]
+  },
+  "sizeBytes": 13332,
+  "kind": "window",
+  "opening": [
+   2.4,
+   3.0
+  ],
+  "opening_z": 1.0,
+  "width": 2.52,
+  "height": 3.0343,
+  "depth": 0.71,
+  "lod": 1
+ },
+ "arch/storefront_bay_3.0x4.5": {
+  "file": "assets/models/arch/storefront_bay_3.0x4.5.glb",
+  "tris": 76,
+  "bbox_threejs": {
+   "min": [
+    -1.5,
+    0.0,
+    -0.019999999552965164
+   ],
+   "max": [
+    1.5,
+    4.5,
+    0.09999999403953552
+   ]
+  },
+  "sizeBytes": 6680,
+  "kind": "storefront",
+  "opening": [
+   3.0,
+   4.5
+  ],
+  "opening_z": 0.0,
+  "width": 3.0,
+  "height": 4.5,
+  "depth": 0.12
+ },
+ "arch/storefront_bay_4.0x5.0": {
+  "file": "assets/models/arch/storefront_bay_4.0x5.0.glb",
+  "tris": 88,
+  "bbox_threejs": {
+   "min": [
+    -2.0,
+    0.0,
+    -0.019999999552965164
+   ],
+   "max": [
+    2.0,
+    5.0,
+    0.09999999403953552
+   ]
+  },
+  "sizeBytes": 7320,
+  "kind": "storefront",
+  "opening": [
+   4.0,
+   5.0
+  ],
+  "opening_z": 0.0,
+  "width": 4.0,
+  "height": 5.0,
+  "depth": 0.12
+ },
+ "arch/storefront_door_double_2.0x2.8": {
+  "file": "assets/models/arch/storefront_door_double_2.0x2.8.glb",
+  "tris": 290,
+  "bbox_threejs": {
+   "min": [
+    -1.5,
+    0.0,
+    -0.0
+   ],
+   "max": [
+    1.5,
+    3.200000047683716,
+    0.1459999978542328
+   ]
+  },
+  "sizeBytes": 18104,
+  "kind": "door",
+  "opening": [
+   2.0,
+   2.8
+  ],
+  "opening_z": 0.0,
+  "bay": [
+   3.0,
+   3.2
+  ],
+  "width": 3.0,
+  "height": 3.2,
+  "depth": 0.146
+ },
+ "arch/storefront_door_double_2.0x2.8_lod1": {
+  "file": "assets/models/arch/storefront_door_double_2.0x2.8_lod1.glb",
+  "tris": 202,
+  "bbox_threejs": {
+   "min": [
+    -1.5,
+    0.0,
+    -0.0
+   ],
+   "max": [
+    1.5,
+    3.200000047683716,
+    0.10000000149011612
+   ]
+  },
+  "sizeBytes": 12780,
+  "kind": "door",
+  "opening": [
+   2.0,
+   2.8
+  ],
+  "opening_z": 0.0,
+  "bay": [
+   3.0,
+   3.2
+  ],
+  "width": 3.0,
+  "height": 3.2,
+  "depth": 0.146,
+  "lod": 1
+ },
+ "arch/storefront_door_recessed_3.0x4.5": {
+  "file": "assets/models/arch/storefront_door_recessed_3.0x4.5.glb",
+  "tris": 356,
+  "bbox_threejs": {
+   "min": [
+    -1.5078027248382568,
+    0.0,
+    -1.5499999523162842
+   ],
+   "max": [
+    1.5078027248382568,
+    4.5,
+    0.10000000149011612
+   ]
+  },
+  "sizeBytes": 23136,
+  "kind": "door",
+  "opening": [
+   3.0,
+   4.5
+  ],
+  "opening_z": 0.0,
+  "recess": 1.5,
+  "width": 3.0156,
+  "height": 4.5,
+  "depth": 1.65
+ },
+ "arch/storefront_door_recessed_3.0x4.5_lod1": {
+  "file": "assets/models/arch/storefront_door_recessed_3.0x4.5_lod1.glb",
+  "tris": 268,
+  "bbox_threejs": {
+   "min": [
+    -1.5078027248382568,
+    0.0,
+    -1.5499999523162842
+   ],
+   "max": [
+    1.5078027248382568,
+    4.5,
+    0.10000000149011612
+   ]
+  },
+  "sizeBytes": 17804,
+  "kind": "door",
+  "opening": [
+   3.0,
+   4.5
+  ],
+  "opening_z": 0.0,
+  "recess": 1.5,
+  "width": 3.0156,
+  "height": 4.5,
+  "depth": 1.65,
+  "lod": 1
+ },
+ "arch/door_revolving_2.4": {
+  "file": "assets/models/arch/door_revolving_2.4.glb",
+  "tris": 340,
+  "bbox_threejs": {
+   "min": [
+    -1.25,
+    0.0,
+    -1.25
+   ],
+   "max": [
+    1.25,
+    2.6000001430511475,
+    1.25
+   ]
+  },
+  "sizeBytes": 18112,
+  "kind": "door",
+  "opening": [
+   2.4,
+   2.6
+  ],
+  "opening_z": 0.0,
+  "note": "drum centred on the wall plane",
+  "width": 2.5,
+  "height": 2.6,
+  "depth": 2.5
+ },
+ "arch/door_revolving_2.4_lod1": {
+  "file": "assets/models/arch/door_revolving_2.4_lod1.glb",
+  "tris": 216,
+  "bbox_threejs": {
+   "min": [
+    -1.25,
+    0.0,
+    -1.25
+   ],
+   "max": [
+    1.25,
+    2.6000001430511475,
+    1.25
+   ]
+  },
+  "sizeBytes": 12756,
+  "kind": "door",
+  "opening": [
+   2.4,
+   2.6
+  ],
+  "opening_z": 0.0,
+  "note": "drum centred on the wall plane",
+  "width": 2.5,
+  "height": 2.6,
+  "depth": 2.5,
+  "lod": 1
+ },
+ "arch/door_hotel_marquee_6.0": {
+  "file": "assets/models/arch/door_hotel_marquee_6.0.glb",
+  "tris": 684,
+  "bbox_threejs": {
+   "min": [
+    -3.049999952316284,
+    0.0,
+    -0.014483515173196793
+   ],
+   "max": [
+    3.049999952316284,
+    6.699999809265137,
+    4.079999923706055
+   ]
+  },
+  "sizeBytes": 41576,
+  "kind": "marquee",
+  "opening": [
+   6.0,
+   3.9
+  ],
+  "opening_z": 0.0,
+  "canopy_z": 4.0,
+  "width": 6.1,
+  "height": 6.7,
+  "depth": 4.0945
+ },
+ "arch/door_hotel_marquee_6.0_lod1": {
+  "file": "assets/models/arch/door_hotel_marquee_6.0_lod1.glb",
+  "tris": 522,
+  "bbox_threejs": {
+   "min": [
+    -3.049999952316284,
+    0.0,
+    -0.014483515173196793
+   ],
+   "max": [
+    3.049999952316284,
+    6.699999809265137,
+    4.079999923706055
+   ]
+  },
+  "sizeBytes": 32172,
+  "kind": "marquee",
+  "opening": [
+   6.0,
+   3.9
+  ],
+  "opening_z": 0.0,
+  "canopy_z": 4.0,
+  "width": 6.1,
+  "height": 6.7,
+  "depth": 4.0945,
+  "lod": 1
+ },
+ "arch/storefront_luxury_4.0x5.0": {
+  "file": "assets/models/arch/storefront_luxury_4.0x5.0.glb",
+  "tris": 208,
+  "bbox_threejs": {
+   "min": [
+    -2.0299999713897705,
+    0.0,
+    -0.0
+   ],
+   "max": [
+    2.0299999713897705,
+    5.0,
+    0.3199999928474426
+   ]
+  },
+  "sizeBytes": 13888,
+  "kind": "storefront",
+  "opening": [
+   4.0,
+   5.0
+  ],
+  "opening_z": 0.0,
+  "fascia": [
+   4.2,
+   5.0
+  ],
+  "width": 4.06,
+  "height": 5.0,
+  "depth": 0.32
+ },
+ "arch/storefront_luxury_4.0x5.0_lod1": {
+  "file": "assets/models/arch/storefront_luxury_4.0x5.0_lod1.glb",
+  "tris": 172,
+  "bbox_threejs": {
+   "min": [
+    -2.0299999713897705,
+    0.0,
+    -0.0
+   ],
+   "max": [
+    2.0299999713897705,
+    5.0,
+    0.3199999928474426
+   ]
+  },
+  "sizeBytes": 12648,
+  "kind": "storefront",
+  "opening": [
+   4.0,
+   5.0
+  ],
+  "opening_z": 0.0,
+  "fascia": [
+   4.2,
+   5.0
+  ],
+  "width": 4.06,
+  "height": 5.0,
+  "depth": 0.32,
+  "lod": 1
+ },
+ "arch/storefront_arcade_arch_4.0x5.5": {
+  "file": "assets/models/arch/storefront_arcade_arch_4.0x5.5.glb",
+  "tris": 367,
+  "bbox_threejs": {
+   "min": [
+    -2.0399999618530273,
+    0.0,
+    -0.30000001192092896
+   ],
+   "max": [
+    2.0399999618530273,
+    5.479642868041992,
+    0.20000000298023224
+   ]
+  },
+  "sizeBytes": 22956,
+  "kind": "storefront",
+  "opening": [
+   4.0,
+   5.5
+  ],
+  "opening_z": 0.0,
+  "arch_spring_z": 3.5,
+  "width": 4.08,
+  "height": 5.4796,
+  "depth": 0.5
+ },
+ "arch/storefront_arcade_arch_4.0x5.5_lod1": {
+  "file": "assets/models/arch/storefront_arcade_arch_4.0x5.5_lod1.glb",
+  "tris": 217,
+  "bbox_threejs": {
+   "min": [
+    -2.0399999618530273,
+    0.0,
+    -0.30000001192092896
+   ],
+   "max": [
+    2.0399999618530273,
+    5.40211296081543,
+    0.20000000298023224
+   ]
+  },
+  "sizeBytes": 14988,
+  "kind": "storefront",
+  "opening": [
+   4.0,
+   5.5
+  ],
+  "opening_z": 0.0,
+  "arch_spring_z": 3.5,
+  "width": 4.08,
+  "height": 5.4796,
+  "depth": 0.5,
+  "lod": 1
+ },
+ "arch/cornice_heavy_1m": {
+  "file": "assets/models/arch/cornice_heavy_1m.glb",
+  "tris": 108,
+  "bbox_threejs": {
+   "min": [
+    -0.5,
+    0.0,
+    -0.0
+   ],
+   "max": [
+    0.5,
+    1.2000000476837158,
+    0.6000000238418579
+   ]
+  },
+  "sizeBytes": 6440,
+  "kind": "trim",
+  "width": 1.0,
+  "height": 1.2,
+  "depth": 0.6
+ },
+ "arch/cornice_medium_1m": {
+  "file": "assets/models/arch/cornice_medium_1m.glb",
+  "tris": 80,
+  "bbox_threejs": {
+   "min": [
+    -0.5,
+    0.0,
+    -0.0
+   ],
+   "max": [
+    0.5,
+    0.6000000238418579,
+    0.3199999928474426
+   ]
+  },
+  "sizeBytes": 5120,
+  "kind": "trim",
+  "width": 1.0,
+  "height": 0.6,
+  "depth": 0.32
+ },
+ "arch/stringcourse_1m": {
+  "file": "assets/models/arch/stringcourse_1m.glb",
+  "tris": 24,
+  "bbox_threejs": {
+   "min": [
+    -0.5,
+    0.0,
+    -0.0
+   ],
+   "max": [
+    0.5,
+    0.25,
+    0.14000000059604645
+   ]
+  },
+  "sizeBytes": 2168,
+  "kind": "trim",
+  "width": 1.0,
+  "height": 0.25,
+  "depth": 0.14
+ },
+ "arch/parapet_1m": {
+  "file": "assets/models/arch/parapet_1m.glb",
+  "tris": 28,
+  "bbox_threejs": {
+   "min": [
+    -0.5,
+    0.0,
+    -0.15000000596046448
+   ],
+   "max": [
+    0.5,
+    1.0,
+    0.15000000596046448
+   ]
+  },
+  "sizeBytes": 2488,
+  "kind": "trim",
+  "note": "sits on the wall top, projects 0.1 both ways",
+  "width": 1.0,
+  "height": 1.0,
+  "depth": 0.3
+ },
+ "arch/balustrade_1m": {
+  "file": "assets/models/arch/balustrade_1m.glb",
+  "tris": 264,
+  "bbox_threejs": {
+   "min": [
+    -0.5,
+    0.0,
+    -0.11999999731779099
+   ],
+   "max": [
+    0.5,
+    1.0,
+    0.11999999731779099
+   ]
+  },
+  "sizeBytes": 14528,
+  "kind": "trim",
+  "width": 1.0,
+  "height": 1.0,
+  "depth": 0.24
+ },
+ "arch/balustrade_1m_lod1": {
+  "file": "assets/models/arch/balustrade_1m_lod1.glb",
+  "tris": 104,
+  "bbox_threejs": {
+   "min": [
+    -0.5,
+    0.0,
+    -0.11999999731779099
+   ],
+   "max": [
+    0.5,
+    1.0,
+    0.11999999731779099
+   ]
+  },
+  "sizeBytes": 6652,
+  "kind": "trim",
+  "width": 1.0,
+  "height": 1.0,
+  "depth": 0.24,
+  "lod": 1
+ },
+ "arch/rustication_1m": {
+  "file": "assets/models/arch/rustication_1m.glb",
+  "tris": 20,
+  "bbox_threejs": {
+   "min": [
+    -0.5,
+    0.0,
+    -0.0
+   ],
+   "max": [
+    0.5,
+    1.0,
+    0.07999999821186066
+   ]
+  },
+  "sizeBytes": 2092,
+  "kind": "trim",
+  "note": "tile in x and z; 2 courses of 0.5 m",
+  "width": 1.0,
+  "height": 1.0,
+  "depth": 0.08
+ },
+ "arch/column_corinthian_6m": {
+  "file": "assets/models/arch/column_corinthian_6m.glb",
+  "tris": 876,
+  "bbox_threejs": {
+   "min": [
+    -0.49309012293815613,
+    0.0,
+    -0.450111448764801
+   ],
+   "max": [
+    0.49309012293815613,
+    6.0,
+    0.450111448764801
+   ]
+  },
+  "sizeBytes": 45128,
+  "kind": "column",
+  "diameter": 0.6,
+  "width": 0.9862,
+  "height": 6.0,
+  "depth": 0.9002
+ },
+ "arch/column_corinthian_6m_lod1": {
+  "file": "assets/models/arch/column_corinthian_6m_lod1.glb",
+  "tris": 140,
+  "bbox_threejs": {
+   "min": [
+    -0.44999998807907104,
+    0.0,
+    -0.44999998807907104
+   ],
+   "max": [
+    0.44999998807907104,
+    6.0,
+    0.44999998807907104
+   ]
+  },
+  "sizeBytes": 8256,
+  "kind": "column",
+  "diameter": 0.6,
+  "width": 0.9862,
+  "height": 6.0,
+  "depth": 0.9002,
+  "lod": 1
+ },
+ "arch/column_doric_4m": {
+  "file": "assets/models/arch/column_doric_4m.glb",
+  "tris": 636,
+  "bbox_threejs": {
+   "min": [
+    -0.36000001430511475,
+    0.0,
+    -0.36000001430511475
+   ],
+   "max": [
+    0.36000001430511475,
+    4.0,
+    0.36000001430511475
+   ]
+  },
+  "sizeBytes": 32544,
+  "kind": "column",
+  "diameter": 0.5,
+  "width": 0.72,
+  "height": 4.0,
+  "depth": 0.72
+ },
+ "arch/column_doric_4m_lod1": {
+  "file": "assets/models/arch/column_doric_4m_lod1.glb",
+  "tris": 116,
+  "bbox_threejs": {
+   "min": [
+    -0.36000001430511475,
+    0.0,
+    -0.36000001430511475
+   ],
+   "max": [
+    0.36000001430511475,
+    4.0,
+    0.36000001430511475
+   ]
+  },
+  "sizeBytes": 6952,
+  "kind": "column",
+  "diameter": 0.5,
+  "width": 0.72,
+  "height": 4.0,
+  "depth": 0.72,
+  "lod": 1
+ },
+ "arch/pilaster_flat_0.6x4m": {
+  "file": "assets/models/arch/pilaster_flat_0.6x4m.glb",
+  "tris": 60,
+  "bbox_threejs": {
+   "min": [
+    -0.4000000059604645,
+    0.0,
+    -0.0
+   ],
+   "max": [
+    0.4000000059604645,
+    4.0,
+    0.23000000417232513
+   ]
+  },
+  "sizeBytes": 4284,
+  "kind": "pilaster",
+  "width": 0.8,
+  "height": 4.0,
+  "depth": 0.23
+ },
+ "arch/pilaster_flat_0.8x12m": {
+  "file": "assets/models/arch/pilaster_flat_0.8x12m.glb",
+  "tris": 96,
+  "bbox_threejs": {
+   "min": [
+    -0.5,
+    0.0,
+    -0.0
+   ],
+   "max": [
+    0.5,
+    12.0,
+    0.2800000011920929
+   ]
+  },
+  "sizeBytes": 6196,
+  "kind": "pilaster",
+  "width": 1.0,
+  "height": 12.0,
+  "depth": 0.28
+ },
+ "arch/balcony_stone_2.4m": {
+  "file": "assets/models/arch/balcony_stone_2.4m.glb",
+  "tris": 832,
+  "bbox_threejs": {
+   "min": [
+    -1.2400000095367432,
+    0.0,
+    -0.0
+   ],
+   "max": [
+    1.2400000095367432,
+    1.2200000286102295,
+    0.9399999976158142
+   ]
+  },
+  "sizeBytes": 43652,
+  "kind": "balcony",
+  "floor_z": 0.22,
+  "width": 2.48,
+  "height": 1.22,
+  "depth": 0.94
+ },
+ "arch/balcony_stone_2.4m_lod1": {
+  "file": "assets/models/arch/balcony_stone_2.4m_lod1.glb",
+  "tris": 148,
+  "bbox_threejs": {
+   "min": [
+    -1.2000000476837158,
+    0.0,
+    -0.0
+   ],
+   "max": [
+    1.2000000476837158,
+    1.2200000286102295,
+    0.9200000166893005
+   ]
+  },
+  "sizeBytes": 9012,
+  "kind": "balcony",
+  "floor_z": 0.22,
+  "width": 2.48,
+  "height": 1.22,
+  "depth": 0.94,
+  "lod": 1
+ },
+ "arch/balcony_iron_2.4m": {
+  "file": "assets/models/arch/balcony_iron_2.4m.glb",
+  "tris": 396,
+  "bbox_threejs": {
+   "min": [
+    -1.2120000123977661,
+    -1.862645149230957e-09,
+    -0.01199999451637268
+   ],
+   "max": [
+    1.2120000123977661,
+    1.0,
+    0.6200000047683716
+   ]
+  },
+  "sizeBytes": 22488,
+  "kind": "balcony",
+  "floor_z": 0.05,
+  "width": 2.424,
+  "height": 1.0,
+  "depth": 0.632
+ },
+ "arch/balcony_iron_2.4m_lod1": {
+  "file": "assets/models/arch/balcony_iron_2.4m_lod1.glb",
+  "tris": 216,
+  "bbox_threejs": {
+   "min": [
+    -1.2120000123977661,
+    -1.862645149230957e-09,
+    -0.01199999451637268
+   ],
+   "max": [
+    1.2120000123977661,
+    1.0,
+    0.6200000047683716
+   ]
+  },
+  "sizeBytes": 12764,
+  "kind": "balcony",
+  "floor_z": 0.05,
+  "width": 2.424,
+  "height": 1.0,
+  "depth": 0.632,
+  "lod": 1
+ },
+ "arch/fire_escape_module_2.4x3.6": {
+  "file": "assets/models/arch/fire_escape_module_2.4x3.6.glb",
+  "tris": 420,
+  "bbox_threejs": {
+   "min": [
+    -1.2200000286102295,
+    -1.862645149230957e-09,
+    -0.014607608318328857
+   ],
+   "max": [
+    1.2200000286102295,
+    4.508657932281494,
+    0.9199999570846558
+   ]
+  },
+  "sizeBytes": 23800,
+  "kind": "fire_escape",
+  "storey": 3.6,
+  "floor_z": 0.06,
+  "width": 2.44,
+  "height": 4.5087,
+  "depth": 0.9346
+ },
+ "arch/fire_escape_module_2.4x3.6_lod1": {
+  "file": "assets/models/arch/fire_escape_module_2.4x3.6_lod1.glb",
+  "tris": 288,
+  "bbox_threejs": {
+   "min": [
+    -1.2200000286102295,
+    -1.862645149230957e-09,
+    -0.014607608318328857
+   ],
+   "max": [
+    1.2200000286102295,
+    4.508657932281494,
+    0.9199999570846558
+   ]
+  },
+  "sizeBytes": 16668,
+  "kind": "fire_escape",
+  "storey": 3.6,
+  "floor_z": 0.06,
+  "width": 2.44,
+  "height": 4.5087,
+  "depth": 0.9346,
+  "lod": 1
+ },
+ "arch/flagpole_facade_4m": {
+  "file": "assets/models/arch/flagpole_facade_4m.glb",
+  "tris": 168,
+  "bbox_threejs": {
+   "min": [
+    -0.11999999731779099,
+    0.0,
+    -0.02121291123330593
+   ],
+   "max": [
+    0.11999999731779099,
+    3.083782434463501,
+    2.9337823390960693
+   ]
+  },
+  "sizeBytes": 11280,
+  "kind": "flagpole",
+  "note": "objects: pole, flag",
+  "width": 0.24,
+  "height": 3.0838,
+  "depth": 2.955
+ },
+ "arch/flagpole_facade_4m_lod1": {
+  "file": "assets/models/arch/flagpole_facade_4m_lod1.glb",
+  "tris": 168,
+  "bbox_threejs": {
+   "min": [
+    -0.11999999731779099,
+    0.0,
+    -0.02121291123330593
+   ],
+   "max": [
+    0.11999999731779099,
+    3.083782434463501,
+    2.9337823390960693
+   ]
+  },
+  "sizeBytes": 11280,
+  "kind": "flagpole",
+  "note": "objects: pole, flag",
+  "width": 0.24,
+  "height": 3.0838,
+  "depth": 2.955,
+  "lod": 1
+ },
+ "arch/awning_fabric_3m": {
+  "file": "assets/models/arch/awning_fabric_3m.glb",
+  "tris": 72,
+  "bbox_threejs": {
+   "min": [
+    -1.5,
+    -0.012126743793487549,
+    -0.005769252777099609
+   ],
+   "max": [
+    1.5,
+    0.813846230506897,
+    1.2200000286102295
+   ]
+  },
+  "sizeBytes": 5588,
+  "kind": "canopy",
+  "note": "valance bottom at z=0; mount at ~2.3 m",
+  "width": 3.0,
+  "height": 0.826,
+  "depth": 1.2258
+ },
+ "arch/awning_fabric_3m_black": {
+  "file": "assets/models/arch/awning_fabric_3m_black.glb",
+  "tris": 72,
+  "bbox_threejs": {
+   "min": [
+    -1.5,
+    -0.012126743793487549,
+    -0.005769252777099609
+   ],
+   "max": [
+    1.5,
+    0.813846230506897,
+    1.2200000286102295
+   ]
+  },
+  "sizeBytes": 5592,
+  "kind": "canopy",
+  "note": "valance bottom at z=0; mount at ~2.3 m",
+  "width": 3.0,
+  "height": 0.826,
+  "depth": 1.2258
+ },
+ "arch/awning_fabric_3m_green": {
+  "file": "assets/models/arch/awning_fabric_3m_green.glb",
+  "tris": 72,
+  "bbox_threejs": {
+   "min": [
+    -1.5,
+    -0.012126743793487549,
+    -0.005769252777099609
+   ],
+   "max": [
+    1.5,
+    0.813846230506897,
+    1.2200000286102295
+   ]
+  },
+  "sizeBytes": 5592,
+  "kind": "canopy",
+  "note": "valance bottom at z=0; mount at ~2.3 m",
+  "width": 3.0,
+  "height": 0.826,
+  "depth": 1.2258
+ },
+ "arch/canopy_metal_4m": {
+  "file": "assets/models/arch/canopy_metal_4m.glb",
+  "tris": 124,
+  "bbox_threejs": {
+   "min": [
+    -2.0399999618530273,
+    0.0,
+    -0.011526882648468018
+   ],
+   "max": [
+    2.0399999618530273,
+    1.5800000429153442,
+    2.0
+   ]
+  },
+  "sizeBytes": 8396,
+  "kind": "canopy",
+  "note": "frame bottom at z=0; tie rods rise 1.5 m",
+  "width": 4.08,
+  "height": 1.58,
+  "depth": 2.0115
+ },
+ "arch/roof_penthouse_6x4x3": {
+  "file": "assets/models/arch/roof_penthouse_6x4x3.glb",
+  "tris": 200,
+  "bbox_threejs": {
+   "min": [
+    -3.0999999046325684,
+    0.0,
+    -2.0999999046325684
+   ],
+   "max": [
+    3.0999999046325684,
+    4.0,
+    2.108341693878174
+   ]
+  },
+  "sizeBytes": 12728,
+  "kind": "roof",
+  "note": "centred on x and y",
+  "width": 6.2,
+  "height": 4.0,
+  "depth": 4.2083
+ },
+ "arch/roof_penthouse_6x4x3_lod1": {
+  "file": "assets/models/arch/roof_penthouse_6x4x3_lod1.glb",
+  "tris": 60,
+  "bbox_threejs": {
+   "min": [
+    -3.0999999046325684,
+    0.0,
+    -2.0999999046325684
+   ],
+   "max": [
+    3.0999999046325684,
+    3.0,
+    2.0999999046325684
+   ]
+  },
+  "sizeBytes": 5560,
+  "kind": "roof",
+  "note": "centred on x and y",
+  "width": 6.2,
+  "height": 4.0,
+  "depth": 4.2083,
+  "lod": 1
+ },
+ "arch/roof_watertank": {
+  "file": "assets/models/arch/roof_watertank.glb",
+  "tris": 524,
+  "bbox_threejs": {
+   "min": [
+    -1.559999942779541,
+    0.0,
+    -1.559999942779541
+   ],
+   "max": [
+    1.559999942779541,
+    5.0,
+    1.559999942779541
+   ]
+  },
+  "sizeBytes": 26712,
+  "kind": "roof",
+  "note": "centred on x and y",
+  "width": 3.12,
+  "height": 5.0,
+  "depth": 3.12
+ },
+ "arch/roof_watertank_lod1": {
+  "file": "assets/models/arch/roof_watertank_lod1.glb",
+  "tris": 168,
+  "bbox_threejs": {
+   "min": [
+    -1.559999942779541,
+    0.0,
+    -1.559999942779541
+   ],
+   "max": [
+    1.559999942779541,
+    5.0,
+    1.559999942779541
+   ]
+  },
+  "sizeBytes": 9976,
+  "kind": "roof",
+  "note": "centred on x and y",
+  "width": 3.12,
+  "height": 5.0,
+  "depth": 3.12,
+  "lod": 1
+ },
+ "arch/mansard_1m": {
+  "file": "assets/models/arch/mansard_1m.glb",
+  "tris": 24,
+  "bbox_threejs": {
+   "min": [
+    -0.5,
+    0.0,
+    -2.0
+   ],
+   "max": [
+    0.5,
+    2.5,
+    0.12000000476837158
+   ]
+  },
+  "sizeBytes": 2992,
+  "kind": "roof",
+  "note": "slope rises back into +Y (building interior)",
+  "width": 1.0,
+  "height": 2.5,
+  "depth": 2.12
+ },
+ "arch/mansard_dormer_1.5m": {
+  "file": "assets/models/arch/mansard_dormer_1.5m.glb",
+  "tris": 128,
+  "bbox_threejs": {
+   "min": [
+    -0.75,
+    0.0,
+    -2.0
+   ],
+   "max": [
+    0.75,
+    2.5,
+    0.12000000476837158
+   ]
+  },
+  "sizeBytes": 10244,
+  "kind": "roof",
+  "note": "slope rises back into +Y; dormer faces -Y",
+  "width": 1.5,
+  "height": 2.5,
+  "depth": 2.12
+ },
+ "arch/sign_fascia_blank_3x0.8": {
+  "file": "assets/models/arch/sign_fascia_blank_3x0.8.glb",
+  "tris": 14,
+  "bbox_threejs": {
+   "min": [
+    -1.5,
+    0.0,
+    -0.0
+   ],
+   "max": [
+    1.5,
+    0.800000011920929,
+    0.10199999809265137
+   ]
+  },
+  "sizeBytes": 2552,
+  "kind": "sign",
+  "screen": "front",
+  "width": 3.0,
+  "height": 0.8,
+  "depth": 0.102
+ },
+ "arch/sign_blade_1.0x0.6": {
+  "file": "assets/models/arch/sign_blade_1.0x0.6.glb",
+  "tris": 64,
+  "bbox_threejs": {
+   "min": [
+    -0.07999999821186066,
+    0.0,
+    -0.0
+   ],
+   "max": [
+    0.07999999821186066,
+    0.75,
+    1.149999976158142
+   ]
+  },
+  "sizeBytes": 5312,
+  "kind": "sign",
+  "screen": "both sides (+X/-X)",
+  "width": 0.16,
+  "height": 0.75,
+  "depth": 1.15
+ },
+ "arch/sign_corner_wrap": {
+  "file": "assets/models/arch/sign_corner_wrap.glb",
+  "tris": 52,
+  "bbox_threejs": {
+   "min": [
+    -1.2200000286102295,
+    0.0,
+    -1.2200000286102295
+   ],
+   "max": [
+    0.12000000476837158,
+    0.8299999833106995,
+    0.12000000476837158
+   ]
+  },
+  "sizeBytes": 5204,
+  "kind": "sign",
+  "screen": "arm A faces -Y, arm B faces +X",
+  "note": "building occupies x<0,y>0 (Blender) = x<0,z<0 (three.js); corner at origin",
+  "width": 1.34,
+  "height": 0.83,
+  "depth": 1.34
+ },
+ "arch/window_ac_unit": {
+  "file": "assets/models/arch/window_ac_unit.glb",
+  "tris": 50,
+  "bbox_threejs": {
+   "min": [
+    -0.30000001192092896,
+    0.0,
+    -0.0
+   ],
+   "max": [
+    0.30000001192092896,
+    0.4000000059604645,
+    0.46000000834465027
+   ]
+  },
+  "sizeBytes": 5268,
+  "kind": "prop",
+  "width": 0.6,
+  "height": 0.4,
+  "depth": 0.46
+ }
+}

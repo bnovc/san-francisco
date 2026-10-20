@@ -1,0 +1,362 @@
+{
+ "veg/palm_canary": {
+  "file": "assets/models/veg/palm_canary.glb",
+  "tris": 2780,
+  "bbox_threejs": {
+   "min": [
+    -4.858020782470703,
+    0.0,
+    -5.158207416534424
+   ],
+   "max": [
+    4.399977207183838,
+    11.495349884033203,
+    4.717118263244629
+   ]
+  },
+  "sizeBytes": 105612,
+  "kind": "tree",
+  "height": 11.5,
+  "crownRadius": 5.29
+ },
+ "veg/palm_canary_lod1": {
+  "file": "assets/models/veg/palm_canary_lod1.glb",
+  "tris": 230,
+  "bbox_threejs": {
+   "min": [
+    -4.755611419677734,
+    0.0,
+    -5.372878074645996
+   ],
+   "max": [
+    4.186437129974365,
+    10.097203254699707,
+    4.706159591674805
+   ]
+  },
+  "sizeBytes": 11796,
+  "kind": "tree_lod1",
+  "height": 10.1,
+  "crownRadius": 5.37
+ },
+ "veg/palm_canary_short": {
+  "file": "assets/models/veg/palm_canary_short.glb",
+  "tris": 2020,
+  "bbox_threejs": {
+   "min": [
+    -4.512919902801514,
+    0.0,
+    -4.934747695922852
+   ],
+   "max": [
+    5.217404842376709,
+    8.237957000732422,
+    4.768090724945068
+   ]
+  },
+  "sizeBytes": 85856,
+  "kind": "tree",
+  "height": 8.24,
+  "crownRadius": 5.48
+ },
+ "veg/tree_plane": {
+  "file": "assets/models/veg/tree_plane.glb",
+  "tris": 698,
+  "bbox_threejs": {
+   "min": [
+    -4.997862339019775,
+    0.0,
+    -5.196591377258301
+   ],
+   "max": [
+    4.749830722808838,
+    10.430008888244629,
+    4.92515230178833
+   ]
+  },
+  "sizeBytes": 33960,
+  "kind": "tree",
+  "height": 10.43,
+  "crownRadius": 5.79
+ },
+ "veg/tree_plane_lod1": {
+  "file": "assets/models/veg/tree_plane_lod1.glb",
+  "tris": 102,
+  "bbox_threejs": {
+   "min": [
+    -4.979273319244385,
+    0.0,
+    -5.291347503662109
+   ],
+   "max": [
+    5.009915828704834,
+    9.698700904846191,
+    4.395472526550293
+   ]
+  },
+  "sizeBytes": 7240,
+  "kind": "tree_lod1",
+  "height": 9.7,
+  "crownRadius": 5.54
+ },
+ "veg/tree_ficus_indoor": {
+  "file": "assets/models/veg/tree_ficus_indoor.glb",
+  "tris": 636,
+  "bbox_threejs": {
+   "min": [
+    -2.139892578125,
+    0.0,
+    -2.19588041305542
+   ],
+   "max": [
+    2.218069553375244,
+    5.4439496994018555,
+    2.333312511444092
+   ]
+  },
+  "sizeBytes": 30972,
+  "kind": "tree",
+  "height": 5.44,
+  "crownRadius": 2.73
+ },
+ "veg/tree_ficus_lod1": {
+  "file": "assets/models/veg/tree_ficus_lod1.glb",
+  "tris": 102,
+  "bbox_threejs": {
+   "min": [
+    -2.064176082611084,
+    0.0,
+    -2.4755117893218994
+   ],
+   "max": [
+    2.8143882751464844,
+    5.468759536743164,
+    2.389524221420288
+   ]
+  },
+  "sizeBytes": 7244,
+  "kind": "tree_lod1",
+  "height": 5.47,
+  "crownRadius": 2.94
+ },
+ "veg/tree_street_small": {
+  "file": "assets/models/veg/tree_street_small.glb",
+  "tris": 596,
+  "bbox_threejs": {
+   "min": [
+    -2.0618550777435303,
+    0.0,
+    -2.113905906677246
+   ],
+   "max": [
+    2.2395849227905273,
+    5.1241302490234375,
+    2.137566566467285
+   ]
+  },
+  "sizeBytes": 28180,
+  "kind": "tree",
+  "height": 5.12,
+  "crownRadius": 2.31
+ },
+ "veg/tree_street_small_lod1": {
+  "file": "assets/models/veg/tree_street_small_lod1.glb",
+  "tris": 94,
+  "bbox_threejs": {
+   "min": [
+    -1.7670440673828125,
+    0.0,
+    -1.905286431312561
+   ],
+   "max": [
+    2.418621301651001,
+    5.252521514892578,
+    2.0298709869384766
+   ]
+  },
+  "sizeBytes": 6696,
+  "kind": "tree_lod1",
+  "height": 5.25,
+  "crownRadius": 2.44
+ },
+ "veg/tree_olive": {
+  "file": "assets/models/veg/tree_olive.glb",
+  "tris": 1370,
+  "bbox_threejs": {
+   "min": [
+    -2.7479567527770996,
+    0.0,
+    -2.627542018890381
+   ],
+   "max": [
+    2.7622950077056885,
+    5.4226789474487305,
+    2.986407518386841
+   ]
+  },
+  "sizeBytes": 54960,
+  "kind": "tree",
+  "height": 5.42,
+  "crownRadius": 3.07
+ },
+ "veg/shrub_box": {
+  "file": "assets/models/veg/shrub_box.glb",
+  "tris": 148,
+  "bbox_threejs": {
+   "min": [
+    -0.3573189973831177,
+    0.0,
+    -0.3402317464351654
+   ],
+   "max": [
+    0.35711750388145447,
+    0.6401819586753845,
+    0.34566524624824524
+   ]
+  },
+  "sizeBytes": 6752,
+  "kind": "shrub",
+  "height": 0.64,
+  "crownRadius": 0.36
+ },
+ "veg/hedge_1m": {
+  "file": "assets/models/veg/hedge_1m.glb",
+  "tris": 232,
+  "bbox_threejs": {
+   "min": [
+    -0.5215389728546143,
+    0.0,
+    -0.367573082447052
+   ],
+   "max": [
+    0.6030430197715759,
+    1.037712574005127,
+    0.35699892044067383
+   ]
+  },
+  "sizeBytes": 9976,
+  "kind": "hedge",
+  "height": 1.04,
+  "crownRadius": 0.66
+ },
+ "veg/hedge_1m_low": {
+  "file": "assets/models/veg/hedge_1m_low.glb",
+  "tris": 232,
+  "bbox_threejs": {
+   "min": [
+    -0.5741659998893738,
+    0.0,
+    -0.3295218050479889
+   ],
+   "max": [
+    0.6197091341018677,
+    0.6487396955490112,
+    0.3323603570461273
+   ]
+  },
+  "sizeBytes": 9984,
+  "kind": "hedge",
+  "height": 0.65,
+  "crownRadius": 0.68
+ },
+ "veg/flowerbed_1m": {
+  "file": "assets/models/veg/flowerbed_1m.glb",
+  "tris": 802,
+  "bbox_threejs": {
+   "min": [
+    -0.5115286111831665,
+    0.0,
+    -0.5239434838294983
+   ],
+   "max": [
+    0.5276962518692017,
+    0.4520597457885742,
+    0.5114185810089111
+   ]
+  },
+  "sizeBytes": 72836,
+  "kind": "flowerbed",
+  "height": 0.45,
+  "crownRadius": 0.72
+ },
+ "veg/grass_patch": {
+  "file": "assets/models/veg/grass_patch.glb",
+  "tris": 74,
+  "bbox_threejs": {
+   "min": [
+    -0.5,
+    0.0,
+    -0.5
+   ],
+   "max": [
+    0.5,
+    0.31756579875946045,
+    0.5
+   ]
+  },
+  "sizeBytes": 7200,
+  "kind": "grass",
+  "height": 0.32,
+  "crownRadius": 0.71
+ },
+ "veg/planter_shrubs": {
+  "file": "assets/models/veg/planter_shrubs.glb",
+  "tris": 410,
+  "bbox_threejs": {
+   "min": [
+    -0.6000000238418579,
+    0.0,
+    -0.6000000238418579
+   ],
+   "max": [
+    0.6000000238418579,
+    1.0130503177642822,
+    0.6000000238418579
+   ]
+  },
+  "sizeBytes": 20216,
+  "kind": "planter",
+  "height": 1.01,
+  "crownRadius": 0.85
+ },
+ "veg/vine_wall_2m": {
+  "file": "assets/models/veg/vine_wall_2m.glb",
+  "tris": 202,
+  "bbox_threejs": {
+   "min": [
+    -1.2523609399795532,
+    0.0,
+    -0.3001942038536072
+   ],
+   "max": [
+    1.2205052375793457,
+    3.3560543060302734,
+    0.12055964767932892
+   ]
+  },
+  "sizeBytes": 16276,
+  "kind": "greenwall",
+  "height": 3.36,
+  "crownRadius": 1.26
+ },
+ "veg/christmas_tree_big": {
+  "file": "assets/models/veg/christmas_tree_big.glb",
+  "tris": 5176,
+  "bbox_threejs": {
+   "min": [
+    -5.66995906829834,
+    0.0,
+    -5.627816200256348
+   ],
+   "max": [
+    5.653027534484863,
+    26.431690216064453,
+    5.687108039855957
+   ]
+  },
+  "sizeBytes": 496140,
+  "kind": "holiday_tree",
+  "height": 26.43,
+  "crownRadius": 5.69
+ }
+}

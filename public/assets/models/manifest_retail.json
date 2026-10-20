@@ -1,0 +1,1129 @@
+{
+ "retail/apple_table": {
+  "file": "assets/models/retail/apple_table.glb",
+  "tris": 60,
+  "bbox_threejs": {
+   "min": [
+    -1.2000000476837158,
+    0.0,
+    -0.6000000238418579
+   ],
+   "max": [
+    1.2000000476837158,
+    0.9000000357627869,
+    0.6000000238418579
+   ]
+  },
+  "sizeBytes": 5416,
+  "kind": "table",
+  "height": 0.9,
+  "footprint": [
+   2.4,
+   1.2
+  ]
+ },
+ "retail/apple_table_long": {
+  "file": "assets/models/retail/apple_table_long.glb",
+  "tris": 60,
+  "bbox_threejs": {
+   "min": [
+    -1.7999999523162842,
+    0.0,
+    -0.6000000238418579
+   ],
+   "max": [
+    1.7999999523162842,
+    0.9000000357627869,
+    0.6000000238418579
+   ]
+  },
+  "sizeBytes": 5424,
+  "kind": "table",
+  "height": 0.9,
+  "footprint": [
+   3.6,
+   1.2
+  ]
+ },
+ "retail/apple_iphone_stand": {
+  "file": "assets/models/retail/apple_iphone_stand.glb",
+  "tris": 42,
+  "bbox_threejs": {
+   "min": [
+    -0.05999999865889549,
+    0.0,
+    -0.06253089755773544
+   ],
+   "max": [
+    0.05999999865889549,
+    0.16232198476791382,
+    0.06253089755773544
+   ]
+  },
+  "sizeBytes": 5844,
+  "kind": "device",
+  "height": 0.162,
+  "footprint": [
+   0.12,
+   0.125
+  ]
+ },
+ "retail/apple_ipad_stand": {
+  "file": "assets/models/retail/apple_ipad_stand.glb",
+  "tris": 42,
+  "bbox_threejs": {
+   "min": [
+    -0.125,
+    0.0,
+    -0.08984826505184174
+   ],
+   "max": [
+    0.125,
+    0.1848258674144745,
+    0.08984826505184174
+   ]
+  },
+  "sizeBytes": 5812,
+  "kind": "device",
+  "height": 0.185,
+  "footprint": [
+   0.25,
+   0.18
+  ]
+ },
+ "retail/apple_macbook": {
+  "file": "assets/models/retail/apple_macbook.glb",
+  "tris": 50,
+  "bbox_threejs": {
+   "min": [
+    -0.15000000596046448,
+    0.0,
+    -0.14061154425144196
+   ],
+   "max": [
+    0.15000000596046448,
+    0.20096458494663239,
+    0.14061154425144196
+   ]
+  },
+  "sizeBytes": 7388,
+  "kind": "device",
+  "height": 0.201,
+  "footprint": [
+   0.3,
+   0.281
+  ]
+ },
+ "retail/apple_imac": {
+  "file": "assets/models/retail/apple_imac.glb",
+  "tris": 38,
+  "bbox_threejs": {
+   "min": [
+    -0.2750000059604645,
+    0.0,
+    -0.09000000357627869
+   ],
+   "max": [
+    0.2750000059604645,
+    0.49000000953674316,
+    0.09000000357627869
+   ]
+  },
+  "sizeBytes": 4868,
+  "kind": "device",
+  "height": 0.49,
+  "footprint": [
+   0.55,
+   0.18
+  ]
+ },
+ "retail/apple_watch_stand": {
+  "file": "assets/models/retail/apple_watch_stand.glb",
+  "tris": 74,
+  "bbox_threejs": {
+   "min": [
+    -0.029999999329447746,
+    0.0,
+    -0.029999999329447746
+   ],
+   "max": [
+    0.029999999329447746,
+    0.12000000476837158,
+    0.029999999329447746
+   ]
+  },
+  "sizeBytes": 8776,
+  "kind": "device",
+  "height": 0.12,
+  "footprint": [
+   0.06,
+   0.06
+  ]
+ },
+ "retail/apple_headphones": {
+  "file": "assets/models/retail/apple_headphones.glb",
+  "tris": 404,
+  "bbox_threejs": {
+   "min": [
+    -0.13250000774860382,
+    0.0,
+    -0.07000000029802322
+   ],
+   "max": [
+    0.13250000774860382,
+    0.2719999849796295,
+    0.07000000029802322
+   ]
+  },
+  "sizeBytes": 21800,
+  "kind": "device",
+  "height": 0.272,
+  "footprint": [
+   0.265,
+   0.14
+  ]
+ },
+ "retail/apple_avenue_shelf": {
+  "file": "assets/models/retail/apple_avenue_shelf.glb",
+  "tris": 98,
+  "bbox_threejs": {
+   "min": [
+    -1.5,
+    0.0,
+    -0.25
+   ],
+   "max": [
+    1.5,
+    3.0,
+    0.25
+   ]
+  },
+  "sizeBytes": 9908,
+  "kind": "shelf",
+  "height": 3.0,
+  "footprint": [
+   3.0,
+   0.5
+  ]
+ },
+ "retail/apple_stool": {
+  "file": "assets/models/retail/apple_stool.glb",
+  "tris": 60,
+  "bbox_threejs": {
+   "min": [
+    -0.22499999403953552,
+    0.0,
+    -0.22499999403953552
+   ],
+   "max": [
+    0.22499999403953552,
+    0.44999998807907104,
+    0.22499999403953552
+   ]
+  },
+  "sizeBytes": 4652,
+  "kind": "seat",
+  "height": 0.45,
+  "footprint": [
+   0.45,
+   0.45
+  ]
+ },
+ "retail/apple_bench_forum": {
+  "file": "assets/models/retail/apple_bench_forum.glb",
+  "tris": 48,
+  "bbox_threejs": {
+   "min": [
+    -1.5,
+    0.0,
+    -0.25
+   ],
+   "max": [
+    1.5,
+    0.44999998807907104,
+    0.25
+   ]
+  },
+  "sizeBytes": 4508,
+  "kind": "seat",
+  "height": 0.45,
+  "footprint": [
+   3.0,
+   0.5
+  ]
+ },
+ "retail/apple_planter_tree_box": {
+  "file": "assets/models/retail/apple_planter_tree_box.glb",
+  "tris": 60,
+  "bbox_threejs": {
+   "min": [
+    -1.0,
+    0.0,
+    -1.0
+   ],
+   "max": [
+    1.0,
+    0.6000000238418579,
+    1.0
+   ]
+  },
+  "sizeBytes": 6272,
+  "kind": "planter",
+  "height": 0.6,
+  "footprint": [
+   2.0,
+   2.0
+  ]
+ },
+ "retail/apple_video_wall_frame": {
+  "file": "assets/models/retail/apple_video_wall_frame.glb",
+  "tris": 62,
+  "bbox_threejs": {
+   "min": [
+    -5.900000095367432,
+    0.0,
+    -0.20000000298023224
+   ],
+   "max": [
+    5.900000095367432,
+    6.800000190734863,
+    0.20000000298023224
+   ]
+  },
+  "sizeBytes": 7432,
+  "kind": "screen_wall",
+  "height": 6.8,
+  "footprint": [
+   11.8,
+   0.4
+  ]
+ },
+ "retail/apple_stair_module": {
+  "file": "assets/models/retail/apple_stair_module.glb",
+  "tris": 12,
+  "bbox_threejs": {
+   "min": [
+    -0.5,
+    0.0,
+    -0.15000000596046448
+   ],
+   "max": [
+    0.5,
+    0.1599999964237213,
+    0.15000000596046448
+   ]
+  },
+  "sizeBytes": 2028,
+  "kind": "stair",
+  "height": 0.16,
+  "footprint": [
+   1.0,
+   0.3
+  ]
+ },
+ "retail/apple_glass_balustrade_1m": {
+  "file": "assets/models/retail/apple_glass_balustrade_1m.glb",
+  "tris": 36,
+  "bbox_threejs": {
+   "min": [
+    -0.5,
+    0.0,
+    -0.029999999329447746
+   ],
+   "max": [
+    0.5,
+    1.100000023841858,
+    0.029999999329447746
+   ]
+  },
+  "sizeBytes": 4652,
+  "kind": "balustrade",
+  "height": 1.1,
+  "footprint": [
+   1.0,
+   0.06
+  ]
+ },
+ "retail/apple_genius_table": {
+  "file": "assets/models/retail/apple_genius_table.glb",
+  "tris": 452,
+  "bbox_threejs": {
+   "min": [
+    -0.9536753296852112,
+    0.0,
+    -0.9536753296852112
+   ],
+   "max": [
+    0.9536753296852112,
+    0.8999999761581421,
+    0.9536753296852112
+   ]
+  },
+  "sizeBytes": 21620,
+  "kind": "table",
+  "height": 0.9,
+  "footprint": [
+   1.907,
+   1.907
+  ]
+ },
+ "retail/nintendo_gondola": {
+  "file": "assets/models/retail/nintendo_gondola.glb",
+  "tris": 1124,
+  "bbox_threejs": {
+   "min": [
+    -0.8999999761581421,
+    0.0,
+    -0.44999998807907104
+   ],
+   "max": [
+    0.8999999761581421,
+    1.5,
+    0.44999998807907104
+   ]
+  },
+  "sizeBytes": 75064,
+  "kind": "gondola",
+  "height": 1.5,
+  "footprint": [
+   1.8,
+   0.9
+  ]
+ },
+ "retail/nintendo_wall_shelf_3m": {
+  "file": "assets/models/retail/nintendo_wall_shelf_3m.glb",
+  "tris": 482,
+  "bbox_threejs": {
+   "min": [
+    -1.5,
+    0.0,
+    -0.2254999876022339
+   ],
+   "max": [
+    1.5,
+    2.5999999046325684,
+    0.2254999876022339
+   ]
+  },
+  "sizeBytes": 38864,
+  "kind": "shelf",
+  "height": 2.6,
+  "footprint": [
+   3.0,
+   0.451
+  ]
+ },
+ "retail/nintendo_demo_kiosk": {
+  "file": "assets/models/retail/nintendo_demo_kiosk.glb",
+  "tris": 86,
+  "bbox_threejs": {
+   "min": [
+    -0.4050000011920929,
+    0.0,
+    -0.3050000071525574
+   ],
+   "max": [
+    0.4050000011920929,
+    1.2692691087722778,
+    0.3050000071525574
+   ]
+  },
+  "sizeBytes": 10748,
+  "kind": "kiosk",
+  "height": 1.269,
+  "footprint": [
+   0.81,
+   0.61
+  ]
+ },
+ "retail/nintendo_led_wall": {
+  "file": "assets/models/retail/nintendo_led_wall.glb",
+  "tris": 14,
+  "bbox_threejs": {
+   "min": [
+    -3.0999999046325684,
+    0.0,
+    -0.060499999672174454
+   ],
+   "max": [
+    3.0999999046325684,
+    3.5999999046325684,
+    0.060499999672174454
+   ]
+  },
+  "sizeBytes": 3144,
+  "kind": "screen_wall",
+  "height": 3.6,
+  "footprint": [
+   6.2,
+   0.121
+  ]
+ },
+ "retail/nintendo_checkout": {
+  "file": "assets/models/retail/nintendo_checkout.glb",
+  "tris": 198,
+  "bbox_threejs": {
+   "min": [
+    -2.0299999713897705,
+    0.0,
+    -0.47999998927116394
+   ],
+   "max": [
+    2.0299999713897705,
+    1.2950918674468994,
+    0.47999998927116394
+   ]
+  },
+  "sizeBytes": 18608,
+  "kind": "counter",
+  "height": 1.295,
+  "footprint": [
+   4.06,
+   0.96
+  ]
+ },
+ "retail/nintendo_plush_bin": {
+  "file": "assets/models/retail/nintendo_plush_bin.glb",
+  "tris": 784,
+  "bbox_threejs": {
+   "min": [
+    -0.6200000047683716,
+    0.0,
+    -0.6200000047683716
+   ],
+   "max": [
+    0.6200000047683716,
+    0.9478769898414612,
+    0.6200000047683716
+   ]
+  },
+  "sizeBytes": 44800,
+  "kind": "bin",
+  "height": 0.948,
+  "footprint": [
+   1.24,
+   1.24
+  ]
+ },
+ "retail/nintendo_warp_pipe": {
+  "file": "assets/models/retail/nintendo_warp_pipe.glb",
+  "tris": 376,
+  "bbox_threejs": {
+   "min": [
+    -0.6000000238418579,
+    0.0,
+    -0.6000000238418579
+   ],
+   "max": [
+    0.6000000238418579,
+    1.600000023841858,
+    0.6000000238418579
+   ]
+  },
+  "sizeBytes": 17148,
+  "kind": "prop",
+  "height": 1.6,
+  "footprint": [
+   1.2,
+   1.2
+  ]
+ },
+ "retail/nintendo_question_block": {
+  "file": "assets/models/retail/nintendo_question_block.glb",
+  "tris": 636,
+  "bbox_threejs": {
+   "min": [
+    -0.4699999988079071,
+    0.0,
+    -0.4699999988079071
+   ],
+   "max": [
+    0.4699999988079071,
+    0.8999999761581421,
+    0.4699999988079071
+   ]
+  },
+  "sizeBytes": 47576,
+  "kind": "prop",
+  "height": 0.9,
+  "footprint": [
+   0.94,
+   0.94
+  ]
+ },
+ "retail/nintendo_pedestal_statue": {
+  "file": "assets/models/retail/nintendo_pedestal_statue.glb",
+  "tris": 188,
+  "bbox_threejs": {
+   "min": [
+    -0.5049999952316284,
+    0.0,
+    -0.5049999952316284
+   ],
+   "max": [
+    0.5049999952316284,
+    0.5,
+    0.5049999952316284
+   ]
+  },
+  "sizeBytes": 9624,
+  "kind": "pedestal",
+  "height": 0.5,
+  "footprint": [
+   1.01,
+   1.01
+  ]
+ },
+ "retail/nintendo_switch2_display": {
+  "file": "assets/models/retail/nintendo_switch2_display.glb",
+  "tris": 378,
+  "bbox_threejs": {
+   "min": [
+    -1.0,
+    0.0,
+    -0.30000001192092896
+   ],
+   "max": [
+    1.0,
+    1.173509955406189,
+    0.30000001192092896
+   ]
+  },
+  "sizeBytes": 27032,
+  "kind": "device",
+  "height": 1.174,
+  "footprint": [
+   2.0,
+   0.6
+  ]
+ },
+ "retail/char_mario": {
+  "file": "assets/models/retail/char_mario.glb",
+  "tris": 2028,
+  "bbox_threejs": {
+   "min": [
+    -0.5346689820289612,
+    0.0,
+    -0.34564459323883057
+   ],
+   "max": [
+    0.5346689820289612,
+    1.5499999523162842,
+    0.34564459323883057
+   ]
+  },
+  "sizeBytes": 81648,
+  "kind": "character",
+  "height": 1.55,
+  "footprint": [
+   1.069,
+   0.691
+  ]
+ },
+ "retail/char_luigi": {
+  "file": "assets/models/retail/char_luigi.glb",
+  "tris": 2028,
+  "bbox_threejs": {
+   "min": [
+    -0.5524390339851379,
+    0.0,
+    -0.39024391770362854
+   ],
+   "max": [
+    0.5524390339851379,
+    1.75,
+    0.39024391770362854
+   ]
+  },
+  "sizeBytes": 81764,
+  "kind": "character",
+  "height": 1.75,
+  "footprint": [
+   1.105,
+   0.78
+  ]
+ },
+ "retail/char_link": {
+  "file": "assets/models/retail/char_link.glb",
+  "tris": 1354,
+  "bbox_threejs": {
+   "min": [
+    -0.34915417432785034,
+    0.0,
+    -0.31974706053733826
+   ],
+   "max": [
+    0.34915417432785034,
+    1.6999999284744263,
+    0.31974706053733826
+   ]
+  },
+  "sizeBytes": 61780,
+  "kind": "character",
+  "height": 1.7,
+  "footprint": [
+   0.698,
+   0.639
+  ]
+ },
+ "retail/char_isabelle": {
+  "file": "assets/models/retail/char_isabelle.glb",
+  "tris": 1352,
+  "bbox_threejs": {
+   "min": [
+    -0.3062267601490021,
+    0.0,
+    -0.2656126320362091
+   ],
+   "max": [
+    0.3062267601490021,
+    1.1999999284744263,
+    0.2656126320362091
+   ]
+  },
+  "sizeBytes": 58192,
+  "kind": "character",
+  "height": 1.2,
+  "footprint": [
+   0.612,
+   0.531
+  ]
+ },
+ "retail/char_pikmin_red": {
+  "file": "assets/models/retail/char_pikmin_red.glb",
+  "tris": 534,
+  "bbox_threejs": {
+   "min": [
+    -0.10117186605930328,
+    0.0,
+    -0.13033537566661835
+   ],
+   "max": [
+    0.10117186605930328,
+    0.6000000238418579,
+    0.13033537566661835
+   ]
+  },
+  "sizeBytes": 24156,
+  "kind": "character",
+  "height": 0.6,
+  "footprint": [
+   0.202,
+   0.261
+  ]
+ },
+ "retail/char_pikmin_blue": {
+  "file": "assets/models/retail/char_pikmin_blue.glb",
+  "tris": 594,
+  "bbox_threejs": {
+   "min": [
+    -0.10117186605930328,
+    0.0,
+    -0.13033537566661835
+   ],
+   "max": [
+    0.10117186605930328,
+    0.6000000238418579,
+    0.13033537566661835
+   ]
+  },
+  "sizeBytes": 26552,
+  "kind": "character",
+  "height": 0.6,
+  "footprint": [
+   0.202,
+   0.261
+  ]
+ },
+ "retail/char_pikmin_yellow": {
+  "file": "assets/models/retail/char_pikmin_yellow.glb",
+  "tris": 654,
+  "bbox_threejs": {
+   "min": [
+    -0.1255980283021927,
+    0.0,
+    -0.13033537566661835
+   ],
+   "max": [
+    0.1255980283021927,
+    0.6000000238418579,
+    0.13033537566661835
+   ]
+  },
+  "sizeBytes": 27812,
+  "kind": "character",
+  "height": 0.6,
+  "footprint": [
+   0.251,
+   0.261
+  ]
+ },
+ "retail/char_kirby": {
+  "file": "assets/models/retail/char_kirby.glb",
+  "tris": 1100,
+  "bbox_threejs": {
+   "min": [
+    -0.5470693707466125,
+    0.0,
+    -0.4182693064212799
+   ],
+   "max": [
+    0.5470693707466125,
+    0.8999999761581421,
+    0.4182693064212799
+   ]
+  },
+  "sizeBytes": 40196,
+  "kind": "character",
+  "height": 0.9,
+  "footprint": [
+   1.094,
+   0.837
+  ]
+ },
+ "retail/char_toad": {
+  "file": "assets/models/retail/char_toad.glb",
+  "tris": 1460,
+  "bbox_threejs": {
+   "min": [
+    -0.4390243589878082,
+    0.0,
+    -0.4390243589878082
+   ],
+   "max": [
+    0.4390243589878082,
+    1.1999999284744263,
+    0.4390243589878082
+   ]
+  },
+  "sizeBytes": 62396,
+  "kind": "character",
+  "height": 1.2,
+  "footprint": [
+   0.878,
+   0.878
+  ]
+ },
+ "retail/gen_mannequin": {
+  "file": "assets/models/retail/gen_mannequin.glb",
+  "tris": 620,
+  "bbox_threejs": {
+   "min": [
+    -0.3533012866973877,
+    0.0,
+    -0.14649999141693115
+   ],
+   "max": [
+    0.3533012866973877,
+    1.7999999523162842,
+    0.14649999141693115
+   ]
+  },
+  "sizeBytes": 25432,
+  "kind": "mannequin",
+  "height": 1.8,
+  "footprint": [
+   0.707,
+   0.293
+  ]
+ },
+ "retail/gen_mannequin_black": {
+  "file": "assets/models/retail/gen_mannequin_black.glb",
+  "tris": 620,
+  "bbox_threejs": {
+   "min": [
+    -0.3533012866973877,
+    0.0,
+    -0.14649999141693115
+   ],
+   "max": [
+    0.3533012866973877,
+    1.7999999523162842,
+    0.14649999141693115
+   ]
+  },
+  "sizeBytes": 25444,
+  "kind": "mannequin",
+  "height": 1.8,
+  "footprint": [
+   0.707,
+   0.293
+  ]
+ },
+ "retail/gen_clothing_rack": {
+  "file": "assets/models/retail/gen_clothing_rack.glb",
+  "tris": 300,
+  "bbox_threejs": {
+   "min": [
+    -0.800000011920929,
+    0.0,
+    -0.25
+   ],
+   "max": [
+    0.800000011920929,
+    1.4950000047683716,
+    0.25
+   ]
+  },
+  "sizeBytes": 23064,
+  "kind": "rack",
+  "height": 1.495,
+  "footprint": [
+   1.6,
+   0.5
+  ]
+ },
+ "retail/gen_jewelry_case": {
+  "file": "assets/models/retail/gen_jewelry_case.glb",
+  "tris": 48,
+  "bbox_threejs": {
+   "min": [
+    -0.75,
+    0.0,
+    -0.30000001192092896
+   ],
+   "max": [
+    0.75,
+    1.0,
+    0.30000001192092896
+   ]
+  },
+  "sizeBytes": 6800,
+  "kind": "case",
+  "height": 1.0,
+  "footprint": [
+   1.5,
+   0.6
+  ]
+ },
+ "retail/gen_display_pedestal": {
+  "file": "assets/models/retail/gen_display_pedestal.glb",
+  "tris": 12,
+  "bbox_threejs": {
+   "min": [
+    -0.30000001192092896,
+    0.0,
+    -0.30000001192092896
+   ],
+   "max": [
+    0.30000001192092896,
+    0.6000000238418579,
+    0.30000001192092896
+   ]
+  },
+  "sizeBytes": 2064,
+  "kind": "pedestal",
+  "height": 0.6,
+  "footprint": [
+   0.6,
+   0.6
+  ]
+ },
+ "retail/gen_display_pedestal_tall": {
+  "file": "assets/models/retail/gen_display_pedestal_tall.glb",
+  "tris": 12,
+  "bbox_threejs": {
+   "min": [
+    -0.30000001192092896,
+    0.0,
+    -0.30000001192092896
+   ],
+   "max": [
+    0.30000001192092896,
+    1.2000000476837158,
+    0.30000001192092896
+   ]
+  },
+  "sizeBytes": 2068,
+  "kind": "pedestal",
+  "height": 1.2,
+  "footprint": [
+   0.6,
+   0.6
+  ]
+ },
+ "retail/gen_checkout": {
+  "file": "assets/models/retail/gen_checkout.glb",
+  "tris": 78,
+  "bbox_threejs": {
+   "min": [
+    -1.024999976158142,
+    0.0,
+    -0.375
+   ],
+   "max": [
+    1.024999976158142,
+    1.2950918674468994,
+    0.375
+   ]
+  },
+  "sizeBytes": 9632,
+  "kind": "counter",
+  "height": 1.295,
+  "footprint": [
+   2.05,
+   0.75
+  ]
+ },
+ "retail/gen_shelf_wall_3m": {
+  "file": "assets/models/retail/gen_shelf_wall_3m.glb",
+  "tris": 612,
+  "bbox_threejs": {
+   "min": [
+    -1.5,
+    0.0,
+    -0.20000000298023224
+   ],
+   "max": [
+    1.5,
+    2.2501814365386963,
+    0.20000000298023224
+   ]
+  },
+  "sizeBytes": 48924,
+  "kind": "shelf",
+  "height": 2.25,
+  "footprint": [
+   3.0,
+   0.4
+  ]
+ },
+ "retail/gen_cafe_table": {
+  "file": "assets/models/retail/gen_cafe_table.glb",
+  "tris": 180,
+  "bbox_threejs": {
+   "min": [
+    -0.3499999940395355,
+    0.0,
+    -0.3499999940395355
+   ],
+   "max": [
+    0.3499999940395355,
+    0.75,
+    0.3499999940395355
+   ]
+  },
+  "sizeBytes": 9764,
+  "kind": "table",
+  "height": 0.75,
+  "footprint": [
+   0.7,
+   0.7
+  ]
+ },
+ "retail/gen_cafe_chair": {
+  "file": "assets/models/retail/gen_cafe_chair.glb",
+  "tris": 188,
+  "bbox_threejs": {
+   "min": [
+    -0.1899999976158142,
+    0.0,
+    -0.1899999976158142
+   ],
+   "max": [
+    0.1899999976158142,
+    0.8600000143051147,
+    0.1899999976158142
+   ]
+  },
+  "sizeBytes": 11848,
+  "kind": "seat",
+  "height": 0.86,
+  "footprint": [
+   0.38,
+   0.38
+  ]
+ },
+ "retail/gen_hotel_lobby_sofa": {
+  "file": "assets/models/retail/gen_hotel_lobby_sofa.glb",
+  "tris": 264,
+  "bbox_threejs": {
+   "min": [
+    -1.100000023841858,
+    0.0,
+    -0.44999998807907104
+   ],
+   "max": [
+    1.100000023841858,
+    0.8949999809265137,
+    0.44999998807907104
+   ]
+  },
+  "sizeBytes": 18340,
+  "kind": "sofa",
+  "height": 0.895,
+  "footprint": [
+   2.2,
+   0.9
+  ]
+ },
+ "retail/gen_lobby_lamp": {
+  "file": "assets/models/retail/gen_lobby_lamp.glb",
+  "tris": 176,
+  "bbox_threejs": {
+   "min": [
+    -0.20999999344348907,
+    0.0,
+    -0.20999999344348907
+   ],
+   "max": [
+    0.20999999344348907,
+    1.659999966621399,
+    0.20999999344348907
+   ]
+  },
+  "sizeBytes": 10964,
+  "kind": "lamp",
+  "height": 1.66,
+  "footprint": [
+   0.42,
+   0.42
+  ]
+ },
+ "retail/gen_shopping_bag": {
+  "file": "assets/models/retail/gen_shopping_bag.glb",
+  "tris": 116,
+  "bbox_threejs": {
+   "min": [
+    -0.1599999964237213,
+    0.0,
+    -0.07000000029802322
+   ],
+   "max": [
+    0.1599999964237213,
+    0.4259999990463257,
+    0.07000000029802322
+   ]
+  },
+  "sizeBytes": 6004,
+  "kind": "prop",
+  "height": 0.426,
+  "footprint": [
+   0.32,
+   0.14
+  ]
+ },
+ "retail/gen_window_display_dress": {
+  "file": "assets/models/retail/gen_window_display_dress.glb",
+  "tris": 1266,
+  "bbox_threejs": {
+   "min": [
+    -1.5,
+    0.0,
+    -0.5
+   ],
+   "max": [
+    1.5,
+    2.5999999046325684,
+    0.5
+   ]
+  },
+  "sizeBytes": 53568,
+  "kind": "window_display",
+  "height": 2.6,
+  "footprint": [
+   3.0,
+   1.0
+  ]
+ }
+}

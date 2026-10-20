@@ -1,0 +1,19 @@
+{
+ "smoke/lamp": {
+  "file": "assets/models/smoke/lamp.glb",
+  "tris": 180,
+  "bbox_threejs": {
+   "min": [
+    -0.25,
+    0.0,
+    -0.25
+   ],
+   "max": [
+    0.25,
+    4.449999809265137,
+    0.25
+   ]
+  },
+  "sizeBytes": 11672
+ }
+}
