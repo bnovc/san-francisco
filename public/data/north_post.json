@@ -1,0 +1,1533 @@
+[
+ {
+  "id": "apple_union_square_300_post",
+  "name": "Apple Union Square",
+  "address": "300 Post St",
+  "corner": "NW corner Post & Stockton (faces NE corner of Union Square)",
+  "side": "north",
+  "block": "Stockton-Powell",
+  "yearBuilt": 2016,
+  "architect": "Foster + Partners (with Jony Ive/Apple); replaced 4-story Levi's store",
+  "style": "Contemporary glass pavilion",
+  "floors": 2,
+  "heightM": 14.5,
+  "roofType": "flat; 130 integrated photovoltaic panels",
+  "facadeMaterial": "Post face: full-height structural glass with 2 sliding steel-framed glass panels; Stockton (east) face and west party wall: solid grey brushed-stainless/metal panels; rear west service wing: light-grey stone-panel cladding",
+  "facadeColor": {
+   "glass": "#9fb2bd",
+   "metalPanel": "#6c6f72",
+   "stoneWing": "#cfcbc3"
+  },
+  "frontageM": {
+   "post": 34.0,
+   "postIncludingWestServiceWing": 40.7,
+   "stockton_pavilion": 25.3,
+   "stockton_plazaAndSteps": 17.0
+  },
+  "bays": 2,
+  "bayWidthM": 7.0,
+  "windowType": "storefront glass wall (12.8 m tall sliding panels, each ~7 m wide)",
+  "floorHeightsM": {
+   "ground": 6.5,
+   "typical": 6.5
+  },
+  "base": "none - glass to grade",
+  "cornice": "thin metal roof fascia, no cornice",
+  "notableFeatures": [
+   "42 ft (12.8 m) tall sliding glass doors on Post St; SF Chronicle/ArchDaily cite the 2013 revised design as two 44 ft x 23 ft panels",
+   "Rear (north) plaza on Stockton side at upper-level grade: ~34 m E-W x ~17 m N-S, public seating, trees in white round planters",
+   "Ruth Asawa \"San Francisco Fountain\" (bronze cylinder ~3 m dia) re-set at east end of plaza at top of steps down to Stockton St",
+   "~15 m (50 ft) tall green wall of creeping fig on Grand Hyatt south flank, full plaza length, with vertical waterfall strip",
+   "Steps from plaza down to Stockton sidewalk (~2 m drop, estimate)",
+   "Stockton face of pavilion is solid metal panel (no glazing); glass faces are Post (south) and plaza (north)",
+   "OSM shows a 6.7 m wide, 3-level solid wing along the west lot line (779012330) - reads as back-of-house/mechanical block behind pavilion"
+  ],
+  "groundFloor": [
+   {
+    "business": "Apple Union Square",
+    "address": "300 Post St",
+    "widthM": 34.0,
+    "position": "full Post frontage",
+    "entranceType": "sliding glass wall + plaza entrance (north)",
+    "awning": "none",
+    "signage": "Apple logo on glass",
+    "windowArrangement": "continuous glass",
+    "status2026": "open (OSM check_date 2026-04-09)",
+    "confidence": "high",
+    "source": "https://www.apple.com/retail/unionsquare"
+   }
+  ],
+  "confidence": "medium-high",
+  "sources": [
+   "https://www.dezeen.com/2016/05/21/foster-partners-jonathan-ive-apple-union-square-store-san-francisco/ (2016)",
+   "https://www.designboom.com/architecture/apple-foster-partners-san-francisco-union-square-store-opening-05-23-2016/ (2016)",
+   "https://www.archdaily.com/423372/san-francisco-s-apple-store-to-preserve-ruth-asawa-fountain (2013)",
+   "https://www.sfchronicle.com/bayarea/place/article/In-Union-Square-Apple-is-spiffy-but-plaza-needs-7943462.php (2016)",
+   "Commons photo Back entrance of Apple Store, San Francisco (2018) - visual check of plaza/green wall/fountain",
+   "OpenStreetMap building footprint via Overpass API, fetched 2026-09-01 (widths = extent projected on Post St axis, +/-2 m)"
+  ],
+  "osm": {
+   "osmWayId": 332223480,
+   "centroid": {
+    "lat": 37.788682,
+    "lon": -122.407194
+   },
+   "widthAlongPostM": 34.0,
+   "depthM": 25.3,
+   "osmHeightTag": "15",
+   "osmLevelsTag": "2",
+   "westServiceWing": {
+    "osmWayId": 779012330,
+    "centroid": {
+     "lat": 37.788856,
+     "lon": -122.407428
+    },
+    "widthAlongPostM": 6.7,
+    "depthM": 53.5,
+    "osmHeightTag": null,
+    "osmLevelsTag": "3"
+   }
+  }
+ },
+ {
+  "id": "chanel_340_post",
+  "name": "Bullock & Jones Building (ex-Williams-Sonoma flagship; Chanel)",
+  "address": "340 Post St",
+  "corner": "mid-block",
+  "side": "north",
+  "block": "Stockton-Powell",
+  "yearBuilt": 1923,
+  "architect": "Reid Brothers (Reid & Reid)",
+  "style": "Classical Revival commercial (single-lot)",
+  "floors": 3,
+  "heightM": 17,
+  "roofType": "flat",
+  "facadeMaterial": "cream/white glazed terra cotta or stone, ornamental bracketed cornice with frieze; large glazed openings",
+  "facadeColor": {
+   "wall": "#e9e5da",
+   "trim": "#d9d3c4"
+  },
+  "frontageM": {
+   "post": 11.8
+  },
+  "bays": 1,
+  "bayWidthM": 11.8,
+  "windowType": "large multi-pane storefront/upper display windows",
+  "floorHeightsM": {
+   "ground": 5.5,
+   "typical": 5.0
+  },
+  "base": "storefront",
+  "cornice": "ornate projecting classical cornice with frieze (formerly lettered WILLIAMS-SONOMA)",
+  "notableFeatures": [
+   "18,000 sq ft over 3 levels",
+   "Purchased by Chanel Dec 2021 for $63M",
+   "Williams-Sonoma closed end Jan 2026; Chanel interior rebuild (skylight atrium, 3rd-floor VIP gallery) - opening date unannounced as of Jan 2026"
+  ],
+  "groundFloor": [
+   {
+    "business": "Chanel (future) / vacant-under renovation",
+    "address": "340 Post St",
+    "widthM": 11.8,
+    "position": "full frontage",
+    "entranceType": "centered door",
+    "awning": "none",
+    "signage": "UNRESOLVED (Chanel signage not confirmed)",
+    "windowArrangement": "single wide display bay",
+    "status2026": "Williams-Sonoma CLOSED Jan 2026; Chanel fit-out, opening date UNRESOLVED",
+    "confidence": "medium",
+    "source": "https://sfist.com/2026/01/13/williams-sonoma-to-close-its-flagship-union-square-store-as-chanel-prepares-to-move-in/"
+   }
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://noehill.com/architects/reid_brothers/340_post.asp",
+   "https://therealdeal.com/san-francisco/2022/01/31/chanel-pays-63m-for-union-square-building-in-san-francisco/",
+   "https://www.sfgate.com/local/article/williams-sonoma-sf-union-square-chanel-21295300.php (2026)",
+   "Commons photo Worm's eye view from Union Square (2018) - cornice visible",
+   "OpenStreetMap building footprint via Overpass API, fetched 2026-09-01 (widths = extent projected on Post St axis, +/-2 m)"
+  ],
+  "osm": {
+   "osmWayId": 148758720,
+   "centroid": {
+    "lat": 37.788763,
+    "lon": -122.40753
+   },
+   "widthAlongPostM": 11.8,
+   "depthM": 41.8,
+   "osmHeightTag": "17",
+   "osmLevelsTag": null
+  }
+ },
+ {
+  "id": "tiffany_building_350_post",
+  "name": "Tiffany Building (Qantas Building)",
+  "address": "350-360 Post St",
+  "corner": "mid-block",
+  "side": "north",
+  "block": "Stockton-Powell",
+  "yearBuilt": 1972,
+  "architect": "Skidmore, Owings & Merrill",
+  "style": "Modernist \"background building\" - precast concrete grid",
+  "floors": 11,
+  "heightM": 42,
+  "roofType": "flat, parapet with TIFFANY & CO. lettering",
+  "facadeMaterial": "light beige-grey precast concrete grid with square punched windows (7 across); 2-story base of light-grey granite; entrance = polished red-brown granite Art Deco-style stepped portal with stainless-steel paneled door",
+  "facadeColor": {
+   "upper": "#cfcac2",
+   "base": "#c6c2bb",
+   "portal": "#6e4f4b"
+  },
+  "frontageM": {
+   "post": 22.4
+  },
+  "bays": 7,
+  "bayWidthM": 3.2,
+  "windowType": "square punched windows ~1.6 m, deep reveals",
+  "floorHeightsM": {
+   "ground": 5.5,
+   "typical": 3.6
+  },
+  "base": "2-story granite base, tan awnings over side windows",
+  "cornice": "none - flat parapet",
+  "notableFeatures": [
+   "100,000 sq ft; 140 ft Union Square height limit",
+   "Tiffany & Co. store on lower 2 floors (17,000 sq ft) since Oct 1991; offices above (Cathay Pacific NA HQ 3rd fl)",
+   "No columned classical front - the portal is Art Deco granite (verified from 2010 photo)"
+  ],
+  "groundFloor": [
+   {
+    "business": "Tiffany & Co.",
+    "address": "350 Post St",
+    "widthM": 22.4,
+    "position": "full frontage, entrance centered-left",
+    "entranceType": "recessed granite portal, stainless door",
+    "awning": "tan fabric awnings over flanking windows",
+    "signage": "TIFFANY & CO. stainless letters over portal + parapet sign",
+    "windowArrangement": "small square display windows in granite base",
+    "status2026": "open (OSM check_date 2026-03-05)",
+    "confidence": "high",
+    "source": "https://unionsquareshop.com/stores/tiffany-post.html; https://en.wikipedia.org/wiki/Tiffany_Building_(San_Francisco)"
+   }
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Tiffany_Building_(San_Francisco)",
+   "https://www.propertyshark.com/cre/commercial-property/us/ca/san-francisco/tiffany-building/",
+   "Commons photo Tiffany & Co. SF exterior (2010)",
+   "OpenStreetMap building footprint via Overpass API, fetched 2026-09-01 (widths = extent projected on Post St axis, +/-2 m)"
+  ],
+  "osm": {
+   "osmWayId": 35536963,
+   "centroid": {
+    "lat": 37.788696,
+    "lon": -122.407704
+   },
+   "widthAlongPostM": 22.4,
+   "depthM": 40.5,
+   "osmHeightTag": "42",
+   "osmLevelsTag": null
+  }
+ },
+ {
+  "id": "saks_384_post",
+  "name": "Saks Fifth Avenue building (closed)",
+  "address": "384-398 Post St",
+  "corner": "NE corner Post & Powell (faces NW corner of Union Square)",
+  "side": "north",
+  "block": "Stockton-Powell",
+  "yearBuilt": 1981,
+  "architect": "Hellmuth, Obata & Kassabaum (HOK)",
+  "style": "Late-Modern department store; curved corner",
+  "floors": 5,
+  "heightM": 27,
+  "roofType": "flat; deep top band/parapet with SAKS FIFTH AVENUE letters (may be removed)",
+  "facadeMaterial": "white/cream precast concrete panels; rounded (curved) corner at Post/Powell; upper floors rows of square punched windows; ground floor glazed storefronts under continuous canopy",
+  "facadeColor": {
+   "wall": "#e8e4dc",
+   "canopy": "#4a4a4a"
+  },
+  "frontageM": {
+   "post": 51.2,
+   "powell": 41.7
+  },
+  "bays": 8,
+  "bayWidthM": 6.0,
+  "windowType": "square punched windows ~1.8 m on upper floors; strip windows on curved corner",
+  "floorHeightsM": {
+   "ground": 5.5,
+   "typical": 5.0
+  },
+  "base": "glazed storefront + canopy",
+  "cornice": "deep smooth parapet band",
+  "notableFeatures": [
+   "163 ft (49.7 m) of Post frontage per CBRE; 135,000 sq ft; 5 floors + 1 below grade",
+   "Owner: Lincoln Property Co. + Cara Investment (bought Oct 2021)",
+   "Appointment-only from Aug 28 2024; CLOSED May 10 2025; lease runs to early 2027; marketed by CBRE \"Where Luxury Finds its Future\""
+  ],
+  "groundFloor": [
+   {
+    "business": "VACANT (ex-Saks Fifth Avenue)",
+    "address": "384 Post St",
+    "widthM": 51.2,
+    "position": "full Post + Powell frontage",
+    "entranceType": "corner + mid-block doors",
+    "awning": "continuous canopy",
+    "signage": "SAKS lettering on parapet (status UNRESOLVED)",
+    "windowArrangement": "continuous storefront glazing",
+    "status2026": "CLOSED since 2025-05-10; building for lease",
+    "confidence": "high",
+    "source": "https://sfstandard.com/2025/04/23/saks-fifth-avenue-union-square-closing/; https://www.cbre.com/properties/properties-for-lease/retail/details/US-SMPL-206245/"
+   }
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://pcad.lib.washington.edu/building/2128",
+   "https://www.businesswire.com/news/home/20211013005447/en/",
+   "https://therealdeal.com/san-francisco/2025/04/24/saks-fifth-avenue-to-close-store-in-sfs-union-square/",
+   "Commons photo Worm's eye view from Union Square (2018) - curved corner, window pattern",
+   "OpenStreetMap building footprint via Overpass API, fetched 2026-09-01 (widths = extent projected on Post St axis, +/-2 m)"
+  ],
+  "osm": {
+   "osmWayId": 32863589,
+   "centroid": {
+    "lat": 37.788578,
+    "lon": -122.408192
+   },
+   "widthAlongPostM": 51.2,
+   "depthM": 41.7,
+   "osmHeightTag": "27",
+   "osmLevelsTag": null
+  }
+ },
+ {
+  "id": "nike_278_post",
+  "name": "278 Post (Nike San Francisco; ex-Niketown)",
+  "address": "278 Post St",
+  "corner": "NE corner Post & Stockton",
+  "side": "north",
+  "block": "Grant-Stockton",
+  "yearBuilt": null,
+  "architect": "D. H. Burnham & Co. / Willis Polk (Wikidata Q125320753; year UNRESOLVED, c.1908-1910 est.)",
+  "style": "Classical Revival commercial (7 stories)",
+  "floors": 7,
+  "heightM": 27,
+  "roofType": "flat",
+  "facadeMaterial": "UNRESOLVED (likely light stone/terra cotta; verify)",
+  "facadeColor": {
+   "wall": "#d8d2c6"
+  },
+  "frontageM": {
+   "post": 31.5,
+   "stockton": 37.1
+  },
+  "bays": null,
+  "bayWidthM": null,
+  "windowType": "UNRESOLVED",
+  "floorHeightsM": {
+   "ground": 5.5,
+   "typical": 3.8
+  },
+  "base": "storefront",
+  "cornice": "UNRESOLVED",
+  "notableFeatures": [
+   "Niketown 50,000 sq ft, 7 stories (opened 1997, renovated 2012-2015 as Nike San Francisco)"
+  ],
+  "groundFloor": [
+   {
+    "business": "Nike San Francisco",
+    "address": "278 Post St",
+    "widthM": 31.5,
+    "position": "corner",
+    "entranceType": "corner entrance",
+    "awning": "none",
+    "signage": "NIKE",
+    "windowArrangement": "large storefront glazing",
+    "status2026": "open per Yelp (Jul 2026, not flagged closed) - medium confidence",
+    "confidence": "medium",
+    "source": "https://www.yelp.com/biz/nike-san-francisco-san-francisco-4"
+   }
+  ],
+  "confidence": "low-medium",
+  "sources": [
+   "https://www.wikidata.org/wiki/Q125320753",
+   "https://www.sfchronicle.com/sf/article/s-f-union-square-watch-retailer-breitling-18209359.php (2023, Stockton/Post corner context)",
+   "OpenStreetMap building footprint via Overpass API, fetched 2026-09-01 (widths = extent projected on Post St axis, +/-2 m)"
+  ],
+  "osm": {
+   "osmWayId": 135174114,
+   "centroid": {
+    "lat": 37.788793,
+    "lon": -122.406529
+   },
+   "widthAlongPostM": 31.5,
+   "depthM": 37.1,
+   "osmHeightTag": "27",
+   "osmLevelsTag": null
+  }
+ },
+ {
+  "id": "gumps_250_post",
+  "name": "Gump's Building",
+  "address": "246-250 Post St",
+  "corner": "mid-block",
+  "side": "north",
+  "block": "Grant-Stockton",
+  "yearBuilt": 1908,
+  "architect": "UNRESOLVED",
+  "style": "Early-20th-c. commercial",
+  "floors": 4,
+  "heightM": 14,
+  "roofType": "flat",
+  "facadeMaterial": "UNRESOLVED (masonry; verify)",
+  "facadeColor": {
+   "wall": "#d6d0c4"
+  },
+  "frontageM": {
+   "post": 28.1
+  },
+  "bays": null,
+  "bayWidthM": null,
+  "windowType": "UNRESOLVED",
+  "floorHeightsM": {
+   "ground": 5.0,
+   "typical": 3.8
+  },
+  "base": "storefronts",
+  "cornice": "UNRESOLVED",
+  "notableFeatures": [
+   "Gump's reopened in its original building 2019 (Mon-Sat 11-5)",
+   "Zara occupied 250A Post; Zara closing early 2026 at lease end, moving to 400 Post",
+   "Majority stake in building marketed 2025 (CoStar)"
+  ],
+  "groundFloor": [
+   {
+    "business": "Gump's",
+    "address": "250 Post St",
+    "widthM": 12,
+    "position": "east half (est.)",
+    "entranceType": "recessed door",
+    "awning": "none",
+    "signage": "GUMP'S",
+    "windowArrangement": "display windows",
+    "status2026": "open (Yelp Aug 2026)",
+    "confidence": "high",
+    "source": "https://gumps.com/pages/our-store"
+   },
+   {
+    "business": "Zara (former) -> UNRESOLVED",
+    "address": "250A Post St",
+    "widthM": 16,
+    "position": "west half (est.)",
+    "entranceType": "storefront",
+    "awning": "none",
+    "signage": "UNRESOLVED",
+    "windowArrangement": "storefront",
+    "status2026": "Zara scheduled to close early 2026 (lease expiry); successor UNRESOLVED",
+    "confidence": "low",
+    "source": "https://www.sfchronicle.com/realestate/article/zara-union-square-sf-20257686.php (2025)"
+   }
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://www.costar.com/article/1579165555/majority-stake-in-iconic-gumps-building-in-san-francisco-hits-market",
+   "https://en.wikipedia.org/wiki/Gump%27s",
+   "OpenStreetMap building footprint via Overpass API, fetched 2026-09-01 (widths = extent projected on Post St axis, +/-2 m)"
+  ],
+  "osm": {
+   "osmWayId": 135174113,
+   "centroid": {
+    "lat": 37.788822,
+    "lon": -122.406251
+   },
+   "widthAlongPostM": 28.1,
+   "depthM": 37.2,
+   "osmHeightTag": "13",
+   "osmLevelsTag": null
+  }
+ },
+ {
+  "id": "post_228_240",
+  "name": "228-240 Post St (ex-Brooks Brothers)",
+  "address": "228-240 Post St",
+  "corner": "mid-block",
+  "side": "north",
+  "block": "Grant-Stockton",
+  "yearBuilt": 1909,
+  "architect": "UNRESOLVED",
+  "style": "Early-20th-c. commercial",
+  "floors": 4,
+  "heightM": 15,
+  "roofType": "flat",
+  "facadeMaterial": "UNRESOLVED (masonry)",
+  "facadeColor": {
+   "wall": "#d3cdc2"
+  },
+  "frontageM": {
+   "post": 21.8
+  },
+  "bays": null,
+  "bayWidthM": null,
+  "windowType": "UNRESOLVED",
+  "floorHeightsM": {
+   "ground": 5.0,
+   "typical": 3.6
+  },
+  "base": "storefronts",
+  "cornice": "UNRESOLVED",
+  "notableFeatures": [
+   "37,220 sq ft building; 23,568 sq ft (two basement suites) listed by Cushman & Wakefield",
+   "Brooks Brothers 240 Post closed permanently July 2020 (bankruptcy)"
+  ],
+  "groundFloor": [
+   {
+    "business": "UNRESOLVED (OSM nodes: Salvatore Ferragamo 236 Post, Gump's Holiday Shop 240 Post - unverified)",
+    "address": "228-240 Post St",
+    "widthM": 21.8,
+    "position": "full",
+    "entranceType": "storefronts",
+    "awning": "UNRESOLVED",
+    "signage": "UNRESOLVED",
+    "windowArrangement": "storefronts",
+    "status2026": "UNRESOLVED",
+    "confidence": "low",
+    "source": "https://www.cushmanwakefield.com/en/united-states/properties/for-lease/retail/ca/san-francisco/228-240-post-street/s119888737-263751-l"
+   }
+  ],
+  "confidence": "low",
+  "sources": [
+   "https://www.sfchronicle.com/business/article/Brooks-Brothers-files-for-bankruptcy-permanently-15394802.php (2020)",
+   "OpenStreetMap building footprint via Overpass API, fetched 2026-09-01 (widths = extent projected on Post St axis, +/-2 m)"
+  ],
+  "osm": {
+   "osmWayId": 135174112,
+   "centroid": {
+    "lat": 37.788839,
+    "lon": -122.405978
+   },
+   "widthAlongPostM": 21.8,
+   "depthM": 37.3,
+   "osmHeightTag": "15",
+   "osmLevelsTag": null
+  }
+ },
+ {
+  "id": "post_220",
+  "name": "220 Post St (ex-Saks Men's Store)",
+  "address": "220 Post St",
+  "corner": "mid-block",
+  "side": "north",
+  "block": "Grant-Stockton",
+  "yearBuilt": null,
+  "architect": "UNRESOLVED",
+  "style": "Classical commercial, cream-painted stone/stucco",
+  "floors": 6,
+  "heightM": 24,
+  "roofType": "flat",
+  "facadeMaterial": "cream/white painted stone or stucco; 3 large window bays per floor; black fabric awnings (2010)",
+  "facadeColor": {
+   "wall": "#ece7dc",
+   "awning": "#1a1a1a"
+  },
+  "frontageM": {
+   "post": 17.3
+  },
+  "bays": 3,
+  "bayWidthM": 5.5,
+  "windowType": "large rectangular multi-light windows",
+  "floorHeightsM": {
+   "ground": 5.5,
+   "typical": 4.0
+  },
+  "base": "storefront with central pedimented entrance + 2 lantern sconces",
+  "cornice": "UNRESOLVED",
+  "notableFeatures": [
+   "OSM mis-tags this footprint as 278 Post",
+   "Marketed as \"220 Post Street prime Union Square retail\" (LoopNet flyer) - presumed vacant"
+  ],
+  "groundFloor": [
+   {
+    "business": "VACANT / UNRESOLVED (ex-Saks Men's Store)",
+    "address": "220 Post St",
+    "widthM": 17.3,
+    "position": "full",
+    "entranceType": "central door",
+    "awning": "black (2010 photo)",
+    "signage": "none confirmed",
+    "windowArrangement": "2 display windows flanking door",
+    "status2026": "UNRESOLVED (for lease)",
+    "confidence": "low",
+    "source": "https://images3.loopnet.com/d2/GKbUnkKMdgL0WPaoM2BePQ1tbcia8Xo5gqMcuhw08TY/document.pdf"
+   }
+  ],
+  "confidence": "low",
+  "sources": [
+   "Commons photo \"Saks Fifth Avenue, 384 Post Street.JPG\" (2010) actually shows this Men's Store facade",
+   "OpenStreetMap building footprint via Overpass API, fetched 2026-09-01 (widths = extent projected on Post St axis, +/-2 m)"
+  ],
+  "osm": {
+   "osmWayId": 135174115,
+   "centroid": {
+    "lat": 37.78889,
+    "lon": -122.405696
+   },
+   "widthAlongPostM": 17.3,
+   "depthM": 37.3,
+   "osmHeightTag": "25",
+   "osmLevelsTag": null
+  }
+ },
+ {
+  "id": "shreve_building_200_post",
+  "name": "Shreve Building",
+  "address": "200-210 Post St / 201 Grant Ave",
+  "corner": "NW corner Post & Grant",
+  "side": "north",
+  "block": "Grant-Stockton",
+  "yearBuilt": 1905,
+  "architect": "William F. Curlett (rebuilt 1906 after earthquake)",
+  "style": "Renaissance/Baroque Revival",
+  "floors": 12,
+  "heightM": 49,
+  "roofType": "flat with projecting cornice",
+  "facadeMaterial": "steel frame, brick curtain walls sheathed in Colusa sandstone (grey-buff)",
+  "facadeColor": {
+   "wall": "#b9b0a0"
+  },
+  "frontageM": {
+   "post": 20.9,
+   "grant": 37.4
+  },
+  "bays": 4,
+  "bayWidthM": 5.0,
+  "windowType": "double-hung punched windows, rusticated base",
+  "floorHeightsM": {
+   "ground": 5.5,
+   "typical": 3.7
+  },
+  "base": "rusticated sandstone, arched storefront openings",
+  "cornice": "heavy bracketed cornice",
+  "notableFeatures": [
+   "Survived 1906 earthquake (famous photo)",
+   "Shreve & Co. here 1905-2015, lost lease to Harry Winston; Shreve now at 150 Post"
+  ],
+  "groundFloor": [
+   {
+    "business": "Harry Winston",
+    "address": "200 Post St",
+    "widthM": 20.9,
+    "position": "corner",
+    "entranceType": "corner/Post door",
+    "awning": "none",
+    "signage": "HARRY WINSTON",
+    "windowArrangement": "arched display windows",
+    "status2026": "open (OSM node 2026; no closure reported)",
+    "confidence": "medium",
+    "source": "https://www.jckonline.com/editorial-article/shreve-cos-remarkable-relocation-plan/"
+   },
+   {
+    "business": "Zwillinger & Co. (upper-floor jeweler)",
+    "address": "210 Post St",
+    "widthM": null,
+    "position": "office lobby",
+    "entranceType": "lobby door",
+    "awning": "none",
+    "signage": "small",
+    "windowArrangement": "-",
+    "status2026": "open (OSM)",
+    "confidence": "low",
+    "source": "OSM node"
+   }
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://noehill.com/sf/landmarks/poi_shreve_building.asp",
+   "https://www.sfgate.com/realestate/article/Shreve-Co-finds-new-home-near-its-old-one-6544278.php (2015)",
+   "Commons photo Shreve Building DSC02861 (2014)",
+   "OpenStreetMap building footprint via Overpass API, fetched 2026-09-01 (widths = extent projected on Post St axis, +/-2 m)"
+  ],
+  "osm": {
+   "osmWayId": 135174117,
+   "centroid": {
+    "lat": 37.788941,
+    "lon": -122.405561
+   },
+   "widthAlongPostM": 20.9,
+   "depthM": 37.4,
+   "osmHeightTag": "49",
+   "osmLevelsTag": null
+  }
+ },
+ {
+  "id": "post_400_argonaut",
+  "name": "400 Post St (Argonaut Club Building; Zara flagship 2026)",
+  "address": "400 Post St / 400 Powell St",
+  "corner": "NW corner Post & Powell",
+  "side": "north",
+  "block": "Powell-Mason",
+  "yearBuilt": 1908,
+  "architect": "UNRESOLVED (1908-09; renovated by Antunovich Associates/McCaffery)",
+  "style": "Classical Revival, 4-story",
+  "floors": 4,
+  "heightM": 17,
+  "roofType": "flat",
+  "facadeMaterial": "UNRESOLVED (light masonry, restored facades)",
+  "facadeColor": {
+   "wall": "#e2dccf"
+  },
+  "frontageM": {
+   "post": 41.9,
+   "powell": 25.0
+  },
+  "bays": null,
+  "bayWidthM": null,
+  "windowType": "UNRESOLVED",
+  "floorHeightsM": {
+   "ground": 5.5,
+   "typical": 4.0
+  },
+  "base": "storefronts",
+  "cornice": "UNRESOLVED",
+  "notableFeatures": [
+   "67,000 sq ft; ex-United Airlines ticket office, Disney Store, Borders, DSW (left 2021)",
+   "Zara 4-story 40,000 sq ft flagship announced Apr 2025 for 2026 opening"
+  ],
+  "groundFloor": [
+   {
+    "business": "Zara (planned 2026 flagship)",
+    "address": "400 Post St",
+    "widthM": 30,
+    "position": "corner + Post frontage (est.)",
+    "entranceType": "corner",
+    "awning": "none",
+    "signage": "ZARA (planned)",
+    "windowArrangement": "storefront",
+    "status2026": "opening 2026 - UNRESOLVED whether open by Sept 2026",
+    "confidence": "medium",
+    "source": "https://www.axios.com/local/san-francisco/2025/04/07/zara-sf-union-square-flagship-store-opening"
+   },
+   {
+    "business": "Morton's The Steakhouse",
+    "address": "400 Post St",
+    "widthM": 8,
+    "position": "west end (est.)",
+    "entranceType": "door",
+    "awning": "none",
+    "signage": "MORTON'S",
+    "windowArrangement": "-",
+    "status2026": "open (OSM node) - verify",
+    "confidence": "low",
+    "source": "OSM node"
+   }
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://www.antunovich.com/400-post-street",
+   "https://www.sfchronicle.com/realestate/article/zara-union-square-sf-20257686.php (2025)",
+   "OpenStreetMap building footprint via Overpass API, fetched 2026-09-01 (widths = extent projected on Post St axis, +/-2 m)"
+  ],
+  "osm": {
+   "osmWayId": 79375219,
+   "centroid": {
+    "lat": 37.788577,
+    "lon": -122.408928
+   },
+   "widthAlongPostM": 41.9,
+   "depthM": 41.9,
+   "osmHeightTag": "17",
+   "osmLevelsTag": null
+  }
+ },
+ {
+  "id": "inn_union_square_440_post",
+  "name": "The Inn at Union Square",
+  "address": "440 Post St",
+  "corner": "mid-block",
+  "side": "north",
+  "block": "Powell-Mason",
+  "yearBuilt": null,
+  "architect": "UNRESOLVED",
+  "style": "early-20th-c. narrow hotel",
+  "floors": 6,
+  "heightM": 20,
+  "roofType": "flat",
+  "facadeMaterial": "UNRESOLVED (painted masonry)",
+  "facadeColor": {
+   "wall": "#d9d2c6"
+  },
+  "frontageM": {
+   "post": 8.1
+  },
+  "bays": 2,
+  "bayWidthM": 4.0,
+  "windowType": "UNRESOLVED",
+  "floorHeightsM": {
+   "ground": 4.5,
+   "typical": 3.2
+  },
+  "base": "hotel entrance",
+  "cornice": "UNRESOLVED",
+  "notableFeatures": [
+   "30-room boutique hotel over 6 floors"
+  ],
+  "groundFloor": [
+   {
+    "business": "The Inn at Union Square (hotel lobby)",
+    "address": "440 Post St",
+    "widthM": 8.1,
+    "position": "full",
+    "entranceType": "hotel door",
+    "awning": "UNRESOLVED",
+    "signage": "hotel sign",
+    "windowArrangement": "-",
+    "status2026": "open",
+    "confidence": "medium",
+    "source": "https://www.unionsquare.com/"
+   }
+  ],
+  "confidence": "low-medium",
+  "sources": [
+   "https://www.sfstation.com/the-inn-at-union-square-b38358862",
+   "OpenStreetMap building footprint via Overpass API, fetched 2026-09-01 (widths = extent projected on Post St axis, +/-2 m)"
+  ],
+  "osm": {
+   "osmWayId": 929589610,
+   "centroid": {
+    "lat": 37.788524,
+    "lon": -122.409122
+   },
+   "widthAlongPostM": 8.1,
+   "depthM": 40.5,
+   "osmHeightTag": null,
+   "osmLevelsTag": "6"
+  }
+ },
+ {
+  "id": "post_444",
+  "name": "444 Post St (narrow 8-story; Gallery 444)",
+  "address": "444 Post St",
+  "corner": "mid-block",
+  "side": "north",
+  "block": "Powell-Mason",
+  "yearBuilt": null,
+  "architect": "UNRESOLVED",
+  "style": "UNRESOLVED",
+  "floors": 8,
+  "heightM": 26,
+  "roofType": "flat",
+  "facadeMaterial": "UNRESOLVED",
+  "facadeColor": {
+   "wall": "#cfc9bd"
+  },
+  "frontageM": {
+   "post": 7.1
+  },
+  "bays": 1,
+  "bayWidthM": 7.1,
+  "windowType": "UNRESOLVED",
+  "floorHeightsM": {
+   "ground": 4.5,
+   "typical": 3.2
+  },
+  "base": "storefront",
+  "cornice": "UNRESOLVED",
+  "notableFeatures": [],
+  "groundFloor": [
+   {
+    "business": "Gallery 444",
+    "address": "444 Post St",
+    "widthM": 7.1,
+    "position": "full",
+    "entranceType": "door",
+    "awning": "UNRESOLVED",
+    "signage": "UNRESOLVED",
+    "windowArrangement": "-",
+    "status2026": "UNRESOLVED (OSM node only)",
+    "confidence": "low",
+    "source": "OSM node"
+   }
+  ],
+  "confidence": "low",
+  "sources": [
+   "OpenStreetMap building footprint via Overpass API, fetched 2026-09-01 (widths = extent projected on Post St axis, +/-2 m)"
+  ],
+  "osm": {
+   "osmWayId": 939467973,
+   "centroid": {
+    "lat": 37.788428,
+    "lon": -122.409202
+   },
+   "widthAlongPostM": 7.1,
+   "depthM": 35.6,
+   "osmHeightTag": null,
+   "osmLevelsTag": "8"
+  }
+ },
+ {
+  "id": "kensington_park_450_post",
+  "name": "Kensington Park Hotel (Elks Lodge No. 3 building)",
+  "address": "450-460 Post St",
+  "corner": "mid-block",
+  "side": "north",
+  "block": "Powell-Mason",
+  "yearBuilt": 1925,
+  "architect": "UNRESOLVED (built as SF Elks Club lodge, 1923-25)",
+  "style": "Gothic Revival (terra cotta ornament)",
+  "floors": 12,
+  "heightM": 50,
+  "roofType": "flat",
+  "facadeMaterial": "UNRESOLVED (buff terra cotta/brick, Gothic detailing)",
+  "facadeColor": {
+   "wall": "#cdbfa6"
+  },
+  "frontageM": {
+   "post": 26.6
+  },
+  "bays": null,
+  "bayWidthM": null,
+  "windowType": "UNRESOLVED",
+  "floorHeightsM": {
+   "ground": 5.5,
+   "typical": 3.6
+  },
+  "base": "hotel/theater entrances",
+  "cornice": "Gothic parapet",
+  "notableFeatures": [
+   "Guest rooms floors 5-12; Elks Lodge still in building; SF Playhouse theater (2nd fl)",
+   "Farallon restaurant closed 2020; restaurant space now \"Ula\" per OSM (verify)"
+  ],
+  "groundFloor": [
+   {
+    "business": "Kensington Park Hotel lobby / SF Playhouse / Ula restaurant",
+    "address": "450 Post St",
+    "widthM": 26.6,
+    "position": "full",
+    "entranceType": "hotel doors",
+    "awning": "UNRESOLVED",
+    "signage": "KENSINGTON PARK",
+    "windowArrangement": "-",
+    "status2026": "hotel open; restaurant tenant UNRESOLVED",
+    "confidence": "medium",
+    "source": "https://www.kensingtonparkhotel.com/"
+   }
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://www.oyster.com/san-francisco/hotels/kensington-park-hotel/",
+   "https://www.yelp.com/biz/kensington-park-hotel-san-francisco",
+   "OpenStreetMap building footprint via Overpass API, fetched 2026-09-01 (widths = extent projected on Post St axis, +/-2 m)"
+  ],
+  "osm": {
+   "osmWayId": 79375211,
+   "centroid": {
+    "lat": 37.788549,
+    "lon": -122.409414
+   },
+   "widthAlongPostM": 26.6,
+   "depthM": 42.3,
+   "osmHeightTag": "54",
+   "osmLevelsTag": "14"
+  }
+ },
+ {
+  "id": "medico_dental_490_post",
+  "name": "Medico-Dental Building",
+  "address": "490 Post St (shops 470-498 Post)",
+  "corner": "NE corner Post & Mason",
+  "side": "north",
+  "block": "Powell-Mason",
+  "yearBuilt": 1925,
+  "architect": "George Kelham",
+  "style": "Romanesque/Renaissance Revival office tower",
+  "floors": 17,
+  "heightM": 62,
+  "roofType": "flat, corbelled cornice",
+  "facadeMaterial": "tan/buff brick with granite 2-story base, Romanesque arched 2nd-floor windows and balustrade",
+  "facadeColor": {
+   "wall": "#b8a488",
+   "base": "#8f8a82"
+  },
+  "frontageM": {
+   "post": 42.6,
+   "mason": 42.2
+  },
+  "bays": 8,
+  "bayWidthM": 5.0,
+  "windowType": "double-hung punched windows in vertical brick piers",
+  "floorHeightsM": {
+   "ground": 5.5,
+   "typical": 3.5
+  },
+  "base": "granite base with arched 2nd-floor windows",
+  "cornice": "arcaded corbel cornice",
+  "notableFeatures": [
+   "130 commercial condos (2006 conversion); 5 retail shops at grade",
+   "Commons photo titled 390poststreetsf.jpg most likely shows this building (verify)"
+  ],
+  "groundFloor": [
+   {
+    "business": "Barcelino",
+    "address": "498 Post St",
+    "widthM": 8,
+    "position": "corner (west end)",
+    "entranceType": "door",
+    "awning": "UNRESOLVED",
+    "signage": "BARCELINO",
+    "windowArrangement": "-",
+    "status2026": "open (OSM)",
+    "confidence": "low",
+    "source": "OSM node"
+   },
+   {
+    "business": "Cafe Encore",
+    "address": "488 Post St",
+    "widthM": 6,
+    "position": "-",
+    "entranceType": "door",
+    "awning": "-",
+    "signage": "-",
+    "windowArrangement": "-",
+    "status2026": "open (OSM)",
+    "confidence": "low",
+    "source": "OSM node"
+   },
+   {
+    "business": "Barcelino per Donna",
+    "address": "476 Post St",
+    "widthM": 6,
+    "position": "-",
+    "entranceType": "door",
+    "awning": "-",
+    "signage": "-",
+    "windowArrangement": "-",
+    "status2026": "open (OSM)",
+    "confidence": "low",
+    "source": "OSM node"
+   },
+   {
+    "business": "Cafe La Tazita",
+    "address": "470 Post St",
+    "widthM": 6,
+    "position": "east end",
+    "entranceType": "door",
+    "awning": "-",
+    "signage": "-",
+    "windowArrangement": "-",
+    "status2026": "open (OSM)",
+    "confidence": "low",
+    "source": "OSM node"
+   }
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://490post.com/medico-dental-building/",
+   "https://www.loopnet.com/Listing/490-Post-St-San-Francisco-CA/25485701/",
+   "OpenStreetMap building footprint via Overpass API, fetched 2026-09-01 (widths = extent projected on Post St axis, +/-2 m)"
+  ],
+  "osm": {
+   "osmWayId": 35537015,
+   "centroid": {
+    "lat": 37.788405,
+    "lon": -122.409853
+   },
+   "widthAlongPostM": 42.6,
+   "depthM": 42.2,
+   "osmHeightTag": null,
+   "osmLevelsTag": "15"
+  }
+ },
+ {
+  "id": "head_building_201_post",
+  "name": "Head Building (Cartier / Fendi)",
+  "address": "201-209 Post St / 195-199 Grant Ave",
+  "corner": "SW corner Post & Grant",
+  "yearBuilt": 1909,
+  "architect": "William Curlett & Son",
+  "style": "Classical Revival",
+  "floors": 10,
+  "heightM": 40,
+  "roofType": "flat",
+  "facadeMaterial": "UNRESOLVED (light stone/terra cotta)",
+  "facadeColor": {
+   "wall": "#d9d3c7"
+  },
+  "frontageM": {
+   "post": 22.1,
+   "grant": 37.4
+  },
+  "bays": null,
+  "bayWidthM": null,
+  "windowType": "UNRESOLVED",
+  "floorHeightsM": {
+   "ground": 5.5,
+   "typical": 3.6
+  },
+  "base": "2-story luxury storefronts",
+  "cornice": "UNRESOLVED",
+  "notableFeatures": [
+   "OSM height tag 57 m looks high - floors UNRESOLVED"
+  ],
+  "groundFloor": [
+   {
+    "business": "Cartier",
+    "address": "199 Grant Ave",
+    "widthM": 15,
+    "position": "corner",
+    "entranceType": "corner",
+    "awning": "none",
+    "signage": "CARTIER",
+    "windowArrangement": "2-story boutique",
+    "status2026": "open (moved here 2018, 6,809 sq ft)",
+    "confidence": "high",
+    "source": "https://stores.cartier.com/en_us/united-states/ca/san-francisco/199-grant-avenue"
+   },
+   {
+    "business": "Fendi",
+    "address": "195 Grant Ave",
+    "widthM": null,
+    "position": "Grant frontage south of Cartier",
+    "entranceType": "door",
+    "awning": "none",
+    "signage": "FENDI",
+    "windowArrangement": "-",
+    "status2026": "open (OSM) - verify",
+    "confidence": "low",
+    "source": "OSM node"
+   }
+  ],
+  "confidence": "low-medium",
+  "sources": [
+   "https://www.flickr.com/photos/anomalous_a/4145677391",
+   "https://www.sfchronicle.com/style/windowshopping/article/Cartier-s-bright-new-SF-boutique-focuses-on-12739801.php (2018)",
+   "OpenStreetMap building footprint via Overpass API, fetched 2026-09-01 (widths = extent projected on Post St axis, +/-2 m)"
+  ],
+  "side": "south",
+  "block": "Grant-Stockton",
+  "osm": {
+   "osmWayId": 149757921,
+   "centroid": {
+    "lat": 37.788411,
+    "lon": -122.405485
+   },
+   "widthAlongPostM": 22.1,
+   "depthM": 37.4,
+   "osmHeightTag": "57",
+   "osmLevelsTag": null
+  }
+ },
+ {
+  "id": "burberry_225_post",
+  "name": "225 Post St (ex-Burberry)",
+  "address": "225 Post St",
+  "corner": "mid-block",
+  "yearBuilt": null,
+  "architect": "UNRESOLVED",
+  "style": "UNRESOLVED",
+  "floors": 5,
+  "heightM": 24,
+  "roofType": "flat",
+  "facadeMaterial": "UNRESOLVED",
+  "facadeColor": {
+   "wall": "#d0cabe"
+  },
+  "frontageM": {
+   "post": 11.7
+  },
+  "bays": null,
+  "bayWidthM": null,
+  "windowType": "UNRESOLVED",
+  "floorHeightsM": {
+   "ground": 5.0,
+   "typical": 3.8
+  },
+  "base": "storefront",
+  "cornice": "UNRESOLVED",
+  "notableFeatures": [],
+  "groundFloor": [
+   {
+    "business": "VACANT (ex-Burberry)",
+    "address": "225 Post St",
+    "widthM": 11.7,
+    "position": "full",
+    "entranceType": "door",
+    "awning": "none",
+    "signage": "removed",
+    "windowArrangement": "storefront",
+    "status2026": "Burberry CLOSED (Yelp: closed; OSM disused 2024-12); listed on LoopNet",
+    "confidence": "high",
+    "source": "https://www.loopnet.com/Listing/225-Post-St-San-Francisco-CA/32959719/"
+   }
+  ],
+  "confidence": "medium",
+  "sources": [
+   "OpenStreetMap building footprint via Overpass API, fetched 2026-09-01 (widths = extent projected on Post St axis, +/-2 m)"
+  ],
+  "side": "south",
+  "block": "Grant-Stockton",
+  "osm": {
+   "osmWayId": 256917333,
+   "centroid": {
+    "lat": 37.788468,
+    "lon": -122.405616
+   },
+   "widthAlongPostM": 11.7,
+   "depthM": 24.0,
+   "osmHeightTag": "24",
+   "osmLevelsTag": null
+  }
+ },
+ {
+  "id": "post_231_233",
+  "name": "231-233 Post St",
+  "address": "231-233 Post St",
+  "corner": "mid-block",
+  "yearBuilt": null,
+  "architect": "UNRESOLVED",
+  "style": "UNRESOLVED",
+  "floors": 4,
+  "heightM": 16,
+  "roofType": "flat",
+  "facadeMaterial": "UNRESOLVED",
+  "facadeColor": {
+   "wall": "#d0cabe"
+  },
+  "frontageM": {
+   "post": 11.2
+  },
+  "bays": null,
+  "bayWidthM": null,
+  "windowType": "UNRESOLVED",
+  "floorHeightsM": {
+   "ground": 5.0,
+   "typical": 3.6
+  },
+  "base": "storefront",
+  "cornice": "UNRESOLVED",
+  "notableFeatures": [
+   "Cartier was at 231 Post for 34 years until 2018; Tourbillon Boutique 231 Post closed"
+  ],
+  "groundFloor": [
+   {
+    "business": "Max Mara (per OSM node 231 Post) - UNRESOLVED",
+    "address": "231 Post St",
+    "widthM": 11.2,
+    "position": "full",
+    "entranceType": "door",
+    "awning": "-",
+    "signage": "-",
+    "windowArrangement": "storefront",
+    "status2026": "UNRESOLVED",
+    "confidence": "low",
+    "source": "OSM node"
+   }
+  ],
+  "confidence": "low",
+  "sources": [
+   "https://www.yelp.com/biz/tourbillon-boutique-san-francisco",
+   "OpenStreetMap building footprint via Overpass API, fetched 2026-09-01 (widths = extent projected on Post St axis, +/-2 m)"
+  ],
+  "side": "south",
+  "block": "Grant-Stockton",
+  "osm": {
+   "osmWayId": 939466404,
+   "centroid": {
+    "lat": 37.788388,
+    "lon": -122.405752
+   },
+   "widthAlongPostM": 11.2,
+   "depthM": 37.3,
+   "osmHeightTag": null,
+   "osmLevelsTag": null
+  }
+ },
+ {
+  "id": "graff_237_post",
+  "name": "237 Post St (Graff)",
+  "address": "237 Post St",
+  "corner": "mid-block",
+  "yearBuilt": null,
+  "architect": "UNRESOLVED",
+  "style": "UNRESOLVED",
+  "floors": 3,
+  "heightM": 13,
+  "roofType": "flat",
+  "facadeMaterial": "UNRESOLVED",
+  "facadeColor": {
+   "wall": "#d0cabe"
+  },
+  "frontageM": {
+   "post": 10.0
+  },
+  "bays": 1,
+  "bayWidthM": 10.0,
+  "windowType": "UNRESOLVED",
+  "floorHeightsM": {
+   "ground": 5.0,
+   "typical": 3.6
+  },
+  "base": "boutique storefront",
+  "cornice": "UNRESOLVED",
+  "notableFeatures": [],
+  "groundFloor": [
+   {
+    "business": "Graff",
+    "address": "237 Post St",
+    "widthM": 10.0,
+    "position": "full",
+    "entranceType": "door",
+    "awning": "none",
+    "signage": "GRAFF",
+    "windowArrangement": "boutique windows",
+    "status2026": "open (Yelp Aug 2026; graff.com)",
+    "confidence": "high",
+    "source": "https://www.graff.com/us-en/store-detail/san-francisco-post-street"
+   }
+  ],
+  "confidence": "medium",
+  "sources": [
+   "OpenStreetMap building footprint via Overpass API, fetched 2026-09-01 (widths = extent projected on Post St axis, +/-2 m)"
+  ],
+  "side": "south",
+  "block": "Grant-Stockton",
+  "osm": {
+   "osmWayId": 939466403,
+   "centroid": {
+    "lat": 37.788437,
+    "lon": -122.405882
+   },
+   "widthAlongPostM": 10.0,
+   "depthM": 18.8,
+   "osmHeightTag": null,
+   "osmLevelsTag": null
+  }
+ },
+ {
+  "id": "post_245_255",
+  "name": "245-255 Post St",
+  "address": "245-255 Post St",
+  "corner": "mid-block",
+  "yearBuilt": null,
+  "architect": "UNRESOLVED",
+  "style": "UNRESOLVED",
+  "floors": 6,
+  "heightM": 26,
+  "roofType": "flat",
+  "facadeMaterial": "UNRESOLVED",
+  "facadeColor": {
+   "wall": "#cfc8bb"
+  },
+  "frontageM": {
+   "post": 20.2
+  },
+  "bays": null,
+  "bayWidthM": null,
+  "windowType": "UNRESOLVED",
+  "floorHeightsM": {
+   "ground": 5.0,
+   "typical": 3.6
+  },
+  "base": "4 storefronts",
+  "cornice": "UNRESOLVED",
+  "notableFeatures": [
+   "Glaucoma Research Foundation offices upstairs at 251 Post"
+  ],
+  "groundFloor": [
+   {
+    "business": "St. John",
+    "address": "245 Post St",
+    "widthM": 5,
+    "position": "east",
+    "entranceType": "door",
+    "awning": "-",
+    "signage": "-",
+    "windowArrangement": "-",
+    "status2026": "UNRESOLVED (OSM)",
+    "confidence": "low",
+    "source": "OSM node"
+   },
+   {
+    "business": "251 Post retail (for lease, Avison Young)",
+    "address": "251 Post St",
+    "widthM": 5,
+    "position": "-",
+    "entranceType": "door",
+    "awning": "-",
+    "signage": "-",
+    "windowArrangement": "-",
+    "status2026": "vacant/for lease",
+    "confidence": "medium",
+    "source": "https://www.avisonyoung.us/properties/251-post-street-san-francisco-lease"
+   },
+   {
+    "business": "The RealReal",
+    "address": "253 Post St",
+    "widthM": 5,
+    "position": "-",
+    "entranceType": "door",
+    "awning": "-",
+    "signage": "THE REALREAL",
+    "windowArrangement": "-",
+    "status2026": "open",
+    "confidence": "medium-high",
+    "source": "https://www.therealreal.com/sf"
+   },
+   {
+    "business": "Rolex (Kerns Fine Jewelry)",
+    "address": "255 Post St",
+    "widthM": 5,
+    "position": "west",
+    "entranceType": "door",
+    "awning": "-",
+    "signage": "ROLEX",
+    "windowArrangement": "-",
+    "status2026": "open (since 2024)",
+    "confidence": "medium-high",
+    "source": "https://www.sfchronicle.com/sf/article/watches-retail-union-square-19260284.php (2024)"
+   }
+  ],
+  "confidence": "medium",
+  "sources": [
+   "OpenStreetMap building footprint via Overpass API, fetched 2026-09-01 (widths = extent projected on Post St axis, +/-2 m)"
+  ],
+  "side": "south",
+  "block": "Grant-Stockton",
+  "osm": {
+   "osmWayId": 256917346,
+   "centroid": {
+    "lat": 37.788354,
+    "lon": -122.406052
+   },
+   "widthAlongPostM": 20.2,
+   "depthM": 37.3,
+   "osmHeightTag": "26",
+   "osmLevelsTag": null
+  }
+ },
+ {
+  "id": "post_259",
+  "name": "259 Post St (Patek Philippe)",
+  "address": "259 Post St",
+  "corner": "mid-block",
+  "yearBuilt": null,
+  "architect": "UNRESOLVED",
+  "style": "UNRESOLVED",
+  "floors": 8,
+  "heightM": 35,
+  "roofType": "flat",
+  "facadeMaterial": "UNRESOLVED",
+  "facadeColor": {
+   "wall": "#cfc8bb"
+  },
+  "frontageM": {
+   "post": 20.9
+  },
+  "bays": null,
+  "bayWidthM": null,
+  "windowType": "UNRESOLVED",
+  "floorHeightsM": {
+   "ground": 5.0,
+   "typical": 3.6
+  },
+  "base": "storefront",
+  "cornice": "UNRESOLVED",
+  "notableFeatures": [],
+  "groundFloor": [
+   {
+    "business": "Patek Philippe (Kerns)",
+    "address": "259 Post St",
+    "widthM": 8,
+    "position": "east",
+    "entranceType": "door",
+    "awning": "none",
+    "signage": "PATEK PHILIPPE",
+    "windowArrangement": "-",
+    "status2026": "open (opened 2024/25)",
+    "confidence": "high",
+    "source": "https://www.sfchronicle.com/sf/article/union-square-shopping-district-21205568.php (2025)"
+   }
+  ],
+  "confidence": "low-medium",
+  "sources": [
+   "OpenStreetMap building footprint via Overpass API, fetched 2026-09-01 (widths = extent projected on Post St axis, +/-2 m)"
+  ],
+  "side": "south",
+  "block": "Grant-Stockton",
+  "osm": {
+   "osmWayId": 256917324,
+   "centroid": {
+    "lat": 37.788322,
+    "lon": -122.406283
+   },
+   "widthAlongPostM": 20.9,
+   "depthM": 37.4,
+   "osmHeightTag": "35",
+   "osmLevelsTag": "8"
+  }
+ },
+ {
+  "id": "post_275_299_breitling",
+  "name": "275-299 Post St (Lathrop Bldg / Breitling corner)",
+  "address": "275-299 Post St",
+  "corner": "SE corner Post & Stockton",
+  "yearBuilt": null,
+  "architect": "UNRESOLVED",
+  "style": "UNRESOLVED",
+  "floors": 6,
+  "heightM": 24,
+  "roofType": "flat",
+  "facadeMaterial": "UNRESOLVED",
+  "facadeColor": {
+   "wall": "#cfc8bb"
+  },
+  "frontageM": {
+   "post": 20.0,
+   "stockton": 37.0
+  },
+  "bays": null,
+  "bayWidthM": null,
+  "windowType": "UNRESOLVED",
+  "floorHeightsM": {
+   "ground": 5.0,
+   "typical": 3.6
+  },
+  "base": "corner storefront",
+  "cornice": "UNRESOLVED",
+  "notableFeatures": [
+   "275 Post = Lathrop Building (office/retail for lease, LoopNet)",
+   "OSM outline is fragmentary here; footprint estimated"
+  ],
+  "groundFloor": [
+   {
+    "business": "Breitling",
+    "address": "299 Post St",
+    "widthM": 12,
+    "position": "corner",
+    "entranceType": "corner door",
+    "awning": "none",
+    "signage": "BREITLING",
+    "windowArrangement": "corner glazing",
+    "status2026": "open (opened May 2024)",
+    "confidence": "high",
+    "source": "https://www.sfchronicle.com/sf/article/s-f-union-square-breitling-19494736.php (2024)"
+   }
+  ],
+  "confidence": "low-medium",
+  "sources": [
+   "https://www.loopnet.com/Listing/275-Post-St-San-Francisco-CA/20950578/",
+   "OpenStreetMap building footprint via Overpass API, fetched 2026-09-01 (widths = extent projected on Post St axis, +/-2 m)"
+  ],
+  "side": "south",
+  "block": "Grant-Stockton",
+  "osm": {
+   "osmWayId": 939466401,
+   "centroid": {
+    "lat": 37.788413,
+    "lon": -122.406532
+   },
+   "widthAlongPostM": 20.0,
+   "depthM": 8.5,
+   "osmHeightTag": null,
+   "osmLevelsTag": null
+  }
+ }
+]

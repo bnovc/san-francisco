@@ -1,0 +1,1750 @@
+[
+ {
+  "osmId": "way/332378158",
+  "address": "335 Powell Street",
+  "name": "The Westin St. Francis",
+  "notes": "Bliss & Faville 1904/1913, Colusa sandstone. Powell face is an E-plan: S pavilion 5 bays | court 3 | centre 5 | court 2 | N pavilion 8 (1913 double-width wing), pavilions modelled as masses projecting 3.8 m over a continuous 2-storey base (ground shops 4.8 m + mezzanine of round arches, belt at ~9 m). Entrance portico (4 columns) sits under the north light court, z~-9.6 (measured on vp05). 1972 Pereira tower (tan precast, 120 m) added as a mass 10 m behind the Powell face. Nintendo corner bays are 'custom' (hero module). | Orchestrator: outline = 2-storey rusticated base at the property line; upper 11 storeys use the OSM E-plan part way/1091967971 as a mass (three pavilions + light courts); tower is part way/435582543.",
+  "wall": "colusa",
+  "base": {
+   "material": "colusa_base",
+   "height": 8.95,
+   "rusticated": true
+  },
+  "groundH": 4.8,
+  "floorH": 4.2,
+  "cornice": "medium",
+  "stringcourseAfterFloors": [
+   1
+  ],
+  "parapet": false,
+  "rooftop": [
+   "none"
+  ],
+  "edges": [
+   {
+    "edge": "street",
+    "window": "win_dh_stone_1.5x2.6",
+    "windowFloor2": "win_arch_stone_1.5x3.0",
+    "bayW": 3.65,
+    "endPad": 0.8,
+    "storefront": "storefront_luxury_4.0x5.0"
+   },
+   {
+    "edge": 2,
+    "window": "win_dh_stone_1.5x2.6",
+    "windowFloor2": "win_arch_stone_1.5x3.0",
+    "bayW": 3.65,
+    "endPad": 0.3,
+    "storefront": "storefront_luxury_4.0x5.0"
+   },
+   {
+    "edge": 3,
+    "window": "win_dh_stone_1.5x2.6",
+    "windowFloor2": "win_arch_stone_1.5x3.0",
+    "bayW": 3.65,
+    "endPad": 0.3,
+    "storefront": "storefront_luxury_4.0x5.0"
+   },
+   {
+    "edge": 4,
+    "window": "win_dh_stone_1.5x2.6",
+    "windowFloor2": "win_arch_stone_1.5x3.0",
+    "bayW": 3.65,
+    "endPad": 0.3,
+    "storefront": "storefront_luxury_4.0x5.0"
+   },
+   {
+    "edge": 5,
+    "window": "win_dh_stone_1.5x2.6",
+    "windowFloor2": "win_arch_stone_1.5x3.0",
+    "bayW": 3.65,
+    "endPad": 0.3,
+    "storefront": "storefront_luxury_4.0x5.0"
+   },
+   {
+    "edge": 6,
+    "window": "win_dh_stone_1.5x2.6",
+    "windowFloor2": "win_arch_stone_1.5x3.0",
+    "bayW": 3.65,
+    "endPad": 0.3,
+    "storefront": "storefront_luxury_4.0x5.0"
+   },
+   {
+    "edge": 7,
+    "window": "win_dh_stone_1.5x2.6",
+    "windowFloor2": "win_arch_stone_1.5x3.0",
+    "bayW": 3.65,
+    "endPad": 0.3,
+    "storefront": "storefront_luxury_4.0x5.0"
+   }
+  ],
+  "storefronts": [
+   {
+    "edge": 7,
+    "from": 0,
+    "to": 8.2,
+    "module": "custom"
+   },
+   {
+    "edge": 6,
+    "from": 2.9,
+    "to": 8.7,
+    "module": "custom"
+   },
+   {
+    "edge": 6,
+    "from": 0,
+    "to": 2.9,
+    "module": "storefront_door_double_2.0x2.8",
+    "tenant": {
+     "name": "Bourbon Steak",
+     "signType": "fascia",
+     "awning": "red",
+     "color": "#e8dcc4",
+     "bg": "#5a1a22",
+     "category": "restaurant",
+     "status": "open",
+     "confidence": "medium",
+     "address": "335 Powell St",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 5,
+    "from": 4.9,
+    "to": 9.9,
+    "module": "storefront_luxury_4.0x5.0",
+    "tenant": {
+     "name": "Bourbon Steak",
+     "signType": "fascia",
+     "awning": "red",
+     "color": "#e8dcc4",
+     "bg": "#5a1a22",
+     "category": "restaurant",
+     "status": "open",
+     "confidence": "medium",
+     "address": "335 Powell St",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 3,
+    "from": 0.3,
+    "to": 6.3,
+    "module": "door_hotel_marquee_6.0",
+    "tenant": {
+     "name": "The Westin St. Francis",
+     "brand": "westin",
+     "signType": "fascia",
+     "illuminated": true,
+     "category": "hotel",
+     "status": "open",
+     "confidence": "high",
+     "address": "335 Powell St",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 3,
+    "from": 6.3,
+    "to": 8.3,
+    "module": "wall"
+   },
+   {
+    "edge": 2,
+    "from": 28.2,
+    "to": 32.4,
+    "module": "storefront_arcade_arch_4.0x5.5",
+    "height": 4.4
+   },
+   {
+    "edge": 2,
+    "from": 24.5,
+    "to": 28.2,
+    "module": "storefront_luxury_4.0x5.0",
+    "tenant": {
+     "name": "Victoria's Secret",
+     "brand": "victoriassecret",
+     "signType": "none",
+     "awning": "red",
+     "category": "apparel",
+     "status": "open",
+     "confidence": "medium",
+     "address": "335 Powell St",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 2,
+    "from": 20,
+    "to": 24.5,
+    "module": "storefront_luxury_4.0x5.0",
+    "tenant": {
+     "name": "Victoria's Secret",
+     "brand": "victoriassecret",
+     "signType": "fascia",
+     "illuminated": true,
+     "category": "apparel",
+     "status": "open",
+     "confidence": "medium",
+     "address": "335 Powell St",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 2,
+    "from": 16.5,
+    "to": 20,
+    "module": "storefront_luxury_4.0x5.0",
+    "tenant": {
+     "name": "Victoria's Secret",
+     "brand": "victoriassecret",
+     "signType": "none",
+     "awning": "red",
+     "category": "apparel",
+     "status": "open",
+     "confidence": "medium",
+     "address": "335 Powell St",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 2,
+    "from": 12,
+    "to": 16.5,
+    "module": "storefront_luxury_4.0x5.0",
+    "tenant": {
+     "name": "Victoria's Secret",
+     "brand": "victoriassecret",
+     "signType": "fascia",
+     "illuminated": true,
+     "category": "apparel",
+     "status": "open",
+     "confidence": "medium",
+     "address": "335 Powell St",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 2,
+    "from": 8,
+    "to": 12,
+    "module": "storefront_luxury_4.0x5.0",
+    "tenant": {
+     "name": "Victoria's Secret",
+     "brand": "victoriassecret",
+     "signType": "none",
+     "awning": "red",
+     "category": "apparel",
+     "status": "open",
+     "confidence": "medium",
+     "address": "335 Powell St",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 2,
+    "from": 6,
+    "to": 8,
+    "module": "wall"
+   },
+   {
+    "edge": 2,
+    "from": 0.5,
+    "to": 6,
+    "module": "storefront_luxury_4.0x5.0",
+    "tenant": {
+     "name": "Pandora",
+     "brand": "pandora",
+     "signType": "fascia",
+     "illuminated": true,
+     "category": "jewelry",
+     "status": "open",
+     "confidence": "medium",
+     "address": "345 Powell St",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 1,
+    "from": 34,
+    "to": 40,
+    "module": "storefront_bay_3.0x4.5",
+    "tenant": {
+     "name": "For Lease",
+     "signType": "fascia",
+     "color": "#333333",
+     "bg": "#efefef",
+     "category": "vacant",
+     "status": "vacant",
+     "confidence": "medium",
+     "address": "427 Post St",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 8,
+    "from": 0,
+    "to": 21,
+    "module": "custom"
+   }
+  ],
+  "extras": [
+   {
+    "kind": "column_corinthian",
+    "edge": 2,
+    "at": 28.3
+   },
+   {
+    "kind": "column_corinthian",
+    "edge": 2,
+    "at": 32.3
+   },
+   {
+    "kind": "column_corinthian",
+    "edge": 3,
+    "at": 3.3
+   },
+   {
+    "kind": "column_corinthian",
+    "edge": 3,
+    "at": 6.4
+   },
+   {
+    "kind": "flag",
+    "edge": 3,
+    "at": 1.5
+   },
+   {
+    "kind": "flag",
+    "edge": 3,
+    "at": 3.3
+   },
+   {
+    "kind": "flag",
+    "edge": 3,
+    "at": 5.1
+   },
+   {
+    "kind": "balcony_stone",
+    "edge": 5,
+    "at": 1.0,
+    "floor": 2
+   },
+   {
+    "kind": "balcony_stone",
+    "edge": 5,
+    "at": 3.4,
+    "floor": 2
+   },
+   {
+    "kind": "balcony_stone",
+    "edge": 5,
+    "at": 5.8,
+    "floor": 2
+   },
+   {
+    "kind": "balcony_stone",
+    "edge": 5,
+    "at": 8.2,
+    "floor": 2
+   },
+   {
+    "kind": "balcony_stone",
+    "edge": 2,
+    "at": 30.5,
+    "floor": 2
+   },
+   {
+    "kind": "balcony_stone",
+    "edge": 3,
+    "at": 0.5,
+    "floor": 2
+   },
+   {
+    "kind": "balcony_stone",
+    "edge": 3,
+    "at": 2.9,
+    "floor": 2
+   }
+  ],
+  "masses": [
+   {
+    "polygon": [
+     [
+      -83.78,
+      41.45
+     ],
+     [
+      -83.75,
+      24.6
+     ],
+     [
+      -99.58,
+      24.61
+     ],
+     [
+      -99.61,
+      14.67
+     ],
+     [
+      -83.74,
+      14.66
+     ],
+     [
+      -83.72,
+      -1.75
+     ],
+     [
+      -99.97,
+      -1.73
+     ],
+     [
+      -99.98,
+      -10.07
+     ],
+     [
+      -83.71,
+      -10.08
+     ],
+     [
+      -83.66,
+      -42.45
+     ],
+     [
+      -125.84,
+      -42.57
+     ],
+     [
+      -125.8,
+      -26.58
+     ],
+     [
+      -109.63,
+      -26.6
+     ],
+     [
+      -109.62,
+      -21.36
+     ],
+     [
+      -125.82,
+      -21.34
+     ],
+     [
+      -125.79,
+      -3.74
+     ],
+     [
+      -116.24,
+      -3.74
+     ],
+     [
+      -116.23,
+      1.95
+     ],
+     [
+      -134.24,
+      1.95
+     ],
+     [
+      -134.21,
+      17.42
+     ],
+     [
+      -115.24,
+      17.41
+     ],
+     [
+      -115.22,
+      25.18
+     ],
+     [
+      -134.55,
+      25.19
+     ],
+     [
+      -134.51,
+      41.31
+     ]
+    ],
+    "baseY": 12.25,
+    "height": 50.3,
+    "wall": "colusa",
+    "window": "win_dh_stone_1.2x2.2",
+    "bayW": 3.65,
+    "cornice": "heavy"
+   }
+  ],
+  "heightM": 12.25,
+  "balustrade": true,
+  "signs": [],
+  "groundLevelY": 1.0
+ },
+ {
+  "osmId": "way/35024385",
+  "address": "301;323 Geary Street",
+  "name": "Elkan Gunst Building",
+  "notes": "1908 Lansburgh; cream glazed terra cotta, 8 storeys, curved corner bay modelled as a small corner mass with oriel windows. Shoe Palace (Feb 2025) on the corner; 247 Powell bay unresolved (blank).",
+  "wall": "plaster_cream",
+  "base": {
+   "material": "sandstone",
+   "height": 5.2
+  },
+  "groundH": 5.2,
+  "floorH": 3.7,
+  "cornice": "heavy",
+  "stringcourseAfterFloors": [
+   1
+  ],
+  "parapet": false,
+  "rooftop": [
+   "penthouse"
+  ],
+  "edges": [
+   {
+    "edge": "street",
+    "window": "win_pair_stone_2.4x2.4",
+    "bayW": 4.8,
+    "endPad": 0.8,
+    "storefront": "storefront_bay_4.0x5.0"
+   }
+  ],
+  "storefronts": [
+   {
+    "edge": 2,
+    "from": 0.5,
+    "to": 5.5,
+    "module": "storefront_bay_4.0x5.0",
+    "tenant": {
+     "name": "Shoe Palace",
+     "brand": "shoepalace",
+     "signType": "none",
+     "category": "apparel",
+     "status": "open",
+     "confidence": "high",
+     "address": "301 Geary St",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 2,
+    "from": 5.5,
+    "to": 14,
+    "module": "storefront_bay_4.0x5.0",
+    "tenant": {
+     "name": "Shoe Palace",
+     "brand": "shoepalace",
+     "signType": "fascia",
+     "illuminated": true,
+     "category": "apparel",
+     "status": "open",
+     "confidence": "high",
+     "address": "301 Geary St",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 1,
+    "from": 6,
+    "to": 20,
+    "module": "storefront_bay_4.0x5.0",
+    "tenant": {
+     "name": "Shoe Palace",
+     "brand": "shoepalace",
+     "signType": "fascia",
+     "illuminated": true,
+     "category": "apparel",
+     "status": "open",
+     "confidence": "high",
+     "address": "323 Geary St",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 1,
+    "from": 20,
+    "to": 29.2,
+    "module": "storefront_bay_4.0x5.0",
+    "tenant": {
+     "name": "Shoe Palace",
+     "brand": "shoepalace",
+     "signType": "none",
+     "category": "apparel",
+     "status": "open",
+     "confidence": "high",
+     "address": "301 Geary St",
+     "enterable": false
+    }
+   }
+  ],
+  "extras": [],
+  "masses": [
+   {
+    "polygon": [
+     [
+      -86.5,
+      62.3
+     ],
+     [
+      -81.5,
+      62.3
+     ],
+     [
+      -81.5,
+      67.6
+     ],
+     [
+      -86.5,
+      67.6
+     ]
+    ],
+    "baseY": 4.7,
+    "height": 28.6,
+    "wall": "terracotta_white",
+    "window": "win_bay_oriel_2.4x3.0",
+    "bayW": 5,
+    "cornice": "heavy"
+   }
+  ]
+ },
+ {
+  "osmId": "way/32863589",
+  "address": "384;398 Post Street",
+  "name": "Saks Fifth Avenue (closed)",
+  "notes": "1981 HOK, 5 fl / 27 m, white/grey precast horizontal bands with almost no upper windows (ref 09), curved corner. Closed 2025-05-10, ground-floor glazing papered; SAKS FIFTH AVENUE letters kept as fascia signs near the corner (no parapet-sign option in the engine).",
+  "wall": "paint_white",
+  "base": {
+   "material": "plaster_white",
+   "height": 6
+  },
+  "groundH": 6.0,
+  "floors": 4,
+  "cornice": "none",
+  "stringcourseAfterFloors": [
+   1,
+   2,
+   3
+  ],
+  "parapet": true,
+  "rooftop": [
+   "none"
+  ],
+  "edges": [
+   {
+    "edge": "street",
+    "window": "win_punched_modern_1.8x2.0",
+    "windowFloor2": "win_office_strip_3.0x1.8",
+    "bayW": 3.4,
+    "endPad": 1.2,
+    "storefront": "wall"
+   }
+  ],
+  "storefronts": [
+   {
+    "edge": 10,
+    "from": 1,
+    "to": 9,
+    "module": "storefront_bay_4.0x5.0",
+    "tenant": {
+     "name": "Saks Fifth Avenue",
+     "brand": "saks",
+     "signType": "letters",
+     "category": "department-store",
+     "status": "closed",
+     "confidence": "high",
+     "address": "384 Post St",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 4,
+    "from": 28,
+    "to": 36,
+    "module": "storefront_bay_4.0x5.0",
+    "tenant": {
+     "name": "Saks Fifth Avenue",
+     "brand": "saks",
+     "signType": "letters",
+     "category": "department-store",
+     "status": "closed",
+     "confidence": "high",
+     "address": "384 Post St",
+     "enterable": false
+    }
+   }
+  ],
+  "extras": [],
+  "signs": [
+   {
+    "text": "SAKS FIFTH AVENUE",
+    "edge": 4,
+    "at": 18.6,
+    "y": 25.3,
+    "widthM": 17,
+    "heightM": 1.5,
+    "color": "#2a2a2a",
+    "letterSpacing": 3
+   }
+  ]
+ },
+ {
+  "osmId": "way/79375219",
+  "address": "400 Post Street / 421 Powell Street",
+  "name": "Argonaut Club Building (Zara flagship 2026)",
+  "notes": "1909 Schnaittacher Renaissance-revival palazzo, light tan brick with stone trim, arched club-floor windows, 4 fl / 17 m. Ex-DSW/Disney/Chase; Zara 4-floor flagship leased Apr 2025, opening 2026 (coming-soon).",
+  "wall": "sandstone",
+  "base": {
+   "material": "limestone",
+   "height": 5.2,
+   "rusticated": true
+  },
+  "groundH": 5.2,
+  "floors": 3,
+  "cornice": "heavy",
+  "stringcourseAfterFloors": [
+   1,
+   2
+  ],
+  "parapet": false,
+  "rooftop": [
+   "none"
+  ],
+  "edges": [
+   {
+    "edge": "street",
+    "window": "win_dh_stone_1.5x2.6",
+    "windowFloor2": "win_arch_stone_1.5x3.0",
+    "bayW": 5,
+    "endPad": 0.8,
+    "storefront": "storefront_bay_4.0x5.0"
+   }
+  ],
+  "storefronts": [
+   {
+    "edge": 7,
+    "from": 4,
+    "to": 13,
+    "module": "wall",
+    "tenant": {
+     "name": "ZARA \u00b7 opening 2026",
+     "signType": "fascia",
+     "category": "apparel",
+     "status": "coming-soon",
+     "confidence": "medium",
+     "address": "421 Powell St",
+     "enterable": false,
+     "bg": "#1a1a1a",
+     "color": "#f4f4f4"
+    }
+   },
+   {
+    "edge": 7,
+    "from": 13,
+    "to": 16,
+    "module": "wall",
+    "tenant": {
+     "name": "ZARA \u00b7 opening 2026",
+     "signType": "fascia",
+     "category": "apparel",
+     "status": "coming-soon",
+     "confidence": "medium",
+     "address": "421 Powell St",
+     "enterable": false,
+     "bg": "#1a1a1a",
+     "color": "#f4f4f4"
+    }
+   },
+   {
+    "edge": 8,
+    "from": 1,
+    "to": 10,
+    "module": "wall",
+    "tenant": {
+     "name": "ZARA \u00b7 opening 2026",
+     "signType": "fascia",
+     "category": "apparel",
+     "status": "coming-soon",
+     "confidence": "medium",
+     "address": "400 Post St",
+     "enterable": false,
+     "bg": "#1a1a1a",
+     "color": "#f4f4f4"
+    }
+   },
+   {
+    "edge": 8,
+    "from": 10,
+    "to": 13,
+    "module": "wall",
+    "tenant": {
+     "name": "ZARA \u00b7 opening 2026",
+     "signType": "fascia",
+     "category": "apparel",
+     "status": "coming-soon",
+     "confidence": "medium",
+     "address": "400 Post St",
+     "enterable": false,
+     "bg": "#1a1a1a",
+     "color": "#f4f4f4"
+    }
+   }
+  ],
+  "extras": []
+ },
+ {
+  "osmId": "way/79375215",
+  "address": "433 Powell Street",
+  "name": "Chancellor Hotel",
+  "notes": "1914, 14 fl / 52 m, cream brick with stone trim, 3 wide bays of tripartite windows; hotel entrance under canopy with CHANCELLOR HOTEL blade sign and flags.",
+  "wall": "plaster_cream",
+  "base": {
+   "material": "limestone",
+   "height": 5.5
+  },
+  "groundH": 5.5,
+  "floors": 13,
+  "cornice": "heavy",
+  "stringcourseAfterFloors": [
+   2
+  ],
+  "parapet": false,
+  "rooftop": [
+   "penthouse"
+  ],
+  "edges": [
+   {
+    "edge": "street",
+    "window": "win_pair_stone_2.4x2.4",
+    "bayW": 5,
+    "endPad": 0.8,
+    "storefront": "storefront_bay_3.0x4.5"
+   }
+  ],
+  "storefronts": [
+   {
+    "edge": 0,
+    "from": 1,
+    "to": 5.5,
+    "module": "storefront_bay_3.0x4.5",
+    "tenant": {
+     "name": "Chancellor Hotel",
+     "signType": "blade",
+     "color": "#f2e6c8",
+     "bg": "#1b2a4a",
+     "illuminated": true,
+     "category": "hotel",
+     "status": "open",
+     "confidence": "high",
+     "address": "433 Powell St",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 0,
+    "from": 5.5,
+    "to": 11.5,
+    "module": "door_hotel_marquee_6.0",
+    "tenant": {
+     "name": "Chancellor Hotel",
+     "signType": "fascia",
+     "color": "#f2e6c8",
+     "bg": "#1b2a4a",
+     "illuminated": true,
+     "category": "hotel",
+     "status": "open",
+     "confidence": "high",
+     "address": "433 Powell St",
+     "enterable": false
+    }
+   }
+  ],
+  "extras": [
+   {
+    "kind": "flag",
+    "edge": 0,
+    "at": 7.5
+   },
+   {
+    "kind": "flag",
+    "edge": 0,
+    "at": 9.5
+   }
+  ]
+ },
+ {
+  "osmId": "way/939467975",
+  "address": "435;441 Powell Street",
+  "name": "Sears Fine Food building",
+  "notes": "6 fl / 21.6 m brick/stucco walk-up; Sears Fine Food (439) full frontage, green awning + neon sign.",
+  "wall": "plaster_cream",
+  "base": {
+   "material": "limestone",
+   "height": 4.5
+  },
+  "groundH": 4.5,
+  "floors": 5,
+  "cornice": "medium",
+  "stringcourseAfterFloors": [
+   1
+  ],
+  "parapet": false,
+  "rooftop": [
+   "none"
+  ],
+  "edges": [
+   {
+    "edge": "street",
+    "window": "win_dh_stone_1.2x2.2",
+    "bayW": 3.6,
+    "endPad": 0.6,
+    "storefront": "storefront_bay_3.0x4.5"
+   }
+  ],
+  "storefronts": [
+   {
+    "edge": 6,
+    "from": 0.3,
+    "to": 6.0,
+    "module": "storefront_bay_3.0x4.5",
+    "tenant": {
+     "name": "Sears Fine Food",
+     "brand": "sears",
+     "signType": "fascia",
+     "awning": "green",
+     "illuminated": true,
+     "category": "restaurant",
+     "status": "open",
+     "confidence": "high",
+     "address": "439 Powell St",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 5,
+    "from": 0.3,
+    "to": 6.0,
+    "module": "storefront_bay_3.0x4.5",
+    "tenant": {
+     "name": "Sears Fine Food",
+     "brand": "sears",
+     "signType": "none",
+     "awning": "green",
+     "category": "restaurant",
+     "status": "open",
+     "confidence": "high",
+     "address": "439 Powell St",
+     "enterable": false
+    }
+   }
+  ],
+  "extras": [
+   {
+    "kind": "fire_escape",
+    "edge": 6,
+    "at": 3.2
+   }
+  ]
+ },
+ {
+  "osmId": "way/939467974",
+  "address": "445 Powell Street",
+  "name": "445 Powell (ex Bank of America)",
+  "notes": "2-storey 1959 bank pavilion, grey stone panels; branch closed 2025-12-02, vacant.",
+  "wall": "granite_grey",
+  "base": {
+   "material": "granite_grey",
+   "height": 4.5
+  },
+  "groundH": 4.5,
+  "floors": 1,
+  "cornice": "none",
+  "stringcourseAfterFloors": [],
+  "parapet": true,
+  "rooftop": [
+   "none"
+  ],
+  "edges": [
+   {
+    "edge": "street",
+    "window": "win_office_strip_3.0x1.8",
+    "bayW": 3,
+    "endPad": 0.6,
+    "storefront": "storefront_bay_3.0x4.5"
+   }
+  ],
+  "storefronts": [
+   {
+    "edge": 3,
+    "from": 0.4,
+    "to": 5.8,
+    "module": "storefront_bay_3.0x4.5",
+    "tenant": {
+     "name": "For Lease",
+     "signType": "fascia",
+     "color": "#333333",
+     "bg": "#efefef",
+     "category": "vacant",
+     "status": "vacant",
+     "confidence": "medium",
+     "address": "445 Powell St",
+     "enterable": false
+    }
+   }
+  ],
+  "extras": []
+ },
+ {
+  "osmId": "way/35536969",
+  "address": "449;455;457;459;465 Powell Street",
+  "name": "449-465 Powell / 500 Sutter",
+  "notes": "SW corner Powell & Sutter, 5 fl / 19 m post-1906 commercial; Walgreens 459 wraps the corner, Golden Gate Tap Room stair entrance at 449 (south end). 500 Sutter corner restaurant status conflicting -> blank.",
+  "wall": "plaster_cream",
+  "base": {
+   "material": "limestone",
+   "height": 5
+  },
+  "groundH": 5,
+  "floors": 4,
+  "cornice": "medium",
+  "stringcourseAfterFloors": [
+   1
+  ],
+  "parapet": false,
+  "rooftop": [
+   "watertank"
+  ],
+  "edges": [
+   {
+    "edge": "street",
+    "window": "win_dh_stone_1.2x2.2",
+    "bayW": 3.8,
+    "endPad": 0.8,
+    "storefront": "storefront_bay_3.0x4.5"
+   }
+  ],
+  "storefronts": [
+   {
+    "edge": 0,
+    "from": 0.5,
+    "to": 12,
+    "module": "storefront_bay_3.0x4.5",
+    "tenant": {
+     "name": "Walgreens",
+     "brand": "walgreens",
+     "signType": "fascia",
+     "illuminated": true,
+     "category": "pharmacy",
+     "status": "open",
+     "confidence": "medium",
+     "address": "459 Powell St",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 0,
+    "from": 19.5,
+    "to": 22.0,
+    "module": "storefront_door_double_2.0x2.8",
+    "tenant": {
+     "name": "Golden Gate Tap Room",
+     "brand": "taproom",
+     "signType": "blade",
+     "illuminated": true,
+     "category": "restaurant",
+     "status": "open",
+     "confidence": "medium",
+     "address": "449 Powell St",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 3,
+    "from": 18,
+    "to": 28.3,
+    "module": "storefront_bay_3.0x4.5",
+    "tenant": {
+     "name": "Walgreens",
+     "brand": "walgreens",
+     "signType": "fascia",
+     "illuminated": true,
+     "category": "pharmacy",
+     "status": "open",
+     "confidence": "medium",
+     "address": "459 Powell St",
+     "enterable": false
+    }
+   }
+  ],
+  "extras": []
+ },
+ {
+  "osmId": "way/32863429",
+  "address": "450 Powell Street",
+  "name": "Beacon Grand (Sir Francis Drake)",
+  "notes": "1928 Weeks & Day, 21 fl; OSM 62 m is low, recon estimates ~75 m incl. crown -> heightM 75. Buff brick shaft (sandstone texture is the closest buff tone), cream terra-cotta Gothic base 3 floors, arched windows on floor 2. Marquee entrance mid-block, Starbucks wraps the Sutter corner with black awnings, The Post Room south of the entrance. Vertical STARLIGHT blade not representable.",
+  "wall": "sandstone",
+  "base": {
+   "material": "terracotta_white",
+   "height": 12.5
+  },
+  "groundH": 5.5,
+  "floors": 20,
+  "cornice": "medium",
+  "stringcourseAfterFloors": [
+   2
+  ],
+  "parapet": true,
+  "rooftop": [
+   "penthouse"
+  ],
+  "heightM": 75,
+  "edges": [
+   {
+    "edge": "street",
+    "window": "win_dh_stone_1.2x2.2",
+    "windowFloor2": "win_arch_stone_1.5x3.0",
+    "bayW": 3.3,
+    "endPad": 0.8,
+    "storefront": "storefront_bay_3.0x4.5"
+   }
+  ],
+  "storefronts": [
+   {
+    "edge": 10,
+    "from": 2,
+    "to": 12,
+    "module": "storefront_bay_3.0x4.5",
+    "tenant": {
+     "name": "The Post Room",
+     "signType": "fascia",
+     "color": "#e8d9a8",
+     "bg": "#1c1a17",
+     "category": "restaurant",
+     "status": "open",
+     "confidence": "medium",
+     "address": "450 Powell St",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 10,
+    "from": 16,
+    "to": 24,
+    "module": "door_hotel_marquee_6.0",
+    "tenant": {
+     "name": "Beacon Grand",
+     "brand": "beacongrand",
+     "signType": "fascia",
+     "illuminated": true,
+     "category": "hotel",
+     "status": "open",
+     "confidence": "high",
+     "address": "450 Powell St",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 10,
+    "from": 31,
+    "to": 41.8,
+    "module": "storefront_bay_3.0x4.5",
+    "tenant": {
+     "name": "Starbucks",
+     "brand": "starbucks",
+     "signType": "fascia",
+     "awning": "black",
+     "illuminated": true,
+     "category": "cafe",
+     "status": "open",
+     "confidence": "medium",
+     "address": "462 Powell St",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 11,
+    "from": 0.5,
+    "to": 9,
+    "module": "storefront_bay_3.0x4.5",
+    "tenant": {
+     "name": "Starbucks",
+     "brand": "starbucks",
+     "signType": "none",
+     "awning": "black",
+     "category": "cafe",
+     "status": "open",
+     "confidence": "medium",
+     "address": "462 Powell St",
+     "enterable": false
+    }
+   }
+  ],
+  "extras": [
+   {
+    "kind": "flag",
+    "edge": 10,
+    "at": 18
+   },
+   {
+    "kind": "flag",
+    "edge": 10,
+    "at": 22
+   }
+  ]
+ },
+ {
+  "osmId": "way/35174697",
+  "address": "200;206;208;214 Powell Street",
+  "name": "200 Powell (Art Moderne corner)",
+  "notes": "1913/1933 Streamline Moderne corner, 3 fl / 12 m, white stucco with horizontal glazing. Pop Mart at the corner (opened Sept/Oct 2025), Sam's Cable Car Lounge mid-block.",
+  "wall": "plaster_white",
+  "base": {
+   "material": "plaster_white",
+   "height": 5
+  },
+  "groundH": 5,
+  "floors": 2,
+  "cornice": "none",
+  "stringcourseAfterFloors": [],
+  "parapet": true,
+  "rooftop": [
+   "none"
+  ],
+  "edges": [
+   {
+    "edge": "street",
+    "window": "win_office_strip_3.0x1.8",
+    "bayW": 3.6,
+    "endPad": 0.6,
+    "storefront": "storefront_bay_4.0x5.0"
+   }
+  ],
+  "storefronts": [
+   {
+    "edge": 2,
+    "from": 0.5,
+    "to": 12,
+    "module": "storefront_bay_4.0x5.0",
+    "tenant": {
+     "name": "Pop Mart",
+     "brand": "popmart",
+     "signType": "fascia",
+     "illuminated": true,
+     "category": "toys-games",
+     "status": "open",
+     "confidence": "high",
+     "address": "200 Powell St",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 2,
+    "from": 13,
+    "to": 19,
+    "module": "storefront_bay_3.0x4.5",
+    "tenant": {
+     "name": "Sam's Cable Car Lounge",
+     "signType": "fascia",
+     "color": "#f2e6c8",
+     "bg": "#4a1d1d",
+     "category": "restaurant",
+     "status": "open",
+     "confidence": "medium",
+     "address": "214 Powell St",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 1,
+    "from": 1.5,
+    "to": 7.6,
+    "module": "storefront_bay_4.0x5.0",
+    "tenant": {
+     "name": "Pop Mart",
+     "brand": "popmart",
+     "signType": "none",
+     "category": "toys-games",
+     "status": "open",
+     "confidence": "high",
+     "address": "200 Powell St",
+     "enterable": false
+    }
+   }
+  ],
+  "extras": []
+ },
+ {
+  "osmId": "way/35174696",
+  "address": "222 Powell Street",
+  "name": "222 Powell",
+  "notes": "2 fl / 10 m infill; ground-floor tenant unresolved (blank fascia).",
+  "wall": "plaster_grey",
+  "base": {
+   "material": "plaster_grey",
+   "height": 4.5
+  },
+  "groundH": 4.5,
+  "floors": 1,
+  "cornice": "none",
+  "stringcourseAfterFloors": [],
+  "parapet": true,
+  "rooftop": [
+   "none"
+  ],
+  "edges": [
+   {
+    "edge": "street",
+    "window": "win_punched_modern_1.8x2.0",
+    "bayW": 3.5,
+    "endPad": 0.6,
+    "storefront": "storefront_bay_3.0x4.5"
+   }
+  ],
+  "storefronts": [],
+  "extras": []
+ },
+ {
+  "osmId": "way/35174695",
+  "address": "226;228;230 Powell Street",
+  "name": "226-230 Powell",
+  "notes": "3 fl / 12 m renovated retail building; The Best Bookstore (Vacant-to-Vibrant pop-up, OSM 2026-03).",
+  "wall": "plaster_cream",
+  "base": {
+   "material": "plaster_cream",
+   "height": 4.8
+  },
+  "groundH": 4.8,
+  "floors": 2,
+  "cornice": "medium",
+  "stringcourseAfterFloors": [],
+  "parapet": false,
+  "rooftop": [
+   "none"
+  ],
+  "edges": [
+   {
+    "edge": "street",
+    "window": "win_dh_stone_1.2x2.2",
+    "bayW": 3.6,
+    "endPad": 0.6,
+    "storefront": "storefront_bay_3.0x4.5"
+   }
+  ],
+  "storefronts": [
+   {
+    "edge": 3,
+    "from": 0.5,
+    "to": 6.5,
+    "module": "storefront_bay_3.0x4.5",
+    "tenant": {
+     "name": "The Best Bookstore",
+     "signType": "fascia",
+     "color": "#f2f2f2",
+     "bg": "#2a3a5a",
+     "category": "books",
+     "status": "open",
+     "confidence": "medium",
+     "address": "226 Powell St",
+     "enterable": false
+    }
+   }
+  ],
+  "extras": []
+ },
+ {
+  "osmId": "way/35174694",
+  "address": "236;240;242 Powell Street",
+  "name": "Hotel Stratford",
+  "notes": "c.1907 commercial hotel, 8 fl / 27 m, painted light stucco, vertical HOTEL STRATFORD sign (blade approximation). Ground: Nooworks 236, Journeys ~238-240, hotel entrance + Nave Cafe 242.",
+  "wall": "plaster_white",
+  "base": {
+   "material": "limestone",
+   "height": 4.5
+  },
+  "groundH": 4.5,
+  "floors": 7,
+  "cornice": "medium",
+  "stringcourseAfterFloors": [
+   1
+  ],
+  "parapet": false,
+  "rooftop": [
+   "none"
+  ],
+  "edges": [
+   {
+    "edge": "street",
+    "window": "win_dh_stone_1.2x2.2",
+    "bayW": 3.6,
+    "endPad": 0.6,
+    "storefront": "storefront_bay_3.0x4.5"
+   }
+  ],
+  "storefronts": [
+   {
+    "edge": 2,
+    "from": 0.4,
+    "to": 4.2,
+    "module": "storefront_bay_3.0x4.5",
+    "tenant": {
+     "name": "Nooworks",
+     "signType": "fascia",
+     "color": "#fff3d6",
+     "bg": "#c2412d",
+     "category": "apparel",
+     "status": "open",
+     "confidence": "medium",
+     "address": "236 Powell St",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 2,
+    "from": 4.2,
+    "to": 8.0,
+    "module": "storefront_bay_3.0x4.5",
+    "tenant": {
+     "name": "Journeys",
+     "signType": "fascia",
+     "color": "#111111",
+     "bg": "#f4f4f4",
+     "category": "apparel",
+     "status": "open",
+     "confidence": "medium",
+     "address": "240 Powell St",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 2,
+    "from": 8.0,
+    "to": 11.0,
+    "module": "storefront_door_recessed_3.0x4.5",
+    "tenant": {
+     "name": "Hotel Stratford",
+     "signType": "blade",
+     "color": "#f5f5f5",
+     "bg": "#0b2545",
+     "illuminated": true,
+     "category": "hotel",
+     "status": "open",
+     "confidence": "high",
+     "address": "242 Powell St",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 2,
+    "from": 11.0,
+    "to": 14.8,
+    "module": "storefront_bay_3.0x4.5",
+    "tenant": {
+     "name": "Nave Cafe",
+     "signType": "fascia",
+     "color": "#f2e6c8",
+     "bg": "#2f2a26",
+     "category": "cafe",
+     "status": "open",
+     "confidence": "medium",
+     "address": "242 Powell St",
+     "enterable": false
+    }
+   }
+  ],
+  "extras": []
+ },
+ {
+  "osmId": "way/35174693",
+  "address": "246 Powell Street / 285-295 Geary Street",
+  "name": "246 Powell / 285 Geary corner",
+  "notes": "1907 Renaissance commercial office, 7 fl / 27 m, white (vp16). CK Contemporary gallery on Powell, Swarovski at the Powell/Geary corner, Dyson demo store at 285 Geary.",
+  "wall": "plaster_white",
+  "base": {
+   "material": "limestone",
+   "height": 5
+  },
+  "groundH": 5,
+  "floors": 6,
+  "cornice": "heavy",
+  "stringcourseAfterFloors": [
+   1
+  ],
+  "parapet": false,
+  "rooftop": [
+   "none"
+  ],
+  "edges": [
+   {
+    "edge": "street",
+    "window": "win_dh_stone_1.2x2.2",
+    "bayW": 3.8,
+    "endPad": 0.8,
+    "storefront": "storefront_bay_3.0x4.5"
+   }
+  ],
+  "storefronts": [
+   {
+    "edge": 2,
+    "from": 14,
+    "to": 20,
+    "module": "storefront_bay_3.0x4.5",
+    "tenant": {
+     "name": "CK Contemporary",
+     "signType": "letters",
+     "color": "#222222",
+     "category": "gallery",
+     "status": "open",
+     "confidence": "medium",
+     "address": "246 Powell St",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 2,
+    "from": 21,
+    "to": 26.5,
+    "module": "storefront_bay_3.0x4.5",
+    "tenant": {
+     "name": "Swarovski",
+     "signType": "fascia",
+     "color": "#f2f2f2",
+     "bg": "#111111",
+     "illuminated": true,
+     "category": "jewelry",
+     "status": "open",
+     "confidence": "medium",
+     "address": "295 Geary St",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 3,
+    "from": 0.5,
+    "to": 6,
+    "module": "storefront_bay_3.0x4.5",
+    "tenant": {
+     "name": "Swarovski",
+     "signType": "none",
+     "category": "jewelry",
+     "status": "open",
+     "confidence": "medium",
+     "address": "295 Geary St",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 3,
+    "from": 12,
+    "to": 20,
+    "module": "storefront_bay_3.0x4.5",
+    "tenant": {
+     "name": "Dyson",
+     "brand": "dyson",
+     "signType": "fascia",
+     "category": "electronics",
+     "status": "open",
+     "confidence": "medium",
+     "address": "285 Geary St",
+     "enterable": false
+    }
+   }
+  ],
+  "extras": []
+ },
+ {
+  "osmId": "way/35024381",
+  "address": "225 Powell Street",
+  "name": "The Barnes (ex Villa Florence) + 201-217 Powell",
+  "notes": "One OSM footprint covering 201-225 Powell: The Barnes hotel (1908, 8 fl / 30 m, light cream painted brick) with restaurant at 221, UGG mid-block, Starbucks at the O'Farrell corner (201). Edge 4 runs north->south (u=0 at the 237 party wall).",
+  "wall": "plaster_cream",
+  "base": {
+   "material": "limestone",
+   "height": 4.8
+  },
+  "groundH": 4.8,
+  "floors": 7,
+  "cornice": "heavy",
+  "stringcourseAfterFloors": [
+   1
+  ],
+  "parapet": false,
+  "rooftop": [
+   "none"
+  ],
+  "edges": [
+   {
+    "edge": "street",
+    "window": "win_dh_stone_1.5x2.6",
+    "bayW": 4.0,
+    "endPad": 0.8,
+    "storefront": "storefront_bay_3.0x4.5"
+   }
+  ],
+  "storefronts": [
+   {
+    "edge": 4,
+    "from": 2,
+    "to": 6,
+    "module": "storefront_door_recessed_3.0x4.5",
+    "tenant": {
+     "name": "The Barnes",
+     "signType": "fascia",
+     "color": "#e9dcc0",
+     "bg": "#1e2d24",
+     "illuminated": true,
+     "category": "hotel",
+     "status": "open",
+     "confidence": "high",
+     "address": "225 Powell St",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 4,
+    "from": 6,
+    "to": 13,
+    "module": "storefront_bay_3.0x4.5",
+    "tenant": {
+     "name": "The Barnes Restaurant + Bar",
+     "signType": "letters",
+     "color": "#1e2d24",
+     "category": "restaurant",
+     "status": "open",
+     "confidence": "medium",
+     "address": "221 Powell St",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 4,
+    "from": 18,
+    "to": 26,
+    "module": "storefront_bay_3.0x4.5",
+    "tenant": {
+     "name": "UGG",
+     "brand": "ugg",
+     "signType": "fascia",
+     "category": "apparel",
+     "status": "open",
+     "confidence": "medium",
+     "address": "Powell St (UGG)",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 4,
+    "from": 30.5,
+    "to": 41.9,
+    "module": "storefront_bay_3.0x4.5",
+    "tenant": {
+     "name": "Starbucks",
+     "brand": "starbucks",
+     "signType": "fascia",
+     "illuminated": true,
+     "category": "cafe",
+     "status": "open",
+     "confidence": "high",
+     "address": "201 Powell St",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 5,
+    "from": 0.5,
+    "to": 8,
+    "module": "storefront_bay_3.0x4.5",
+    "tenant": {
+     "name": "Starbucks",
+     "brand": "starbucks",
+     "signType": "none",
+     "category": "cafe",
+     "status": "open",
+     "confidence": "high",
+     "address": "201 Powell St",
+     "enterable": false
+    }
+   }
+  ],
+  "extras": [
+   {
+    "kind": "canopy_metal",
+    "edge": 4,
+    "at": 4
+   }
+  ]
+ },
+ {
+  "osmId": "way/941560577",
+  "address": "237;245 Powell Street",
+  "name": "237-245 Powell",
+  "notes": "7 fl / 25 m early-20th-c. commercial; SF Souvenirs & Luggage at 245 (north half), 237 vacant (OSM disused 2025-01).",
+  "wall": "plaster_cream",
+  "base": {
+   "material": "limestone",
+   "height": 4.5
+  },
+  "groundH": 4.5,
+  "floors": 6,
+  "cornice": "medium",
+  "stringcourseAfterFloors": [
+   1
+  ],
+  "parapet": false,
+  "rooftop": [
+   "none"
+  ],
+  "edges": [
+   {
+    "edge": "street",
+    "window": "win_dh_stone_1.2x2.2",
+    "bayW": 4.5,
+    "endPad": 0.6,
+    "storefront": "storefront_bay_3.0x4.5"
+   }
+  ],
+  "storefronts": [
+   {
+    "edge": 3,
+    "from": 0.4,
+    "to": 6.8,
+    "module": "storefront_bay_3.0x4.5",
+    "tenant": {
+     "name": "SF Souvenirs & Luggage",
+     "signType": "fascia",
+     "color": "#ffffff",
+     "bg": "#b3202c",
+     "category": "gifts",
+     "status": "open",
+     "confidence": "medium",
+     "address": "245 Powell St",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 3,
+    "from": 7.0,
+    "to": 13.5,
+    "module": "storefront_bay_3.0x4.5",
+    "tenant": {
+     "name": "For Lease",
+     "signType": "fascia",
+     "color": "#333333",
+     "bg": "#efefef",
+     "category": "vacant",
+     "status": "vacant",
+     "confidence": "medium",
+     "address": "237 Powell St",
+     "enterable": false
+    }
+   }
+  ],
+  "extras": [
+   {
+    "kind": "fire_escape",
+    "edge": 3,
+    "at": 7.0
+   }
+  ]
+ }
+]

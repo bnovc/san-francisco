@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "san-francisco-city-base",
+  "status": "prototype",
+  "fidelity": "base",
+  "coordinateFrame": "union-square-local-v1",
+  "bboxWgs84": {
+    "south": 37.7,
+    "west": -122.525,
+    "north": 37.815,
+    "east": -122.355
+  },
+  "dataFiles": [
+    "public/data/city/index.json",
+    "public/data/city/dem.bin",
+    "public/data/signals/index.json"
+  ],
+  "sourceRefs": [
+    {
+      "id": "bbbike-osm-2026-10-18",
+      "role": "roads, paths, park and water polygons, building footprints/heights, and named business/building labels",
+      "url": "https://download.bbbike.org/osm/bbbike/SanFrancisco/SanFrancisco.osm.gz",
+      "license": "OpenStreetMap ODbL-1.0",
+      "retrievedAt": "2026-10-18",
+      "sha256": "2a4c97087e7f04bef0a92aec0c702894b7400f2abba8233466e77cecc050cd7a"
+    },
+    {
+      "id": "usgs-3dep-2026-10-18",
+      "role": "bare-earth elevation in metres NAVD88",
+      "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage",
+      "license": "US government public domain",
+      "retrievedAt": "2026-10-18",
+      "sha256": "391d385137297a17717d4ab861c4b858abbd325892bac7f5366bda4d2ed0c415"
+    },
+    {
+      "id": "sfmta-traffic-signals-2026-10-18",
+      "role": "active traffic-signal locations and coarse pedestrian/controller metadata",
+      "url": "https://data.sf.gov/d/ybh5-27n2",
+      "downloadUrl": "https://data.sf.gov/resource/c8ue-f4py.geojson",
+      "publisher": "SFMTA",
+      "license": "Open Data Commons Public Domain Dedication and License",
+      "retrievedAt": "2026-10-18",
+      "sha256": "ef8f5186de88bc3aca82960dbcfb4fa52a014ec2806ccb330d8810e6ac26a64a"
+    }
+  ],
+  "notes": "Runtime tiles are indexed separately by public/data/city/index.json. Rectangular source coverage contains small non-SF margins. This is a coarse prototype: bridge grades, tunnels, coast, access rules, and navigation graphs need further QA. Building heights without OSM tags are inferred, not surveyed. See docs/CITY_BASE.md."
+}

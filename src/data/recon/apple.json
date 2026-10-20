@@ -1,0 +1,290 @@
+{
+  "_meta": {
+    "subject": "Apple Union Square, 300 Post St, San Francisco (Foster + Partners with Apple design team; opened 2016-05-21)",
+    "researched": "2026-09-01",
+    "units": "metres; heights above the store ground-floor slab (= Post St sidewalk at the doors, USGS elev ~22.9 m) unless noted",
+    "local_axes": "x = 0 at the WEST party wall increasing EAST along Post St (grid bearing 81 deg); y = 0 at the Post St facade increasing NORTH (bearing 351 deg); z up",
+    "confidence_key": "high = published by Apple/Foster/contractor or measured in OSM/USGS; medium = press coverage or clear in photos; low = estimated from photos or generic Apple practice",
+    "photo_refs": "refs/apple/ (see SOURCES.md)"
+  },
+  "site": {
+    "address": "300 Post Street, San Francisco, CA 94108 (phone +1 415-486-4800)",
+    "corner": "NW corner of Post St & Stockton St; the store fronts Post St (south) facing the NE corner of Union Square, and Stockton St (east)",
+    "coordinates": {
+      "footprint_wgs84": [
+        {"corner": "SW (Post St, west end)", "lat": 37.788536, "lon": -122.407331},
+        {"corner": "SE (Post & Stockton)", "lat": 37.788584, "lon": -122.406950},
+        {"corner": "NE (Stockton, plaza side)", "lat": 37.788809, "lon": -122.406995},
+        {"corner": "NW (party wall / plaza)", "lat": 37.788761, "lon": -122.407377}
+      ],
+      "centroid": {"lat": 37.788673, "lon": -122.407163},
+      "source": "OSM way 332223480 (check_date 2026-04-09), corner nodes via Overpass 2026-09-01",
+      "confidence": "high"
+    },
+    "footprint": {
+      "postFrontageM": 33.9,
+      "stocktonFrontageM": 25.1,
+      "depthM": 25.1,
+      "northFaceM": 34.0,
+      "westPartyWallM": 25.2,
+      "areaM2": 854,
+      "gridBearingDeg": {"postSt": 81, "stocktonSt": 171},
+      "note": "Building is WIDER along Post (34 m) than deep along Stockton (25 m). Lot record shows 35,391 sq ft (3,288 m2) which must include the plaza and the Hyatt ballroom parcel; the store's own footprint is ~854 m2 (~9,200 sq ft/floor).",
+      "confidence": "high (OSM polygon, +/-1 m)",
+      "source": "OSM way 332223480; lot size from corner.inc listing (low confidence)"
+    },
+    "orientation": {
+      "glassFacade": "Post St (south) face: 24.4 m wide x 12.8 m tall glazed bay incl. the two 42 ft sliding doors; the mezzanine's north face is a second 8.1 m tall glazed wall onto the plaza",
+      "stocktonFace": "East face is SOLID: vertically oriented bead-blasted stainless-steel panels (3,150 sq ft = 293 m2) with one full-height glass 'notch' window ~2.4 m wide (8 ft, per 2013 revised design) and an Apple logo cut into the panels",
+      "westFace": "Party wall shared with the neighbouring Post St building (its cream limestone-clad rear wall rises above the store and is visible from the plaza)",
+      "plazaSide": "NORTH of the store, between the store and the Grand Hyatt (345 Stockton), opening east onto Stockton St",
+      "confidence": "high",
+      "source": "Ledcor press release 2016; SF Planning case report (via search snippet); ArchDaily 2013-08 revised design; photos refs/apple/*"
+    },
+    "plazaDims": {
+      "widthM": 34.0,
+      "depthM": 17.4,
+      "areaM2": 570,
+      "polygon_wgs84": [
+        {"lat": 37.788809, "lon": -122.406995, "note": "Apple NE corner"},
+        {"lat": 37.788761, "lon": -122.407377, "note": "Apple NW corner"},
+        {"lat": 37.788916, "lon": -122.407408, "note": "plaza NW (green wall)"},
+        {"lat": 37.788922, "lon": -122.407362, "note": "Hyatt SW at plaza"},
+        {"lat": 37.788962, "lon": -122.407045, "note": "Hyatt SE corner"},
+        {"lat": 37.788820, "lon": -122.406997, "note": "Stockton edge, south end of steps"}
+      ],
+      "note": "Rectangle ~34 m E-W (full store width) x ~17.4 m N-S (west end) / ~17.0 m (east end). East edge on Stockton is a broad stair (~9 m wide) flanked by planted retaining walls (~4 m each end). OSM names it 'Apple Mini Park'.",
+      "confidence": "high (OSM way 481885316)",
+      "source": "OSM/Overpass 2026-09-01"
+    },
+    "levels": {
+      "storeGroundFloor": {"usgsElevM": 23.0, "relM": 0.0, "note": "flush with Post St sidewalk at the doors (sidewalk 22.5 m at Stockton corner rising to 23.6 m at the west end of the facade)"},
+      "mezzanineAndPlazaDoors": {"relM": 4.9, "note": "16 ft 'piano nobile' (Foster); the 26.5 ft (8.1 m) rear doors open from THIS level: 16 ft + 26.5 ft = 42.5 ft = the front door head height"},
+      "plazaMain": {"usgsElevM": 26.75, "relM": 3.8, "note": "USGS 3DEP 1 m DEM gives 26.7-26.9 m across the plaza; a paved terrace at door level (~3-4 m deep) steps down ~5-7 risers (0.8-1.1 m) to the main plaza (photo refs/apple/apple_plaza_2018_zoom.jpg)"},
+      "stocktonSidewalk": {"atApplePostCorner": 22.5, "atAppleNEcorner": 24.0, "atFountain": 24.4, "atHyattSEcorner": 24.8, "note": "Stockton climbs ~5% northward; the plaza is ~2.3-2.4 m above the Stockton sidewalk at the fountain -> the fountain stair has ~14-15 risers (visible in refs/apple/asawa_fountain_2023.jpg)"},
+      "sutterStockton": 27.9,
+      "postPowell": 25.6,
+      "gearyStockton": 19.3,
+      "confidence": "medium (USGS EPQS point queries 2026-09-01, +/-0.3 m; level logic cross-checked with Foster door heights and photos)",
+      "source": "https://epqs.nationalmap.gov ; Foster + Partners project text (via worldarchitecture.org / archilovers.com)"
+    },
+    "sidewalkWidths": {
+      "postStM": 3.7,
+      "stocktonStM": 3.7,
+      "note": "Typical downtown SF 12 ft sidewalks; Stockton sidewalk in front of the plaza carries 3 small street trees and 'Path of Gold' style twin-globe lamps (photo). Not measured.",
+      "confidence": "low"
+    },
+    "neighbours": {
+      "grandHyatt": {"address": "345 Stockton St", "heightM": 108, "levels": 36, "year": 1972, "footprintSouthFace_wgs84": [{"lat": 37.788922, "lon": -122.407362}, {"lat": 37.788962, "lon": -122.407045}], "note": "The Hyatt's ballroom sits under the plaza/store; the store's roof is carried on a giant steel truss bridging it. Hyatt entrance on Stockton at 37.789266,-122.407106", "confidence": "high", "source": "Wikipedia Grand Hyatt San Francisco; OSM way 32863494; Foster text"},
+      "westNeighbour": {"note": "Post St building immediately west (toward 350 Post/Tiffany). Its cream stone rear wall (horizontal coursing) forms the backdrop above the store's roof in plaza views", "confidence": "medium (photo)"},
+      "acrossStockton": {"note": "Campton Place Hotel / 324 Stockton (classical beige facade) is what you see through the plaza doors looking east", "confidence": "medium"}
+    },
+    "history": {
+      "predecessor": "Triangular 1973 building, most recently the Levi's flagship store (spiral stair + glass elevator); demolished mid-2015",
+      "approvals": "Original 2013 design criticised for removing the Ruth Asawa fountain; revised design (Aug 2013) kept the fountain on the Stockton steps and added the Stockton glass notch; final approvals March 2014; construction Dec 2014-May 2016 (Ledcor GC)",
+      "opened": "2016-05-21 10:00",
+      "status2026": "Open; hours Mon-Sat 10:00-20:00, Sun 11:00-19:00 (apple.com, week of 2026-09-01). Genius Bar, Vision Pro demos, Today at Apple, order pickup. No closure/renovation news found for 2025-26.",
+      "confidence": "high",
+      "source": "AppleInsider 2015-03-24 & 2013-05-30; ArchDaily 2013-08; Apple Newsroom 2016-05-19; apple.com/retail/unionsquare (2026-09-01); OSM opening_hours (Su 10-19, slight mismatch)"
+    }
+  },
+  "exterior": {
+    "heightM": {
+      "parapet": 14.6,
+      "interiorVolume": 12.2,
+      "doorHead": 12.95,
+      "osmHeightTag": 15,
+      "note": "Foster: '40 ft-high volume'; door head = 42.5 ft (16 ft mezzanine + 26.5 ft rear doors); roof structure + PV adds ~1.5 m. Stockton cladding area 293 m2 / 25.1 m = ~11.7 m avg panel height (excl. notch/logo) supports a ~13-14.6 m parapet.",
+      "confidence": "medium"
+    },
+    "roofType": "flat; 130 photovoltaic panels (~6,000 sq ft = 560 m2, dark, near-flush) covering most of the roof; small mechanical enclosures at the west/back (photo refs/apple/apple_roof_pv_2018.jpg); no overhang",
+    "roofOverhangM": 0,
+    "structure": "Two-storey steel 'cube': primary mega-truss over the Grand Hyatt ballroom on micropiles, secondary trusses forming the tapered luminous ceiling; column-free floors with tuned mass dampers; ~400 stainless-steel interior/perimeter panels",
+    "doors": {
+      "post": {
+        "count": 2,
+        "leafWidthM": 6.25,
+        "leafHeightM": 12.8,
+        "openingWidthM": 12.2,
+        "weightTonnesEach": 20,
+        "material": "steel-framed low-iron glass, thin vertical mullion at mid-leaf (lites ~3.1 m wide)",
+        "operation": "Motorised; each leaf slides sideways (west leaf to the west, east leaf to the east) in a track behind the fixed side-lights so the full 40 ft (12.2 m) opening is clear; 'largest glass doors in the world' claim in press",
+        "positionX": "leaves occupy x = 10.2-22.4 (centre bays); they park behind fixed bays x = 4.1-10.2 and 22.4-28.5",
+        "confidence": "high (sizes: Foster 20.5 x 42 ft; weight: press, medium)"
+      },
+      "plaza": {
+        "count": 2,
+        "leafWidthM": 6.25,
+        "leafHeightM": 8.1,
+        "openingWidthM": 12.2,
+        "level": "mezzanine (+4.9 m)",
+        "glazedWidthM": 18.0,
+        "positionX": "glazed wall spans x = 6.0-24.0 on the north face (OSM entrance nodes); solid steel panels x = 0-6 and 24-34; a single swing door at the east end of the glazing (x ~ 23.3)",
+        "material": "same steel-framed glass; head frame ~1 m deep",
+        "confidence": "high (Foster 20.5 x 26.5 ft; Ledcor '30 ft'); position medium"
+      }
+    },
+    "glazing": {
+      "postGlazedBayWidthM": 24.4,
+      "postGlazedBayHeightM": 12.8,
+      "bays": "4 bays x 6.1 m: [fixed][slider][slider][fixed]; each bay split by one slim vertical mullion (~0.12 m) -> 8 lites ~3.05 m wide, single lites full height (12.8 m); horizontal joint only at the ~1 m deep head frame",
+      "mullionStyle": "very thin painted-steel frames (dark grey), no structural glass fins visible; glass set back ~1 m behind the outer steel portal frame ('pulled back a few feet from the outer metal frame' - 2013 revision)",
+      "totalGlassAreaM2": 632,
+      "tint": "clear low-iron, reads pale blue-green; heavy reflection of Union Square in daytime",
+      "confidence": "medium (bay rhythm inferred from OSM entrance nodes + photos; area from Ledcor 6,800 sq ft)"
+    },
+    "sideWalls": {
+      "material": "Bead-blasted stainless-steel panels, vertically oriented, minimal joints (planning case report wording); reads as matte mid-grey metal, NOT stone. The 'stone cladding consistent with district masonry' in the case report refers only to a back-of-house portion (not visible from the streets). Panel module ~1.2 m wide x ~3 m tall (photo estimate).",
+      "postPiers": {"westPierWidthM": 4.1, "eastPierWidthM": 6.0, "note": "the east pier wraps the Post/Stockton corner as a solid steel-clad block"},
+      "stocktonNotch": {"widthM": 2.4, "heightM": "full height (floor to roof), acts as a skylight for the ground floor", "positionY": "estimated 17-19.5 m north of the Post face (north of the 6K wall, seen as a window at mezzanine level in refs/apple/apple_forum_videowall_2020.jpg)", "confidence": "width medium (8 ft per 2013 revision; looks wider ~3-4 m in photo), position low"},
+      "hexDaylight": "#8E9194",
+      "hexShade": "#5F6265",
+      "confidence": "high (material), medium (dimensions)"
+    },
+    "signage": {
+      "appleLogo": {"face": "Stockton St (east) wall", "type": "Apple logo cut into the stainless panels, backlit white at night ('Integrated Apple logo cut into East facade' - Ledcor)", "heightM": 2.4, "position": "upper third of the wall, toward the Post St corner (estimate)", "confidence": "high (existence/face), low (size/position)"},
+      "postFacade": "No logo on the glass front (typical of Foster-era flagship glass fronts)",
+      "confidence": "medium"
+    },
+    "treesOutside": {
+      "postSt": "none in front of the store (photo through glass 2020)",
+      "stocktonSt": "3 small street trees (~4 m) in sidewalk pits in front of the plaza steps, plus SF twin-globe 'Path of Gold' lamp standards",
+      "confidence": "medium"
+    },
+    "plazaElements": {
+      "fountain": {
+        "name": "Ruth Asawa, 'San Francisco Fountain' (1970-73), bronze bas-relief drum, ~2.3 m tall x 4.9 m diameter (Smithsonian); dedicated 1973 for the Hyatt on Union Square; restored and relocated a few metres north / closer to the Stockton sidewalk in 2015-16",
+        "centre_wgs84": {"lat": 37.788881, "lon": -122.407075},
+        "localXY": {"x": 26.9, "y": 33.0, "note": "x from the west party wall, y from the Post face; i.e. ~7 m in from the Stockton building line, centred on the plaza's east stair"},
+        "setting": "Sits mid-way in the broad stair descending from the plaza (~26.8 m) to the Stockton sidewalk (~24.4 m): its base is at the lower landing, the stair wraps both sides and the rim is roughly at plaza level; dark grey granite steps (were red brick in the Hyatt era); small jet fountain inside, water #4FB3C9",
+        "hexBronze": "#4A5A55",
+        "confidence": "high (dims/location), medium (stair detail from photo)"
+      },
+      "greenWall": {
+        "widthM": 19.8, "heightM": 15.2, "face": "west end of the plaza (backs onto the neighbouring building), spanning from the store's NW corner line to the Hyatt", "planting": "Ficus repens (creeping fig), dense, hex #5C8A3C",
+        "waterfall": "sheer 'waterfall' slot bisecting the wall (~0.3 m wide dark vertical channel, offset to the north third), 300 gal recirculating; mechanical box on top-left",
+        "boardroom": "'The Boardroom' (business/dev meeting room: conference table, couches, demo area, TV) sits behind/at the base of the green wall with a glass door onto the plaza",
+        "confidence": "high (size, planting), medium (waterfall position, boardroom placement)"
+      },
+      "seating": {
+        "capacity": 200,
+        "furniture": "loose light-oak cafe tables (~1.0 x 0.7 m) and chairs; 12 shade trees each in a white round planter (~1.6 m dia x 0.5 m high) that doubles as a seat; low box hedges (~0.8 m) in raised planters along the store's rear terrace, the east retaining walls and the Hyatt side",
+        "trees_wgs84": [
+          {"lat": 37.788837, "lon": -122.407201}, {"lat": 37.788833, "lon": -122.407238}, {"lat": 37.788882, "lon": -122.407247}, {"lat": 37.788893, "lon": -122.407177},
+          {"lat": 37.788898, "lon": -122.407144}, {"lat": 37.788841, "lon": -122.407165}, {"lat": 37.788888, "lon": -122.407212}, {"lat": 37.788845, "lon": -122.407130},
+          {"lat": 37.788866, "lon": -122.407171}, {"lat": 37.788871, "lon": -122.407138}, {"lat": 37.788856, "lon": -122.407241}, {"lat": 37.788861, "lon": -122.407206}
+        ],
+        "paving": "large grey concrete/stone slabs ~0.9 m module, hex #A9A8A3",
+        "confidence": "high (tree positions OSM; capacity Apple), medium (furniture sizes)"
+      },
+      "stairsFromStockton": {"widthM": 9, "riseM": 2.4, "risers": 15, "note": "steps flanked by ~4 m planted retaining walls at each end; accessible route via the Hyatt side (not verified)", "confidence": "medium"},
+      "rearTerraceStair": {"note": "~5-7 risers (0.8-1.1 m) from the door-level terrace down to the main plaza, with a slim handrail, mid-way along the store's north face", "confidence": "medium (photo)"},
+      "loveSculpture": {"note": "Laura Kimpton multicolour 'LOVE' letters were installed for the 2016 opening; NOT visible in 2018 photos - treat as removed", "confidence": "medium"},
+      "hours": "open to the public 24 h; free Wi-Fi; weekend acoustic performances (2016 programme)"
+    }
+  },
+  "interior": {
+    "levels": 2,
+    "floorToFloorM": 4.9,
+    "ceilingHeightM": {"doubleHeightFront": 12.8, "underMezzanine": "3.7 (at the tapered edge, y=15.35) to ~4.6 (at the north wall root; slab tapers from ~1.2 m thick at the root to <0.3 m at the edge)", "mezzanine": 7.9},
+    "mezzanine": {
+      "depthM": 9.75, "widthM": 34.0, "edgeY": 15.35, "note": "cantilevers 32 ft from the north (rear) wall toward Post St and tapers to <1 ft; frameless glass balustrade 1.1 m along the south edge; overlooks Post St / Union Square through the upper half of the 42 ft glass",
+      "confidence": "high"
+    },
+    "stairs": {
+      "count": 2, "widthM": 2.13, "type": "floating glass treads on steel 'pucks' (lozenge-shaped metal fixings), glass balustrade, no visible stringer",
+      "positions": "one along the WEST party wall and one along the EAST (Stockton) wall; both rise from the front (south, bottom landing at y ~ 5) toward the rear, arriving at the mezzanine's west and east ends (y = 15.35) - ~28 risers x 0.175 m, run ~8.4 m",
+      "confidence": "high (count/type), medium (run/positions from photos refs/apple/apple_gf_west_stair_2017.jpg, apple_mezz_north_glass_2017.jpg)"
+    },
+    "groundFloor": {
+      "zones": {
+        "frontHall": "double-height product hall y = 0-15.35, x = 0-34: product tables in 3 east-west rows",
+        "avenue": "'The Avenue' = the walls under the mezzanine (north wall y = 25.1, and the east/west returns for y > 15.35): back-lit light-oak display 'windows' (~3 m tall) with shelves of accessories, cases grid, screens; seasonal themes",
+        "underMezzanine": "lower (3.7-4.6 m) zone with luminous soffit; 2-3 more tables (Watch/accessories), pickup/checkout counters",
+        "backOfHouse": "door in the west wall at the foot of the west stair's north end (y ~ 22); BOH/stock is behind the west and north walls (the north wall backs onto the Hyatt ballroom envelope)",
+        "confidence": "medium"
+      },
+      "genius_grove_note": "NOT on the ground floor - see mezzanine",
+      "productTables": {
+        "dimsM": [2.44, 1.22, 0.92], "material": "solid light oak, thick square legs (~0.12 m), hex #D8B583",
+        "count": 9, "layout": "3 rows (y ~ 3.5, 7.5, 11.5) x 3 tables end-to-end (x ~ 6-27) with ~1.2 m gaps; tables' long axis east-west; plus 2-3 under the mezzanine; leather-topped pouf stools at some tables",
+        "confidence": "medium (photos refs/apple/apple_gf_from_east_stair_2016.jpg)"
+      },
+      "materials": {
+        "floor": {"desc": "light warm-grey stone tile (original 2016 terrazzo cracked and was replaced with stone tile, per Michael Steeber); ~1.2 m modules, speckled", "hex": "#C8C5BF", "confidence": "medium"},
+        "walls": {"desc": "large matte grey steel/stainless panels (~1.2 x 3 m), same family as the exterior; NOT sandstone at this store", "hex": "#6B6E71", "confidence": "high"},
+        "ceiling": {"desc": "luminous white stretched panels (28 LED panels, 7,600 sq ft) in ~2.4 m wide strips running north-south with ~0.15 m dark joints carrying pin-spot downlights; opaque by day, glows at night; continues as the soffit under the mezzanine; slight taper toward the rear", "hexEmissive": "#F4F4F2", "hexJoint": "#2A2A2A", "confidence": "high"},
+        "avenueShelving": {"desc": "light oak boxes with warm back-light", "hexWood": "#C9A46B", "hexBacklight": "#FFF6E0", "confidence": "medium"}
+      }
+    },
+    "upperFloor": {
+      "name": "mezzanine / 'piano nobile' at +4.9 m, y = 15.35-25.1",
+      "northWall": "8.1 m tall glass to the plaza (x = 6-24 glazed; solid grey panels at both ends)",
+      "geniusGrove": {
+        "trees": 8, "species": "Ficus (Ficus microcarpa / 'nitida' type), ~4.5-5.5 m tall, 2.5 m canopy",
+        "planters": "round, ~1.6 m dia x 0.5 m, white composite shell (#F2F1EC) with a tan leather seat ring (#B5703A) ~0.3 m tall; gravel top",
+        "layout": "single row along the north glass, x ~ 8-26, y ~ 22.5-23.5, spacing ~2.4 m; long oak tables (2.4 x 0.8 m, 1.05 m high) with round oak-top stools between the trees and the balustrade",
+        "confidence": "high (count/species), medium (layout)"
+      },
+      "forum": {
+        "videoWall": {"widthM": 10.7, "heightM": 4.3, "areaM2": 46, "resolution": "6K", "cost": "~$1.5M (press)", "wall": "EAST (Stockton) wall, bottom edge at mezzanine floor level, spanning roughly y = 6.5-17 so that it extends south past the mezzanine edge and is seen from Union Square through the front glass ('backdrop for Union Square'); the full-height notch window is immediately north of it", "confidence": "high (size), medium (wall), low (exact y-extent)"},
+        "seating": "brown leather cube poufs (~0.45 m, #A0623A) stacked/arranged in rows facing the wall, plus the tall oak tables/stools; used for Today at Apple sessions",
+        "confidence": "medium"
+      },
+      "westEnd": "arrival of the west stair; more display tables; wall displays on the west party wall",
+      "boardroom": "outside on the plaza, behind the green wall (see exterior)",
+      "balustrade": "frameless glass 1.1 m with a slim stainless handrail, along y = 15.35 for x = 2.1-31.9 (stair openings at each end)",
+      "confidence": "medium"
+    },
+    "lighting": {
+      "daylight": "through the 12.8 m south glass, the 8.1 m north glass and the Stockton notch skylight; doors open on fair days for natural ventilation",
+      "artificial": "the whole ceiling is a luminous panel field (~500-700 lux even wash), pin-spots in the joints on tables, warm back-light in the Avenue shelving; the video wall is the only strong coloured light source",
+      "nightAppearance": "glowing white box seen from Union Square; ceiling panels visible edge-to-edge through the glass",
+      "confidence": "high"
+    },
+    "coloursHex": {
+      "exteriorSteel": "#8E9194", "exteriorSteelShade": "#5F6265", "frame": "#4A4C4F", "glass": "#C9D6D8 (alpha 0.15, reflective)",
+      "interiorWall": "#6B6E71", "floor": "#C8C5BF", "ceilingEmissive": "#F4F4F2", "ceilingJoint": "#2A2A2A",
+      "oak": "#D8B583", "shelfWood": "#C9A46B", "shelfBacklight": "#FFF6E0", "planterWhite": "#F2F1EC", "leather": "#B5703A", "forumCube": "#A0623A",
+      "plazaPaving": "#A9A8A3", "hedge": "#3E6B2F", "treeCanopy": "#4F7A3A", "greenWall": "#5C8A3C", "fountainBronze": "#4A5A55", "water": "#4FB3C9",
+      "neighbourWallCream": "#D8CFC0", "pvRoof": "#1F2A33"
+    }
+  },
+  "storyOfSpace": "From the NE corner of Union Square you face a taut 34 m wide steel-and-glass box; two 12.8 m tall glass leaves are usually slid open, so you walk straight off the Post St sidewalk onto a pale stone floor under a glowing white ceiling nearly 13 m up, with rows of light-oak tables carrying iPhones and Macs in the double-height front hall. Ahead, the space compresses under the thin, tapering edge of the mezzanine, where back-lit oak 'Avenue' windows of accessories line the rear wall; a floating glass stair climbs each side wall. At the top you arrive on the 'piano nobile': eight ficus trees in leather-rimmed white planters (the Genius Grove) stand against an 8 m glass wall that opens onto the raised plaza, while to your right (east) the 6K video wall of the Forum fills the Stockton wall beside a full-height slot window. Stepping out through the rear doors you reach a shaded terrace of white tree planters and cafe tables, backed by a 15 m green wall split by a thin waterfall; at the far (Stockton) edge the plaza breaks into a broad stair that wraps Ruth Asawa's bronze fountain and descends about 2.4 m to the street.",
+  "productLayout2026": {
+    "confidence": "low-medium (generic 2025-26 Apple flagship layout; no store-specific 2026 plan published; apple.com confirms Vision Pro demos, Genius Bar and pickup at this store)",
+    "groundFloorFront": {
+      "row1_nearestPost": "iPhone (2-3 tables: iPhone 17 / 17 Pro / Air line-up on riser stands with coiled security tethers)",
+      "row2": "iPhone + Apple Watch (Watch table with drawer displays of bands) and AirPods",
+      "row3_nearMezzanineEdge": "Mac (MacBook Air/Pro, iMac, Mac mini/Studio) and iPad tables"
+    },
+    "avenueWallsUnderMezzanine": "accessories 'windows': cases and MagSafe (colour grid), HomePod/Apple TV, Beats, photography/creative-pro accessories, Apple Watch bands wall; pickup counter and demo iPad terminals",
+    "mezzanine": "Genius Grove support tables along the north glass; Forum tables (Today at Apple) facing the video wall; Apple Vision Pro demo stations (typically 2-4 seated demo tables near the Forum, since 2024); some Mac/iPad display tables at the west end",
+    "note": "Apple rotates table contents seasonally; iPhone always occupies the tables nearest the entrance."
+  },
+  "sources": [
+    {"title": "Apple Newsroom - Apple Union Square Highlights New Design Elements, Community Programs (2016-05-19)", "url": "https://www.apple.com/newsroom/2016/05/19Apple-Union-Square-Highlights-New-Design-Elements-Community-Programs/", "used_for": "Avenue/Genius Grove/Forum/Plaza/Boardroom, 42 ft doors, 50 ft green wall, 24 h plaza, opening date"},
+    {"title": "Foster + Partners project text (mirrored at worldarchitecture.org / archilovers.com; fosterandpartners.com blocked)", "url": "https://worldarchitecture.org/architecture-news/cemzv/foster_partners_reveals_new_apple_union_square_in_san_francisco.html", "used_for": "door sizes 20.5x42 ft S / 20.5x26.5 ft N, 40 ft volume, 16 ft piano nobile, 32 ft cantilever, glass stairs with pucks, truss over Hyatt ballroom, dampers, 130 PV panels, 65x50 ft green wall Ficus repens + waterfall, fountain on steps"},
+    {"title": "Archilovers - Apple Union Square (Foster text with metric conversions)", "url": "https://www.archilovers.com/projects/183766/apple-union-square.html"},
+    {"title": "Ledcor - Ledcor-Built Apple Flagship Store Opens in Union Square (2016)", "url": "https://www.ledcor.com/newsroom/press-releases/-ledcor-built-apple-flagship-store-opens-in-union-square--san-fr", "used_for": "6,800 sq ft glass, 6,000 sq ft PV, 7,600 sq ft / 28 LED ceiling panels, 3,150 sq ft stainless east wall, two 40 ft + two 30 ft sliding doors, two 7 ft glass stairs, 500 sq ft 6K screen, logo cut into east facade, 400 stainless panels, radiant floor"},
+    {"title": "Dezeen - Foster + Partners unveils Apple Union Square (2016-05-21) [search snippet; page blocked]", "url": "https://www.dezeen.com/2016/05/21/foster-partners-jonathan-ive-apple-union-square-store-san-francisco/"},
+    {"title": "The Architect's Newspaper - Foster + Partners Apple store opens in San Francisco (2016-05) [snippet]", "url": "https://www.archpaper.com/2016/05/foster-partners-flagship-apple-store-opens-san-francisco/"},
+    {"title": "designboom - apple opens green-filled san francisco union square store (2016-05-23)", "url": "https://www.designboom.com/architecture/apple-foster-partners-san-francisco-union-square-store-opening-05-23-2016/"},
+    {"title": "New Atlas - Apple turns the page with its new San Francisco retail store (2016)", "url": "https://newatlas.com/apple-store-foster-partners-union-square-san-francisco/43481/"},
+    {"title": "MacRumors - Apple Previews New Flagship Union Square Store (2016-05-19)", "url": "https://www.macrumors.com/2016/05/19/apple-previews-new-sf-store/", "used_for": "seating for 200, 65 ft green wall, Boardroom contents, doors slide open 40 ft, upper floor = Forum + Genius Grove"},
+    {"title": "AppleInsider - Apple unveils Union Square store (2016-05-19)", "url": "https://appleinsider.com/articles/16/05/19/apple-unveils-union-square-store-in-san-francisco-ahead-of-saturday-opening"},
+    {"title": "AppleInsider - Site cleared for Apple's new flagship (2015-03-24) / Levi's building demolition", "url": "https://appleinsider.com/articles/15/03/24/site-cleared-for-apples-new-flagship-retail-store-at-san-franciscos-union-square"},
+    {"title": "AppleInsider - Apple's new Union Square store will not even reach fountain (2013-05-30)", "url": "https://appleinsider.com/articles/13/05/30/apples_new_union_square_store_will_not_even_reach_fountain_of_controversy.html", "used_for": "1973 triangular Levi's building, old plaza dimensions (80 ft + 6 ft + 30 ft)"},
+    {"title": "ArchDaily - Apple Redesigns San Francisco Store to Preserve Historic Fountain (2013-08)", "url": "https://www.archdaily.com/423372/san-francisco-s-apple-store-to-preserve-ruth-asawa-fountain", "used_for": "8 ft glass notch on Stockton, glass pulled back from outer frame, fountain moved a few feet"},
+    {"title": "SocketSite - Apple's Revised Designs For A Flagship Store On Union Square (2013-08)", "url": "http://www.socketsite.com/archives/2013/08/apples_revised_designs_for_flagship_union_square_store.html"},
+    {"title": "SF Planning Dept - Union Square Apple Store Case Report (Scribd mirror; snippet only)", "url": "https://www.scribd.com/document/203993497/Union-Square-Apple-Store-Case-Report", "used_for": "Stockton facade = vertically oriented bead-blasted metal panels; stone only on back-of-house portion"},
+    {"title": "Wikipedia - Ruth Asawa's San Francisco Fountain", "url": "https://en.wikipedia.org/wiki/Ruth_Asawa%27s_San_Francisco_Fountain", "used_for": "bronze, 90 in tall x 193 in dia, 1970-73, Grand Hyatt commission"},
+    {"title": "Wikipedia - Grand Hyatt San Francisco", "url": "https://en.wikipedia.org/wiki/Grand_Hyatt_San_Francisco"},
+    {"title": "Michael Steeber, Tabletops - Under your feet (terrazzo)", "url": "https://michaelsteeber.substack.com/p/under-your-feet-terrazzo", "used_for": "Union Square terrazzo cracked, replaced by stone tile"},
+    {"title": "Commercial Integrator - Apple Retail Store Shows Off $1.5 Million Giant 6K Display [snippet]", "url": "https://www.commercialintegrator.com/projects/apple_retail_store_shows_off_15_million_giant_6k_display/8575/", "used_for": "35 ft wide, 500 sq ft"},
+    {"title": "Apple Retail - Union Square store page (fetched 2026-09-01)", "url": "https://www.apple.com/retail/unionsquare/", "used_for": "2026 hours and services"},
+    {"title": "OpenStreetMap ways 332223480 (store), 481885316 (plaza), 288512968 (fountain), 32863494 (Hyatt) via Overpass, 2026-09-01", "url": "https://www.openstreetmap.org/way/332223480"},
+    {"title": "USGS 3DEP Elevation Point Query Service (1 m DEM), queried 2026-09-01", "url": "https://epqs.nationalmap.gov/"},
+    {"title": "Wikimedia Commons photos (see refs/apple/SOURCES.md), 2010-2023", "url": "https://commons.wikimedia.org/"}
+  ]
+}

@@ -1,0 +1,1400 @@
+[
+ {
+  "osmId": "way/184956226",
+  "name": "Union Square/Market Street Station (underground outline)",
+  "wall": "plaster_grey",
+  "heightM": 0.3,
+  "groundH": 0.2,
+  "floors": 0,
+  "cornice": "none",
+  "parapet": false,
+  "rooftop": [
+   "none"
+  ],
+  "edges": [],
+  "notes": "OSM way 184956226 is the UNDERGROUND Central Subway station outline (tagged height 28) running along Stockton from Post to Market at x 62-80; the engine rendered it as a 28 m limestone block in the street/plaza edge that hid the whole east side. heightM 0.3 flattens it to the lowest ground level (massing collision from Buildings.ts still applies - needs a hide override in World.ts)."
+ },
+ {
+  "osmId": "way/332521036",
+  "name": "Neiman Marcus",
+  "address": "150 Stockton Street",
+  "wall": "granite_pink",
+  "groundH": 9.5,
+  "floors": 2,
+  "cornice": "none",
+  "parapet": false,
+  "rooftop": [
+   "penthouse"
+  ],
+  "notes": "Johnson/Burgee 1982 harlequin box (5 fl / 28 m). granite_pink ~ rose-taupe diamonds. groundH 9.5 = tall ground+mezz display bays (~9 m). floors=2 -> blank 1st band, single row of small punched windows at ~20 m (real: 5 on Stockton, 2 on Geary). Corner glass prism = mass (upper part 9.5-20 m); its ground band is glazing + entrances on the main edges. Script sign is really at 24 m on the Geary face - engine only places fascia signs, so it sits above the doors.",
+  "edges": [
+   {
+    "edge": 7,
+    "window": "win_punched_modern_1.8x2.0",
+    "windowFloor2": "none",
+    "bayW": 8.2,
+    "endPad": 0.6,
+    "storefront": "storefront_bay_4.0x5.0"
+   },
+   {
+    "edge": 8,
+    "window": "win_punched_modern_1.8x2.0",
+    "windowFloor2": "none",
+    "bayW": 30,
+    "endPad": 0.6,
+    "storefront": "storefront_bay_4.0x5.0"
+   }
+  ],
+  "storefronts": [
+   {
+    "edge": 7,
+    "from": 0,
+    "to": 2.5,
+    "module": "wall"
+   },
+   {
+    "edge": 7,
+    "from": 2.5,
+    "to": 5.5,
+    "module": "storefront_door_double_2.0x2.8",
+    "height": 3.2,
+    "tenant": {
+     "name": "Neiman Marcus",
+     "signType": "none",
+     "category": "department_store",
+     "status": "open",
+     "confidence": "medium",
+     "address": "150 Stockton St",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 7,
+    "from": 5.5,
+    "to": 17,
+    "module": "wall"
+   },
+   {
+    "edge": 7,
+    "from": 17,
+    "to": 19.6,
+    "module": "storefront_bay_3.0x4.5",
+    "height": 8.6
+   },
+   {
+    "edge": 7,
+    "from": 19.6,
+    "to": 20.8,
+    "module": "wall"
+   },
+   {
+    "edge": 7,
+    "from": 20.8,
+    "to": 23.4,
+    "module": "storefront_bay_3.0x4.5",
+    "height": 8.6
+   },
+   {
+    "edge": 7,
+    "from": 23.4,
+    "to": 24.6,
+    "module": "wall"
+   },
+   {
+    "edge": 7,
+    "from": 24.6,
+    "to": 27.2,
+    "module": "storefront_bay_3.0x4.5",
+    "height": 8.6
+   },
+   {
+    "edge": 7,
+    "from": 27.2,
+    "to": 30.4,
+    "module": "wall"
+   },
+   {
+    "edge": 7,
+    "from": 30.4,
+    "to": 35.4,
+    "module": "storefront_bay_4.0x5.0",
+    "height": 8.6
+   },
+   {
+    "edge": 7,
+    "from": 35.4,
+    "to": 38.4,
+    "module": "storefront_door_recessed_3.0x4.5",
+    "height": 4.5,
+    "tenant": {
+     "name": "Neiman Marcus",
+     "brand": "neiman",
+     "signType": "fascia",
+     "category": "department_store",
+     "status": "open",
+     "confidence": "high",
+     "address": "150 Stockton St",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 7,
+    "from": 38.4,
+    "to": 42.4,
+    "module": "storefront_bay_4.0x5.0",
+    "height": 8.6
+   },
+   {
+    "edge": 8,
+    "from": 0,
+    "to": 4,
+    "module": "storefront_bay_4.0x5.0",
+    "height": 8.6
+   },
+   {
+    "edge": 8,
+    "from": 4,
+    "to": 7,
+    "module": "storefront_door_recessed_3.0x4.5",
+    "height": 4.5,
+    "tenant": {
+     "name": "Neiman Marcus",
+     "signType": "none",
+     "category": "department_store",
+     "status": "open",
+     "confidence": "high",
+     "address": "150 Stockton St (Geary entrance)",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 8,
+    "from": 7,
+    "to": 12,
+    "module": "storefront_bay_4.0x5.0",
+    "height": 8.6
+   },
+   {
+    "edge": 8,
+    "from": 12,
+    "to": 14.4,
+    "module": "wall"
+   },
+   {
+    "edge": 8,
+    "from": 14.4,
+    "to": 23.4,
+    "module": "storefront_bay_3.0x4.5",
+    "height": 4.5,
+    "tenant": {
+     "name": "Neiman Marcus",
+     "brand": "neiman",
+     "signType": "fascia",
+     "category": "department_store",
+     "status": "open",
+     "confidence": "high",
+     "address": "150 Stockton St",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 8,
+    "from": 23.4,
+    "to": 24.6,
+    "module": "wall"
+   },
+   {
+    "edge": 8,
+    "from": 24.6,
+    "to": 27.2,
+    "module": "storefront_bay_3.0x4.5",
+    "height": 8.6
+   },
+   {
+    "edge": 8,
+    "from": 27.2,
+    "to": 28.4,
+    "module": "wall"
+   },
+   {
+    "edge": 8,
+    "from": 28.4,
+    "to": 31,
+    "module": "storefront_bay_3.0x4.5",
+    "height": 8.6
+   },
+   {
+    "edge": 8,
+    "from": 31,
+    "to": 92.9,
+    "module": "wall"
+   }
+  ],
+  "masses": [
+   {
+    "polygon": [
+     [
+      82,
+      62.6
+     ],
+     [
+      94.7,
+      62.6
+     ],
+     [
+      94.7,
+      75.3
+     ],
+     [
+      82,
+      75.3
+     ]
+    ],
+    "baseY": 9.5,
+    "height": 10.5,
+    "wall": "glass_tint",
+    "window": "win_curtain_3.0x3.6",
+    "bayW": 3.2,
+    "cornice": "none"
+   }
+  ],
+  "signs": [
+   {
+    "brand": "neiman",
+    "edge": 7,
+    "at": 21,
+    "y": 23.5,
+    "widthM": 13,
+    "heightM": 2.0
+   },
+   {
+    "brand": "neiman",
+    "edge": 8,
+    "at": 46,
+    "y": 23.5,
+    "widthM": 13,
+    "heightM": 2.0
+   }
+  ]
+ },
+ {
+  "osmId": "way/32863494",
+  "name": "Grand Hyatt San Francisco",
+  "address": "345 Stockton Street",
+  "wall": "concrete_plain",
+  "base": {
+   "material": "granite_grey",
+   "height": 10
+  },
+  "groundH": 6,
+  "floorH": 3,
+  "heightM": 108,
+  "cornice": "none",
+  "parapet": true,
+  "rooftop": [
+   "none"
+  ],
+  "notes": "SOM 1972 slab, 36 fl; OSM height 94 -> 108 m per Wikipedia (recon). Long faces = precast grid; end walls blank. 2-storey podium; hotel entrance / porte-cochere on Stockton.",
+  "edges": [
+   {
+    "edge": 1,
+    "window": "win_punched_modern_1.8x2.0",
+    "bayW": 3,
+    "endPad": 1.5,
+    "storefront": "storefront_bay_4.0x5.0"
+   },
+   {
+    "edge": 0,
+    "window": "none",
+    "bayW": 3,
+    "endPad": 0.8,
+    "storefront": "wall"
+   },
+   {
+    "edge": 5,
+    "window": "none",
+    "bayW": 3,
+    "endPad": 0.8,
+    "storefront": "wall"
+   },
+   {
+    "edge": 2,
+    "window": "none",
+    "bayW": 3,
+    "endPad": 0.8,
+    "storefront": "wall"
+   },
+   {
+    "edge": 4,
+    "window": "win_punched_modern_1.8x2.0",
+    "bayW": 3,
+    "endPad": 1.5,
+    "storefront": "wall"
+   }
+  ],
+  "storefronts": [
+   {
+    "edge": 1,
+    "from": 0.8,
+    "to": 12.8,
+    "module": "storefront_bay_4.0x5.0"
+   },
+   {
+    "edge": 1,
+    "from": 13.5,
+    "to": 19.5,
+    "module": "door_hotel_marquee_6.0",
+    "tenant": {
+     "name": "Grand Hyatt",
+     "brand": "grandhyatt",
+     "signType": "fascia",
+     "illuminated": true,
+     "category": "hotel",
+     "status": "open",
+     "confidence": "high",
+     "address": "345 Stockton St",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 1,
+    "from": 20.2,
+    "to": 32.2,
+    "module": "storefront_bay_4.0x5.0"
+   },
+   {
+    "edge": 1,
+    "from": 32.2,
+    "to": 34.2,
+    "module": "wall"
+   }
+  ]
+ },
+ {
+  "osmId": "way/32863657",
+  "name": "100 Stockton",
+  "address": "100 Stockton Street",
+  "wall": "limestone",
+  "groundH": 6,
+  "floors": 7,
+  "cornice": "none",
+  "parapet": true,
+  "rooftop": [
+   "penthouse"
+  ],
+  "notes": "Ex-Macy's Men's (1974), Gensler re-skin 2019-23: light stone piers + large glazing, 7 fl / 33 m, rooftop Chotto Matte. Ground retail vacant (Kith permits Jul 2026 - not signed); Convene lobby position unresolved.",
+  "edges": [
+   {
+    "edge": 7,
+    "window": "win_curtain_3.0x3.6",
+    "bayW": 3.6,
+    "endPad": 0.8,
+    "storefront": "storefront_bay_4.0x5.0"
+   },
+   {
+    "edge": 6,
+    "window": "win_curtain_3.0x3.6",
+    "bayW": 3.6,
+    "endPad": 0.8,
+    "storefront": "storefront_bay_4.0x5.0"
+   }
+  ],
+  "storefronts": [
+   {
+    "edge": 7,
+    "from": 1,
+    "to": 7.5,
+    "module": "storefront_bay_4.0x5.0",
+    "tenant": {
+     "name": "For Lease",
+     "signType": "fascia",
+     "color": "#333333",
+     "bg": "#f4f4f2",
+     "category": "vacant",
+     "status": "vacant",
+     "confidence": "medium",
+     "address": "100 Stockton St",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 7,
+    "from": 8,
+    "to": 14.5,
+    "module": "storefront_bay_4.0x5.0"
+   },
+   {
+    "edge": 7,
+    "from": 15,
+    "to": 21.5,
+    "module": "storefront_bay_4.0x5.0"
+   },
+   {
+    "edge": 7,
+    "from": 22,
+    "to": 28.5,
+    "module": "storefront_bay_4.0x5.0",
+    "tenant": {
+     "name": "For Lease",
+     "signType": "fascia",
+     "color": "#333333",
+     "bg": "#f4f4f2",
+     "category": "vacant",
+     "status": "vacant",
+     "confidence": "medium",
+     "address": "120 Stockton St",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 7,
+    "from": 29,
+    "to": 33.5,
+    "module": "storefront_bay_4.0x5.0"
+   },
+   {
+    "edge": 7,
+    "from": 34,
+    "to": 39.4,
+    "module": "storefront_door_recessed_3.0x4.5",
+    "tenant": {
+     "name": "Convene",
+     "brand": "convene",
+     "signType": "fascia",
+     "category": "office",
+     "status": "open",
+     "confidence": "medium",
+     "address": "100 Stockton St",
+     "enterable": false
+    }
+   }
+  ]
+ },
+ {
+  "osmId": "way/35536841",
+  "name": "One Union Square",
+  "address": "180 Geary Street",
+  "wall": "marble_white",
+  "base": {
+   "material": "marble_white",
+   "height": 10
+  },
+  "groundH": 5.5,
+  "floors": 6,
+  "cornice": "none",
+  "parapet": true,
+  "rooftop": [
+   "none"
+  ],
+  "notes": "1987 white-stone framed glass block, 7 fl / 25 m. Moncler open; ex-Bulgari corner and ex-Hublot/Lacoste on Geary vacant (blank fascias).",
+  "edges": [
+   {
+    "edge": 3,
+    "window": "win_curtain_3.0x3.6",
+    "bayW": 3.6,
+    "endPad": 0.8,
+    "storefront": "storefront_luxury_4.0x5.0"
+   },
+   {
+    "edge": 2,
+    "window": "win_curtain_3.0x3.6",
+    "bayW": 3.6,
+    "endPad": 0.8,
+    "storefront": "storefront_luxury_4.0x5.0"
+   }
+  ],
+  "storefronts": [
+   {
+    "edge": 3,
+    "from": 0.5,
+    "to": 8.5,
+    "module": "storefront_luxury_4.0x5.0"
+   },
+   {
+    "edge": 3,
+    "from": 9.5,
+    "to": 17.5,
+    "module": "storefront_luxury_4.0x5.0",
+    "tenant": {
+     "name": "Moncler",
+     "brand": "moncler",
+     "signType": "fascia",
+     "category": "fashion",
+     "status": "open",
+     "confidence": "medium",
+     "address": "212 Stockton St",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 2,
+    "from": 1,
+    "to": 9,
+    "module": "storefront_luxury_4.0x5.0"
+   },
+   {
+    "edge": 2,
+    "from": 9.5,
+    "to": 17,
+    "module": "storefront_luxury_4.0x5.0"
+   },
+   {
+    "edge": 2,
+    "from": 17.5,
+    "to": 25.5,
+    "module": "storefront_luxury_4.0x5.0"
+   }
+  ]
+ },
+ {
+  "osmId": "way/939466397",
+  "name": "216 Stockton",
+  "address": "216 Stockton Street",
+  "wall": "plaster_cream",
+  "heightM": 9,
+  "groundH": 5,
+  "floors": 1,
+  "cornice": "medium",
+  "rooftop": [
+   "none"
+  ],
+  "notes": "Narrow 2-storey infill (OSM has no height; ~9 m). BAPE opened Jun 2026 (ex-Dior Men's).",
+  "edges": [
+   {
+    "edge": 2,
+    "window": "win_dh_stone_1.5x2.6",
+    "bayW": 2.5,
+    "endPad": 0.5,
+    "storefront": "storefront_bay_3.0x4.5"
+   }
+  ],
+  "storefronts": [
+   {
+    "edge": 2,
+    "from": 0.3,
+    "to": 4.8,
+    "module": "storefront_bay_3.0x4.5",
+    "tenant": {
+     "name": "BAPE",
+     "brand": "bape",
+     "signType": "fascia",
+     "category": "fashion",
+     "status": "open",
+     "confidence": "high",
+     "address": "216 Stockton St",
+     "enterable": false
+    }
+   }
+  ]
+ },
+ {
+  "osmId": "way/35536844",
+  "name": "218-222 Stockton",
+  "address": "218;222 Stockton Street",
+  "wall": "brick_red",
+  "base": {
+   "material": "granite_grey",
+   "height": 5
+  },
+  "groundH": 5,
+  "floors": 3,
+  "cornice": "medium",
+  "stringcourseAfterFloors": [
+   1
+  ],
+  "rooftop": [
+   "none"
+  ],
+  "notes": "1908 red-brick club/commercial building (Town & Country Club), 4 fl / 18 m, returns along Maiden Lane. Tory Burch (green awnings) at the Maiden Lane corner; 218 ground floor unresolved (blank).",
+  "edges": [
+   {
+    "edge": 2,
+    "window": "win_pair_stone_2.4x2.4",
+    "bayW": 4.5,
+    "endPad": 0.8,
+    "storefront": "storefront_bay_3.0x4.5"
+   },
+   {
+    "edge": 3,
+    "window": "win_pair_stone_2.4x2.4",
+    "bayW": 4.5,
+    "endPad": 0.8,
+    "storefront": "wall"
+   }
+  ],
+  "storefronts": [
+   {
+    "edge": 2,
+    "from": 0.5,
+    "to": 5.5,
+    "module": "storefront_bay_3.0x4.5"
+   },
+   {
+    "edge": 2,
+    "from": 6,
+    "to": 13.1,
+    "module": "storefront_bay_3.0x4.5",
+    "tenant": {
+     "name": "Tory Burch",
+     "brand": "toryburch",
+     "signType": "fascia",
+     "awning": "green",
+     "category": "fashion",
+     "status": "open",
+     "confidence": "medium",
+     "address": "222 Stockton St",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 3,
+    "from": 0.5,
+    "to": 7.5,
+    "module": "storefront_bay_3.0x4.5",
+    "tenant": {
+     "name": "Tory Burch",
+     "brand": "toryburch",
+     "signType": "none",
+     "awning": "green",
+     "category": "fashion",
+     "status": "open",
+     "confidence": "medium",
+     "address": "222 Stockton St (Maiden Lane)",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 3,
+    "from": 8,
+    "to": 12,
+    "module": "storefront_bay_3.0x4.5"
+   },
+   {
+    "edge": 3,
+    "from": 12,
+    "to": 22.4,
+    "module": "wall"
+   }
+  ]
+ },
+ {
+  "osmId": "way/256917321",
+  "name": "234-240 Stockton",
+  "address": "234;238;240 Stockton Street",
+  "wall": "limestone",
+  "groundH": 5.5,
+  "floors": 10,
+  "cornice": "heavy",
+  "stringcourseAfterFloors": [
+   1
+  ],
+  "rooftop": [
+   "penthouse",
+   "watertank"
+  ],
+  "notes": "1908 cream stone office tower (10-11 fl / 40 m) with ornate bracketed band over the 2nd floor and heavy cornice (vp25). Gucci flagship on the Stockton/Maiden Lane corner (open, Yelp May 2026); 234 ground floor unresolved (blank).",
+  "edges": [
+   {
+    "edge": 5,
+    "window": "win_dh_stone_1.2x2.2",
+    "windowFloor2": "win_curtain_3.0x3.6",
+    "bayW": 4.4,
+    "endPad": 0.8,
+    "storefront": "storefront_luxury_4.0x5.0"
+   },
+   {
+    "edge": 4,
+    "window": "win_dh_stone_1.2x2.2",
+    "windowFloor2": "win_curtain_3.0x3.6",
+    "bayW": 4.4,
+    "endPad": 0.8,
+    "storefront": "storefront_luxury_4.0x5.0"
+   },
+   {
+    "edge": 0,
+    "window": "none",
+    "detail": false
+   }
+  ],
+  "storefronts": [
+   {
+    "edge": 5,
+    "from": 0.5,
+    "to": 12.5,
+    "module": "storefront_luxury_4.0x5.0",
+    "tenant": {
+     "name": "Gucci",
+     "brand": "gucci",
+     "signType": "fascia",
+     "category": "fashion",
+     "status": "open",
+     "confidence": "high",
+     "address": "240 Stockton St",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 5,
+    "from": 13,
+    "to": 18,
+    "module": "storefront_luxury_4.0x5.0"
+   },
+   {
+    "edge": 4,
+    "from": 0.5,
+    "to": 7.5,
+    "module": "storefront_luxury_4.0x5.0"
+   },
+   {
+    "edge": 4,
+    "from": 8,
+    "to": 19.5,
+    "module": "storefront_luxury_4.0x5.0",
+    "tenant": {
+     "name": "Gucci",
+     "brand": "gucci",
+     "signType": "fascia",
+     "category": "fashion",
+     "status": "open",
+     "confidence": "high",
+     "address": "240 Stockton St (Maiden Lane)",
+     "enterable": false
+    }
+   }
+  ]
+ },
+ {
+  "osmId": "way/939466400",
+  "name": "V.C. Morris Gift Shop Building",
+  "address": "140 Maiden Lane",
+  "wall": "brick_red",
+  "heightM": 9,
+  "groundH": 5.5,
+  "floors": 1,
+  "cornice": "none",
+  "parapet": false,
+  "rooftop": [
+   "none"
+  ],
+  "notes": "Frank Lloyd Wright 1948 remodel: blank (tan Roman) brick wall, single arched tunnel entrance left of centre, no windows. Isaia (open). brick_red is the only brick material available (real brick is tan).",
+  "edges": [
+   {
+    "edge": 3,
+    "window": "none",
+    "bayW": 4,
+    "endPad": 0.5,
+    "storefront": "wall"
+   }
+  ],
+  "storefronts": [
+   {
+    "edge": 3,
+    "from": 0,
+    "to": 8,
+    "module": "wall"
+   },
+   {
+    "edge": 3,
+    "from": 8,
+    "to": 12,
+    "module": "storefront_arcade_arch_4.0x5.5",
+    "tenant": {
+     "name": "Isaia",
+     "brand": "isaia",
+     "signType": "none",
+     "category": "fashion",
+     "status": "open",
+     "confidence": "high",
+     "address": "140 Maiden Ln",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 3,
+    "from": 12,
+    "to": 14.4,
+    "module": "wall"
+   }
+  ]
+ },
+ {
+  "osmId": "way/939466405",
+  "name": "134 Maiden Lane",
+  "address": "134 Maiden Lane",
+  "wall": "plaster_white",
+  "heightM": 12,
+  "groundH": 5,
+  "floors": 2,
+  "cornice": "medium",
+  "rooftop": [
+   "none"
+  ],
+  "notes": "Narrow 3-storey infill east of V.C. Morris; OSM has no height (would render as a 3.8 m kiosk) -> 12 m. Tenant unresolved.",
+  "edges": [
+   {
+    "edge": 3,
+    "window": "win_dh_stone_1.5x2.6",
+    "bayW": 3,
+    "endPad": 0.6,
+    "storefront": "storefront_bay_3.0x4.5"
+   }
+  ]
+ },
+ {
+  "osmId": "way/256917319",
+  "name": "118-120 Maiden Lane",
+  "address": "118;120 Maiden Lane",
+  "wall": "plaster_cream",
+  "groundH": 5,
+  "floors": 2,
+  "cornice": "medium",
+  "rooftop": [
+   "none"
+  ],
+  "notes": "3-storey shop building near Grant (12 m). Tenant unresolved.",
+  "edges": [
+   {
+    "edge": 4,
+    "window": "win_dh_stone_1.5x2.6",
+    "bayW": 3.6,
+    "endPad": 0.8,
+    "storefront": "storefront_bay_3.0x4.5"
+   }
+  ]
+ },
+ {
+  "osmId": "way/256917324",
+  "name": "Maiden Lane / Post mid-block (8 fl)",
+  "wall": "limestone",
+  "base": {
+   "material": "granite_grey",
+   "height": 5.5
+  },
+  "groundH": 5.5,
+  "cornice": "medium",
+  "stringcourseAfterFloors": [
+   1
+  ],
+  "rooftop": [
+   "penthouse"
+  ],
+  "notes": "Unnamed 8-storey / 35 m block behind 240 Stockton fronting Maiden Lane (north side) and Post St. Tenants unresolved.",
+  "edges": [
+   {
+    "edge": "street",
+    "window": "win_dh_stone_1.5x2.6",
+    "bayW": 4,
+    "endPad": 0.8,
+    "storefront": "storefront_bay_3.0x4.5"
+   }
+  ]
+ },
+ {
+  "osmId": "way/256917346",
+  "name": "245-255 Post (rear on Maiden Lane)",
+  "address": "245;251;253;255 Post Street",
+  "wall": "plaster_cream",
+  "base": {
+   "material": "granite_grey",
+   "height": 5
+  },
+  "groundH": 5,
+  "cornice": "medium",
+  "rooftop": [
+   "none"
+  ],
+  "notes": "Through-block Post St building; The RealReal / Painted Leopard cafe has its Maiden Lane entrance here (open). Post frontage tenants unresolved.",
+  "edges": [
+   {
+    "edge": "street",
+    "window": "win_dh_stone_1.5x2.6",
+    "bayW": 3.8,
+    "endPad": 0.8,
+    "storefront": "storefront_bay_3.0x4.5"
+   }
+  ],
+  "storefronts": [
+   {
+    "edge": 1,
+    "from": 0.8,
+    "to": 4,
+    "module": "storefront_bay_3.0x4.5"
+   },
+   {
+    "edge": 1,
+    "from": 4.5,
+    "to": 8.5,
+    "module": "storefront_door_recessed_3.0x4.5",
+    "tenant": {
+     "name": "The RealReal",
+     "brand": "realreal",
+     "signType": "fascia",
+     "category": "fashion",
+     "status": "open",
+     "confidence": "high",
+     "address": "253 Post St (Maiden Lane entrance)",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 1,
+    "from": 9,
+    "to": 12.5,
+    "module": "storefront_bay_3.0x4.5"
+   }
+  ]
+ },
+ {
+  "osmId": "way/939466399",
+  "name": "Maiden Lane south side (110-126)",
+  "wall": "plaster_cream",
+  "heightM": 16,
+  "groundH": 5,
+  "floors": 3,
+  "cornice": "medium",
+  "rooftop": [
+   "none"
+  ],
+  "notes": "South-side Maiden Lane building east of 218-222 Stockton; OSM has no height -> 16 m. Tenants unresolved.",
+  "edges": [
+   {
+    "edge": 3,
+    "window": "win_dh_stone_1.5x2.6",
+    "bayW": 3.6,
+    "endPad": 0.8,
+    "storefront": "storefront_bay_3.0x4.5"
+   }
+  ]
+ },
+ {
+  "osmId": "way/939466398",
+  "name": "Maiden Lane south side sliver",
+  "wall": "plaster_cream",
+  "heightM": 16,
+  "groundH": 5,
+  "floors": 3,
+  "cornice": "medium",
+  "rooftop": [
+   "none"
+  ],
+  "notes": "3.5 m sliver between 218-222 Stockton and its neighbour; OSM has no height -> 16 m.",
+  "edges": [
+   {
+    "edge": 4,
+    "window": "win_dh_stone_1.2x2.2",
+    "bayW": 3,
+    "endPad": 0.4,
+    "storefront": "wall"
+   }
+  ]
+ },
+ {
+  "osmId": "way/939466402",
+  "name": "250-260 Stockton (Schroth Building)",
+  "address": "250;252;260 Stockton Street",
+  "wall": "limestone",
+  "base": {
+   "material": "granite_grey",
+   "height": 4.8
+  },
+  "heightM": 15,
+  "groundH": 4.8,
+  "floors": 3,
+  "cornice": "medium",
+  "stringcourseAfterFloors": [
+   1
+  ],
+  "rooftop": [
+   "none"
+  ],
+  "notes": "Small 4-storey commercial building (~15 m; OSM has no height). Sunglass Hut (open, OSM 2026-04); other bay unresolved.",
+  "edges": [
+   {
+    "edge": 2,
+    "window": "win_dh_stone_1.5x2.6",
+    "bayW": 3.4,
+    "endPad": 0.7,
+    "storefront": "storefront_bay_3.0x4.5"
+   }
+  ],
+  "storefronts": [
+   {
+    "edge": 2,
+    "from": 0.5,
+    "to": 5,
+    "module": "storefront_bay_3.0x4.5",
+    "tenant": {
+     "name": "Sunglass Hut",
+     "brand": "sunglasshut",
+     "signType": "fascia",
+     "category": "retail",
+     "status": "open",
+     "confidence": "medium",
+     "address": "250-270 Stockton St",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 2,
+    "from": 5.5,
+    "to": 9.8,
+    "module": "storefront_bay_3.0x4.5"
+   }
+  ]
+ },
+ {
+  "osmId": "way/939466401",
+  "name": "275-299 Post (SE corner Post & Stockton)",
+  "address": "275;299 Post Street",
+  "wall": "limestone",
+  "base": {
+   "material": "granite_grey",
+   "height": 4.8
+  },
+  "heightM": 15,
+  "groundH": 4.8,
+  "floors": 3,
+  "cornice": "medium",
+  "stringcourseAfterFloors": [
+   1
+  ],
+  "rooftop": [
+   "none"
+  ],
+  "notes": "Small 4-storey corner building (~15 m; OSM has no height). Breitling on Post near the corner (open, OSM 2026-04); corner bay unresolved.",
+  "edges": [
+   {
+    "edge": 4,
+    "window": "win_dh_stone_1.5x2.6",
+    "bayW": 3.4,
+    "endPad": 0.7,
+    "storefront": "storefront_bay_3.0x4.5"
+   },
+   {
+    "edge": 0,
+    "window": "win_dh_stone_1.5x2.6",
+    "bayW": 3.4,
+    "endPad": 0.7,
+    "storefront": "storefront_bay_3.0x4.5"
+   },
+   {
+    "edge": 1,
+    "window": "win_dh_stone_1.5x2.6",
+    "bayW": 3.4,
+    "endPad": 0.5,
+    "storefront": "wall"
+   }
+  ],
+  "storefronts": [
+   {
+    "edge": 4,
+    "from": 0.5,
+    "to": 8,
+    "module": "storefront_bay_3.0x4.5"
+   },
+   {
+    "edge": 0,
+    "from": 1,
+    "to": 7,
+    "module": "storefront_bay_3.0x4.5",
+    "tenant": {
+     "name": "Breitling",
+     "brand": "breitling",
+     "signType": "fascia",
+     "category": "jewelry",
+     "status": "open",
+     "confidence": "medium",
+     "address": "275 Post St",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 0,
+    "from": 7.5,
+    "to": 15.4,
+    "module": "storefront_bay_3.0x4.5"
+   }
+  ]
+ },
+ {
+  "osmId": "way/135174114",
+  "name": "Nike San Francisco (NE corner Post & Stockton)",
+  "address": "278 Post Street",
+  "wall": "limestone",
+  "base": {
+   "material": "granite_grey",
+   "height": 10
+  },
+  "groundH": 5.5,
+  "floors": 5,
+  "cornice": "medium",
+  "stringcourseAfterFloors": [
+   2
+  ],
+  "rooftop": [
+   "penthouse"
+  ],
+  "notes": "Light stone mid-rise, 27 m, multi-storey Nike (ex-Niketown) glazing at the corner (storefronts.json: open, medium). 324 Stockton (ex-Cole Haan) vacant.",
+  "edges": [
+   {
+    "edge": 6,
+    "window": "win_pair_stone_2.4x2.4",
+    "bayW": 5,
+    "endPad": 0.8,
+    "storefront": "storefront_bay_4.0x5.0"
+   },
+   {
+    "edge": 5,
+    "window": "win_pair_stone_2.4x2.4",
+    "bayW": 5,
+    "endPad": 0.8,
+    "storefront": "storefront_bay_4.0x5.0"
+   }
+  ],
+  "storefronts": [
+   {
+    "edge": 6,
+    "from": 0.5,
+    "to": 8,
+    "module": "storefront_bay_4.0x5.0",
+    "tenant": {
+     "name": "Nike San Francisco",
+     "brand": "swoosh",
+     "signType": "fascia",
+     "category": "fashion",
+     "status": "open",
+     "confidence": "medium",
+     "address": "278 Post St",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 6,
+    "from": 8,
+    "to": 11,
+    "module": "storefront_door_double_2.0x2.8",
+    "tenant": {
+     "name": "Nike San Francisco",
+     "signType": "none",
+     "category": "fashion",
+     "status": "open",
+     "confidence": "medium",
+     "address": "278 Post St",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 6,
+    "from": 11,
+    "to": 16,
+    "module": "storefront_bay_4.0x5.0"
+   },
+   {
+    "edge": 6,
+    "from": 16.8,
+    "to": 23.8,
+    "module": "storefront_bay_4.0x5.0"
+   },
+   {
+    "edge": 6,
+    "from": 24.5,
+    "to": 30,
+    "module": "storefront_bay_4.0x5.0",
+    "tenant": {
+     "name": "For Lease",
+     "signType": "fascia",
+     "color": "#333333",
+     "bg": "#f4f4f2",
+     "category": "vacant",
+     "status": "vacant",
+     "confidence": "medium",
+     "address": "324 Stockton St",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 6,
+    "from": 30.5,
+    "to": 36.5,
+    "module": "storefront_bay_4.0x5.0"
+   },
+   {
+    "edge": 5,
+    "from": 0.8,
+    "to": 6.8,
+    "module": "storefront_bay_4.0x5.0"
+   },
+   {
+    "edge": 5,
+    "from": 7.3,
+    "to": 15.3,
+    "module": "storefront_bay_4.0x5.0"
+   },
+   {
+    "edge": 5,
+    "from": 15.8,
+    "to": 22.4,
+    "module": "storefront_bay_4.0x5.0",
+    "tenant": {
+     "name": "Nike San Francisco",
+     "brand": "swoosh",
+     "signType": "fascia",
+     "category": "fashion",
+     "status": "open",
+     "confidence": "medium",
+     "address": "278 Post St",
+     "enterable": false
+    }
+   }
+  ]
+ },
+ {
+  "osmId": "way/35536860",
+  "name": "Taj Campton Place Hotel",
+  "address": "340 Stockton Street",
+  "wall": "plaster_grey",
+  "base": {
+   "material": "granite_grey",
+   "height": 5
+  },
+  "groundH": 5,
+  "floors": 10,
+  "cornice": "medium",
+  "stringcourseAfterFloors": [
+   7
+  ],
+  "rooftop": [
+   "penthouse"
+  ],
+  "notes": "1909 hotel slab, pale grey-beige stucco, 33 m; ornate bracketed band above the 7th/8th floor (modelled as belt course), decorated top storeys. Hotel entrance with marquee; Campton Bar & Bistro (open per Yelp Aug 2026, medium).",
+  "edges": [
+   {
+    "edge": 6,
+    "window": "win_pair_stone_2.4x2.4",
+    "bayW": 5.4,
+    "endPad": 1,
+    "storefront": "storefront_bay_3.0x4.5"
+   }
+  ],
+  "storefronts": [
+   {
+    "edge": 6,
+    "from": 1,
+    "to": 7.5,
+    "module": "storefront_bay_3.0x4.5",
+    "tenant": {
+     "name": "Campton Bar & Bistro",
+     "signType": "fascia",
+     "color": "#f2ead8",
+     "bg": "#2b2320",
+     "category": "restaurant",
+     "status": "open",
+     "confidence": "medium",
+     "address": "340 Stockton St",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 6,
+    "from": 8,
+    "to": 14,
+    "module": "door_hotel_marquee_6.0",
+    "tenant": {
+     "name": "Taj Campton Place",
+     "signType": "fascia",
+     "color": "#e8d9a8",
+     "bg": "#1f1a17",
+     "illuminated": true,
+     "category": "hotel",
+     "status": "open",
+     "confidence": "high",
+     "address": "340 Stockton St",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 6,
+    "from": 14.5,
+    "to": 22,
+    "module": "storefront_bay_3.0x4.5"
+   }
+  ]
+ },
+ {
+  "osmId": "way/35536960",
+  "name": "390 Stockton (SE corner Sutter & Stockton)",
+  "address": "390 Stockton Street",
+  "wall": "limestone",
+  "base": {
+   "material": "granite_grey",
+   "height": 5
+  },
+  "groundH": 5,
+  "floors": 8,
+  "cornice": "medium",
+  "stringcourseAfterFloors": [
+   1
+  ],
+  "rooftop": [
+   "penthouse"
+  ],
+  "notes": "~9-storey / 34 m corner commercial building. Starbucks at the corner is last-known (directory/OSM, 2026 unverified).",
+  "edges": [
+   {
+    "edge": 3,
+    "window": "win_dh_stone_1.5x2.6",
+    "bayW": 4,
+    "endPad": 0.8,
+    "storefront": "storefront_bay_3.0x4.5"
+   },
+   {
+    "edge": 4,
+    "window": "win_dh_stone_1.5x2.6",
+    "bayW": 4,
+    "endPad": 0.8,
+    "storefront": "storefront_bay_3.0x4.5"
+   }
+  ],
+  "storefronts": [
+   {
+    "edge": 3,
+    "from": 0.5,
+    "to": 5.5,
+    "module": "storefront_bay_3.0x4.5"
+   },
+   {
+    "edge": 3,
+    "from": 6,
+    "to": 12.6,
+    "module": "storefront_bay_3.0x4.5",
+    "tenant": {
+     "name": "Starbucks",
+     "brand": "starbucks",
+     "signType": "fascia",
+     "illuminated": true,
+     "category": "cafe",
+     "status": "unverified",
+     "confidence": "low",
+     "address": "390 Stockton St",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 4,
+    "from": 0.5,
+    "to": 8,
+    "module": "storefront_bay_3.0x4.5",
+    "tenant": {
+     "name": "Starbucks",
+     "brand": "starbucks",
+     "signType": "none",
+     "category": "cafe",
+     "status": "unverified",
+     "confidence": "low",
+     "address": "390 Stockton St (Sutter)",
+     "enterable": false
+    }
+   }
+  ]
+ }
+]

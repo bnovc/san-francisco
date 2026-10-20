@@ -1,0 +1,783 @@
+[
+ {
+  "id": "vp01",
+  "title": "Elevated view from Macy's roof terrace looking north over the plaza",
+  "camera": {
+   "lat": 37.787329,
+   "lon": -122.407648,
+   "heightM": 30,
+   "headingDeg": 355,
+   "pitchDeg": -20,
+   "fovDegVertical": 55,
+   "absoluteY": 35.8
+  },
+  "photo": {
+   "file": "refs/viewpoints/vp01.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:San_Francisco_Union_Square.jpg",
+   "commonsFile": "San Francisco Union Square.jpg",
+   "author": "Lordsamp",
+   "license": "CC BY-SA 4.0",
+   "date": "2018 (uploaded 2018-12-15; spring daylight)"
+  },
+  "notes": "Camera on Macy's 8th-floor Cheesecake Factory terrace (Geary side, mid-block). What must be visible, left to right along Post St: Saks Fifth Avenue (white grid facade, NW corner Post & Powell, sign on parapet), Tiffany & Co (8-storey grey tower, 350 Post), Dewey Monument on axis just right of centre, Williams-Sonoma (white 4-storey beaux-arts, 340 Post), Apple Union Square (low glass pavilion, NE corner Post & Stockton) with the Grand Hyatt tower (light concrete grid, 36 fl) directly behind it, white classical building east of Stockton (NE of the intersection) at far right, Transamerica Pyramid on the horizon right. Foreground: full plaza paving pattern (light granite bands), north-side stage canopy left of the monument, terraced steps on Powell side (left), palm trees at both Stockton-side corners, cafe kiosk with green umbrellas at SW corner (bottom-left). Sir Francis Drake / Beacon Grand crown top-left, 450 Sutter behind Saks. [camera moved to the Geary-side parapet of the Macy roof terrace, y=35.8]",
+  "confidence": "high",
+  "validates": "Whole-plaza layout, Post St frontage ordering (Saks-Tiffany-W-S-Apple) and relative heights, Grand Hyatt placement, plaza paving pattern",
+  "requiredSlot": 1
+ },
+ {
+  "id": "vp02",
+  "title": "MISFILED: old Apple Store (1 Stockton) at Stockton & Ellis, elevated (2005)",
+  "camera": {
+   "lat": 37.78545,
+   "lon": -122.4064,
+   "heightM": 20,
+   "headingDeg": 225,
+   "pitchDeg": -45,
+   "fovDegVertical": 45
+  },
+  "photo": {
+   "file": "refs/viewpoints/vp02.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Morning_Union_Square.jpg",
+   "commonsFile": "Morning Union Square.jpg",
+   "author": "Thomas Hawk",
+   "license": "CC BY 2.0",
+   "date": "2005-04-02"
+  },
+  "notes": "NOT Union Square: this is the 2004-2016 Apple Store at Stockton & Ellis (two blocks south of Geary), shot from an upper floor at the NE corner of the intersection looking SW/down. Shows Ellis St one-way arrows, Men's Wearhouse next door, Virgin Megastore sign at right. Keep only as a street-marking / curb-radius reference for Stockton St south of the square. Do not use for any Union Square facade. Pre-dates today's Stockton St layout.",
+  "confidence": "low",
+  "validates": "Nothing in the core model; road-marking style only",
+  "requiredSlot": 2
+ },
+ {
+  "id": "vp03",
+  "title": "Plaza centre (SW of monument) looking north to Post St",
+  "camera": {
+   "lat": 37.78778,
+   "lon": -122.40768,
+   "heightM": 1.7,
+   "headingDeg": 8,
+   "pitchDeg": 5,
+   "fovDegVertical": 50
+  },
+  "photo": {
+   "file": "refs/viewpoints/vp03.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:2017_Union_Square_San_Francisco_2.jpg",
+   "commonsFile": "2017 Union Square San Francisco 2.jpg",
+   "author": "Beyond My Ken",
+   "license": "CC BY-SA 4.0",
+   "date": "2017-04-22"
+  },
+  "notes": "Camera ~20 m SW of the Dewey Monument base (red granite light pylon and monument base at right edge). Must be visible: Saks Fifth Avenue white grid facade (left, filling the NW), Williams-Sonoma 340 Post white beaux-arts (centre), the north-side stage canopy structure in front of it, plaza trees/planters along Post, 450 Sutter dark Art Deco tower rising behind Post St, palms near NE corner, classical building with billboard NE (right). Apple is hidden by trees from here. Foreground: art-fair easels, green cafe tables, plaza granite bands.",
+  "confidence": "high",
+  "validates": "North frontage massing and the stage canopy position; Saks vs Williams-Sonoma heights; 450 Sutter skyline",
+  "requiredSlot": 3
+ },
+ {
+  "id": "vp04",
+  "title": "Plaza south edge looking south at Macy's Geary facade (2020)",
+  "camera": {
+   "lat": 37.787569,
+   "lon": -122.407594,
+   "heightM": 1.7,
+   "headingDeg": 171,
+   "pitchDeg": 5,
+   "fovDegVertical": 45,
+   "absoluteY": 0.7
+  },
+  "photo": {
+   "file": "refs/viewpoints/vp04.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Macy's_Union_Square_San_Francisco.jpg",
+   "commonsFile": "Macy's Union Square San Francisco.jpg",
+   "author": "Stilfehler",
+   "license": "CC BY-SA 4.0",
+   "date": "2020-02-02"
+  },
+  "notes": "Camera at the plaza's raised south edge (approx 3 m above Geary), railings and top of Geary stairs in foreground. Must be visible: Macy's 4-storey glass curtain wall with 'macy's' sign on the roofline and 3 flagpoles, Cheesecake Factory and Burger Bar signs on both flanking stone piers, ground-floor retail bays ('retail shops for lease' era, 2020), Geary St traffic, white marble former I. Magnin building at left (SE corner Geary & Stockton, part of Macy's), older stone building with fire escapes at right (Geary & Powell SE corner block), Macy's billboard at far right. [camera corrected by geometric QA]",
+  "confidence": "high",
+  "validates": "Macy's Geary facade proportions (glass bay count, pier widths), Geary stair/railing geometry, plaza-to-street level difference",
+  "requiredSlot": 4
+ },
+ {
+  "id": "vp05",
+  "title": "Plaza looking west at the Westin St. Francis Powell facade",
+  "camera": {
+   "lat": 37.78792,
+   "lon": -122.40775,
+   "heightM": 1.7,
+   "headingDeg": 261,
+   "pitchDeg": 12,
+   "fovDegVertical": 60
+  },
+  "photo": {
+   "file": "refs/viewpoints/vp05.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Union_Square_in_San_Francisco_2023_05.jpg",
+   "commonsFile": "Union Square in San Francisco 2023 05.jpg",
+   "author": "Olaf Meister",
+   "license": "CC BY-SA 4.0",
+   "date": "2023-04-18"
+  },
+  "notes": "Camera on the plaza ~35 m east of the Powell edge, dawn light. Must be visible: the three 1904 Westin wings (12 storeys, brown stone, green copper cornice) with the 1972 gold tower behind, main entrance with red awning/pink lit doorway at centre, flags, plaza-level kiosks along the Powell edge: 'Union Square Coffee' glass kiosk (left / south end) and 'Bike Rentals & Tours' kiosk (right / north end), Powell-side stairs with handrails right of centre, palm trees at SW and NW corners, blue/grey round cafe tables, plaza light pylons (red granite).",
+  "confidence": "high",
+  "validates": "Westin wing rhythm and tower setback, kiosk positions on the Powell edge, palm placement",
+  "requiredSlot": 5
+ },
+ {
+  "id": "vp06",
+  "title": "Plaza NW quadrant looking east-southeast (Grand Hyatt, Neiman Marcus, Macy's)",
+  "camera": {
+   "lat": 37.78808,
+   "lon": -122.40782,
+   "heightM": 1.7,
+   "headingDeg": 110,
+   "pitchDeg": 12,
+   "fovDegVertical": 75
+  },
+  "photo": {
+   "file": "refs/viewpoints/vp06.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Union_Square_SF_20250515.jpg",
+   "commonsFile": "Union Square SF 20250515.jpg",
+   "author": "Evan0512",
+   "license": "CC BY-SA 4.0",
+   "date": "2025-05-15"
+  },
+  "notes": "Ultra-wide phone shot into the sun. Must be visible: Grand Hyatt tower looming at left (NE), Dewey Monument full height centre-right, buildings east of Stockton with Nintendo SF billboards (2025), Whittell Building (brown, pyramidal roof, 166 Geary) right of the monument, Neiman Marcus glass rotunda corner low at centre-right, Macy's white I. Magnin marble block with 'macy's' at far right, blue/yellow umbrellas and cafe chairs, plaza steps at left (north side).",
+  "confidence": "medium",
+  "validates": "Relative placement of Grand Hyatt / Whittell / Neiman / Macy's around the SE; monument height vs surroundings; 2025 plaza furniture",
+  "requiredSlot": 6
+ },
+ {
+  "id": "vp07",
+  "title": "Plaza west side looking east across the plaza (2017)",
+  "camera": {
+   "lat": 37.78795,
+   "lon": -122.408,
+   "heightM": 1.7,
+   "headingDeg": 100,
+   "pitchDeg": 3,
+   "fovDegVertical": 50
+  },
+  "photo": {
+   "file": "refs/viewpoints/vp07.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:2017_Union_Square_San_Francisco_1.jpg",
+   "commonsFile": "2017 Union Square San Francisco 1.jpg",
+   "author": "Beyond My Ken",
+   "license": "CC BY-SA 4.0",
+   "date": "2017-04-22"
+  },
+  "notes": "Camera at the top of the west-side steps (handrail bottom-left). Must be visible: Dewey Monument shaft at centre-right (top cropped), Neiman Marcus brown checker facade with glass corner at far right, Whittell Building tower behind, mid-rise classical buildings east of Stockton with rooftop billboards behind the monument, north-side stage canopy at left, seating steps at left with people, cafe kiosk (Caffe/Pasticceria/Gelati signage) on the far (east/north-east) side, green umbrellas, plaza paving. Intended slot was 'SW corner looking NE' but the actual view is from the west edge looking E/ESE.",
+  "confidence": "medium",
+  "validates": "East frontage massing (Stockton side), monument shaft proportions, west-side step geometry",
+  "requiredSlot": 7
+ },
+ {
+  "id": "vp08",
+  "title": "Plaza NW quadrant looking south-east: monument, Macy's, Neiman Marcus (2022)",
+  "camera": {
+   "lat": 37.78808,
+   "lon": -122.4077,
+   "heightM": 1.7,
+   "headingDeg": 135,
+   "pitchDeg": 8,
+   "fovDegVertical": 70
+  },
+  "photo": {
+   "file": "refs/viewpoints/vp08.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Union_Square_(San_Francisco)_in_July_2022.jpg",
+   "commonsFile": "Union Square (San Francisco) in July 2022.jpg",
+   "author": "Benoît Prieur",
+   "license": "CC0",
+   "date": "2022-07-20"
+  },
+  "notes": "Near-square wide shot. Must be visible: full Dewey Monument with Victory statue centre, Macy's white marble I. Magnin block with 'macy's' and Cheesecake Factory sign right of centre, Macy's glass curtain wall at far right, Neiman Marcus (brown, glass rotunda, palms) at the base of the monument, Whittell Building tower left of the monument, 8-storey classical building with AirPods billboard at left (east of Stockton), red-brick building centre-left, plaza light pylons with globe clusters, granite paving bands, east-side steps with handrail at far left.",
+  "confidence": "high",
+  "validates": "NW-corner diagonal composition; Macy's/Neiman/Whittell relative heights; plaza light-pylon style",
+  "requiredSlot": 8
+ },
+ {
+  "id": "vp09",
+  "title": "Plaza north side looking south-southeast to Macy's (2012)",
+  "camera": {
+   "lat": 37.78815,
+   "lon": -122.4076,
+   "heightM": 1.7,
+   "headingDeg": 155,
+   "pitchDeg": 6,
+   "fovDegVertical": 50
+  },
+  "photo": {
+   "file": "refs/viewpoints/vp09.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Union_Square_(taken_on_27Aug2012_13hrs36mins9secs).jpg",
+   "commonsFile": "Union Square (taken on 27Aug2012 13hrs36mins9secs).jpg",
+   "author": "jdlrobson",
+   "license": "CC BY-SA 3.0",
+   "date": "2012-08-27"
+  },
+  "notes": "Must be visible: Dewey Monument left of centre (full height, base inscription readable), Macy's marble block with 'macy's' and Cheesecake Factory sign centre-right, Macy's glass wall + large ad banner at right, Neiman Marcus behind palms at centre, Whittell tower at left, brick building far left, green umbrellas and cafe seating, plaza globe-cluster lamp posts, curved handrails of the north-side steps in foreground.",
+  "confidence": "high",
+  "validates": "South frontage from the plaza; monument base detailing; cafe furniture era",
+  "requiredSlot": 4
+ },
+ {
+  "id": "vp10",
+  "title": "Plaza SE quadrant looking north-west: monument base, Saks, Tiffany (holiday rink, 2019)",
+  "camera": {
+   "lat": 37.787911,
+   "lon": -122.407285,
+   "heightM": 1.7,
+   "headingDeg": 330,
+   "pitchDeg": 20,
+   "fovDegVertical": 70
+  },
+  "photo": {
+   "file": "refs/viewpoints/vp10.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:San_Francisco_-_Union_Square_005.jpg",
+   "commonsFile": "San Francisco - Union Square 005.jpg",
+   "author": "Américo Toledano",
+   "license": "CC BY-SA 4.0",
+   "date": "2019-12-29"
+  },
+  "notes": "Portrait phone shot beside the seasonal ice rink (east half of plaza). Must be visible: Dewey Monument base with inscription panels and stars, full shaft and Victory statue, Saks Fifth Avenue white facade with parapet sign (NW corner), Sir Francis Drake / Beacon Grand crown behind Saks, Tiffany & Co grey tower at right, DSW billboard on 400 Post (NW corner of Post & Powell) at far left, palms at NW corner. Seasonal rink fencing is NOT permanent. [camera corrected by geometric QA]",
+  "confidence": "high",
+  "validates": "Monument base geometry/inscriptions; Saks corner and Drake crown alignment; NW corner from the SE",
+  "requiredSlot": 10
+ },
+ {
+  "id": "vp12",
+  "title": "Apple Union Square rear plaza and Ruth Asawa fountain from across Stockton (elevated, 2018)",
+  "camera": {
+   "lat": 37.788884,
+   "lon": -122.40675,
+   "heightM": 10,
+   "headingDeg": 275,
+   "pitchDeg": -25,
+   "fovDegVertical": 60,
+   "absoluteY": 10
+  },
+  "photo": {
+   "file": "refs/viewpoints/vp12.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Back_entrance_of_Apple_Store,_San_Francisco_(2018).jpg",
+   "commonsFile": "Back entrance of Apple Store, San Francisco (2018).jpg",
+   "author": "Another Believer",
+   "license": "CC BY-SA 4.0",
+   "date": "2018-09-27"
+  },
+  "notes": "Camera from an upper floor on the east side of Stockton St opposite the Apple plaza. Must be visible: Apple's glass box (east elevation, 2-storey glazing, metal roof) at left, the raised plaza with steps up from Stockton, Ruth Asawa bronze fountain (round, in the stair) at centre, 12 white planter-pots with trees, wooden tables, box hedges, the living green wall on the Grand Hyatt podium (north) at right, Grand Hyatt tower above, Westin 1904 wings at top-left (SW), Stockton St with red bus lane, street trees and twin-globe lamp posts. [camera corrected by geometric QA]",
+  "confidence": "high",
+  "validates": "Apple plaza footprint, stair/fountain position, green-wall height, Stockton curb line",
+  "requiredSlot": 12
+ },
+ {
+  "id": "vp13",
+  "title": "Nintendo SAN FRANCISCO frontal at Powell & Geary (opening day, 2025)",
+  "camera": {
+   "lat": 37.7875,
+   "lon": -122.40822,
+   "heightM": 1.7,
+   "headingDeg": 245,
+   "pitchDeg": 8,
+   "fovDegVertical": 65
+  },
+  "photo": {
+   "file": "refs/viewpoints/vp13.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nintendo_San_Francisco_pre-opening.jpg",
+   "commonsFile": "Nintendo San Francisco pre-opening.jpg",
+   "author": "Evan0512",
+   "license": "CC BY-SA 4.0",
+   "date": "2025-05-15"
+  },
+  "notes": "Camera on Powell St (east side, road closed for the opening) looking WSW at the Westin's SE corner. Must be visible: Nintendo red sign and red banners in the Westin ground-floor bays with three red dome awnings above (Bourbon Steak) at right, Westin brown stone facade, Elkan Gunst Building (curved corner, Shoe Palace, SW corner Geary & Powell) at centre, Geary St running west at left (Herbert Hotel, The Barnes, DSW signs), cable car tracks and twin-globe lamp posts.",
+  "confidence": "high",
+  "validates": "Nintendo storefront bay widths and signage, Westin corner treatment, Elkan Gunst corner geometry",
+  "requiredSlot": 13
+ },
+ {
+  "id": "vp14",
+  "title": "Westin St. Francis main entrance from Powell St with cable car (2025)",
+  "camera": {
+   "lat": 37.78788,
+   "lon": -122.40818,
+   "heightM": 1.7,
+   "headingDeg": 290,
+   "pitchDeg": 8,
+   "fovDegVertical": 65
+  },
+  "photo": {
+   "file": "refs/viewpoints/vp14.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cable_car_27_at_Westin_SF_20251224.jpg",
+   "commonsFile": "Cable car 27 at Westin SF 20251224.jpg",
+   "author": "Evan0512",
+   "license": "CC BY-SA 4.0",
+   "date": "2025-12-24"
+  },
+  "notes": "Camera at the plaza's Powell edge mid-block. Must be visible: Westin columned entrance portico with holiday-decorated red awning at left, Victoria's Secret bays with red dome awnings to the right (north) of the entrance, Italian flag, globe lamp posts, southbound Powell-Mason cable car #27, Powell St grade rising to the right (north), cable-car slot rails.",
+  "confidence": "high",
+  "validates": "Westin entrance bay, awning rhythm, Powell St grade and track alignment",
+  "requiredSlot": 14
+ },
+ {
+  "id": "vp15",
+  "title": "Powell St looking north from Geary toward Nob Hill (telephoto, 2015)",
+  "camera": {
+   "lat": 37.7875,
+   "lon": -122.4082,
+   "heightM": 3.5,
+   "headingDeg": 351,
+   "pitchDeg": -2,
+   "fovDegVertical": 38
+  },
+  "photo": {
+   "file": "refs/viewpoints/vp15.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Powell_Street,_by_Geary_Street_looking_North,_San_Francisco,_CA_(June_2015)_-_M_McBey.jpg",
+   "commonsFile": "Powell Street, by Geary Street looking North, San Francisco, CA (June 2015) - M McBey.jpg",
+   "author": "Mike McBey",
+   "license": "CC BY 2.0",
+   "date": "2015-06-06"
+  },
+  "notes": "Compressed telephoto from the plaza's raised SW corner. Must be visible: Geary street sign at left, Westin red awnings at left, DSW on 400 Post beyond, Powell St climbing through Post, Sutter (Starlight Room / Sir Francis Drake sign at right, Academy of Art), Bush and Pine to Nob Hill trees at the crest, cable car #14 southbound in the foreground and two more uphill, 'KEEP OUT' slot-lane markings, Union Square palms and planter at right.",
+  "confidence": "high",
+  "validates": "Powell St gradient profile north of the square; building heights along Powell; cable-car lane markings",
+  "requiredSlot": 15
+ },
+ {
+  "id": "vp16",
+  "title": "Powell St looking south from Post toward Market (2020)",
+  "camera": {
+   "lat": 37.788326,
+   "lon": -122.408441,
+   "heightM": 1.7,
+   "headingDeg": 171,
+   "pitchDeg": 0,
+   "fovDegVertical": 55
+  },
+  "photo": {
+   "file": "refs/viewpoints/vp16.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Powell_Street_at_Union_Square_San_Francisco.jpg",
+   "commonsFile": "Powell Street at Union Square San Francisco.jpg",
+   "author": "Stilfehler",
+   "license": "CC BY-SA 4.0",
+   "date": "2020-02-02"
+  },
+  "notes": "Camera in the Powell roadway median at the Post crossing. Must be visible: Westin facade at right (Victoria's Secret awnings, 49ers flag, columned entrance further on), cable-car tracks on axis, plaza at left with 'Bike Rentals' kiosk near the NW corner and palms, Hotel Stratford / Swarovski white 8-storey building at the SE corner of Powell & Geary with a Macy's '2020' billboard, taxis at the Westin curb, Powell descending gently to Market. [camera corrected by geometric QA]",
+  "confidence": "high",
+  "validates": "Powell St west/east frontage south of Post; bike-kiosk location; grade",
+  "requiredSlot": 16
+ },
+ {
+  "id": "vp17",
+  "title": "Geary St looking east-north-east from Powell across the plaza's SW corner (foggy, 2009)",
+  "camera": {
+   "lat": 37.78735,
+   "lon": -122.40842,
+   "heightM": 1.7,
+   "headingDeg": 65,
+   "pitchDeg": 5,
+   "fovDegVertical": 45
+  },
+  "photo": {
+   "file": "refs/viewpoints/vp17.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:San_Francisco_46_(4256891804).jpg",
+   "commonsFile": "San Francisco 46 (4256891804).jpg",
+   "author": "Ronnie Macdonald from Chelmsford, UK",
+   "license": "CC BY 2.0",
+   "date": "2009-09-19"
+  },
+  "notes": "Camera on the SW corner of Geary & Powell. Must be visible: SW-corner plaza stairs and planters with palms at left, Dewey Monument top at left, sightseeing double-deckers on Geary at the plaza curb, the 8-storey classical building with rooftop billboard at Stockton (north of Geary), Grand Hyatt tower behind in fog, Whittell Building (orange brick, pyramidal roof) at right-centre, Britex Fabrics and Bulgari signs east of Stockton on the right. Pre-Apple (2009).",
+  "confidence": "medium",
+  "validates": "Geary St east vista; SW-corner stair; Whittell placement",
+  "requiredSlot": 17
+ },
+ {
+  "id": "vp18",
+  "title": "Post St looking west from Stockton toward the Westin (2010)",
+  "camera": {
+   "lat": 37.788466,
+   "lon": -122.406663,
+   "heightM": 1.7,
+   "headingDeg": 262,
+   "pitchDeg": 6,
+   "fovDegVertical": 50
+  },
+  "photo": {
+   "file": "refs/viewpoints/vp18.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Union_Square,_San_Francisco,_California,_U.S.A.,_2010_-_panoramio.jpg",
+   "commonsFile": "Union Square, San Francisco, California, U.S.A., 2010 - panoramio.jpg",
+   "author": "Tugrul Kagan Ates",
+   "license": "CC BY 3.0",
+   "date": "2010-04-04"
+  },
+  "notes": "Camera on the east side of Stockton at the Post crosswalk. Must be visible: Westin 1904 wings and 1972 tower closing the Post St vista, plaza NE corner steps and palms at left with Dewey statue peeking top-left, north side of Post at right: 300 Post pre-Apple storefront (2010, now Apple's glass box), Williams-Sonoma white beaux-arts, Saks Fifth Avenue sign, 'Center lane buses taxis only' sign, trolley wires, Post St lane arrows. Apple (2016) will replace the first building at right. [camera corrected by geometric QA]",
+  "confidence": "high",
+  "validates": "Post St section and vista to the Westin; NE-corner steps; Williams-Sonoma/Saks depths",
+  "requiredSlot": 18
+ },
+ {
+  "id": "vp19",
+  "title": "Stockton St looking north from Geary (2020)",
+  "camera": {
+   "lat": 37.787511,
+   "lon": -122.40657,
+   "heightM": 1.7,
+   "headingDeg": 351,
+   "pitchDeg": 2,
+   "fovDegVertical": 35
+  },
+  "photo": {
+   "file": "refs/viewpoints/vp19.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stockton_Street_North_of_Union_Square_San_Francisco.jpg",
+   "commonsFile": "Stockton Street North of Union Square San Francisco.jpg",
+   "author": "Stilfehler",
+   "license": "CC BY-SA 4.0",
+   "date": "2020-02-02"
+  },
+  "notes": "Telephoto up Stockton from the Geary crossing. Must be visible: Grand Hyatt tower at left (west side at Sutter), Stockton Tunnel portal at Bush on axis, Union Square heart banners, buildings on the east side of Stockton (glass-fronted store, scaffolded building near Maiden Lane) at right, bus/taxi lane markings, Muni bus at left. Camera position substitutes for required slot 19 (Post & Stockton) which has no frontal photo. [camera corrected by geometric QA]",
+  "confidence": "medium",
+  "validates": "Stockton St corridor heights and the tunnel portal; Grand Hyatt bulk",
+  "requiredSlot": 19
+ },
+ {
+  "id": "vp20",
+  "title": "Powell & Geary intersection with Nintendo SF and cable car (2026)",
+  "camera": {
+   "lat": 37.78755,
+   "lon": -122.40822,
+   "heightM": 1.7,
+   "headingDeg": 240,
+   "pitchDeg": 3,
+   "fovDegVertical": 60
+  },
+  "photo": {
+   "file": "refs/viewpoints/vp20.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cable_car_5_at_Powell_and_Geary_Nintendo_SF_20260517.jpg",
+   "commonsFile": "Cable car 5 at Powell and Geary Nintendo SF 20260517.jpg",
+   "author": "Evan0512",
+   "license": "CC BY-SA 4.0",
+   "date": "2026-05-17"
+  },
+  "notes": "Camera on the Powell east sidewalk (plaza SW corner) looking SW. Must be visible: Nintendo SAN FRANCISCO storefront (red sign, Mario window) in the Westin's corner bays with Bourbon Steak dome awnings above, 'Hotel St Francis' plaque, Elkan Gunst Building with Shoe Palace across Geary, Powell-Hyde cable car #5 at the Powell/Geary stop, Geary St crosswalk, twin-globe lamp posts, Geary theatre marquee further west.",
+  "confidence": "high",
+  "validates": "Powell & Geary corner geometry, Nintendo/Westin ground floor as of 2026, cable-car stop location",
+  "requiredSlot": 20
+ },
+ {
+  "id": "vp21",
+  "title": "Dewey Monument capital and Victory statue against the Grand Hyatt (telephoto, 2022)",
+  "camera": {
+   "lat": 37.78754,
+   "lon": -122.407611,
+   "heightM": 1.7,
+   "headingDeg": 20,
+   "pitchDeg": 30,
+   "fovDegVertical": 30
+  },
+  "photo": {
+   "file": "refs/viewpoints/vp21.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dewey_Monument_view_July_2022.jpg",
+   "commonsFile": "Dewey Monument view July 2022.jpg",
+   "author": "Benoît Prieur",
+   "license": "CC0",
+   "date": "2022-07-19"
+  },
+  "notes": "Telephoto from the SW quadrant. Must be visible: Corinthian capital, bronze Victory (wreath in left hand, trident raised in right), globe finial, and the Grand Hyatt's south/west facades filling the background (regular window grid, blank concrete end wall). Use for statue orientation (faces roughly SW) and capital detail. Monument base close-up is covered by vp10. [camera corrected by geometric QA]",
+  "confidence": "high",
+  "validates": "Statue pose/orientation, capital proportions, Grand Hyatt facade grid",
+  "requiredSlot": 21
+ },
+ {
+  "id": "vp22",
+  "title": "From Geary near Powell looking north-east across the plaza (2010)",
+  "camera": {
+   "lat": 37.7873,
+   "lon": -122.40815,
+   "heightM": 1.7,
+   "headingDeg": 55,
+   "pitchDeg": 8,
+   "fovDegVertical": 45
+  },
+  "photo": {
+   "file": "refs/viewpoints/vp22.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Union_Square,_SF_from_across_the_street_3.JPG",
+   "commonsFile": "Union Square, SF from across the street 3.JPG",
+   "author": "BrokenSphere",
+   "license": "CC BY 3.0",
+   "date": "2010-07-17"
+  },
+  "notes": "Camera on the south sidewalk of Geary near Powell. Must be visible: plaza south planters and lamp posts, the Geary-side stairs (centre-left) with handrails, TIX Bay Area half-price ticket booth pavilion at the plaza's SE corner (right), Dewey Monument with Victory, classical 10-storey building with iPad billboard and Niketown/Barneys billboards on the north side, Whittell tower right, brick building at Stockton, umbrellas of the art fair. Pre-Apple (2010).",
+  "confidence": "medium",
+  "validates": "Geary stairs from street level, SE-corner pavilion, diagonal from the SW",
+  "requiredSlot": 22
+ },
+ {
+  "id": "vp23",
+  "title": "Macy's Geary facade frontal from the plaza's south edge (2010)",
+  "camera": {
+   "lat": 37.787569,
+   "lon": -122.407594,
+   "heightM": 1.7,
+   "headingDeg": 171,
+   "pitchDeg": 6,
+   "fovDegVertical": 40,
+   "absoluteY": 0.7
+  },
+  "photo": {
+   "file": "refs/viewpoints/vp23.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Macy's_Union_Square,_SF_front_2.JPG",
+   "commonsFile": "Macy's Union Square, SF front 2.JPG",
+   "author": "BrokenSphere",
+   "license": "CC BY-SA 3.0",
+   "date": "2010-07-04"
+  },
+  "notes": "Slight telephoto, camera ~3 m above Geary on the plaza edge. Must be visible: full 5-bay glass curtain wall with curved central bay, 'macy's' rooftop and canopy signs, Cheesecake Factory and Burger Bar signs on the stone piers, ground-floor entrance doors, rooftop terrace planters, Geary traffic and taxis, street trees, hot-dog cart. Pair with vp04 (2020) to confirm nothing structural changed. [camera corrected by geometric QA]",
+  "confidence": "high",
+  "validates": "Macy's curtain-wall bay count, storey heights, pier width, entrance canopy",
+  "requiredSlot": 23
+ },
+ {
+  "id": "vp24",
+  "title": "Neiman Marcus rotunda corner at Stockton & Geary (2020)",
+  "camera": {
+   "lat": 37.787646,
+   "lon": -122.406793,
+   "heightM": 1.7,
+   "headingDeg": 128,
+   "pitchDeg": 10,
+   "fovDegVertical": 55
+  },
+  "photo": {
+   "file": "refs/viewpoints/vp24.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:San_Francisco_Neiman_Marcus_02.jpg",
+   "commonsFile": "San Francisco Neiman Marcus 02.jpg",
+   "author": "Stilfehler",
+   "license": "CC BY-SA 4.0",
+   "date": "2020-02-02"
+  },
+  "notes": "Camera on the plaza's SE corner sidewalk looking SE across the intersection. Must be visible: brown/tan harlequin (diamond) cladding on both the Geary (left) and Stockton (right) elevations, 4-storey glass rotunda at the corner with the stained-glass City of Paris dome visible inside, 'Neiman Marcus' script on the Geary side, tall narrow ground-floor windows, crosswalks, Union Square banners on the Stockton lamp post, scaffolded building on Stockton south of Geary at right. [camera corrected: plaza SE corner sidewalk]",
+  "confidence": "high",
+  "validates": "Neiman Marcus corner geometry, cladding pattern, rotunda glazing height",
+  "requiredSlot": 24
+ },
+ {
+  "id": "vp25",
+  "title": "Maiden Lane from the plaza's east steps across Stockton (2022)",
+  "camera": {
+   "lat": 37.787978,
+   "lon": -122.407138,
+   "heightM": 1.7,
+   "headingDeg": 81,
+   "pitchDeg": -3,
+   "fovDegVertical": 55
+  },
+  "photo": {
+   "file": "refs/viewpoints/vp25.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maiden_Lane,_San_Francisco_from_Union_Square.jpg",
+   "commonsFile": "Maiden Lane, San Francisco from Union Square.jpg",
+   "author": "Kylelovesyou",
+   "license": "CC0",
+   "date": "2022-12-21"
+  },
+  "notes": "Camera at the top of the Stockton-side steps on the Maiden Lane axis (handrails in foreground, plaza ~2.5 m above Stockton). Must be visible: red bus lane on Stockton, Maiden Lane entrance with white gates/bollards and string lights with paper lanterns, Gucci in the beige classical building at the NE corner of Maiden Lane & Stockton (left), Tory Burch in the red-brick building at the SE corner (right), Whittell tower top-right, plaza's NE cafe kiosk glass at left and SE pavilion roof at right. [camera corrected by geometric QA]",
+  "confidence": "high",
+  "validates": "Maiden Lane width and corner buildings, Stockton steps, east-edge kiosk positions",
+  "requiredSlot": 25
+ },
+ {
+  "id": "vp26",
+  "title": "Night: Westin, Powell & Geary and plaza from Macy's roof looking north-west (2017)",
+  "camera": {
+   "lat": 37.787312,
+   "lon": -122.407679,
+   "heightM": 28,
+   "headingDeg": 330,
+   "pitchDeg": -18,
+   "fovDegVertical": 60,
+   "absoluteY": 36
+  },
+  "photo": {
+   "file": "refs/viewpoints/vp26.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Union_Square_and_the_Westin_seen_from_Macy's,_San_Francisco.jpg",
+   "commonsFile": "Union Square and the Westin seen from Macy's, San Francisco.jpg",
+   "author": "Dllu",
+   "license": "CC BY-SA 4.0",
+   "date": "2017-02-12"
+  },
+  "notes": "Camera on Macy's roof at the Powell end of the Geary frontage. Must be visible: Westin 1904 wings floodlit with 1972 tower behind (left), Powell & Geary intersection with bus-lane markings (bottom-left), plaza with lit palms, SW cafe kiosk, terraced steps, Dewey Monument (right), Saks and Tiffany & Co (right, lit signs), Chancellor Hotel vertical sign and DSW on 400 Post (centre), Sir Francis Drake crown and 450 Sutter behind. Use for night lighting and signage illumination. [camera corrected by geometric QA]",
+  "confidence": "high",
+  "validates": "Night lighting: floodlit Westin, plaza lamps, lit signs; SW-corner kiosk; Powell/Geary intersection markings",
+  "requiredSlot": 26
+ },
+ {
+  "id": "vp27",
+  "title": "Aerial from the Grand Hyatt (36th floor) looking south-south-west over the plaza to Macy's (2004)",
+  "camera": {
+   "lat": 37.78885,
+   "lon": -122.40735,
+   "heightM": 110,
+   "headingDeg": 195,
+   "pitchDeg": -42,
+   "fovDegVertical": 55
+  },
+  "photo": {
+   "file": "refs/viewpoints/vp27.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Union_Square_Christmas.jpg",
+   "commonsFile": "Union Square Christmas.jpg",
+   "author": "D'Arcy Norman",
+   "license": "CC BY 2.0",
+   "date": "2004-12-01"
+  },
+  "notes": "High elevated view from the NE. Must be visible: whole plaza from above (paving bands, monument, seasonal tree and menorah are NOT permanent), Stockton St with bus lanes at left, Neiman Marcus roof and dome at far left, Macy's full Geary frontage (marble I. Magnin block left, glass wall centre, older stone block right) with rooftop terrace, O'Farrell block behind, corner pavilions at the plaza's near corners. Old 2004 street furniture; plaza layout is the 2002 design still in place.",
+  "confidence": "medium",
+  "validates": "Plaza plan proportions from above, Macy's roof massing, Stockton/Geary corner radii",
+  "requiredSlot": 2
+ },
+ {
+  "id": "vp28",
+  "title": "Powell & Post intersection: Saks corner, cable car, Sir Francis Drake tower (2025)",
+  "camera": {
+   "lat": 37.78826,
+   "lon": -122.40832,
+   "heightM": 1.7,
+   "headingDeg": 30,
+   "pitchDeg": 15,
+   "fovDegVertical": 75
+  },
+  "photo": {
+   "file": "refs/viewpoints/vp28.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cable_car_24_at_Powell_and_Post_20250622.jpg",
+   "commonsFile": "Cable car 24 at Powell and Post 20250622.jpg",
+   "author": "Evan0512",
+   "license": "CC BY-SA 4.0",
+   "date": "2025-06-22"
+  },
+  "notes": "Camera on the SW corner of Post & Powell (Westin's NE corner sidewalk). Must be visible: Saks Fifth Avenue rounded corner bays and parapet sign at the NE corner (windows papered over, 2025 closure), Sir Francis Drake / Beacon Grand Gothic crown directly behind, Chancellor Hotel vertical sign at left (433 Powell), Grand Hyatt top-right, Powell St climbing north, cable car #24 crossing Post, crosswalk striping and slot rails, Westin globe lamp at left edge.",
+  "confidence": "high",
+  "validates": "Saks corner curvature and height, Drake tower position, Post/Powell crosswalk geometry",
+  "requiredSlot": 19
+ },
+ {
+  "id": "vp29",
+  "title": "Dusk elevated view from Macy's roof looking north (2017)",
+  "camera": {
+   "lat": 37.78718,
+   "lon": -122.407571,
+   "heightM": 30,
+   "headingDeg": 353,
+   "pitchDeg": -18,
+   "fovDegVertical": 60,
+   "absoluteY": 36
+  },
+  "photo": {
+   "file": "refs/viewpoints/vp29.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:San_Francisco_(37575338644).jpg",
+   "commonsFile": "San Francisco (37575338644).jpg",
+   "author": "bryan... (Flickr)",
+   "license": "CC BY-SA 2.0",
+   "date": "2017-10-06"
+  },
+  "notes": "Same station as vp01 at dusk. Must be visible: Saks (lit interior), Tiffany & Co (lit sign), 450 Sutter, Dewey Monument on axis, Williams-Sonoma, Apple glass box lit from inside with Grand Hyatt ('Grand Hyatt' sign) behind, white classical building NE with Nike billboard, Transamerica top-right, plaza lamp pylons lit, north-side stage canopy, Union Square garage entrance ramp signs on Geary at bottom centre (below the plaza's south edge). [camera corrected by geometric QA]",
+  "confidence": "high",
+  "validates": "Night/dusk lighting of the north frontage and Apple; garage entrance location on Geary",
+  "requiredSlot": 1
+ },
+ {
+  "id": "vp11",
+  "title": "Apple Union Square frontal from the plaza's north terrace (Post St)",
+  "camera": {
+   "lat": 37.78808,
+   "lon": -122.40712,
+   "heightM": 1.7,
+   "headingDeg": 351,
+   "pitchDeg": 8,
+   "fovDegVertical": 55
+  },
+  "photo": null,
+  "notes": "No free photo downloaded (candidates on Commons: 'Apple Union Square San Francisco 01.jpg', 'Apple Store, San Francisco 1 2020-03-04.jpeg'). Must be visible: Apple's ~13 m tall Post St glass wall with the sliding doors, thin metal roof, Grand Hyatt tower directly behind, Williams-Sonoma to the left, Stockton St to the right, Post St trees and the plaza's NE steps in the foreground.",
+  "confidence": "medium",
+  "validates": "Apple Post facade height/width and door module",
+  "requiredSlot": 11
+ },
+ {
+  "id": "vp30",
+  "title": "NE corner (Stockton & Post) looking south-west into the plaza",
+  "camera": {
+   "lat": 37.788317,
+   "lon": -122.406966,
+   "heightM": 1.7,
+   "headingDeg": 220,
+   "pitchDeg": 3,
+   "fovDegVertical": 60
+  },
+  "photo": null,
+  "notes": "No photo. Must be visible: NE-corner cafe kiosk, east-side steps, Dewey Monument, Westin filling the west, Macy's marble block at left, SW cafe kiosk, Powell-side terraces. [camera corrected by geometric QA]",
+  "confidence": "medium",
+  "validates": "Diagonal NE->SW composition; kiosk and step placement",
+  "requiredSlot": 9
+ },
+ {
+  "id": "vp31",
+  "title": "Elevated view from the west (Westin tower) looking east over the plaza",
+  "camera": {
+   "lat": 37.787702,
+   "lon": -122.409312,
+   "heightM": 60,
+   "headingDeg": 81,
+   "pitchDeg": -25,
+   "fovDegVertical": 55,
+   "absoluteY": 100
+  },
+  "photo": null,
+  "notes": "No photo (required slot 2, west variant; vp27 covers the NE variant). Must be visible: plaza plan, Stockton frontage, Neiman Marcus rotunda, Apple box and its rear plaza, Grand Hyatt to the left, Whittell tower and Financial District beyond. [camera corrected by geometric QA]",
+  "confidence": "low",
+  "validates": "East frontage roofscape and plaza plan from the west",
+  "requiredSlot": 2
+ },
+ {
+  "id": "vp32",
+  "title": "Post & Stockton intersection from the SE corner looking north-west (Apple corner)",
+  "camera": {
+   "lat": 37.788431,
+   "lon": -122.406656,
+   "heightM": 1.7,
+   "headingDeg": 320,
+   "pitchDeg": 10,
+   "fovDegVertical": 60
+  },
+  "photo": null,
+  "notes": "No photo. Must be visible: Apple's glass box on the NW corner with the Grand Hyatt behind, Ruth Asawa plaza steps on Stockton, Williams-Sonoma beyond, the white classical building on the NE corner at right, crosswalks and the plaza's NE steps at left. [camera corrected by geometric QA]",
+  "confidence": "medium",
+  "validates": "Post & Stockton corner geometry and Apple's Stockton elevation",
+  "requiredSlot": 19
+ },
+ {
+  "id": "vp33",
+  "title": "Geary grand stairs frontal from the Geary south sidewalk (Macy's entrance)",
+  "camera": {
+   "lat": 37.787385,
+   "lon": -122.407464,
+   "heightM": 1.7,
+   "headingDeg": 351,
+   "pitchDeg": 5,
+   "fovDegVertical": 55
+  },
+  "photo": null,
+  "notes": "No dedicated photo (vp22 is oblique). Must be visible: the central Geary stair rising ~3 m to the plaza with flanking planters and handrails, the Union Square garage entrance ramp just east of the stair (see vp29 bottom), Dewey Monument on axis, Post St frontage behind. [camera corrected by geometric QA]",
+  "confidence": "medium",
+  "validates": "Geary stair width/rise, garage ramp position",
+  "requiredSlot": 22
+ },
+ {
+  "id": "vp34",
+  "title": "Plaza centre (north of monument) looking south to Macy's",
+  "camera": {
+   "lat": 37.788,
+   "lon": -122.40752,
+   "heightM": 1.7,
+   "headingDeg": 171,
+   "pitchDeg": 5,
+   "fovDegVertical": 60
+  },
+  "photo": null,
+  "notes": "No exact photo (vp09 is the closest, from the north side looking SSE; vp04 is from the south edge). Must be visible: monument base close in front, Macy's full Geary frontage (marble block left, glass wall centre, stone block right), Cheesecake Factory signs, top of the Geary stairs, SW and SE corner pavilions.",
+  "confidence": "medium",
+  "validates": "Centre-south axis; Macy's full-width composition",
+  "requiredSlot": 4
+ }
+]

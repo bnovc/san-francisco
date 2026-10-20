@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "15th-and-market-geography",
+  "status": "prototype",
+  "fidelity": "base",
+  "coordinateFrame": "union-square-local-v1",
+  "bboxWgs84": { "south": 37.7635, "west": -122.4345, "north": 37.7675, "east": -122.4285 },
+  "dataFiles": [
+    "src/data/areas/15th-and-market.generated.json",
+    "tools/geo/build_area_detail.py",
+    "src/world/AreaGeography.ts",
+    "src/world/AreaStreetFurniture.ts",
+    "src/world/TreeGeometry.ts"
+  ],
+  "sourceRefs": [
+    {
+      "id": "bbbike-osm-2026-10-18",
+      "role": "Bounded multipolygon buildings with holes and member IDs, source height tags, sidewalk/crossing distinctions, surface tram tracks and platforms; relation/10963754 restores two 2175 Market wings",
+      "url": "https://download.bbbike.org/osm/bbbike/SanFrancisco/SanFrancisco.osm.gz",
+      "license": "OpenStreetMap ODbL-1.0",
+      "retrievedAt": "2026-10-18",
+      "sha256": "2a4c97087e7f04bef0a92aec0c702894b7400f2abba8233466e77cecc050cd7a"
+    },
+    {
+      "id": "datasf-street-trees-2026-10-18",
+      "role": "Existing tree positions; markers inside recovered building volumes are suppressed without altering the source inventory. Palm geometry and dimensions are inferred procedural forms",
+      "url": "https://data.sf.gov/City-Infrastructure/San-Francisco-Street-Tree-Inventory/tkzw-k3nq",
+      "license": "Open Data Commons Public Domain Dedication and License",
+      "retrievedAt": "2026-10-18",
+      "sha256": "9c0420c731b700f669d048b59550bdea8b6e386a82d62ba7fac4e24158ce6b6c"
+    },
+    {
+      "id": "sfpuc-path-of-gold-context",
+      "role": "Published context for Market Street's historic lamp family. The procedural model and sidewalk-derived placements are original approximations; no source image, texture, or model is bundled",
+      "url": "https://www.sfpuc.gov/about-us/news/iconic-path-gold-streetlights-get-brilliant-update",
+      "license": "Reference-only publication; no media reuse licence assumed",
+      "retrievedAt": "2026-10-19"
+    }
+  ],
+  "notes": "Companion record to the concurrent 15th-and-market baseline/address manifest. This record documents a runtime-consumed source supplement, not verified neighborhood fidelity. Building appearance, uniform relation heights, inferred asphalt junction envelope, zebra fallback dimensions, 5.8 m contact-wire height, lamp ornament/positions, and palm sizes remain approximate. Source platform polygons and crossings are retained; current stamped paving, exact curbs, signal orientation, lane rules and transit service still need review. No bespoke building model or new external model asset was introduced. See docs/15TH_MARKET_GEOGRAPHY.md."
+}

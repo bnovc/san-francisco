@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "union-square",
+  "status": "legacy",
+  "fidelity": "hero",
+  "coordinateFrame": "union-square-local-v1",
+  "bboxWgs84": {
+    "south": 37.785,
+    "west": -122.4115,
+    "north": 37.791,
+    "east": -122.4035
+  },
+  "dataFiles": [
+    "src/data/recon/gis.json",
+    "src/data/recon/elevation.json",
+    "src/data/facades/index.json"
+  ],
+  "sourceRefs": [
+    {
+      "id": "fable51-union-square",
+      "role": "scene, procedural assets, and authored details",
+      "url": "https://github.com/PhiloLabs/fable51-worlds/tree/main/union-square-sf",
+      "license": "MIT"
+    },
+    {
+      "id": "openstreetmap",
+      "role": "roads, building footprints, and map features",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL-1.0"
+    },
+    {
+      "id": "usgs-3dep",
+      "role": "ground elevation",
+      "url": "https://www.usgs.gov/3d-elevation-program",
+      "license": "US government public domain"
+    }
+  ],
+  "notes": "Legacy monolithic scene. This manifest is metadata only and is not read by the runtime."
+}

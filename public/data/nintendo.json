@@ -1,0 +1,171 @@
+{
+  "meta": {
+    "agent": "nintendo-store",
+    "researchDate": "2026-09-01",
+    "units": "metres unless noted; heights above sidewalk",
+    "note": "Exterior verified against CC-licensed opening-day / 2025-26 photos in refs/nintendo. Interior from press + tour write-ups (no free-licensed interior photos found). Dimensions marked est. are derived from photo proportions and the 114 ft wraparound-frontage listing, not survey data."
+  },
+  "site": {
+    "confidence": "high",
+    "name": "Nintendo SAN FRANCISCO",
+    "address": "331 Powell St, San Francisco, CA 94102",
+    "opened": "2025-05-15",
+    "storeRank": "2nd official Nintendo store in the US (after Nintendo NEW YORK, 2005); first on the West Coast",
+    "building": "The Westin St. Francis, 1904 landmark building (335 Powell St), ground floor + basement retail unit",
+    "corner": "NW corner of the Powell St / Geary St intersection = SE corner of the Westin St. Francis 1904 block (west side of Powell between Geary and Post). Store faces EAST onto Powell / Union Square plaza and SOUTH onto Geary.",
+    "coordinates": {
+      "osmShopNode": { "lat": 37.787487, "lon": -122.408455, "source": "src/data/recon/osm_raw.json node 12850136757 (shop=video_games, name=Nintendo SAN FRANCISCO)", "confidence": "high" },
+      "osmPowellEntranceNode": { "lat": 37.787517, "lon": -122.408397, "source": "osm_raw.json node 12965269413 (addr 331 Powell, on Westin building outline)", "confidence": "medium" },
+      "buildingCornerEstimate": { "lat": 37.787365, "lon": -122.408330, "source": "estimate from OSM nodes + Geary north curb line", "confidence": "low" }
+    },
+    "formerTenant": {
+      "value": "BCBG Max Azria (left 2017; space vacant ~2017-2024). NBC Bay Area also lists an earlier FILA store in the space.",
+      "confidence": "high (BCBG) / medium (FILA)",
+      "source": "KQED 2025-05 (BCBG departed 2017); Yelp 'BCBGMAXAZRIA - CLOSED - 331 Powell St'; NBC Bay Area 2024-05"
+    },
+    "totalFrontageM": { "value": 34.7, "note": "'114 feet of wraparound frontage on Powell Street and Geary Street' (leasing listing for 331 Powell, popshop.com)", "confidence": "medium" },
+    "powellFrontageM": { "value": 14, "range": [12, 16], "note": "est.: 3 facade bays incl. corner pier; 3 second-floor dome awnings sit above the store on Powell (photo 02)", "confidence": "low" },
+    "gearyFrontageM": { "value": 21, "range": [19, 23], "note": "est.: ~4 facade bays west of the corner (photo 01); 34.7 m total minus Powell share", "confidence": "low" },
+    "levels": { "value": 2, "note": "ground floor + lower level (basement, windowless); connected by a central open stair", "confidence": "high" },
+    "floorAreaSqft": { "value": 10989, "range": [9000, 11000], "m2": 1021, "note": "9,000 (SF Chronicle, Hoodline), 10,000 (SF Standard, Nintendo NY comparison), 10,989 (TechEBlog), 11,000 (ABC7, KQED, leasing listing)", "confidence": "medium" },
+    "entrances": [
+      { "street": "Powell St", "position": "2nd bay north of the Geary corner (corner bay is a display window)", "type": "main; brass/gold-framed glass double doors with sidelights (replaced 2024-25 per permit); illuminated Nintendo fascia sign above", "confidence": "high" },
+      { "street": "Geary St", "position": "2nd bay west of the Powell corner", "type": "secondary; same brass-framed glass doors and fascia sign; used for queue/overflow on event days", "confidence": "high" }
+    ],
+    "neighbours": [
+      { "name": "Victoria's Secret", "address": "335 Powell St", "relation": "immediately north on Powell (OSM node 3394966337: 37.787848, -122.408503)", "confidence": "high" },
+      { "name": "The Westin St. Francis main lobby entrance (columned portico, burgundy canopy)", "relation": "mid-block on Powell, north of Victoria's Secret", "confidence": "high" },
+      { "name": "Bourbon Steak (Michael Mina)", "relation": "2nd-floor restaurant directly above the store; its burgundy dome awnings and 'BOURBON STEAK' lettering sit over the store's ground-floor bays", "confidence": "high" },
+      { "name": "Elkan Gunst Building / Shoe Palace", "relation": "across Geary, SW corner of Powell & Geary", "confidence": "high" },
+      { "name": "Union Square plaza", "relation": "directly across Powell (east)", "confidence": "high" }
+    ]
+  },
+  "exterior": {
+    "confidence": "high",
+    "facadeStyle": "Bliss & Faville, 1904, Beaux-Arts / Renaissance Revival. Grey-buff stone; ground floor deeply rusticated (continuous horizontal channel joints), second floor round-arched windows with carved cartouche/foliate keystones, upper floors flat with quoined window surrounds. Ground-floor storefront openings are tall rectangles (~3.6 m wide x ~4.3 m tall, est.) with bronze/brass-toned frames; ground-floor storey ~5.8 m to the string course (est.).",
+    "bays": {
+      "powell": { "count": 3, "order_S_to_N": ["corner display window (character graphics)", "ENTRANCE + Nintendo fascia sign", "display window with 'Nintendo SAN FRANCISCO' red panel inside"], "confidence": "medium" },
+      "geary": { "count": 4, "order_E_to_W": ["corner display window", "ENTRANCE + Nintendo fascia sign", "display window", "display window"], "confidence": "medium" },
+      "bayPitchM": { "value": 5.5, "confidence": "low" }
+    },
+    "signage": [
+      { "text": "Nintendo", "type": "fascia", "colour": "#FFFFFF (racetrack logo)", "bg": "#E60012 (rounded-rectangle red box)", "position": "Powell St, centred on the entrance bay, mounted on the fascia band between the two flanking awnings; bottom edge ~3.3 m above sidewalk", "sizeM": [2.4, 1.07], "sizeNote": "height 42 in (1.07 m) per planning permit; width est. from logo aspect ratio in photos (~2.2:1)", "illuminated": true, "confidence": "high (existence/position), medium (size)" },
+      { "text": "Nintendo", "type": "fascia", "colour": "#FFFFFF", "bg": "#E60012", "position": "Geary St, centred on the entrance bay, same mounting", "sizeM": [2.4, 1.07], "illuminated": true, "confidence": "high" },
+      { "text": "Nintendo SAN FRANCISCO", "type": "window", "colour": "#FFFFFF", "bg": "#E60012 (square panel)", "position": "inside the Powell display window immediately north of the entrance, ~1.5 m above floor", "sizeM": [1.2, 1.2], "confidence": "medium (photo 02, 2025-05-15)" },
+      { "text": "(none)", "type": "blade", "position": "no projecting blade sign observed", "confidence": "medium" },
+      { "text": "(none)", "type": "corner", "position": "no corner-mounted sign; the corner pier is plain rusticated stone", "confidence": "medium" }
+    ],
+    "windowGraphics": {
+      "description": "Full-height translucent vinyl 'parade' of Nintendo mascots marching toward each entrance on every Powell and Geary window (Mario, Luigi, Peach, Toad, Yoshi, Donkey Kong, Link, Isabelle, Inkling Girl, Pikmin, Kirby, Pikachu etc.). Same key art is used on the Nintendo SAN FRANCISCO exclusive merch line and on the 2025 Muni cable-car ad panels ('OPEN NOW 331 POWELL STREET'). Interior displays and life-size statues visible through the glass.",
+      "confidence": "high"
+    },
+    "awning": {
+      "description": "The building's existing flat red/burgundy canvas awnings (approx 3.6 m wide x 1.2 m projection, underside ~3.0 m) are retained over every ground-floor bay; Nintendo added under-awning lighting only. Not a Nintendo-branded canopy. Second-floor windows carry Bourbon Steak's burgundy dome (bell) awnings.",
+      "colour": "#8C2F2F",
+      "confidence": "high"
+    },
+    "lighting": {
+      "description": "Internally illuminated fascia logos; new downlights fitted to the existing awnings (per 2024 permit); Westin globe lamp standards on the Powell sidewalk; strong interior spill through the character windows at night.",
+      "confidence": "medium"
+    },
+    "streetContext": "Powell St cable-car tracks directly in front (Powell-Mason & Powell-Hyde); Geary St has red-painted transit lanes; brick-paved sidewalk on Powell; 2 street trees in planters on the Powell frontage."
+  },
+  "interior": {
+    "confidence": "medium",
+    "frame": "Local axes: +X = north along Powell (interior wall behind Victoria's Secret), +Y = west along Geary; store is entered from the east (Powell) and south (Geary). Footprint est. ~21 m (E-W) x ~24 m (N-S) per floor (~500 m2 each); Powell frontage is only the southern ~14 m of the east side.",
+    "floors": [
+      {
+        "level": 0,
+        "name": "Ground floor (street level)",
+        "zones": [
+          { "name": "Entry / Nintendo SAN FRANCISCO exclusives", "theme": "store-branded", "position": "front-centre, just inside the Powell doors", "approxSizeM": [8, 6], "elements": ["life-size Mario statue greeting at the door, surrounded by Mario dish/tableware set (ex-Nintendo TOKYO exclusive)", "exclusive SF line: tees, hoodies, caps, water bottles in red or grey with the marching-mascot art", "clear character tote, stationery, statue replicas", "Warp Pipe Pass check-in on event days"], "colours": ["#E60012", "#FFFFFF", "#8A8A8A"], "interactions": ["photo spot with Mario statue", "Warp Pipe Pass QR check-in"], "confidence": "high" },
+          { "name": "Super Mario (incl. Mario Kart, Peach, Yoshi)", "theme": "Mushroom Kingdom", "position": "front-left, along the Powell windows", "approxSizeM": [10, 6], "elements": ["housewares, kitchen canisters, blankets, apparel", "employee-created artwork", "LEGO Mario Kart sets", "oversized ? block props"], "colours": ["#E4000F", "#049CD8", "#FBD000", "#43B047"], "interactions": ["? block hit"], "confidence": "high (zone) / medium (position)" },
+          { "name": "Donkey Kong", "theme": "jungle", "position": "front, small bay near the Mario zone", "approxSizeM": [4, 3], "elements": ["DK collection apparel/plush"], "colours": ["#8B4513", "#E4000F"], "interactions": [], "confidence": "medium" },
+          { "name": "Hardware & games", "theme": "Nintendo Switch / Switch 2", "position": "mid-floor, inner wall", "approxSizeM": [8, 4], "elements": ["Switch 2 hardware (sold since 2025-06-05) and Switch OLED displays", "tilted game-box shelving", "accessories incl. Alarmo, NSO controllers", "sealed games kept behind the counter", "Switch 2 demo kiosks (Mario Kart World at launch; later Donkey Kong Bananza, Metroid Prime 4, Mario Tennis Fever, Splatoon Raiders)"], "colours": ["#E60012", "#1A1A1A", "#FFFFFF"], "interactions": ["demo kiosk play"], "confidence": "medium" },
+          { "name": "Animal Crossing", "theme": "island life / The Roost cafe", "position": "rear (north) of the ground floor", "approxSizeM": [10, 7], "elements": ["Isabelle, Timmy & Tommy statues", "home goods, The Roost French press, Dodo Airlines flight jacket, Japanese stationery, Sanrio collab", "cookie jars, fuzzy peaches"], "colours": ["#7ACB6C", "#F7D96B", "#8ED3F4"], "interactions": ["photo spot with Isabelle/Timmy/Tommy"], "confidence": "high" },
+          { "name": "Custom Switch OLED station", "theme": "hardware customisation", "position": "rear-right (NE) corner", "approxSizeM": [4, 3], "elements": ["tablets to pick Joy-Con, wrist-strap and dock colours (colours not sold elsewhere in the US)", "finished console assembled and collected at the front desk same day"], "colours": ["#FFFFFF", "#E60012"], "interactions": ["configurator UI"], "confidence": "high" },
+          { "name": "Registers / checkout", "theme": "-", "position": "UNRESOLVED exact position; ground floor, inner (west) wall between the Mario and Animal Crossing zones is the best guess", "approxSizeM": [6, 2], "elements": ["multi-till counter", "SF-exclusive impulse displays", "custom Switch pick-up", "commemorative coin with purchase (opening period)"], "colours": ["#FFFFFF", "#E60012"], "interactions": [], "confidence": "low" }
+        ],
+        "stair": { "position": "centre of the store", "type": "open straight/switchback stair with a floor void; the lower-level game wall is visible from the ground floor through the void", "confidence": "high (central), medium (void)" },
+        "checkout": "see Registers zone (position low confidence)",
+        "screens": [ { "sizeM": [1.4, 0.8], "position": "hardware area / window bays", "content": "Switch 2 demos, trailers", "confidence": "low" } ]
+      },
+      {
+        "level": -1,
+        "name": "Lower level (basement, no windows; 'gaming and interactive experiences downstairs')",
+        "zones": [
+          { "name": "The Legend of Zelda", "theme": "Hyrule, elevated/mature aesthetic", "position": "foot of the stair, largest lower-level zone", "approxSizeM": [10, 7], "elements": ["Link statue guarding the zone", "messenger bags, replica swords, leather notebooks, wine glasses, ties, Korok sub-collection", "Master Sword table lamp"], "colours": ["#2E6B3A", "#C9A227", "#3A5F8A"], "interactions": ["photo spot with Link"], "confidence": "high" },
+          { "name": "Metroid", "theme": "Samus", "position": "small shelf next to Kirby", "approxSizeM": [3, 2], "elements": ["Samus-armour metal bottle, tees, tote, lapel pin"], "colours": ["#F26522", "#2B2B2B"], "interactions": [], "confidence": "high" },
+          { "name": "Kirby", "theme": "Dream Land", "position": "beside Metroid, mid-floor", "approxSizeM": [5, 4], "elements": ["Japanese-import plush (Muteki! Suteki! Closet)", "exclusive Kirby items"], "colours": ["#F7A8C4", "#FFFFFF"], "interactions": [], "confidence": "high" },
+          { "name": "Pokemon", "theme": "mini Pokemon Center", "position": "back corner", "approxSizeM": [8, 6], "elements": ["Pikachu-on-Poke-Ball statue", "plush wall, backpacks, apparel, First 4 Figures statues, kitchenware, Pikachu bowls/salt shakers"], "colours": ["#FFCB05", "#E60012", "#FFFFFF"], "interactions": ["photo spot with Pikachu"], "confidence": "high" },
+          { "name": "Pikmin", "theme": "garden / planters", "position": "centre of the lower level", "approxSizeM": [5, 4], "elements": ["Pikmin planters and vases, desk accessories, embroidered shirts", "miniature Pikmin figures hidden around the store (scavenger hunt)"], "colours": ["#E4000F", "#F5D000", "#2A7BD5"], "interactions": ["Pikmin scavenger hunt"], "confidence": "high" },
+          { "name": "Splatoon", "theme": "Inkopolis / Shibuya streetwear", "position": "corner opposite Pokemon", "approxSizeM": [6, 5], "elements": ["Inkling Girl statue", "totes, jackets, aloha shirts, ink-tank backpack, blind boxes"], "colours": ["#E5007F", "#B7E200", "#1A1A1A"], "interactions": ["photo spot with Inkling Girl"], "confidence": "high" },
+          { "name": "Game wall & demo area", "theme": "play", "position": "back corner / rear wall", "approxSizeM": [10, 6], "elements": ["floor-to-ceiling projected game wall (multiplayer, up to 4 players, timed sign-up slots) also used for Nintendo Direct viewing", "4 additional TVs running the same demo", "personal Switch/Switch 2 kiosks"], "colours": ["#1A1A1A", "#E60012"], "interactions": ["play demo on game wall", "watch Nintendo Direct"], "confidence": "high" },
+          { "name": "amiibo wall", "theme": "collectibles", "position": "rear wall next to the demo area", "approxSizeM": [6, 0.5], "elements": ["100+ amiibo incl. rare (Sora, Little Mac, Sephiroth, Cloud, Zelda anniversary, Metroid Dread)"], "colours": ["#FFFFFF"], "interactions": ["browse figures"], "confidence": "high" },
+          { "name": "My Nintendo kiosk", "theme": "rewards", "position": "near the demo area", "approxSizeM": [1, 1], "elements": ["QR check-in panel: platinum points + one of 18 mascot stickers"], "colours": ["#E60012", "#FFFFFF"], "interactions": ["QR check-in"], "confidence": "high" }
+        ],
+        "stair": { "position": "centre (arrives from ground floor)", "confidence": "high" },
+        "checkout": "none reported on the lower level (low confidence)",
+        "screens": [ { "sizeM": [7, 3.5], "position": "rear wall of the game area, visible up the stair void", "content": "multiplayer demos (Mario Kart 8 Deluxe / Super Mario Bros. Wonder at opening; Switch 2 titles since June 2025), Nintendo Direct livestreams", "confidence": "medium (size est.)" }, { "sizeM": [1.4, 0.8], "position": "4 TVs flanking the game wall", "content": "same demo as the wall", "confidence": "medium" } ]
+      }
+    ],
+    "materials": {
+      "floor": "light-toned, low-sheen hard floor (wood-look or pale composite) - UNVERIFIED; described only as 'clean, modern, simple' like Nintendo TOKYO",
+      "walls": "white / off-white with large franchise murals (Mario, Zelda, Pikachu) as zone backdrops; white gondola shelving; light-wood display tables",
+      "ceiling": "white open/flat ceiling with track spotlights and adjustable LED panels",
+      "confidence": "low"
+    },
+    "lighting": { "description": "bright even retail lighting, track spots on statues, colour-tunable LED panels per zone; darker, screen-lit atmosphere in the lower-level game area", "confidence": "low" }
+  },
+  "merchandise": [
+    { "category": "Nintendo SAN FRANCISCO exclusives", "examples": ["red/grey tees, hoodies, caps, water bottles with marching-mascot art", "clear character tote", "enamel pins", "statue replicas (Mario, Link, Inkling, Isabelle+Timmy+Tommy, Pikmin set)", "holiday 2025 exclusive line"], "zone": "Entry (L0)", "confidence": "high" },
+    { "category": "Super Mario / Mario Kart / DK", "examples": ["dish set", "kitchen canisters", "blankets", "apparel", "LEGO Mario Kart"], "zone": "Super Mario (L0)", "confidence": "high" },
+    { "category": "Animal Crossing", "examples": ["The Roost French press", "Dodo Airlines jacket", "cookie jars", "Japanese stationery", "Sanrio collab"], "zone": "Animal Crossing (L0)", "confidence": "high" },
+    { "category": "Hardware", "examples": ["Nintendo Switch 2 (from 2025-06-05)", "Switch OLED custom builds", "NSO controllers", "Alarmo"], "zone": "Hardware (L0)", "confidence": "high" },
+    { "category": "Zelda", "examples": ["replica swords", "Master Sword lamp", "Korok drinkware", "Triforce apparel"], "zone": "Zelda (L-1)", "confidence": "high" },
+    { "category": "Pokemon", "examples": ["plush", "Pikachu bowls", "First 4 Figures"], "zone": "Pokemon (L-1)", "confidence": "high" },
+    { "category": "Pikmin", "examples": ["planters", "vases", "desk accessories"], "zone": "Pikmin (L-1)", "confidence": "high" },
+    { "category": "Splatoon / Kirby / Metroid", "examples": ["aloha shirts", "ink-tank backpack", "Kirby plush imports", "Samus bottle"], "zone": "L-1", "confidence": "high" },
+    { "category": "amiibo", "examples": ["100+ figures incl. rare"], "zone": "amiibo wall (L-1)", "confidence": "high" }
+  ],
+  "updates2025_2026": {
+    "confidence": "medium",
+    "items": [
+      "2025-06-04/05: Nintendo Switch 2 launch event (sales from 9 pm June 4); Switch 2 demo kiosks (Mario Kart World) added; Switch 2 stocked since.",
+      "2025-09-20/21: Mario meet-and-greet for Super Mario Bros. 40th anniversary (line past the Switch kiosks).",
+      "2025-10-22: holiday-season exclusive merchandise line announced (BusinessWire).",
+      "2026-02/03: Mario Tennis Fever demo on kiosks; 2026-03-10 MAR10 Day Mario appearance 4-7 pm; 2026-03-14 Mario Tennis Fever doubles tournament (16 teams, Warp Pipe Pass).",
+      "2026-03: Super Mario Bros. Wonder + Meetup in Bellabel Park demo on Switch 2 kiosks (NA stores).",
+      "2026-06: Switch / Switch 2 game sale through 2026-06-30.",
+      "2026-07-23: Splatoon Raiders launch event with in-store missions ('Combine the Gadgets', 'Target Salmonids'), demos, gift with purchase.",
+      "No report found of any physical re-zoning, new statues or renovation between opening and 2026-09-01; assume layout unchanged."
+    ]
+  },
+  "sources": [
+    { "id": "S1", "url": "https://www.nintendo.com/us/retail-locations/san-francisco/", "note": "official store page: address, hours, Warp Pipe Pass, custom OLED kiosk, collections", "year": 2026 },
+    { "id": "S2", "url": "https://www.nintendo.com/us/whatsnew/nintendo-san-francisco-opens-its-doors-to-bring-smiles-to-guests-of-all-ages-near-and-far/", "note": "Nintendo opening press release 2025-05-15: two floors, giant screen on lower level for Directs, statues, kiosks", "year": 2025 },
+    { "id": "S3", "url": "https://sfstandard.com/2024/05/24/second-nintendo-store-in-u-s-coming-to-union-square/", "note": "planning permit: 42x42 in illuminated sign at Powell entrance, Geary entrance signage, 10,000 sq ft two-storey", "year": 2024 },
+    { "id": "S4", "url": "https://www.sfchronicle.com/realestate/article/s-f-nintendo-store-19499793.php", "note": "permit: doors/sidelights replaced, lighting at existing awnings (via search excerpt; page blocked)", "year": 2024 },
+    { "id": "S5", "url": "https://www.kqed.org/news/12031569/does-new-nintendo-store-sfs-union-square-signal-retail-rebound", "note": "11,000 sq ft, former BCBG Max Azria (left 2017), character signs on Powell storefront", "year": 2025 },
+    { "id": "S6", "url": "https://www.nbcbayarea.com/news/local/nintendo-san-francisco-union-square-store/3560701/", "note": "former BCBG and FILA space, vacant for years", "year": 2024 },
+    { "id": "S7", "url": "https://www.popshop.com/331-powell-street-san-francisco/", "note": "leasing listing: 114 ft wraparound frontage, 11,000 sq ft, adjacent Victoria's Secret (search excerpt; page 403)", "year": 2024 },
+    { "id": "S8", "url": "https://www.shacknews.com/article/144329/nintendo-sf-store-floor-tour", "note": "floor-by-floor zone order", "year": 2025 },
+    { "id": "S9", "url": "https://www.nintendojo.com/features/we-went-to-nintendo-san-francisco-yes-it-was-amazing", "note": "windows on Geary & Powell, statues, lower-level game wall, amiibo, My Nintendo kiosk, Tokyo-like interior", "year": 2025 },
+    { "id": "S10", "url": "https://gameinformer.com/gallery/2025/05/15/nintendo-store-san-francisco-photo-tour", "note": "Powell entrance, central staircase, zone list per floor", "year": 2025 },
+    { "id": "S11", "url": "https://www.theshortcut.com/p/nintendo-san-francisco-store-full-tour", "note": "Mario statue at entrance, projected game wall, custom Switch at front desk", "year": 2025 },
+    { "id": "S12", "url": "https://questquestion.com/2025/05/22/a-first-day-at-nintendo-san-francisco/", "note": "lower level windowless, Link & Inkling statues, 4 TVs + demo panel, tilted game shelves", "year": 2025 },
+    { "id": "S13", "url": "https://www.510families.com/nintendo-store-san-francisco/", "note": "4-player console stations with sign-up slots, Pikmin scavenger hunt, custom station back-right", "year": 2025 },
+    { "id": "S14", "url": "https://www.sfexaminer.com/news/the-city/nintendo-san-francisco-flagship-store-hits-union-square/article_305f4ead-4628-4da7-b64c-bfc434e46c2b.html", "note": "red-and-white windows, Peach decals, human-size statues", "year": 2025 },
+    { "id": "S15", "url": "https://hoodline.com/2025/05/nintendo-unveils-flagship-store-in-san-francisco-s-union-square-ahead-of-switch-2-launch/", "note": "9,000 sq ft, corner of Powell & Geary, play downstairs", "year": 2025 },
+    { "id": "S16", "url": "https://www.techeblog.com/new-nintendo-san-francisco-store-opening-tour-location/", "note": "10,989 sq ft, murals of Mario/Zelda/Pikachu", "year": 2025 },
+    { "id": "S17", "url": "https://www.cbsnews.com/sanfrancisco/news/nintendo-switch-2-release-san-francisco-union-square-flagship-store", "note": "Switch 2 launch night 2025-06-04", "year": 2025 },
+    { "id": "S18", "url": "https://secure.businesswire.com/news/home/20251022371418/en/", "note": "holiday 2025 exclusive merchandise", "year": 2025 },
+    { "id": "S19", "url": "https://gonintendo.com/contents/58613-nintendo-ny-sf-detail-march-2026-events-including-a-mario-tennis-fever-tournament", "note": "March 2026 events", "year": 2026 },
+    { "id": "S20", "url": "https://www.nintendo.com/us/retail-locations/san-francisco/gear-up-for-splatoon-raiders-at-nintendo-san-francisco/", "note": "2026-07-23 Splatoon Raiders event", "year": 2026 },
+    { "id": "S21", "url": "https://finalweapon.net/2026/06/15/nintendo-new-york-san-francisco-store-game-sale/", "note": "June 2026 sale", "year": 2026 },
+    { "id": "S22", "url": "https://www.nintendojo.com/news/we-got-to-meet-mario-at-nintendo-san-francisco", "note": "Sept 2025 Mario meet-and-greet", "year": 2025 },
+    { "id": "S23", "url": "https://en.wikipedia.org/wiki/Westin_St._Francis", "note": "Bliss & Faville 1904, Beaux-Arts", "year": 2026 },
+    { "id": "S24", "url": "refs/nintendo/01..06 (Wikimedia Commons, Evan0512, CC BY-SA 4.0, 2025-05-15 to 2026-05-17)", "note": "visual verification of fascia signs, awnings, window graphics, bays, neighbours", "year": 2026 },
+    { "id": "S25", "url": "src/data/recon/osm_raw.json", "note": "OSM nodes 12850136757 (store), 12965269413 (331 Powell entrance), 3394966337 (Victoria's Secret)", "year": 2026 }
+  ]
+}

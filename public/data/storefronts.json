@@ -1,0 +1,3418 @@
+[
+ {
+  "id": "powell-w-167",
+  "name": "Dandelion Chocolate",
+  "address": "167 Powell St",
+  "street": "Powell St",
+  "side": "west",
+  "blockFrom": "O'Farrell St",
+  "blockTo": "O'Farrell St (SW corner)",
+  "category": "cafe",
+  "buildingRef": "167 Powell (SW corner O'Farrell/Powell; former Lids)",
+  "approxWidthM": 9,
+  "signage": {
+   "text": "Dandelion Chocolate",
+   "style": "brand-standard: small serif wordmark on dark fascia (assumed)",
+   "logoDescription": "dandelion seed-head mark",
+   "color": "dark brown/black fascia, white letters"
+  },
+  "entrance": {
+   "position": "corner, on Powell",
+   "type": "single door"
+  },
+  "windows": "corner storefront, 2 bays Powell + 1 bay O'Farrell (estimate)",
+  "status": "open",
+  "asOf": "2026-06-12",
+  "confidence": "high",
+  "source": "https://sfstandard.com/2026/06/12/dandelion-chocolate-union-square-permanent/",
+  "notes": "Opened Oct 2025 as Vacant-to-Vibrant pop-up; signed 5-year lease June 2026. Just south of the study boundary (O'Farrell/Powell corner)."
+ },
+ {
+  "id": "powell-w-201",
+  "name": "Starbucks",
+  "address": "201 Powell St",
+  "street": "Powell St",
+  "side": "west",
+  "blockFrom": "O'Farrell St",
+  "blockTo": "Geary St",
+  "category": "cafe",
+  "buildingRef": "201-2xx Powell (Roxborough Group building), NW corner O'Farrell/Powell",
+  "approxWidthM": 12,
+  "signage": {
+   "text": "Starbucks",
+   "style": "brand-standard: green siren disc + wordmark",
+   "logoDescription": "green siren in circle",
+   "color": "green/white"
+  },
+  "entrance": {
+   "position": "corner, on Powell",
+   "type": "single door"
+  },
+  "windows": "corner glazing, ~3 bays",
+  "status": "open",
+  "asOf": "2026-08-19",
+  "confidence": "high",
+  "source": "OpenStreetMap extract src/data/recon/osm_raw.json (timestamp 2026-09-01; per-node check_date cited)",
+  "notes": "OSM check_date 2026-08-19; also listed as \"Starbucks Powell & O'Farrell\". SF Standard (2026-03-03) names Starbucks and UGG in this Roxborough-owned building."
+ },
+ {
+  "id": "powell-w-ugg",
+  "name": "UGG",
+  "address": "Powell St (unnumbered; between 201 and 237)",
+  "street": "Powell St",
+  "side": "west",
+  "blockFrom": "O'Farrell St",
+  "blockTo": "Geary St",
+  "category": "apparel",
+  "buildingRef": "Roxborough Group building, 200-block Powell west side",
+  "approxWidthM": 10,
+  "signage": {
+   "text": "UGG",
+   "style": "brand-standard: block sans-serif letters",
+   "logoDescription": "none",
+   "color": "black letters on white/cream fascia"
+  },
+  "entrance": {
+   "position": "mid-storefront",
+   "type": "single door"
+  },
+  "windows": "2 bays (estimate)",
+  "status": "open",
+  "asOf": "2026-03-05",
+  "confidence": "medium",
+  "source": "OpenStreetMap extract src/data/recon/osm_raw.json (timestamp 2026-09-01; per-node check_date cited)",
+  "notes": "OSM check_date 2026-03-05; SF Standard 2026-03-03 confirms UGG in this building. Exact house number not verified."
+ },
+ {
+  "id": "powell-w-237",
+  "name": "UNRESOLVED",
+  "address": "237 Powell St",
+  "street": "Powell St",
+  "side": "west",
+  "blockFrom": "O'Farrell St",
+  "blockTo": "Geary St",
+  "category": "vacant",
+  "buildingRef": "237 Powell",
+  "approxWidthM": 8,
+  "signage": {
+   "text": "none",
+   "style": "none",
+   "logoDescription": "none",
+   "color": "none"
+  },
+  "entrance": {
+   "position": "mid-storefront",
+   "type": "unknown"
+  },
+  "windows": "1-2 bays",
+  "status": "vacant",
+  "asOf": "2026-09-01",
+  "confidence": "low",
+  "source": "OpenStreetMap extract src/data/recon/osm_raw.json (timestamp 2026-09-01; per-node check_date cited)",
+  "notes": "OSM tags this address disused:shop=yes (no check_date). Last-known tenant unknown. Verify on imagery."
+ },
+ {
+  "id": "powell-w-245",
+  "name": "SF Souvenirs & Luggage",
+  "address": "245 Powell St",
+  "street": "Powell St",
+  "side": "west",
+  "blockFrom": "O'Farrell St",
+  "blockTo": "Geary St",
+  "category": "other",
+  "buildingRef": "245 Powell",
+  "approxWidthM": 8,
+  "signage": {
+   "text": "SF Souvenirs & Luggage",
+   "style": "independent souvenir shop; printed banner-style signage (assumed)",
+   "logoDescription": "none",
+   "color": "unknown"
+  },
+  "entrance": {
+   "position": "mid-storefront",
+   "type": "single door"
+  },
+  "windows": "1-2 bays, merchandise-filled",
+  "status": "open",
+  "asOf": "2026-03-05",
+  "confidence": "medium",
+  "source": "OpenStreetMap extract src/data/recon/osm_raw.json (timestamp 2026-09-01; per-node check_date cited)",
+  "notes": "OSM check_date 2026-03-05."
+ },
+ {
+  "id": "powell-w-2xx",
+  "name": "UNRESOLVED",
+  "address": "Powell St west side, ~251-299 (between SF Souvenirs and the Geary corner building)",
+  "street": "Powell St",
+  "side": "west",
+  "blockFrom": "O'Farrell St",
+  "blockTo": "Geary St",
+  "category": "other",
+  "buildingRef": "200-block Powell west side, north half",
+  "approxWidthM": 30,
+  "signage": {
+   "text": "none",
+   "style": "none",
+   "logoDescription": "none",
+   "color": "none"
+  },
+  "entrance": {
+   "position": "unknown",
+   "type": "unknown"
+  },
+  "windows": "unknown",
+  "status": "unknown",
+  "asOf": "2026-09-01",
+  "confidence": "low",
+  "source": "OpenStreetMap extract src/data/recon/osm_raw.json (timestamp 2026-09-01; per-node check_date cited)",
+  "notes": "No 2024+ source for the storefront(s) between 245 Powell and the Shoe Palace building at Geary. SF Standard (2026-03-03) mentions a hotel in the Roxborough building on this block (name not verified). Needs Street View pass."
+ },
+ {
+  "id": "powell-w-331",
+  "name": "Nintendo SAN FRANCISCO",
+  "address": "331 Powell St",
+  "street": "Powell St",
+  "side": "west",
+  "blockFrom": "Geary St",
+  "blockTo": "Post St",
+  "category": "toys-games",
+  "buildingRef": "Westin St. Francis, ground floor, NW corner Geary/Powell",
+  "approxWidthM": 22,
+  "signage": {
+   "text": "Nintendo SAN FRANCISCO",
+   "style": "red Nintendo racetrack logo with city name; corner signage",
+   "logoDescription": "Nintendo racetrack (rounded-rect) wordmark",
+   "color": "red on white"
+  },
+  "entrance": {
+   "position": "corner, on Powell near Geary",
+   "type": "double doors; queue barriers common"
+  },
+  "windows": "corner storefront, 2-storey, full-height glazing (est. 3 bays Powell + 2 bays Geary)",
+  "status": "open",
+  "asOf": "2025-05-15",
+  "confidence": "high",
+  "source": "https://www.nintendo.com/us/whatsnew/nintendo-san-francisco-celebrates-grand-opening-may-15/",
+  "notes": "Opened 2025-05-15; two-level store in Westin ground floor. OSM check_date 2026-03-05."
+ },
+ {
+  "id": "powell-w-335-hotel",
+  "name": "The Westin St. Francis (main entrance)",
+  "address": "335 Powell St",
+  "street": "Powell St",
+  "side": "west",
+  "blockFrom": "Geary St",
+  "blockTo": "Post St",
+  "category": "hotel",
+  "buildingRef": "Westin St. Francis 1904/1913 landmark building (13 storeys, ~60 m per OSM); 32-storey 1972 tower behind",
+  "approxWidthM": 104,
+  "signage": {
+   "text": "The Westin St. Francis",
+   "style": "gilded serif letters over marquee/canopy",
+   "logoDescription": "Westin 'W' + wordmark",
+   "color": "gold/bronze on grey stone"
+  },
+  "entrance": {
+   "position": "center of Powell frontage",
+   "type": "hotel porte-cochère / revolving + swing doors"
+  },
+  "windows": "stone base with arched ground-floor openings; retail inset along frontage",
+  "status": "open",
+  "asOf": "2026-01-13",
+  "confidence": "high",
+  "source": "https://en.wikipedia.org/wiki/Westin_St._Francis",
+  "notes": "Occupies the entire west side of Powell between Geary and Post. Hotel-worker strike ended 2024-12-24. Ground-floor tenants listed separately."
+ },
+ {
+  "id": "powell-w-335-bourbon",
+  "name": "Bourbon Steak & Lounge (Michael Mina)",
+  "address": "335 Powell St",
+  "street": "Powell St",
+  "side": "west",
+  "blockFrom": "Geary St",
+  "blockTo": "Post St",
+  "category": "restaurant",
+  "buildingRef": "Westin St. Francis ground floor, Powell frontage",
+  "approxWidthM": 12,
+  "signage": {
+   "text": "BOURBON STEAK",
+   "style": "brand-standard: thin capital serif letters",
+   "logoDescription": "none",
+   "color": "black/bronze"
+  },
+  "entrance": {
+   "position": "Westin Powell frontage (exact bay unresolved)",
+   "type": "restaurant door"
+  },
+  "windows": "unknown",
+  "status": "open",
+  "asOf": "2026-01-13",
+  "confidence": "medium",
+  "source": "https://sfist.com/2026/01/13/williams-sonoma-to-close-its-flagship-union-square-store-as-chanel-prepares-to-move-in/ (Bourbon Steak reopened Oct 2025)",
+  "notes": "SFist 2026-01-13: reopened Oct 2025 at street level in the Westin. Exact bay position not verified."
+ },
+ {
+  "id": "powell-w-335-vs",
+  "name": "Victoria's Secret",
+  "address": "335 Powell St",
+  "street": "Powell St",
+  "side": "west",
+  "blockFrom": "Geary St",
+  "blockTo": "Post St",
+  "category": "apparel",
+  "buildingRef": "Westin St. Francis ground floor, Powell frontage (mid-block)",
+  "approxWidthM": 14,
+  "signage": {
+   "text": "VICTORIA'S SECRET",
+   "style": "brand-standard: spaced serif capitals on black",
+   "logoDescription": "none",
+   "color": "black fascia, white/pink letters"
+  },
+  "entrance": {
+   "position": "mid-frontage",
+   "type": "double doors"
+  },
+  "windows": "2-3 bays inset in stone arcade",
+  "status": "open",
+  "asOf": "2026-03-05",
+  "confidence": "medium",
+  "source": "OpenStreetMap extract src/data/recon/osm_raw.json (timestamp 2026-09-01; per-node check_date cited)",
+  "notes": "OSM check_date 2026-03-05."
+ },
+ {
+  "id": "powell-w-335-clock",
+  "name": "UNRESOLVED",
+  "address": "335 Powell St (Westin lobby bars)",
+  "street": "Powell St",
+  "side": "west",
+  "blockFrom": "Geary St",
+  "blockTo": "Post St",
+  "category": "restaurant",
+  "buildingRef": "Westin St. Francis lobby",
+  "approxWidthM": 0,
+  "signage": {
+   "text": "none",
+   "style": "none",
+   "logoDescription": "none",
+   "color": "none"
+  },
+  "entrance": {
+   "position": "via hotel lobby",
+   "type": "interior"
+  },
+  "windows": "n/a",
+  "status": "unknown",
+  "asOf": "2022",
+  "confidence": "low",
+  "source": "OpenStreetMap extract src/data/recon/osm_raw.json (timestamp 2026-09-01; per-node check_date cited)",
+  "notes": "Last-known: Clock Bar (Michael Mina) and ENO Wine Bar, both lobby-facing per OSM nodes from 2021-2022 with no later check. Not street storefronts; listed for completeness."
+ },
+ {
+  "id": "powell-w-345",
+  "name": "Pandora",
+  "address": "345 Powell St",
+  "street": "Powell St",
+  "side": "west",
+  "blockFrom": "Geary St",
+  "blockTo": "Post St",
+  "category": "jewelry",
+  "buildingRef": "Westin St. Francis ground floor, near Post corner",
+  "approxWidthM": 8,
+  "signage": {
+   "text": "PANDORA",
+   "style": "brand-standard: spaced sans-serif capitals",
+   "logoDescription": "crown-over-O wordmark",
+   "color": "white letters on dark fascia"
+  },
+  "entrance": {
+   "position": "near Post corner",
+   "type": "single door"
+  },
+  "windows": "1-2 bays",
+  "status": "open",
+  "asOf": "2026-03-05",
+  "confidence": "medium",
+  "source": "OpenStreetMap extract src/data/recon/osm_raw.json (timestamp 2026-09-01; per-node check_date cited)",
+  "notes": "OSM check_date 2026-03-05."
+ },
+ {
+  "id": "powell-w-400post",
+  "name": "Zara (flagship, under construction)",
+  "address": "400 Post St (NW corner Post/Powell; Powell frontage)",
+  "street": "Powell St",
+  "side": "west",
+  "blockFrom": "Post St",
+  "blockTo": "Sutter St",
+  "category": "apparel",
+  "buildingRef": "400 Post, 1909 four-storey building (~17 m per OSM), owned by Pontegadea; ex-Macy's Men's / DSW (vacant since 2021)",
+  "approxWidthM": 40,
+  "signage": {
+   "text": "ZARA",
+   "style": "brand-standard: heavy serif capitals",
+   "logoDescription": "none",
+   "color": "black letters, likely on stone"
+  },
+  "entrance": {
+   "position": "corner Post/Powell (expected)",
+   "type": "multiple doors (expected)"
+  },
+  "windows": "4 floors, 40,000 sq ft; storefront under renovation",
+  "status": "coming-soon",
+  "asOf": "2026-08-24",
+  "confidence": "high",
+  "source": "https://www.sfchronicle.com/realestate/article/zara-union-square-sf-20257686.php",
+  "notes": "Announced Apr 2025 for a 2026 opening; still \"opening 2026\" per SF Standard 2026-08-24. OSM: corner bank space disused (2023); Morton's The Steakhouse (400 Post, lower level) status unverified."
+ },
+ {
+  "id": "powell-w-433",
+  "name": "Chancellor Hotel",
+  "address": "433 Powell St",
+  "street": "Powell St",
+  "side": "west",
+  "blockFrom": "Post St",
+  "blockTo": "Sutter St",
+  "category": "hotel",
+  "buildingRef": "Chancellor Hotel (1914), 433 Powell",
+  "approxWidthM": 15,
+  "signage": {
+   "text": "Chancellor Hotel",
+   "style": "vertical/awning hotel signage (assumed)",
+   "logoDescription": "none",
+   "color": "unknown"
+  },
+  "entrance": {
+   "position": "center",
+   "type": "hotel door + awning"
+  },
+  "windows": "hotel ground floor; Clipper Ship Room is events-only",
+  "status": "open",
+  "asOf": "2026-09-01",
+  "confidence": "high",
+  "source": "https://chancellorhotel.com/",
+  "notes": "Hotel website active Sep 2026; no street-level dining/retail named."
+ },
+ {
+  "id": "powell-w-439",
+  "name": "Sears Fine Food",
+  "address": "439 Powell St",
+  "street": "Powell St",
+  "side": "west",
+  "blockFrom": "Post St",
+  "blockTo": "Sutter St",
+  "category": "restaurant",
+  "buildingRef": "439 Powell (since 1964)",
+  "approxWidthM": 12,
+  "signage": {
+   "text": "Sears Fine Food",
+   "style": "classic neon/script diner signage",
+   "logoDescription": "none",
+   "color": "red/white (assumed)"
+  },
+  "entrance": {
+   "position": "center",
+   "type": "restaurant door"
+  },
+  "windows": "2 bays with menu displays",
+  "status": "open",
+  "asOf": "2026-09-01",
+  "confidence": "high",
+  "source": "https://www.searsfinefood.com/location",
+  "notes": "Website shows hours 7am-3pm & 5-9pm daily; OSM check_date 2026-03-05."
+ },
+ {
+  "id": "powell-w-449",
+  "name": "Golden Gate Tap Room",
+  "address": "449 Powell St",
+  "street": "Powell St",
+  "side": "west",
+  "blockFrom": "Post St",
+  "blockTo": "Sutter St",
+  "category": "restaurant",
+  "buildingRef": "449 Powell (bar on 2nd floor, street entrance)",
+  "approxWidthM": 6,
+  "signage": {
+   "text": "Golden Gate Tap Room",
+   "style": "bar signage (unknown style)",
+   "logoDescription": "none",
+   "color": "unknown"
+  },
+  "entrance": {
+   "position": "street-level stair entrance",
+   "type": "single door"
+  },
+  "windows": "upper-floor bar",
+  "status": "open",
+  "asOf": "2025-03-20",
+  "confidence": "medium",
+  "source": "OpenStreetMap extract src/data/recon/osm_raw.json (timestamp 2026-09-01; per-node check_date cited)",
+  "notes": "OSM check_date 2025-03-20; also Noori Stitch tailor (2nd floor) mapped 2024."
+ },
+ {
+  "id": "powell-w-459",
+  "name": "Walgreens",
+  "address": "459 Powell St",
+  "street": "Powell St",
+  "side": "west",
+  "blockFrom": "Post St",
+  "blockTo": "Sutter St (SW corner)",
+  "category": "pharmacy",
+  "buildingRef": "459 Powell, SW corner Sutter/Powell",
+  "approxWidthM": 20,
+  "signage": {
+   "text": "Walgreens",
+   "style": "brand-standard: red script wordmark",
+   "logoDescription": "none",
+   "color": "red on white"
+  },
+  "entrance": {
+   "position": "corner",
+   "type": "automatic doors"
+  },
+  "windows": "corner storefront, ~3 bays Powell + 2 bays Sutter",
+  "status": "open",
+  "asOf": "2025-03-20",
+  "confidence": "medium",
+  "source": "OpenStreetMap extract src/data/recon/osm_raw.json (timestamp 2026-09-01; per-node check_date cited)",
+  "notes": "OSM check_date 2025-03-20."
+ },
+ {
+  "id": "powell-e-150",
+  "name": "UNRESOLVED",
+  "address": "150 Powell St",
+  "street": "Powell St",
+  "side": "east",
+  "blockFrom": "O'Farrell St (SE corner)",
+  "blockTo": "O'Farrell St",
+  "category": "vacant",
+  "buildingRef": "150 Powell, SE corner O'Farrell/Powell (former H&M, 3 floors)",
+  "approxWidthM": 25,
+  "signage": {
+   "text": "none",
+   "style": "none",
+   "logoDescription": "none",
+   "color": "none"
+  },
+  "entrance": {
+   "position": "corner",
+   "type": "boarded/closed"
+  },
+  "windows": "large corner glazing, 3 storeys",
+  "status": "vacant",
+  "asOf": "2026-04-16",
+  "confidence": "high",
+  "source": "https://sfstandard.com/2026/04/16/downtown-san-francisco-empty-storefront-grants/",
+  "notes": "Former H&M Powell St flagship, closed post-pandemic; OSM disused:shop (check 2026-03-05); SF Standard 2026-04-16 lists H&M among closed Powell St stores. Just south of boundary (corner)."
+ },
+ {
+  "id": "ofarrell-n-180",
+  "name": "STIIIZY Union Square",
+  "address": "180 O'Farrell St",
+  "street": "O'Farrell St",
+  "side": "north",
+  "blockFrom": "Stockton St",
+  "blockTo": "Powell St (NE corner)",
+  "category": "other",
+  "buildingRef": "180-184 O'Farrell / 200 Powell corner building (separate from Macy's)",
+  "approxWidthM": 8,
+  "signage": {
+   "text": "STIIIZY",
+   "style": "brand-standard: bold sans-serif",
+   "logoDescription": "none",
+   "color": "black/white"
+  },
+  "entrance": {
+   "position": "on O'Farrell",
+   "type": "single door, security"
+  },
+  "windows": "1-2 bays",
+  "status": "open",
+  "asOf": "2025-01-16",
+  "confidence": "medium",
+  "source": "OpenStreetMap extract src/data/recon/osm_raw.json (timestamp 2026-09-01; per-node check_date cited)",
+  "notes": "Cannabis dispensary; OSM check_date 2025-01-16."
+ },
+ {
+  "id": "ofarrell-n-184",
+  "name": "King of Thai Noodle",
+  "address": "184 O'Farrell St",
+  "street": "O'Farrell St",
+  "side": "north",
+  "blockFrom": "Stockton St",
+  "blockTo": "Powell St (NE corner)",
+  "category": "restaurant",
+  "buildingRef": "180-184 O'Farrell / 200 Powell corner building",
+  "approxWidthM": 7,
+  "signage": {
+   "text": "King of Thai Noodle House",
+   "style": "independent restaurant signage",
+   "logoDescription": "none",
+   "color": "unknown"
+  },
+  "entrance": {
+   "position": "on O'Farrell",
+   "type": "single door"
+  },
+  "windows": "1 bay",
+  "status": "open",
+  "asOf": "2025-01-16",
+  "confidence": "medium",
+  "source": "OpenStreetMap extract src/data/recon/osm_raw.json (timestamp 2026-09-01; per-node check_date cited)",
+  "notes": "OSM check_date 2025-01-16."
+ },
+ {
+  "id": "powell-e-200",
+  "name": "Pop Mart",
+  "address": "200 Powell St",
+  "street": "Powell St",
+  "side": "east",
+  "blockFrom": "O'Farrell St (NE corner)",
+  "blockTo": "Geary St",
+  "category": "toys-games",
+  "buildingRef": "200 Powell, NE corner O'Farrell/Powell (former Skechers flagship; vacant 2019-2025)",
+  "approxWidthM": 18,
+  "signage": {
+   "text": "POP MART",
+   "style": "brand-standard: bold rounded sans-serif; Labubu graphics",
+   "logoDescription": "none",
+   "color": "black/white with character art"
+  },
+  "entrance": {
+   "position": "corner",
+   "type": "double doors; queue barriers"
+  },
+  "windows": "corner glazing, 2 bays Powell + 2 bays O'Farrell (estimate)",
+  "status": "open",
+  "asOf": "2025-10-18",
+  "confidence": "high",
+  "source": "https://sfist.com/2025/09/15/that-union-square-pop-mart-opened-today-for-all-your-labubu-buying-needs/",
+  "notes": "Soft-opened 2025-09-15, grand opening 2025-10-18. OSM check_date 2026-03-05."
+ },
+ {
+  "id": "powell-e-sams",
+  "name": "Sam's Cable Car Lounge",
+  "address": "Powell St (unnumbered, ~210-220)",
+  "street": "Powell St",
+  "side": "east",
+  "blockFrom": "O'Farrell St",
+  "blockTo": "Geary St",
+  "category": "restaurant",
+  "buildingRef": "200-block Powell east side",
+  "approxWidthM": 7,
+  "signage": {
+   "text": "Sam's Cable Car Lounge",
+   "style": "bar/diner signage",
+   "logoDescription": "none",
+   "color": "unknown"
+  },
+  "entrance": {
+   "position": "mid-storefront",
+   "type": "single door"
+  },
+  "windows": "1 bay",
+  "status": "open",
+  "asOf": "2026-03-05",
+  "confidence": "medium",
+  "source": "OpenStreetMap extract src/data/recon/osm_raw.json (timestamp 2026-09-01; per-node check_date cited)",
+  "notes": "OSM check_date 2026-03-05; house number not verified."
+ },
+ {
+  "id": "powell-e-226",
+  "name": "The Best Bookstore",
+  "address": "226 Powell St",
+  "street": "Powell St",
+  "side": "east",
+  "blockFrom": "O'Farrell St",
+  "blockTo": "Geary St",
+  "category": "other",
+  "buildingRef": "226-230 Powell (space concurrently listed for lease on LoopNet)",
+  "approxWidthM": 9,
+  "signage": {
+   "text": "The Best Bookstore",
+   "style": "temporary/independent signage",
+   "logoDescription": "none",
+   "color": "unknown"
+  },
+  "entrance": {
+   "position": "mid-storefront",
+   "type": "single door"
+  },
+  "windows": "2 bays",
+  "status": "open",
+  "asOf": "2026-03-05",
+  "confidence": "medium",
+  "source": "https://sfstandard.com/2026/03/03/future-of-union-square-san-francisco-identity/",
+  "notes": "Vacant-to-Vibrant pop-up opened Nov 2025 (SF Standard 2026-03-03); OSM check_date 2026-03-05. Space still marketed (LoopNet 226-230 Powell), so tenancy may be temporary."
+ },
+ {
+  "id": "powell-e-236",
+  "name": "Nooworks",
+  "address": "236 Powell St",
+  "street": "Powell St",
+  "side": "east",
+  "blockFrom": "O'Farrell St",
+  "blockTo": "Geary St",
+  "category": "apparel",
+  "buildingRef": "236 Powell",
+  "approxWidthM": 7,
+  "signage": {
+   "text": "Nooworks",
+   "style": "local apparel brand; painted/graphic signage",
+   "logoDescription": "none",
+   "color": "colorful"
+  },
+  "entrance": {
+   "position": "mid-storefront",
+   "type": "single door"
+  },
+  "windows": "1 bay",
+  "status": "open",
+  "asOf": "2025-11-04",
+  "confidence": "medium",
+  "source": "https://www.yahoo.com/news/articles/san-franciscos-old-uniqlo-space-212514213.html (SF Chronicle 2025-11-04)",
+  "notes": "Local apparel brand via Vacant-to-Vibrant (SF Chronicle 2025-11-04). Not yet in OSM."
+ },
+ {
+  "id": "powell-e-journeys",
+  "name": "Journeys",
+  "address": "Powell St (unnumbered, ~238-240)",
+  "street": "Powell St",
+  "side": "east",
+  "blockFrom": "O'Farrell St",
+  "blockTo": "Geary St",
+  "category": "apparel",
+  "buildingRef": "200-block Powell east side",
+  "approxWidthM": 8,
+  "signage": {
+   "text": "Journeys",
+   "style": "brand-standard: black sans-serif",
+   "logoDescription": "none",
+   "color": "black/white"
+  },
+  "entrance": {
+   "position": "mid-storefront",
+   "type": "single door"
+  },
+  "windows": "1-2 bays",
+  "status": "open",
+  "asOf": "2025-06-20",
+  "confidence": "medium",
+  "source": "OpenStreetMap extract src/data/recon/osm_raw.json (timestamp 2026-09-01; per-node check_date cited)",
+  "notes": "OSM check_date 2025-06-20."
+ },
+ {
+  "id": "powell-e-242",
+  "name": "Nave Cafe",
+  "address": "242 Powell St",
+  "street": "Powell St",
+  "side": "east",
+  "blockFrom": "O'Farrell St",
+  "blockTo": "Geary St",
+  "category": "cafe",
+  "buildingRef": "242 Powell",
+  "approxWidthM": 6,
+  "signage": {
+   "text": "Nave Cafe",
+   "style": "independent cafe signage",
+   "logoDescription": "none",
+   "color": "unknown"
+  },
+  "entrance": {
+   "position": "mid-storefront",
+   "type": "single door"
+  },
+  "windows": "1 bay",
+  "status": "open",
+  "asOf": "2026-05-05",
+  "confidence": "medium",
+  "source": "OpenStreetMap extract src/data/recon/osm_raw.json (timestamp 2026-09-01; per-node check_date cited)",
+  "notes": "OSM check_date 2026-05-05."
+ },
+ {
+  "id": "powell-e-246",
+  "name": "CK Contemporary",
+  "address": "246 Powell St",
+  "street": "Powell St",
+  "side": "east",
+  "blockFrom": "O'Farrell St",
+  "blockTo": "Geary St",
+  "category": "gallery",
+  "buildingRef": "246 Powell",
+  "approxWidthM": 7,
+  "signage": {
+   "text": "CK Contemporary",
+   "style": "gallery lettering on glass",
+   "logoDescription": "none",
+   "color": "unknown"
+  },
+  "entrance": {
+   "position": "mid-storefront",
+   "type": "single door"
+  },
+  "windows": "1-2 bays",
+  "status": "open",
+  "asOf": "2025-01-16",
+  "confidence": "medium",
+  "source": "OpenStreetMap extract src/data/recon/osm_raw.json (timestamp 2026-09-01; per-node check_date cited)",
+  "notes": "OSM check_date 2025-01-16."
+ },
+ {
+  "id": "powell-e-macys",
+  "name": "Macy's Union Square (Powell St frontage & entrance)",
+  "address": "170 O'Farrell St (Powell frontage ~250-298 Powell)",
+  "street": "Powell St",
+  "side": "east",
+  "blockFrom": "O'Farrell St",
+  "blockTo": "Geary St (SE corner)",
+  "category": "department-store",
+  "buildingRef": "Macy's complex (8 storeys, ~45 m per OSM), bounded by O'Farrell/Stockton/Geary/Powell except the 180-246 Powell corner strip",
+  "approxWidthM": 55,
+  "signage": {
+   "text": "macy's",
+   "style": "brand-standard: lowercase script wordmark with red star",
+   "logoDescription": "red star",
+   "color": "red on black/white"
+  },
+  "entrance": {
+   "position": "Powell entrance mid-block + corner at Geary",
+   "type": "multiple double doors"
+  },
+  "windows": "display windows along Powell; large corner glazing at Geary/Powell",
+  "status": "open",
+  "asOf": "2025-11-01",
+  "confidence": "high",
+  "source": "https://www.sfgate.com/local/article/macys-union-square-san-francisco-isnt-closing-yet-21141588.php",
+  "notes": "Nov 2025: Macy's partnered with TMG Partners to reimagine the property and dropped its 2027 exit plan; store remains open. OSM check_date 2026-04-09."
+ },
+ {
+  "id": "plaza-w-bpatisserie",
+  "name": "b. patisserie (plaza kiosk)",
+  "address": "Union Square plaza, NW quadrant (Powell side)",
+  "street": "Powell St",
+  "side": "east",
+  "blockFrom": "Geary St",
+  "blockTo": "Post St",
+  "category": "cafe",
+  "buildingRef": "Union Square plaza pavilion (former Emporio Rulli kiosk)",
+  "approxWidthM": 10,
+  "signage": {
+   "text": "b. patisserie",
+   "style": "brand-standard lowercase wordmark",
+   "logoDescription": "none",
+   "color": "black/white"
+  },
+  "entrance": {
+   "position": "plaza-facing",
+   "type": "kiosk counter"
+  },
+  "windows": "glazed pavilion",
+  "status": "open",
+  "asOf": "2026-03-05",
+  "confidence": "medium",
+  "source": "OpenStreetMap extract src/data/recon/osm_raw.json (timestamp 2026-09-01; per-node check_date cited)",
+  "notes": "OSM building=pavilion check_date 2026-03-05. Second plaza pavilion (Park Wide bike rentals) mapped disused 2026-04-09. SF Standard 2026-03-03: Super Duper burger kiosk planned for the plaza."
+ },
+ {
+  "id": "powell-e-384post",
+  "name": "UNRESOLVED (former Saks Fifth Avenue)",
+  "address": "384 Post St (NE corner Post/Powell; Powell frontage)",
+  "street": "Powell St",
+  "side": "east",
+  "blockFrom": "Post St (NE corner)",
+  "blockTo": "Sutter St",
+  "category": "vacant",
+  "buildingRef": "384 Post, 5-storey former Saks Fifth Avenue building",
+  "approxWidthM": 45,
+  "signage": {
+   "text": "none",
+   "style": "none",
+   "logoDescription": "none",
+   "color": "none"
+  },
+  "entrance": {
+   "position": "corner",
+   "type": "closed"
+  },
+  "windows": "5 storeys, display windows on Post and Powell (papered)",
+  "status": "vacant",
+  "asOf": "2026-07-01",
+  "confidence": "high",
+  "source": "https://www.cushmanwakefield.com/en/united-states/insights/us-marketbeats/san-francisco-marketbeats/retail",
+  "notes": "Saks closed 2025-05-10; space returned to market after Saks Global Chapter 11 (Jan 2026) per Cushman & Wakefield Q2 2026 MarketBeat. SF Standard 2026-08-24: Nordstrom/Bloomingdale's reportedly considering Union Square returns (unconfirmed)."
+ },
+ {
+  "id": "powell-e-4xx",
+  "name": "UNRESOLVED",
+  "address": "Powell St east side, ~400-448 (between ex-Saks and Beacon Grand)",
+  "street": "Powell St",
+  "side": "east",
+  "blockFrom": "Post St",
+  "blockTo": "Sutter St",
+  "category": "other",
+  "buildingRef": "400-block Powell east side",
+  "approxWidthM": 35,
+  "signage": {
+   "text": "none",
+   "style": "none",
+   "logoDescription": "none",
+   "color": "none"
+  },
+  "entrance": {
+   "position": "unknown",
+   "type": "unknown"
+  },
+  "windows": "unknown",
+  "status": "unknown",
+  "asOf": "2026-09-01",
+  "confidence": "low",
+  "source": "OpenStreetMap extract src/data/recon/osm_raw.json (timestamp 2026-09-01; per-node check_date cited)",
+  "notes": "No named 2024+ POIs mapped here; needs Street View pass."
+ },
+ {
+  "id": "powell-e-450",
+  "name": "Beacon Grand Hotel (The Post Room cafe/bar/brasserie)",
+  "address": "450 Powell St",
+  "street": "Powell St",
+  "side": "east",
+  "blockFrom": "Post St",
+  "blockTo": "Sutter St (SE corner)",
+  "category": "hotel",
+  "buildingRef": "Beacon Grand (former Sir Francis Drake, 1928), SE corner Sutter/Powell",
+  "approxWidthM": 45,
+  "signage": {
+   "text": "Beacon Grand",
+   "style": "serif hotel signage + marquee; historic 'Sir Francis Drake' lettering removed 2022",
+   "logoDescription": "none",
+   "color": "gold on dark"
+  },
+  "entrance": {
+   "position": "corner, on Powell",
+   "type": "hotel doors + canopy"
+  },
+  "windows": "stone/brick base; restaurant windows on Powell",
+  "status": "open",
+  "asOf": "2026-09-01",
+  "confidence": "high",
+  "source": "https://www.beacongrand.com/",
+  "notes": "Hotel site lists The Post Room (street-level cafe/bar/brasserie) and Starlite Room (rooftop). Scala's Bistro mapped disused in OSM; Starlite Room noted \"temporarily closed\" in OSM 2025-06-20."
+ },
+ {
+  "id": "powell-e-462",
+  "name": "UNRESOLVED",
+  "address": "462 Powell St",
+  "street": "Powell St",
+  "side": "east",
+  "blockFrom": "Post St",
+  "blockTo": "Sutter St (SE corner)",
+  "category": "cafe",
+  "buildingRef": "Beacon Grand building, Sutter corner",
+  "approxWidthM": 8,
+  "signage": {
+   "text": "none",
+   "style": "none",
+   "logoDescription": "none",
+   "color": "none"
+  },
+  "entrance": {
+   "position": "corner",
+   "type": "single door"
+  },
+  "windows": "1-2 bays",
+  "status": "unknown",
+  "asOf": "2026-09-01",
+  "confidence": "low",
+  "source": "OpenStreetMap extract src/data/recon/osm_raw.json (timestamp 2026-09-01; per-node check_date cited)",
+  "notes": "Last-known: Starbucks (Powell & Sutter) per OSM node without check_date; no 2024+ source found."
+ },
+ {
+  "id": "stockton-w-macys",
+  "name": "Macy's Union Square (Stockton St frontage)",
+  "address": "170 O'Farrell St / 101 Stockton St",
+  "street": "Stockton St",
+  "side": "west",
+  "blockFrom": "O'Farrell St (NW corner)",
+  "blockTo": "Geary St (SW corner)",
+  "category": "department-store",
+  "buildingRef": "Macy's 1929 main building (O'Connor Moffatt) + additions; Louis Vuitton occupies the Geary/Stockton corner ground floor",
+  "approxWidthM": 104,
+  "signage": {
+   "text": "macy's",
+   "style": "brand-standard script wordmark with red star",
+   "logoDescription": "red star",
+   "color": "red"
+  },
+  "entrance": {
+   "position": "mid-block on Stockton + corner at O'Farrell",
+   "type": "multiple double doors"
+  },
+  "windows": "display windows full block",
+  "status": "open",
+  "asOf": "2025-11-01",
+  "confidence": "high",
+  "source": "https://www.sfgate.com/local/article/macys-union-square-san-francisco-isnt-closing-yet-21141588.php",
+  "notes": "See Powell entry. Central Subway (Union Square/Market St station) entrances at the Stockton/Geary and Stockton/O'Farrell corners."
+ },
+ {
+  "id": "plaza-e-station",
+  "name": "Union Square/Market St station headhouse (Central Subway)",
+  "address": "Union Square plaza, SE corner (Stockton/Geary)",
+  "street": "Stockton St",
+  "side": "west",
+  "blockFrom": "Geary St",
+  "blockTo": "Post St",
+  "category": "other",
+  "buildingRef": "Union Square plaza",
+  "approxWidthM": 20,
+  "signage": {
+   "text": "Union Square/Market St",
+   "style": "Muni signage",
+   "logoDescription": "Muni worm logo",
+   "color": "red/white"
+  },
+  "entrance": {
+   "position": "plaza corner",
+   "type": "escalators/stairs"
+  },
+  "windows": "glass canopy",
+  "status": "open",
+  "asOf": "2023-01-07",
+  "confidence": "high",
+  "source": "OpenStreetMap extract src/data/recon/osm_raw.json (timestamp 2026-09-01; per-node check_date cited)",
+  "notes": "Transit entrance, not a storefront; included for facade modelling of the plaza edge."
+ },
+ {
+  "id": "stockton-w-345",
+  "name": "Grand Hyatt San Francisco (OneUP restaurant & lounge)",
+  "address": "345 Stockton St",
+  "street": "Stockton St",
+  "side": "west",
+  "blockFrom": "Post St",
+  "blockTo": "Sutter St (SW corner)",
+  "category": "hotel",
+  "buildingRef": "Grand Hyatt tower (36 storeys, ~94 m per OSM) with Apple Mini Park / Ruth Asawa fountain plaza between it and Apple",
+  "approxWidthM": 60,
+  "signage": {
+   "text": "Grand Hyatt",
+   "style": "brand-standard sans-serif hotel signage",
+   "logoDescription": "none",
+   "color": "white/grey"
+  },
+  "entrance": {
+   "position": "Stockton frontage near Sutter",
+   "type": "hotel doors / motor court"
+  },
+  "windows": "concrete tower on podium; restaurant glazing on Stockton",
+  "status": "open",
+  "asOf": "2025-06-01",
+  "confidence": "medium",
+  "source": "OpenStreetMap extract src/data/recon/osm_raw.json (timestamp 2026-09-01; per-node check_date cited)",
+  "notes": "OneUP Restaurant/Lounge nodes added to OSM in 2025 (no check_date). Hotel itself not re-verified from a dated 2024+ article."
+ },
+ {
+  "id": "stockton-e-100",
+  "name": "UNRESOLVED (ground-floor retail vacant; Kith & Neko Health planned)",
+  "address": "100-120 Stockton St",
+  "street": "Stockton St",
+  "side": "east",
+  "blockFrom": "O'Farrell St (NE corner)",
+  "blockTo": "Geary St",
+  "category": "vacant",
+  "buildingRef": "100-120 Stockton, former Macy's Men's / Liberty House (1974), re-skinned 2022 with glass curtain wall; Convene events space on upper floors",
+  "approxWidthM": 80,
+  "signage": {
+   "text": "none (for-lease signage)",
+   "style": "n/a",
+   "logoDescription": "n/a",
+   "color": "n/a"
+  },
+  "entrance": {
+   "position": "multiple bays on Stockton",
+   "type": "closed"
+  },
+  "windows": "new glass curtain wall, 3 ground-floor suites (4,162 / 4,308 / 5,350 sq ft) listed vacant",
+  "status": "coming-soon",
+  "asOf": "2026-08-14",
+  "confidence": "high",
+  "source": "https://sfstandard.com/2026/07/28/kith-streetwear-union-square-sf/",
+  "notes": "Kith (5,600 sq ft retail + possible restaurant) filed permits Jul 2026; Neko Health filed permits Aug 2026 for 1st & 3rd floors of 100 Stockton. Cushman & Wakefield lists ground suites as available."
+ },
+ {
+  "id": "stockton-e-150",
+  "name": "Neiman Marcus (The Rotunda restaurant)",
+  "address": "150 Stockton St",
+  "street": "Stockton St",
+  "side": "east",
+  "blockFrom": "O'Farrell St",
+  "blockTo": "Geary St (SE corner)",
+  "category": "department-store",
+  "buildingRef": "Neiman Marcus (1982, Johnson/Burgee) with City of Paris rotunda dome; ~250,000 sq ft",
+  "approxWidthM": 70,
+  "signage": {
+   "text": "Neiman Marcus",
+   "style": "brand-standard: serif capitals on stone",
+   "logoDescription": "none",
+   "color": "bronze/black on beige"
+  },
+  "entrance": {
+   "position": "corner Geary/Stockton (diagonal) + Stockton mid-block",
+   "type": "revolving/double doors"
+  },
+  "windows": "few windows; stone-clad with corner glass rotunda",
+  "status": "open",
+  "asOf": "2026-01-06",
+  "confidence": "high",
+  "source": "https://therealdeal.com/san-francisco/2026/01/06/san-francisco-neiman-marcus-land-sold-by-saks-global/",
+  "notes": "Land sold Jan 2026 in a 99-year sale-leaseback; store not on Saks Global closure list. OSM check_date 2025-11-19 (Rotunda)."
+ },
+ {
+  "id": "stockton-e-200",
+  "name": "UNRESOLVED (former Bulgari)",
+  "address": "200 Stockton St (NE corner Geary/Stockton; One Union Square)",
+  "street": "Stockton St",
+  "side": "east",
+  "blockFrom": "Geary St (NE corner)",
+  "blockTo": "Post St",
+  "category": "vacant",
+  "buildingRef": "One Union Square, 172-180 Geary / 200-212 Stockton (7 storeys, 1987); 151 ft of corner frontage",
+  "approxWidthM": 25,
+  "signage": {
+   "text": "none",
+   "style": "none",
+   "logoDescription": "none",
+   "color": "none"
+  },
+  "entrance": {
+   "position": "corner",
+   "type": "closed"
+  },
+  "windows": "corner storefront, ~16,000 sq ft over 2 floors (papered)",
+  "status": "vacant",
+  "asOf": "2026-09-01",
+  "confidence": "high",
+  "source": "https://therealdeal.com/san-francisco/2025/04/30/bulgari-shrinks-presence-of-flagship-store-in-union-square/",
+  "notes": "Bulgari relocated to 206 Grant Ave (opened Apr 2025), shrinking 41%. Cushman lists \"Suite 200 Stockton\" 7,366 sq ft available."
+ },
+ {
+  "id": "stockton-e-212",
+  "name": "Moncler",
+  "address": "212 Stockton St (approx.; One Union Square)",
+  "street": "Stockton St",
+  "side": "east",
+  "blockFrom": "Geary St",
+  "blockTo": "Post St",
+  "category": "luxury",
+  "buildingRef": "One Union Square",
+  "approxWidthM": 10,
+  "signage": {
+   "text": "MONCLER",
+   "style": "brand-standard: spaced sans-serif capitals",
+   "logoDescription": "rooster crest",
+   "color": "black/white"
+  },
+  "entrance": {
+   "position": "mid-storefront",
+   "type": "single door"
+  },
+  "windows": "1-2 bays",
+  "status": "open",
+  "asOf": "2025-11-19",
+  "confidence": "medium",
+  "source": "OpenStreetMap extract src/data/recon/osm_raw.json (timestamp 2026-09-01; per-node check_date cited)",
+  "notes": "OSM check_date 2025-11-19; house number inferred."
+ },
+ {
+  "id": "stockton-e-216",
+  "name": "A Bathing Ape (BAPE)",
+  "address": "216 Stockton St",
+  "street": "Stockton St",
+  "side": "east",
+  "blockFrom": "Geary St",
+  "blockTo": "Post St",
+  "category": "apparel",
+  "buildingRef": "216 Stockton (former Dior Men's)",
+  "approxWidthM": 9,
+  "signage": {
+   "text": "A BATHING APE",
+   "style": "brand-standard: ape-head logo + wordmark",
+   "logoDescription": "ape head",
+   "color": "black/white/camo"
+  },
+  "entrance": {
+   "position": "mid-storefront",
+   "type": "single door"
+  },
+  "windows": "1-2 bays",
+  "status": "open",
+  "asOf": "2026-08-24",
+  "confidence": "high",
+  "source": "https://sfstandard.com/2026/08/24/union-square-san-francisco-turnaround/ (A Bathing Ape at 216 Stockton, ex-Dior Men)",
+  "notes": "First SF store; described as recently opened in SF Standard 2026-08-24 and 2026-07-28 (Kith article)."
+ },
+ {
+  "id": "stockton-e-222",
+  "name": "Tory Burch",
+  "address": "222 Stockton St",
+  "street": "Stockton St",
+  "side": "east",
+  "blockFrom": "Geary St",
+  "blockTo": "Maiden Lane (SE corner)",
+  "category": "luxury",
+  "buildingRef": "222 Stockton, at Maiden Lane",
+  "approxWidthM": 12,
+  "signage": {
+   "text": "TORY BURCH",
+   "style": "brand-standard: serif capitals; double-T fretwork logo",
+   "logoDescription": "double-T medallion",
+   "color": "gold/orange on black or white"
+  },
+  "entrance": {
+   "position": "on Stockton near Maiden Lane",
+   "type": "single door"
+  },
+  "windows": "2 bays",
+  "status": "open",
+  "asOf": "2025-11-19",
+  "confidence": "medium",
+  "source": "OpenStreetMap extract src/data/recon/osm_raw.json (timestamp 2026-09-01; per-node check_date cited)",
+  "notes": "OSM check_date 2025-11-19; directory lists \"Tory Burch Flagship Store\"."
+ },
+ {
+  "id": "stockton-e-240",
+  "name": "Gucci",
+  "address": "240 Stockton St",
+  "street": "Stockton St",
+  "side": "east",
+  "blockFrom": "Maiden Lane (NE corner)",
+  "blockTo": "Post St",
+  "category": "luxury",
+  "buildingRef": "240 Stockton, 10-storey building sold Feb 2026 for $44M; Gucci on bottom 2 floors (~11,000 sq ft)",
+  "approxWidthM": 22,
+  "signage": {
+   "text": "GUCCI",
+   "style": "brand-standard: serif capitals",
+   "logoDescription": "interlocking GG",
+   "color": "gold/black on stone"
+  },
+  "entrance": {
+   "position": "corner Stockton/Maiden Lane",
+   "type": "double doors"
+  },
+  "windows": "2-storey glazing on Stockton and Maiden Lane",
+  "status": "open",
+  "asOf": "2026-02-04",
+  "confidence": "high",
+  "source": "https://therealdeal.com/san-francisco/2026/02/04/doug-macmahon-buys-union-square-gucci-building/",
+  "notes": "Yelp listing updated May 2026; OSM check_date 2025-11-19."
+ },
+ {
+  "id": "stockton-e-sunglass",
+  "name": "Sunglass Hut",
+  "address": "Stockton St (unnumbered, ~250-270)",
+  "street": "Stockton St",
+  "side": "east",
+  "blockFrom": "Maiden Lane",
+  "blockTo": "Post St",
+  "category": "other",
+  "buildingRef": "east side Stockton north of Gucci",
+  "approxWidthM": 6,
+  "signage": {
+   "text": "Sunglass Hut",
+   "style": "brand-standard: sans-serif wordmark",
+   "logoDescription": "none",
+   "color": "black/white"
+  },
+  "entrance": {
+   "position": "mid-storefront",
+   "type": "single door"
+  },
+  "windows": "1 bay",
+  "status": "open",
+  "asOf": "2026-04-09",
+  "confidence": "medium",
+  "source": "OpenStreetMap extract src/data/recon/osm_raw.json (timestamp 2026-09-01; per-node check_date cited)",
+  "notes": "OSM check_date 2026-04-09."
+ },
+ {
+  "id": "post-s-275",
+  "name": "Breitling",
+  "address": "275-299 Post St (SE corner Post/Stockton building)",
+  "street": "Post St",
+  "side": "south",
+  "blockFrom": "Grant Ave",
+  "blockTo": "Stockton St (SE corner)",
+  "category": "jewelry",
+  "buildingRef": "275-299 Post corner building (unnamed in OSM)",
+  "approxWidthM": 10,
+  "signage": {
+   "text": "BREITLING",
+   "style": "brand-standard: yellow/black winged-anchor logo + capitals",
+   "logoDescription": "winged anchor",
+   "color": "yellow/black"
+  },
+  "entrance": {
+   "position": "on Post near Stockton corner",
+   "type": "single door"
+  },
+  "windows": "1-2 bays",
+  "status": "open",
+  "asOf": "2026-04-09",
+  "confidence": "medium",
+  "source": "OpenStreetMap extract src/data/recon/osm_raw.json (timestamp 2026-09-01; per-node check_date cited)",
+  "notes": "OSM check_date 2026-04-09; FashionNetwork names Breitling among recent Union Square watch entrants. Corner bay tenant not otherwise resolved."
+ },
+ {
+  "id": "stockton-e-278post",
+  "name": "Nike San Francisco",
+  "address": "278 Post St (NE corner Post/Stockton; Stockton frontage)",
+  "street": "Stockton St",
+  "side": "east",
+  "blockFrom": "Post St (NE corner)",
+  "blockTo": "Sutter St",
+  "category": "apparel",
+  "buildingRef": "278 Post, former Niketown (multi-storey)",
+  "approxWidthM": 30,
+  "signage": {
+   "text": "NIKE",
+   "style": "brand-standard: Swoosh only, large",
+   "logoDescription": "Swoosh",
+   "color": "white/black"
+  },
+  "entrance": {
+   "position": "corner Post/Stockton",
+   "type": "double doors"
+  },
+  "windows": "multi-storey glazing on both streets",
+  "status": "open",
+  "asOf": "2026-01-13",
+  "confidence": "medium",
+  "source": "https://sfist.com/2026/01/13/williams-sonoma-to-close-its-flagship-union-square-store-as-chanel-prepares-to-move-in/ (Nike store \"remains active\")",
+  "notes": "SFist 2026-01-13: Nike store \"remains active\". OSM node lacks check_date; nike.com locator blocked in this session. A small 27x Post storefront in the same building is mapped disused (2022)."
+ },
+ {
+  "id": "stockton-e-324",
+  "name": "UNRESOLVED (former Cole Haan)",
+  "address": "324 Stockton St",
+  "street": "Stockton St",
+  "side": "east",
+  "blockFrom": "Post St",
+  "blockTo": "Sutter St",
+  "category": "vacant",
+  "buildingRef": "324 Stockton",
+  "approxWidthM": 8,
+  "signage": {
+   "text": "none",
+   "style": "none",
+   "logoDescription": "none",
+   "color": "none"
+  },
+  "entrance": {
+   "position": "mid-storefront",
+   "type": "closed"
+  },
+  "windows": "1-2 bays",
+  "status": "vacant",
+  "asOf": "2025-03-21",
+  "confidence": "medium",
+  "source": "OpenStreetMap extract src/data/recon/osm_raw.json (timestamp 2026-09-01; per-node check_date cited)",
+  "notes": "OSM disused:shop, was Cole Haan, check_date 2025-03-21."
+ },
+ {
+  "id": "stockton-e-340",
+  "name": "UNRESOLVED",
+  "address": "340 Stockton St",
+  "street": "Stockton St",
+  "side": "east",
+  "blockFrom": "Post St",
+  "blockTo": "Sutter St",
+  "category": "hotel",
+  "buildingRef": "340 Stockton (Campton Place / Taj Campton Place hotel building)",
+  "approxWidthM": 30,
+  "signage": {
+   "text": "none",
+   "style": "none",
+   "logoDescription": "none",
+   "color": "none"
+  },
+  "entrance": {
+   "position": "mid-block",
+   "type": "hotel door + canopy"
+  },
+  "windows": "hotel ground floor with restaurant windows",
+  "status": "unknown",
+  "asOf": "2026-09-01",
+  "confidence": "low",
+  "source": "https://visitunionsquaresf.com/directory/",
+  "notes": "Last-known: Taj Campton Place hotel with Campton Place restaurant (SF Standard 2026-08-24 mentions the former Campton Place bistro/beer garden closed in the pandemic). Hotel site blocked; no dated 2024+ confirmation found."
+ },
+ {
+  "id": "stockton-e-390",
+  "name": "UNRESOLVED",
+  "address": "390 Stockton St (SE corner Sutter/Stockton)",
+  "street": "Stockton St",
+  "side": "east",
+  "blockFrom": "Post St",
+  "blockTo": "Sutter St (SE corner)",
+  "category": "cafe",
+  "buildingRef": "390 Stockton corner",
+  "approxWidthM": 10,
+  "signage": {
+   "text": "none",
+   "style": "none",
+   "logoDescription": "none",
+   "color": "none"
+  },
+  "entrance": {
+   "position": "corner",
+   "type": "single door"
+  },
+  "windows": "corner glazing",
+  "status": "unknown",
+  "asOf": "2026-09-01",
+  "confidence": "low",
+  "source": "OpenStreetMap extract src/data/recon/osm_raw.json (timestamp 2026-09-01; per-node check_date cited)",
+  "notes": "Last-known: Starbucks \"Stockton & Sutter\" (OSM node, no check_date; unionsquareshop directory, undated)."
+ },
+ {
+  "id": "post-n-206grant",
+  "name": "Bulgari",
+  "address": "206 Grant Ave (NW corner Post/Grant, Hastings Building)",
+  "street": "Post St",
+  "side": "north",
+  "blockFrom": "Grant Ave (NW corner)",
+  "blockTo": "Stockton St",
+  "category": "jewelry",
+  "buildingRef": "Hastings Building (1908), 200-206 Grant",
+  "approxWidthM": 15,
+  "signage": {
+   "text": "BVLGARI",
+   "style": "brand-standard: Roman serif capitals with 'V'",
+   "logoDescription": "none",
+   "color": "gold/black on stone"
+  },
+  "entrance": {
+   "position": "corner Grant/Post",
+   "type": "single door"
+  },
+  "windows": "2 bays on Grant, 1-2 on Post",
+  "status": "open",
+  "asOf": "2025-06-25",
+  "confidence": "high",
+  "source": "https://therealdeal.com/san-francisco/2025/04/30/bulgari-shrinks-presence-of-flagship-store-in-union-square/",
+  "notes": "Opened Apr 2025 (3,500 sq ft). At the study boundary corner."
+ },
+ {
+  "id": "post-n-210",
+  "name": "UNRESOLVED",
+  "address": "210 Post St",
+  "street": "Post St",
+  "side": "north",
+  "blockFrom": "Grant Ave",
+  "blockTo": "Stockton St",
+  "category": "jewelry",
+  "buildingRef": "210 Post",
+  "approxWidthM": 8,
+  "signage": {
+   "text": "none",
+   "style": "none",
+   "logoDescription": "none",
+   "color": "none"
+  },
+  "entrance": {
+   "position": "mid-storefront",
+   "type": "single door"
+  },
+  "windows": "1 bay",
+  "status": "unknown",
+  "asOf": "2026-09-01",
+  "confidence": "low",
+  "source": "OpenStreetMap extract src/data/recon/osm_raw.json (timestamp 2026-09-01; per-node check_date cited)",
+  "notes": "Last-known: Zwillinger & Company jewelers (OSM node 2022, no check_date)."
+ },
+ {
+  "id": "post-n-214",
+  "name": "Harry Winston",
+  "address": "~214 Post St",
+  "street": "Post St",
+  "side": "north",
+  "blockFrom": "Grant Ave",
+  "blockTo": "Stockton St",
+  "category": "jewelry",
+  "buildingRef": "200-block Post north side",
+  "approxWidthM": 10,
+  "signage": {
+   "text": "HARRY WINSTON",
+   "style": "brand-standard: thin serif capitals",
+   "logoDescription": "none",
+   "color": "black on stone"
+  },
+  "entrance": {
+   "position": "mid-storefront",
+   "type": "single door, security"
+  },
+  "windows": "1-2 bays, small windows",
+  "status": "open",
+  "asOf": "2026-04-25",
+  "confidence": "medium",
+  "source": "OpenStreetMap extract src/data/recon/osm_raw.json (timestamp 2026-09-01; per-node check_date cited)",
+  "notes": "OSM check_date 2026-04-25; house number inferred."
+ },
+ {
+  "id": "post-n-236",
+  "name": "Salvatore Ferragamo",
+  "address": "236 Post St",
+  "street": "Post St",
+  "side": "north",
+  "blockFrom": "Grant Ave",
+  "blockTo": "Stockton St",
+  "category": "luxury",
+  "buildingRef": "236 Post",
+  "approxWidthM": 12,
+  "signage": {
+   "text": "FERRAGAMO",
+   "style": "brand-standard: serif capitals",
+   "logoDescription": "none",
+   "color": "black/gold"
+  },
+  "entrance": {
+   "position": "mid-storefront",
+   "type": "double doors"
+  },
+  "windows": "2-3 bays",
+  "status": "open",
+  "asOf": "2024-07-09",
+  "confidence": "medium",
+  "source": "OpenStreetMap extract src/data/recon/osm_raw.json (timestamp 2026-09-01; per-node check_date cited)",
+  "notes": "OSM check_date 2024-07-09; not re-verified 2025-26."
+ },
+ {
+  "id": "post-n-250",
+  "name": "Gump's",
+  "address": "240-250 Post St",
+  "street": "Post St",
+  "side": "north",
+  "blockFrom": "Grant Ave",
+  "blockTo": "Stockton St",
+  "category": "other",
+  "buildingRef": "250 Post (Gump's historic address)",
+  "approxWidthM": 15,
+  "signage": {
+   "text": "Gump's",
+   "style": "brand-standard: script/serif wordmark",
+   "logoDescription": "none",
+   "color": "dark green/gold"
+  },
+  "entrance": {
+   "position": "mid-storefront",
+   "type": "single door"
+  },
+  "windows": "2-3 bays",
+  "status": "open",
+  "asOf": "2024-12-06",
+  "confidence": "medium",
+  "source": "OpenStreetMap extract src/data/recon/osm_raw.json (timestamp 2026-09-01; per-node check_date cited)",
+  "notes": "OSM check_date 2024-12-06 (Gump's Holiday Shop, 240 Post) + Gump's furniture node at 250 Post. 2026 status not confirmed."
+ },
+ {
+  "id": "post-n-250a",
+  "name": "UNRESOLVED (former Zara)",
+  "address": "250A Post St",
+  "street": "Post St",
+  "side": "north",
+  "blockFrom": "Grant Ave",
+  "blockTo": "Stockton St",
+  "category": "vacant",
+  "buildingRef": "250 Post building",
+  "approxWidthM": 20,
+  "signage": {
+   "text": "none",
+   "style": "none",
+   "logoDescription": "none",
+   "color": "none"
+  },
+  "entrance": {
+   "position": "mid-storefront",
+   "type": "closed"
+  },
+  "windows": "multi-storey glazing (papered)",
+  "status": "vacant",
+  "asOf": "2026-03-01",
+  "confidence": "high",
+  "source": "https://www.sfchronicle.com/realestate/article/zara-union-square-sf-20257686.php",
+  "notes": "Zara closed here in early 2026 when its lease expired, ahead of the 400 Post flagship. No successor tenant announced."
+ },
+ {
+  "id": "post-n-272",
+  "name": "UNRESOLVED",
+  "address": "272 Post St",
+  "street": "Post St",
+  "side": "north",
+  "blockFrom": "Grant Ave",
+  "blockTo": "Stockton St",
+  "category": "vacant",
+  "buildingRef": "272 Post",
+  "approxWidthM": 7,
+  "signage": {
+   "text": "none",
+   "style": "none",
+   "logoDescription": "none",
+   "color": "none"
+  },
+  "entrance": {
+   "position": "mid-storefront",
+   "type": "closed"
+  },
+  "windows": "1 bay",
+  "status": "vacant",
+  "asOf": "2022-01-27",
+  "confidence": "low",
+  "source": "OpenStreetMap extract src/data/recon/osm_raw.json (timestamp 2026-09-01; per-node check_date cited)",
+  "notes": "OSM disused:shop (was Shapur Mozaffarian jewelers), check_date 2022-01-27; not re-verified."
+ },
+ {
+  "id": "post-n-300",
+  "name": "Apple Union Square",
+  "address": "300 Post St",
+  "street": "Post St",
+  "side": "north",
+  "blockFrom": "Stockton St (NW corner)",
+  "blockTo": "Powell St",
+  "category": "electronics",
+  "buildingRef": "Apple Union Square (2016, Foster + Partners), 2 storeys ~15 m; frontage ~24 m per OSM footprint on Post plus Stockton side and rear plaza",
+  "approxWidthM": 40,
+  "signage": {
+   "text": "(no text)",
+   "style": "backlit white Apple logo on stone pier; otherwise unbranded",
+   "logoDescription": "Apple logo",
+   "color": "white on grey"
+  },
+  "entrance": {
+   "position": "Post St facade",
+   "type": "42-ft sliding glass doors, fully opening"
+  },
+  "windows": "full-height glazing, 2 storeys, no mullions across the main bay",
+  "status": "open",
+  "asOf": "2026-09-01",
+  "confidence": "high",
+  "source": "https://www.apple.com/retail/unionsquare/",
+  "notes": "apple.com shows open 10am-8pm on 2026-09-01. Rear plaza (Apple Mini Park) with Ruth Asawa fountain opens onto Stockton."
+ },
+ {
+  "id": "post-n-340",
+  "name": "UNRESOLVED (former Williams-Sonoma; Chanel-owned)",
+  "address": "340 Post St",
+  "street": "Post St",
+  "side": "north",
+  "blockFrom": "Stockton St",
+  "blockTo": "Powell St",
+  "category": "vacant",
+  "buildingRef": "340 Post, 3-storey building bought by Chanel for $63M (2022)",
+  "approxWidthM": 28,
+  "signage": {
+   "text": "none",
+   "style": "none",
+   "logoDescription": "none",
+   "color": "none"
+  },
+  "entrance": {
+   "position": "center",
+   "type": "closed"
+  },
+  "windows": "3-storey glazing (papered)",
+  "status": "vacant",
+  "asOf": "2026-03-03",
+  "confidence": "high",
+  "source": "https://sfstandard.com/2026/03/03/future-of-union-square-san-francisco-identity/",
+  "notes": "Williams-Sonoma closed Dec 2025/Jan 2026 after 23 years. Hoodline & SF Standard (Mar 2026): Chanel decided NOT to open its flagship here and is seeking another tenant while keeping 156 Geary."
+ },
+ {
+  "id": "post-n-350",
+  "name": "Tiffany & Co.",
+  "address": "350 Post St",
+  "street": "Post St",
+  "side": "north",
+  "blockFrom": "Stockton St",
+  "blockTo": "Powell St",
+  "category": "jewelry",
+  "buildingRef": "Tiffany Building (11 storeys); store on 3 levels, facade remodelled 2017",
+  "approxWidthM": 28,
+  "signage": {
+   "text": "TIFFANY & CO.",
+   "style": "brand-standard: serif capitals carved/applied on stone",
+   "logoDescription": "none",
+   "color": "black letters; Tiffany-blue accents"
+  },
+  "entrance": {
+   "position": "center",
+   "type": "double doors, security"
+  },
+  "windows": "limestone facade with small display vitrines",
+  "status": "open",
+  "asOf": "2026-07-01",
+  "confidence": "high",
+  "source": "https://www.yelp.com/biz/tiffany-and-co-san-francisco-2 (listing updated Jul 2026)",
+  "notes": "Yelp listing updated Jul 2026 shows open; tiffany.com locator blocked this session."
+ },
+ {
+  "id": "post-n-384",
+  "name": "UNRESOLVED (former Saks Fifth Avenue)",
+  "address": "384 Post St",
+  "street": "Post St",
+  "side": "north",
+  "blockFrom": "Stockton St",
+  "blockTo": "Powell St (NE corner)",
+  "category": "vacant",
+  "buildingRef": "384 Post, 5-storey former Saks (see Powell entry)",
+  "approxWidthM": 45,
+  "signage": {
+   "text": "none",
+   "style": "none",
+   "logoDescription": "none",
+   "color": "none"
+  },
+  "entrance": {
+   "position": "corner Post/Powell",
+   "type": "closed"
+  },
+  "windows": "5 storeys, papered windows",
+  "status": "vacant",
+  "asOf": "2026-07-01",
+  "confidence": "high",
+  "source": "https://sfstandard.com/2025/04/23/saks-fifth-avenue-union-square-closing/",
+  "notes": "Closed 2025-05-10. Faces Union Square directly."
+ },
+ {
+  "id": "post-n-400",
+  "name": "Zara (flagship, under construction)",
+  "address": "400 Post St",
+  "street": "Post St",
+  "side": "north",
+  "blockFrom": "Powell St (NW corner)",
+  "blockTo": "Mason St",
+  "category": "apparel",
+  "buildingRef": "400 Post (see Powell entry)",
+  "approxWidthM": 45,
+  "signage": {
+   "text": "ZARA",
+   "style": "brand-standard heavy serif capitals",
+   "logoDescription": "none",
+   "color": "black"
+  },
+  "entrance": {
+   "position": "corner",
+   "type": "multiple doors"
+  },
+  "windows": "4-storey; under renovation",
+  "status": "coming-soon",
+  "asOf": "2026-08-24",
+  "confidence": "high",
+  "source": "https://www.sfchronicle.com/realestate/article/zara-union-square-sf-20257686.php",
+  "notes": "Duplicate of powell-w-400post for the Post frontage."
+ },
+ {
+  "id": "post-n-4xx-galleries",
+  "name": "UNRESOLVED",
+  "address": "~420-444 Post St",
+  "street": "Post St",
+  "side": "north",
+  "blockFrom": "Powell St",
+  "blockTo": "Mason St",
+  "category": "gallery",
+  "buildingRef": "400-block Post north side",
+  "approxWidthM": 20,
+  "signage": {
+   "text": "none",
+   "style": "none",
+   "logoDescription": "none",
+   "color": "none"
+  },
+  "entrance": {
+   "position": "mid-storefront",
+   "type": "single doors"
+  },
+  "windows": "gallery windows",
+  "status": "unknown",
+  "asOf": "2023-02-22",
+  "confidence": "low",
+  "source": "OpenStreetMap extract src/data/recon/osm_raw.json (timestamp 2026-09-01; per-node check_date cited)",
+  "notes": "Last-known: Chloe Gallery and Gallery 444 (444 Post), OSM check_date 2023-02-22; directory (undated) also lists Gallery 444."
+ },
+ {
+  "id": "post-n-450",
+  "name": "Kensington Park Hotel",
+  "address": "450 Post St",
+  "street": "Post St",
+  "side": "north",
+  "blockFrom": "Powell St",
+  "blockTo": "Mason St",
+  "category": "hotel",
+  "buildingRef": "Kensington Park Hotel in the 1924 Elks Lodge No. 3 building; SF Playhouse on 2nd floor",
+  "approxWidthM": 30,
+  "signage": {
+   "text": "Kensington Park Hotel",
+   "style": "hotel signage with awning (assumed)",
+   "logoDescription": "none",
+   "color": "unknown"
+  },
+  "entrance": {
+   "position": "center",
+   "type": "hotel door + canopy"
+  },
+  "windows": "Gothic-revival stone base; former Farallon restaurant space at street level",
+  "status": "open",
+  "asOf": "2026-09-01",
+  "confidence": "high",
+  "source": "https://www.kensingtonparkhotel.com/",
+  "notes": "Hotel site active Sep 2026. Street-level restaurant space (Farallon closed 2020; \"Ula\" mapped 2023) status UNRESOLVED; a 450 Post shop bay is mapped disused (2023)."
+ },
+ {
+  "id": "post-n-470",
+  "name": "Cafe La Tazita",
+  "address": "470 Post St",
+  "street": "Post St",
+  "side": "north",
+  "blockFrom": "Powell St",
+  "blockTo": "Mason St",
+  "category": "cafe",
+  "buildingRef": "470 Post",
+  "approxWidthM": 6,
+  "signage": {
+   "text": "Cafe La Tazita",
+   "style": "independent cafe signage",
+   "logoDescription": "none",
+   "color": "unknown"
+  },
+  "entrance": {
+   "position": "mid-storefront",
+   "type": "single door"
+  },
+  "windows": "1 bay",
+  "status": "open",
+  "asOf": "2026-07-03",
+  "confidence": "medium",
+  "source": "OpenStreetMap extract src/data/recon/osm_raw.json (timestamp 2026-09-01; per-node check_date cited)",
+  "notes": "OSM check_date 2026-07-03."
+ },
+ {
+  "id": "post-n-476",
+  "name": "Barcelino per Donna",
+  "address": "476 Post St",
+  "street": "Post St",
+  "side": "north",
+  "blockFrom": "Powell St",
+  "blockTo": "Mason St",
+  "category": "apparel",
+  "buildingRef": "476 Post",
+  "approxWidthM": 7,
+  "signage": {
+   "text": "Barcelino per Donna",
+   "style": "boutique serif signage",
+   "logoDescription": "none",
+   "color": "unknown"
+  },
+  "entrance": {
+   "position": "mid-storefront",
+   "type": "single door"
+  },
+  "windows": "1-2 bays",
+  "status": "open",
+  "asOf": "2026-07-03",
+  "confidence": "medium",
+  "source": "OpenStreetMap extract src/data/recon/osm_raw.json (timestamp 2026-09-01; per-node check_date cited)",
+  "notes": "OSM check_date 2026-07-03. Adjacent 478 Post bay mapped disused (2023)."
+ },
+ {
+  "id": "post-n-488",
+  "name": "Café Encore",
+  "address": "488 Post St",
+  "street": "Post St",
+  "side": "north",
+  "blockFrom": "Powell St",
+  "blockTo": "Mason St",
+  "category": "cafe",
+  "buildingRef": "488 Post",
+  "approxWidthM": 6,
+  "signage": {
+   "text": "Café Encore",
+   "style": "independent cafe signage",
+   "logoDescription": "none",
+   "color": "unknown"
+  },
+  "entrance": {
+   "position": "mid-storefront",
+   "type": "single door"
+  },
+  "windows": "1 bay",
+  "status": "open",
+  "asOf": "2026-07-03",
+  "confidence": "medium",
+  "source": "OpenStreetMap extract src/data/recon/osm_raw.json (timestamp 2026-09-01; per-node check_date cited)",
+  "notes": "OSM check_date 2026-07-03."
+ },
+ {
+  "id": "post-n-490",
+  "name": "Medico-Dental Building (lobby)",
+  "address": "490 Post St",
+  "street": "Post St",
+  "side": "north",
+  "blockFrom": "Powell St",
+  "blockTo": "Mason St (NE corner)",
+  "category": "other",
+  "buildingRef": "Medico-Dental Building, 15 storeys",
+  "approxWidthM": 12,
+  "signage": {
+   "text": "490 Post",
+   "style": "building address lettering",
+   "logoDescription": "none",
+   "color": "bronze"
+  },
+  "entrance": {
+   "position": "lobby entrance",
+   "type": "double doors"
+  },
+  "windows": "office lobby",
+  "status": "open",
+  "asOf": "2026-09-01",
+  "confidence": "medium",
+  "source": "https://visitunionsquaresf.com/directory/",
+  "notes": "Office building (Union Square Alliance directory lists tenants on 15th floor). Ground-floor lobby only."
+ },
+ {
+  "id": "post-n-498",
+  "name": "Barcelino",
+  "address": "498 Post St",
+  "street": "Post St",
+  "side": "north",
+  "blockFrom": "Powell St",
+  "blockTo": "Mason St (NE corner)",
+  "category": "apparel",
+  "buildingRef": "498 Post, NE corner Post/Mason",
+  "approxWidthM": 10,
+  "signage": {
+   "text": "Barcelino",
+   "style": "boutique serif signage",
+   "logoDescription": "none",
+   "color": "unknown"
+  },
+  "entrance": {
+   "position": "corner",
+   "type": "single door"
+  },
+  "windows": "corner glazing",
+  "status": "open",
+  "asOf": "2026-07-03",
+  "confidence": "medium",
+  "source": "OpenStreetMap extract src/data/recon/osm_raw.json (timestamp 2026-09-01; per-node check_date cited)",
+  "notes": "OSM check_date 2026-07-03."
+ },
+ {
+  "id": "post-s-199grant",
+  "name": "Cartier",
+  "address": "199 Grant Ave (SW corner Post/Grant)",
+  "street": "Post St",
+  "side": "south",
+  "blockFrom": "Grant Ave (SW corner)",
+  "blockTo": "Stockton St",
+  "category": "jewelry",
+  "buildingRef": "195-199 Grant corner building (~57 m tall per OSM)",
+  "approxWidthM": 15,
+  "signage": {
+   "text": "Cartier",
+   "style": "brand-standard: script/serif wordmark",
+   "logoDescription": "none",
+   "color": "gold on dark red or stone"
+  },
+  "entrance": {
+   "position": "corner",
+   "type": "single door, security"
+  },
+  "windows": "2 bays Post + 2 bays Grant",
+  "status": "open",
+  "asOf": "2026-04-25",
+  "confidence": "high",
+  "source": "OpenStreetMap extract src/data/recon/osm_raw.json (timestamp 2026-09-01; per-node check_date cited)",
+  "notes": "OSM check_date 2026-04-25 (addr 199 Grant). Boundary corner."
+ },
+ {
+  "id": "post-s-225",
+  "name": "UNRESOLVED (former Burberry)",
+  "address": "225 Post St",
+  "street": "Post St",
+  "side": "south",
+  "blockFrom": "Grant Ave",
+  "blockTo": "Stockton St",
+  "category": "vacant",
+  "buildingRef": "225 Post, 17,000 sq ft former Burberry building (marketed for sale 2024)",
+  "approxWidthM": 18,
+  "signage": {
+   "text": "none",
+   "style": "none",
+   "logoDescription": "none",
+   "color": "none"
+  },
+  "entrance": {
+   "position": "center",
+   "type": "closed"
+  },
+  "windows": "2-storey glazing (papered)",
+  "status": "vacant",
+  "asOf": "2026-07-01",
+  "confidence": "high",
+  "source": "https://www.loopnet.com/Listing/225-Post-St-San-Francisco-CA/32959719/",
+  "notes": "Burberry left ~mid-2024 (Chronicle 2024-03); Yelp marks closed (Jul 2026); LoopNet lists 225 Post available. OSM shows a Burberry node on Geary St (~110 Geary, check 2026-07-03) suggesting relocation."
+ },
+ {
+  "id": "post-s-231",
+  "name": "Max Mara",
+  "address": "231 Post St",
+  "street": "Post St",
+  "side": "south",
+  "blockFrom": "Grant Ave",
+  "blockTo": "Stockton St",
+  "category": "luxury",
+  "buildingRef": "231 Post",
+  "approxWidthM": 10,
+  "signage": {
+   "text": "MaxMara",
+   "style": "brand-standard: serif wordmark",
+   "logoDescription": "none",
+   "color": "black/white"
+  },
+  "entrance": {
+   "position": "mid-storefront",
+   "type": "single door"
+  },
+  "windows": "2 bays",
+  "status": "open",
+  "asOf": "2024-12-06",
+  "confidence": "medium",
+  "source": "OpenStreetMap extract src/data/recon/osm_raw.json (timestamp 2026-09-01; per-node check_date cited)",
+  "notes": "OSM check_date 2024-12-06."
+ },
+ {
+  "id": "post-s-245",
+  "name": "St. John",
+  "address": "245 Post St",
+  "street": "Post St",
+  "side": "south",
+  "blockFrom": "Grant Ave",
+  "blockTo": "Stockton St",
+  "category": "luxury",
+  "buildingRef": "245-255 Post building (~26 m per OSM)",
+  "approxWidthM": 9,
+  "signage": {
+   "text": "ST. JOHN",
+   "style": "brand-standard: spaced serif capitals",
+   "logoDescription": "none",
+   "color": "black/gold"
+  },
+  "entrance": {
+   "position": "mid-storefront",
+   "type": "single door"
+  },
+  "windows": "1-2 bays",
+  "status": "open",
+  "asOf": "2024-12-06",
+  "confidence": "medium",
+  "source": "OpenStreetMap extract src/data/recon/osm_raw.json (timestamp 2026-09-01; per-node check_date cited)",
+  "notes": "OSM check_date 2024-12-06 (was Ghurka)."
+ },
+ {
+  "id": "post-s-251",
+  "name": "UNRESOLVED",
+  "address": "251 Post St",
+  "street": "Post St",
+  "side": "south",
+  "blockFrom": "Grant Ave",
+  "blockTo": "Stockton St",
+  "category": "gallery",
+  "buildingRef": "245-255 Post building",
+  "approxWidthM": 6,
+  "signage": {
+   "text": "none",
+   "style": "none",
+   "logoDescription": "none",
+   "color": "none"
+  },
+  "entrance": {
+   "position": "mid-storefront",
+   "type": "single door"
+  },
+  "windows": "1 bay",
+  "status": "unknown",
+  "asOf": "2026-09-01",
+  "confidence": "low",
+  "source": "OpenStreetMap extract src/data/recon/osm_raw.json (timestamp 2026-09-01; per-node check_date cited)",
+  "notes": "Last-known: \"Speciality Shops Art Gallery\" (OSM, undated)."
+ },
+ {
+  "id": "post-s-253",
+  "name": "The RealReal (with Painted Leopard cafe)",
+  "address": "253 Post St",
+  "street": "Post St",
+  "side": "south",
+  "blockFrom": "Grant Ave",
+  "blockTo": "Stockton St",
+  "category": "apparel",
+  "buildingRef": "253 Post, 2-storey 8,100 sq ft store running through to Maiden Lane",
+  "approxWidthM": 12,
+  "signage": {
+   "text": "The RealReal",
+   "style": "brand-standard: black sans-serif wordmark",
+   "logoDescription": "none",
+   "color": "black/white"
+  },
+  "entrance": {
+   "position": "on Post; second entrance on Maiden Lane",
+   "type": "single doors"
+  },
+  "windows": "2-storey glazing",
+  "status": "open",
+  "asOf": "2026-04-01",
+  "confidence": "high",
+  "source": "https://therealdeal.com/san-francisco/2026/02/02/the-realreal-to-reopen-san-francisco-union-square-store/",
+  "notes": "Reopened Feb 2026 in its former space; Painted Leopard coffee opened inside (Maiden Lane entrance) Mar-Apr 2026."
+ },
+ {
+  "id": "post-s-255",
+  "name": "Rolex",
+  "address": "255 Post St",
+  "street": "Post St",
+  "side": "south",
+  "blockFrom": "Grant Ave",
+  "blockTo": "Stockton St",
+  "category": "jewelry",
+  "buildingRef": "245-255 Post building",
+  "approxWidthM": 8,
+  "signage": {
+   "text": "ROLEX",
+   "style": "brand-standard: crown + serif capitals",
+   "logoDescription": "crown",
+   "color": "gold/green"
+  },
+  "entrance": {
+   "position": "mid-storefront",
+   "type": "single door"
+  },
+  "windows": "1-2 bays",
+  "status": "open",
+  "asOf": "2024-12-06",
+  "confidence": "medium",
+  "source": "OpenStreetMap extract src/data/recon/osm_raw.json (timestamp 2026-09-01; per-node check_date cited)",
+  "notes": "OSM check_date 2024-12-06 (was Pink)."
+ },
+ {
+  "id": "post-s-259",
+  "name": "Patek Philippe",
+  "address": "259 Post St",
+  "street": "Post St",
+  "side": "south",
+  "blockFrom": "Grant Ave",
+  "blockTo": "Stockton St",
+  "category": "jewelry",
+  "buildingRef": "259 Post",
+  "approxWidthM": 8,
+  "signage": {
+   "text": "PATEK PHILIPPE",
+   "style": "brand-standard: Calatrava cross + serif capitals",
+   "logoDescription": "Calatrava cross",
+   "color": "gold/black"
+  },
+  "entrance": {
+   "position": "mid-storefront",
+   "type": "single door"
+  },
+  "windows": "1-2 bays",
+  "status": "open",
+  "asOf": "2024-12-06",
+  "confidence": "medium",
+  "source": "OpenStreetMap extract src/data/recon/osm_raw.json (timestamp 2026-09-01; per-node check_date cited)",
+  "notes": "OSM check_date 2024-12-06; FashionNetwork cites Patek Philippe as a recent entrant."
+ },
+ {
+  "id": "plaza-n-garage",
+  "name": "Union Square Garage (Post St entrances/exits) & plaza north edge",
+  "address": "333 Post St",
+  "street": "Post St",
+  "side": "south",
+  "blockFrom": "Stockton St",
+  "blockTo": "Powell St",
+  "category": "parking",
+  "buildingRef": "Union Square plaza (garage 1941, world's first under a park)",
+  "approxWidthM": 146,
+  "signage": {
+   "text": "Union Square Garage",
+   "style": "SFMTA garage signage",
+   "logoDescription": "none",
+   "color": "blue/white"
+  },
+  "entrance": {
+   "position": "two ramp openings on Post (OSM parking_entrance nodes)",
+   "type": "vehicle ramps"
+  },
+  "windows": "n/a (plaza edge with stairs/planters)",
+  "status": "open",
+  "asOf": "2026-09-01",
+  "confidence": "high",
+  "source": "https://www.sfmta.com/garages-lots/union-square-garage",
+  "notes": "SFMTA: main entry on Geary St; Post St entrances have 6'7\" clearance. Square-facing edge; no storefronts."
+ },
+ {
+  "id": "post-s-westin",
+  "name": "The Westin St. Francis (Post St frontage / tower entrance)",
+  "address": "335 Powell St (Post St side)",
+  "street": "Post St",
+  "side": "south",
+  "blockFrom": "Powell St (SW corner)",
+  "blockTo": "Mason St",
+  "category": "hotel",
+  "buildingRef": "Westin landmark building + 1972 tower",
+  "approxWidthM": 90,
+  "signage": {
+   "text": "The Westin St. Francis",
+   "style": "hotel signage",
+   "logoDescription": "none",
+   "color": "gold"
+  },
+  "entrance": {
+   "position": "tower motor entrance on Post",
+   "type": "hotel doors"
+  },
+  "windows": "stone base; tower lobby glazing",
+  "status": "open",
+  "asOf": "2026-01-13",
+  "confidence": "high",
+  "source": "https://en.wikipedia.org/wiki/Westin_St._Francis",
+  "notes": "Chateau Montelena tasting room mapped inside (2022, unverified)."
+ },
+ {
+  "id": "post-s-4xx",
+  "name": "UNRESOLVED",
+  "address": "Post St south side between the Westin and 491 Post",
+  "street": "Post St",
+  "side": "south",
+  "blockFrom": "Powell St",
+  "blockTo": "Mason St",
+  "category": "other",
+  "buildingRef": "400-block Post south side, west portion",
+  "approxWidthM": 25,
+  "signage": {
+   "text": "none",
+   "style": "none",
+   "logoDescription": "none",
+   "color": "none"
+  },
+  "entrance": {
+   "position": "unknown",
+   "type": "unknown"
+  },
+  "windows": "unknown",
+  "status": "unknown",
+  "asOf": "2026-09-01",
+  "confidence": "low",
+  "source": "OpenStreetMap extract src/data/recon/osm_raw.json (timestamp 2026-09-01; per-node check_date cited)",
+  "notes": "No 2024+ POI data; needs Street View pass."
+ },
+ {
+  "id": "post-s-491",
+  "name": "UNRESOLVED",
+  "address": "491 Post St (SE corner Post/Mason)",
+  "street": "Post St",
+  "side": "south",
+  "blockFrom": "Powell St",
+  "blockTo": "Mason St (SE corner)",
+  "category": "other",
+  "buildingRef": "491 Post (~18 m tall per OSM)",
+  "approxWidthM": 20,
+  "signage": {
+   "text": "none",
+   "style": "none",
+   "logoDescription": "none",
+   "color": "none"
+  },
+  "entrance": {
+   "position": "corner",
+   "type": "building lobby"
+  },
+  "windows": "unknown",
+  "status": "unknown",
+  "asOf": "2026-09-01",
+  "confidence": "low",
+  "source": "OpenStreetMap extract src/data/recon/osm_raw.json (timestamp 2026-09-01; per-node check_date cited)",
+  "notes": "Last-known: Academy of Art University (Liberal Arts) building per OSM; AAU divested many downtown buildings 2023-25, so verify."
+ },
+ {
+  "id": "geary-n-105grant",
+  "name": "Valentino",
+  "address": "105 Grant Ave (NW corner Geary/Grant)",
+  "street": "Geary St",
+  "side": "north",
+  "blockFrom": "Grant Ave (NW corner)",
+  "blockTo": "Stockton St",
+  "category": "luxury",
+  "buildingRef": "105 Grant corner building",
+  "approxWidthM": 12,
+  "signage": {
+   "text": "VALENTINO",
+   "style": "brand-standard: serif capitals",
+   "logoDescription": "V logo",
+   "color": "black/white"
+  },
+  "entrance": {
+   "position": "corner",
+   "type": "double doors"
+  },
+  "windows": "corner glazing",
+  "status": "open",
+  "asOf": "2026-07-03",
+  "confidence": "high",
+  "source": "OpenStreetMap extract src/data/recon/osm_raw.json (timestamp 2026-09-01; per-node check_date cited)",
+  "notes": "OSM check_date 2026-07-03. Boundary corner."
+ },
+ {
+  "id": "geary-n-110",
+  "name": "Burberry (relocated store)",
+  "address": "~108-116 Geary St",
+  "street": "Geary St",
+  "side": "north",
+  "blockFrom": "Grant Ave",
+  "blockTo": "Stockton St",
+  "category": "luxury",
+  "buildingRef": "100-block Geary north side",
+  "approxWidthM": 10,
+  "signage": {
+   "text": "BURBERRY",
+   "style": "brand-standard: sans-serif capitals",
+   "logoDescription": "Equestrian Knight (optional)",
+   "color": "black/beige"
+  },
+  "entrance": {
+   "position": "mid-storefront",
+   "type": "single door"
+  },
+  "windows": "1-2 bays",
+  "status": "open",
+  "asOf": "2026-07-03",
+  "confidence": "medium",
+  "source": "OpenStreetMap extract src/data/recon/osm_raw.json (timestamp 2026-09-01; per-node check_date cited)",
+  "notes": "OSM node (check_date 2026-07-03) places Burberry here after it vacated 225 Post; house number inferred. Verify."
+ },
+ {
+  "id": "geary-n-124",
+  "name": "Bottega Veneta",
+  "address": "124 Geary St",
+  "street": "Geary St",
+  "side": "north",
+  "blockFrom": "Grant Ave",
+  "blockTo": "Stockton St",
+  "category": "luxury",
+  "buildingRef": "124 Geary; \"monumental\" Geary entrance created 2023 when the Maiden Lane door closed",
+  "approxWidthM": 14,
+  "signage": {
+   "text": "BOTTEGA VENETA",
+   "style": "brand-standard: spaced sans-serif capitals",
+   "logoDescription": "none",
+   "color": "green/black"
+  },
+  "entrance": {
+   "position": "center",
+   "type": "tall double doors"
+  },
+  "windows": "tall portal, 2-storey",
+  "status": "open",
+  "asOf": "2026-07-03",
+  "confidence": "high",
+  "source": "OpenStreetMap extract src/data/recon/osm_raw.json (timestamp 2026-09-01; per-node check_date cited)",
+  "notes": "OSM check_date 2026-07-03; SF Chronicle (May 2026) lists Bottega Veneta among current neighbours."
+ },
+ {
+  "id": "geary-n-130",
+  "name": "Van Cleef & Arpels",
+  "address": "~130-136 Geary St",
+  "street": "Geary St",
+  "side": "north",
+  "blockFrom": "Grant Ave",
+  "blockTo": "Stockton St",
+  "category": "jewelry",
+  "buildingRef": "100-block Geary north side",
+  "approxWidthM": 8,
+  "signage": {
+   "text": "Van Cleef & Arpels",
+   "style": "brand-standard: serif wordmark",
+   "logoDescription": "none",
+   "color": "gold/black"
+  },
+  "entrance": {
+   "position": "mid-storefront",
+   "type": "single door, by appointment"
+  },
+  "windows": "1 bay, vitrines",
+  "status": "open",
+  "asOf": "2026-07-03",
+  "confidence": "medium",
+  "source": "OpenStreetMap extract src/data/recon/osm_raw.json (timestamp 2026-09-01; per-node check_date cited)",
+  "notes": "OSM check_date 2026-07-03 (opening_hours \"by appointment\")."
+ },
+ {
+  "id": "geary-n-140",
+  "name": "UNRESOLVED (ground floor); A. Lange & Söhne salon on 3rd floor",
+  "address": "140 Geary St",
+  "street": "Geary St",
+  "side": "north",
+  "blockFrom": "Grant Ave",
+  "blockTo": "Stockton St",
+  "category": "jewelry",
+  "buildingRef": "140 Geary",
+  "approxWidthM": 10,
+  "signage": {
+   "text": "none",
+   "style": "none",
+   "logoDescription": "none",
+   "color": "none"
+  },
+  "entrance": {
+   "position": "lobby",
+   "type": "single door"
+  },
+  "windows": "unknown",
+  "status": "unknown",
+  "asOf": "2026-09-01",
+  "confidence": "low",
+  "source": "https://visitunionsquaresf.com/directory/",
+  "notes": "Union Square Alliance directory lists A. Lange & Söhne Salon at 140 Geary 3rd Floor; ground-floor tenant not verified."
+ },
+ {
+  "id": "geary-n-146",
+  "name": "Bang & Olufsen",
+  "address": "146 Geary St",
+  "street": "Geary St",
+  "side": "north",
+  "blockFrom": "Grant Ave",
+  "blockTo": "Stockton St",
+  "category": "electronics",
+  "buildingRef": "Britex Building (4 storeys), 146 Geary; B&O on bottom 2 floors (5,100 sq ft)",
+  "approxWidthM": 12,
+  "signage": {
+   "text": "BANG & OLUFSEN",
+   "style": "brand-standard: light sans-serif capitals",
+   "logoDescription": "none",
+   "color": "black/silver"
+  },
+  "entrance": {
+   "position": "center",
+   "type": "single door"
+  },
+  "windows": "2-storey glazing",
+  "status": "open",
+  "asOf": "2025-11-15",
+  "confidence": "high",
+  "source": "https://stores.bang-olufsen.com/en_us/united-states/ca/san-francisco/146-geary-street",
+  "notes": "Opened shortly before holidays 2025 (largest B&O store worldwide); OSM check_date 2026-07-03."
+ },
+ {
+  "id": "geary-n-152",
+  "name": "UNRESOLVED (former Banana Republic)",
+  "address": "~150-152 Geary St",
+  "street": "Geary St",
+  "side": "north",
+  "blockFrom": "Grant Ave",
+  "blockTo": "Stockton St",
+  "category": "vacant",
+  "buildingRef": "100-block Geary north side",
+  "approxWidthM": 12,
+  "signage": {
+   "text": "none",
+   "style": "none",
+   "logoDescription": "none",
+   "color": "none"
+  },
+  "entrance": {
+   "position": "center",
+   "type": "closed"
+  },
+  "windows": "2 bays",
+  "status": "closed",
+  "asOf": "2026-08-24",
+  "confidence": "medium",
+  "source": "https://sfstandard.com/2026/08/24/union-square-san-francisco-turnaround/",
+  "notes": "SF Standard 2026-08-24 lists Banana Republic among post-pandemic closures; OSM node last checked 2023-10-21. Exact address and current status of the bay unverified."
+ },
+ {
+  "id": "geary-n-156",
+  "name": "Chanel",
+  "address": "156 Geary St",
+  "street": "Geary St",
+  "side": "north",
+  "blockFrom": "Grant Ave",
+  "blockTo": "Stockton St",
+  "category": "luxury",
+  "buildingRef": "156 Geary (Chanel boutique; backs onto Maiden Lane)",
+  "approxWidthM": 14,
+  "signage": {
+   "text": "CHANEL",
+   "style": "brand-standard: sans-serif capitals",
+   "logoDescription": "interlocking CC",
+   "color": "black/white"
+  },
+  "entrance": {
+   "position": "center",
+   "type": "double doors"
+  },
+  "windows": "2-3 bays, black-framed",
+  "status": "open",
+  "asOf": "2026-03-03",
+  "confidence": "high",
+  "source": "https://sfstandard.com/2026/03/03/future-of-union-square-san-francisco-identity/",
+  "notes": "Chanel is staying here after abandoning the 340 Post flagship plan (Mar 2026)."
+ },
+ {
+  "id": "geary-n-172",
+  "name": "UNRESOLVED (vacant suites)",
+  "address": "172-174 Geary St (One Union Square)",
+  "street": "Geary St",
+  "side": "north",
+  "blockFrom": "Grant Ave",
+  "blockTo": "Stockton St (NE corner)",
+  "category": "vacant",
+  "buildingRef": "One Union Square, 172-180 Geary",
+  "approxWidthM": 18,
+  "signage": {
+   "text": "none",
+   "style": "none",
+   "logoDescription": "none",
+   "color": "none"
+  },
+  "entrance": {
+   "position": "two bays",
+   "type": "closed"
+  },
+  "windows": "ground-floor bays 1,998 + 2,200 sq ft",
+  "status": "vacant",
+  "asOf": "2026-09-01",
+  "confidence": "high",
+  "source": "https://www.cushmanwakefield.com/en/united-states/properties/for-lease/retail/ca/san-francisco/172-180-geary-street/s119888615-229581-l",
+  "notes": "Cushman & Wakefield listing: Suites 172 and 174 Geary available (ground); 180 Geary partial 4th floor. Last-known ground tenant at 180 Geary: Vera Wang (OSM 2023)."
+ },
+ {
+  "id": "geary-n-plaza",
+  "name": "Union Square plaza south edge & Union Square Garage main entry",
+  "address": "333 Post St (Geary St side)",
+  "street": "Geary St",
+  "side": "north",
+  "blockFrom": "Stockton St",
+  "blockTo": "Powell St",
+  "category": "parking",
+  "buildingRef": "Union Square plaza",
+  "approxWidthM": 146,
+  "signage": {
+   "text": "Union Square Garage",
+   "style": "SFMTA signage",
+   "logoDescription": "none",
+   "color": "blue/white"
+  },
+  "entrance": {
+   "position": "two ramp lanes on Geary (8 ft right lane)",
+   "type": "vehicle ramps"
+  },
+  "windows": "n/a (plaza stairs, palms)",
+  "status": "open",
+  "asOf": "2026-09-01",
+  "confidence": "high",
+  "source": "https://www.sfmta.com/garages-lots/union-square-garage",
+  "notes": "After-hours garage access on Geary. Dewey Monument and Muni 38 stops on this edge."
+ },
+ {
+  "id": "geary-n-331powell",
+  "name": "Nintendo SAN FRANCISCO (Geary frontage)",
+  "address": "331 Powell St (NW corner Geary/Powell)",
+  "street": "Geary St",
+  "side": "north",
+  "blockFrom": "Powell St (NW corner)",
+  "blockTo": "Mason St",
+  "category": "toys-games",
+  "buildingRef": "Westin St. Francis ground floor",
+  "approxWidthM": 15,
+  "signage": {
+   "text": "Nintendo SAN FRANCISCO",
+   "style": "see Powell entry",
+   "logoDescription": "Nintendo racetrack",
+   "color": "red/white"
+  },
+  "entrance": {
+   "position": "corner",
+   "type": "see Powell entry"
+  },
+  "windows": "2 bays on Geary",
+  "status": "open",
+  "asOf": "2025-05-15",
+  "confidence": "high",
+  "source": "https://www.nintendo.com/us/whatsnew/nintendo-san-francisco-celebrates-grand-opening-may-15/",
+  "notes": "Duplicate of powell-w-331 for the Geary frontage."
+ },
+ {
+  "id": "geary-n-westin",
+  "name": "The Westin St. Francis (Geary St frontage)",
+  "address": "335 Powell St (Geary side)",
+  "street": "Geary St",
+  "side": "north",
+  "blockFrom": "Powell St",
+  "blockTo": "Mason St",
+  "category": "hotel",
+  "buildingRef": "Westin landmark building + tower service frontage",
+  "approxWidthM": 80,
+  "signage": {
+   "text": "The Westin St. Francis",
+   "style": "hotel signage",
+   "logoDescription": "none",
+   "color": "gold"
+  },
+  "entrance": {
+   "position": "service/side entrances on Geary",
+   "type": "hotel doors"
+  },
+  "windows": "stone base; Oak Room windows (mapped 2022, unverified)",
+  "status": "open",
+  "asOf": "2026-01-13",
+  "confidence": "medium",
+  "source": "https://en.wikipedia.org/wiki/Westin_St._Francis",
+  "notes": "Frontage extent toward Mason not verified; block segment between the Westin and 398 Geary UNRESOLVED."
+ },
+ {
+  "id": "geary-n-398",
+  "name": "Corzetti",
+  "address": "398 Geary St (NE corner Geary/Mason)",
+  "street": "Geary St",
+  "side": "north",
+  "blockFrom": "Powell St",
+  "blockTo": "Mason St (NE corner)",
+  "category": "restaurant",
+  "buildingRef": "398 Geary corner (The Alcove Theater at 414 Mason above/adjacent)",
+  "approxWidthM": 10,
+  "signage": {
+   "text": "Corzetti",
+   "style": "Italian restaurant signage",
+   "logoDescription": "none",
+   "color": "unknown"
+  },
+  "entrance": {
+   "position": "corner",
+   "type": "single door"
+  },
+  "windows": "corner windows",
+  "status": "open",
+  "asOf": "2025-06-20",
+  "confidence": "medium",
+  "source": "OpenStreetMap extract src/data/recon/osm_raw.json (timestamp 2026-09-01; per-node check_date cited)",
+  "notes": "OSM check_date 2025-06-20."
+ },
+ {
+  "id": "geary-s-101",
+  "name": "Dita / Omega (Geary-Grant Building)",
+  "address": "101-111 Geary St (SW corner Geary/Grant)",
+  "street": "Geary St",
+  "side": "south",
+  "blockFrom": "Grant Ave (SW corner)",
+  "blockTo": "Stockton St",
+  "category": "luxury",
+  "buildingRef": "Geary-Grant Building, 101-111 Geary (LoopNet lists space here)",
+  "approxWidthM": 25,
+  "signage": {
+   "text": "DITA / OMEGA",
+   "style": "brand-standard: Dita sans-serif; Omega symbol + capitals",
+   "logoDescription": "Omega Ω",
+   "color": "black/white; Omega red"
+  },
+  "entrance": {
+   "position": "bays along Geary",
+   "type": "single doors"
+  },
+  "windows": "3-4 bays",
+  "status": "open",
+  "asOf": "2026-07-03",
+  "confidence": "medium",
+  "source": "OpenStreetMap extract src/data/recon/osm_raw.json (timestamp 2026-09-01; per-node check_date cited)",
+  "notes": "OSM check_date 2026-07-03 for both; LoopNet 101-111 Geary listing implies at least one bay vacant. Boundary corner."
+ },
+ {
+  "id": "geary-s-nm",
+  "name": "Neiman Marcus (Geary St frontage)",
+  "address": "150 Stockton St (Geary side, ~121-199 Geary)",
+  "street": "Geary St",
+  "side": "south",
+  "blockFrom": "Grant Ave",
+  "blockTo": "Stockton St (SE corner)",
+  "category": "department-store",
+  "buildingRef": "Neiman Marcus",
+  "approxWidthM": 95,
+  "signage": {
+   "text": "Neiman Marcus",
+   "style": "see Stockton entry",
+   "logoDescription": "none",
+   "color": "bronze"
+  },
+  "entrance": {
+   "position": "Geary side doors + corner rotunda",
+   "type": "double doors"
+  },
+  "windows": "stone-clad, few windows; Fresh Market cafe inside",
+  "status": "open",
+  "asOf": "2026-01-06",
+  "confidence": "high",
+  "source": "https://therealdeal.com/san-francisco/2026/01/06/san-francisco-neiman-marcus-land-sold-by-saks-global/",
+  "notes": "Duplicate of stockton-e-150 for the Geary frontage."
+ },
+ {
+  "id": "geary-s-233",
+  "name": "Louis Vuitton",
+  "address": "233 Geary St (SW corner Geary/Stockton)",
+  "street": "Geary St",
+  "side": "south",
+  "blockFrom": "Stockton St (SW corner)",
+  "blockTo": "Powell St",
+  "category": "luxury",
+  "buildingRef": "Macy's complex, former I. Magnin white-marble building (1948)",
+  "approxWidthM": 30,
+  "signage": {
+   "text": "LOUIS VUITTON",
+   "style": "brand-standard: spaced serif capitals on white marble",
+   "logoDescription": "LV monogram",
+   "color": "black/gold on white marble"
+  },
+  "entrance": {
+   "position": "corner Geary/Stockton",
+   "type": "double doors"
+  },
+  "windows": "2-storey vitrines on Geary and Stockton",
+  "status": "open",
+  "asOf": "2026-07-03",
+  "confidence": "high",
+  "source": "https://us.louisvuitton.com/eng-us/point-of-sale/usa/louis-vuitton-san-francisco-union-square",
+  "notes": "LV locator shows open with hours; Yelp updated Jul 2026; OSM check_date 2026-07-03."
+ },
+ {
+  "id": "geary-s-loro",
+  "name": "Loro Piana",
+  "address": "Geary St (unnumbered, ~241-249, Macy's Geary frontage)",
+  "street": "Geary St",
+  "side": "south",
+  "blockFrom": "Stockton St",
+  "blockTo": "Powell St",
+  "category": "luxury",
+  "buildingRef": "Macy's complex ground floor",
+  "approxWidthM": 10,
+  "signage": {
+   "text": "LORO PIANA",
+   "style": "brand-standard: spaced serif capitals",
+   "logoDescription": "none",
+   "color": "black/cream"
+  },
+  "entrance": {
+   "position": "on Geary",
+   "type": "single door"
+  },
+  "windows": "1-2 bays",
+  "status": "open",
+  "asOf": "2026-07-03",
+  "confidence": "medium",
+  "source": "OpenStreetMap extract src/data/recon/osm_raw.json (timestamp 2026-09-01; per-node check_date cited)",
+  "notes": "OSM check_date 2026-07-03; house number inferred."
+ },
+ {
+  "id": "geary-s-251",
+  "name": "Macy's Union Square (Geary St entrance; Cheesecake Factory 8th floor)",
+  "address": "251-281 Geary St",
+  "street": "Geary St",
+  "side": "south",
+  "blockFrom": "Stockton St",
+  "blockTo": "Powell St",
+  "category": "department-store",
+  "buildingRef": "Macy's 1967 & 1976 additions facing the square",
+  "approxWidthM": 70,
+  "signage": {
+   "text": "macy's",
+   "style": "brand-standard script wordmark + red star; Cheesecake Factory signage at roof",
+   "logoDescription": "red star",
+   "color": "red"
+  },
+  "entrance": {
+   "position": "center of Geary frontage",
+   "type": "multiple double doors"
+  },
+  "windows": "display windows; basement food court (Boudin, Subway, Jamba, Wetzel's)",
+  "status": "open",
+  "asOf": "2026-04-09",
+  "confidence": "high",
+  "source": "https://www.sfgate.com/local/article/macys-union-square-san-francisco-isnt-closing-yet-21141588.php",
+  "notes": "OSM check_date 2026-04-09; Cheesecake Factory check 2026-04-09."
+ },
+ {
+  "id": "geary-s-285",
+  "name": "Dyson Demo Store",
+  "address": "285 Geary St",
+  "street": "Geary St",
+  "side": "south",
+  "blockFrom": "Stockton St",
+  "blockTo": "Powell St",
+  "category": "electronics",
+  "buildingRef": "Macy's complex ground floor",
+  "approxWidthM": 8,
+  "signage": {
+   "text": "dyson",
+   "style": "brand-standard lowercase wordmark",
+   "logoDescription": "none",
+   "color": "black/white"
+  },
+  "entrance": {
+   "position": "on Geary",
+   "type": "single door"
+  },
+  "windows": "1-2 bays",
+  "status": "open",
+  "asOf": "2025-12-23",
+  "confidence": "medium",
+  "source": "OpenStreetMap extract src/data/recon/osm_raw.json (timestamp 2026-09-01; per-node check_date cited)",
+  "notes": "OSM check_date 2025-12-23."
+ },
+ {
+  "id": "geary-s-swarovski",
+  "name": "Swarovski",
+  "address": "Geary St (unnumbered, ~291-299, Macy's Geary frontage near Powell)",
+  "street": "Geary St",
+  "side": "south",
+  "blockFrom": "Stockton St",
+  "blockTo": "Powell St (SE corner)",
+  "category": "jewelry",
+  "buildingRef": "Macy's complex ground floor",
+  "approxWidthM": 8,
+  "signage": {
+   "text": "SWAROVSKI",
+   "style": "brand-standard: sans-serif capitals + swan",
+   "logoDescription": "swan",
+   "color": "black/silver"
+  },
+  "entrance": {
+   "position": "on Geary near Powell",
+   "type": "single door"
+  },
+  "windows": "1 bay",
+  "status": "open",
+  "asOf": "2026-07-03",
+  "confidence": "medium",
+  "source": "OpenStreetMap extract src/data/recon/osm_raw.json (timestamp 2026-09-01; per-node check_date cited)",
+  "notes": "OSM check_date 2026-07-03."
+ },
+ {
+  "id": "geary-s-301",
+  "name": "Shoe Palace",
+  "address": "301-333 Geary St (SW corner Geary/Powell)",
+  "street": "Geary St",
+  "side": "south",
+  "blockFrom": "Powell St (SW corner)",
+  "blockTo": "Mason St",
+  "category": "apparel",
+  "buildingRef": "301-333 Geary building (former Express; former Lefty O'Doul's at 333; Gold Dust Lounge formerly on Powell side)",
+  "approxWidthM": 35,
+  "signage": {
+   "text": "SHOE PALACE",
+   "style": "brand-standard: bold sans-serif capitals",
+   "logoDescription": "none",
+   "color": "black/white or red"
+  },
+  "entrance": {
+   "position": "corner Geary/Powell + Powell-side entrance",
+   "type": "double doors"
+  },
+  "windows": "16,000 sq ft, 2 levels; large glazing on both streets",
+  "status": "open",
+  "asOf": "2025-03-01",
+  "confidence": "high",
+  "source": "https://sfist.com/2025/01/10/that-vacant-union-square-express-space-will-reopen-as-shoe-palace-in-a-matter-of-just-weeks/",
+  "notes": "Opened Jan 2025 (grand opening Mar 2025). OSM check_date 2026-03-05 (addr 333 Geary)."
+ },
+ {
+  "id": "geary-s-347",
+  "name": "UNRESOLVED (former Daily Grill)",
+  "address": "347 Geary St",
+  "street": "Geary St",
+  "side": "south",
+  "blockFrom": "Powell St",
+  "blockTo": "Mason St",
+  "category": "restaurant",
+  "buildingRef": "Handlery Hotel building",
+  "approxWidthM": 10,
+  "signage": {
+   "text": "none",
+   "style": "none",
+   "logoDescription": "none",
+   "color": "none"
+  },
+  "entrance": {
+   "position": "on Geary",
+   "type": "restaurant door"
+  },
+  "windows": "restaurant windows",
+  "status": "unknown",
+  "asOf": "2026-09-01",
+  "confidence": "low",
+  "source": "OpenStreetMap extract src/data/recon/osm_raw.json (timestamp 2026-09-01; per-node check_date cited)",
+  "notes": "OSM node retains was:name=Daily Grill with no current name; Handlery's restaurant space status unverified."
+ },
+ {
+  "id": "geary-s-351",
+  "name": "Handlery Union Square Hotel",
+  "address": "351 Geary St",
+  "street": "Geary St",
+  "side": "south",
+  "blockFrom": "Powell St",
+  "blockTo": "Mason St",
+  "category": "hotel",
+  "buildingRef": "Handlery Hotel",
+  "approxWidthM": 25,
+  "signage": {
+   "text": "Handlery Union Square Hotel",
+   "style": "hotel signage + awning",
+   "logoDescription": "none",
+   "color": "unknown"
+  },
+  "entrance": {
+   "position": "center",
+   "type": "hotel door + canopy"
+  },
+  "windows": "hotel ground floor",
+  "status": "open",
+  "asOf": "2025-03-20",
+  "confidence": "high",
+  "source": "OpenStreetMap extract src/data/recon/osm_raw.json (timestamp 2026-09-01; per-node check_date cited)",
+  "notes": "OSM check_date 2025-03-20; hotel website active."
+ },
+ {
+  "id": "geary-s-artthou",
+  "name": "Art Thou Gallery",
+  "address": "Geary St (unnumbered, ~361-375)",
+  "street": "Geary St",
+  "side": "south",
+  "blockFrom": "Powell St",
+  "blockTo": "Mason St",
+  "category": "gallery",
+  "buildingRef": "300-block Geary south side",
+  "approxWidthM": 7,
+  "signage": {
+   "text": "Art Thou Gallery",
+   "style": "gallery lettering",
+   "logoDescription": "none",
+   "color": "unknown"
+  },
+  "entrance": {
+   "position": "mid-storefront",
+   "type": "single door"
+  },
+  "windows": "1 bay",
+  "status": "open",
+  "asOf": "2026-07-03",
+  "confidence": "medium",
+  "source": "OpenStreetMap extract src/data/recon/osm_raw.json (timestamp 2026-09-01; per-node check_date cited)",
+  "notes": "OSM check_date 2026-07-03."
+ },
+ {
+  "id": "geary-s-389",
+  "name": "UNRESOLVED",
+  "address": "389 Geary St",
+  "street": "Geary St",
+  "side": "south",
+  "blockFrom": "Powell St",
+  "blockTo": "Mason St",
+  "category": "vacant",
+  "buildingRef": "389 Geary",
+  "approxWidthM": 7,
+  "signage": {
+   "text": "none",
+   "style": "none",
+   "logoDescription": "none",
+   "color": "none"
+  },
+  "entrance": {
+   "position": "mid-storefront",
+   "type": "closed"
+  },
+  "windows": "1 bay",
+  "status": "vacant",
+  "asOf": "2026-09-01",
+  "confidence": "low",
+  "source": "OpenStreetMap extract src/data/recon/osm_raw.json (timestamp 2026-09-01; per-node check_date cited)",
+  "notes": "OSM disused restaurant (was Sushi Boat), no check_date."
+ },
+ {
+  "id": "geary-s-399",
+  "name": "UNRESOLVED (former CVS; Mastro's Steakhouse upstairs)",
+  "address": "399 Geary St (SE corner Geary/Mason)",
+  "street": "Geary St",
+  "side": "south",
+  "blockFrom": "Powell St",
+  "blockTo": "Mason St (SE corner)",
+  "category": "vacant",
+  "buildingRef": "399 Geary corner building",
+  "approxWidthM": 18,
+  "signage": {
+   "text": "none",
+   "style": "none",
+   "logoDescription": "none",
+   "color": "none"
+  },
+  "entrance": {
+   "position": "corner",
+   "type": "closed ground floor; Mastro's entrance"
+  },
+  "windows": "corner glazing (papered)",
+  "status": "vacant",
+  "asOf": "2026-07-03",
+  "confidence": "medium",
+  "source": "OpenStreetMap extract src/data/recon/osm_raw.json (timestamp 2026-09-01; per-node check_date cited)",
+  "notes": "CVS mapped disused (check 2026-07-03). Mastro's Steakhouse (level 1) check 2025-03-20 open."
+ },
+ {
+  "id": "maiden-240stockton",
+  "name": "Gucci (Maiden Lane frontage)",
+  "address": "240 Stockton St (NE corner Maiden Lane/Stockton)",
+  "street": "Maiden Lane",
+  "side": "north",
+  "blockFrom": "Stockton St",
+  "blockTo": "Grant Ave",
+  "category": "luxury",
+  "buildingRef": "240 Stockton",
+  "approxWidthM": 20,
+  "signage": {
+   "text": "GUCCI",
+   "style": "see Stockton entry",
+   "logoDescription": "GG",
+   "color": "gold/black"
+  },
+  "entrance": {
+   "position": "on Stockton; windows on Maiden Lane",
+   "type": "see Stockton entry"
+  },
+  "windows": "vitrines along Maiden Lane",
+  "status": "open",
+  "asOf": "2026-02-04",
+  "confidence": "high",
+  "source": "https://therealdeal.com/san-francisco/2026/02/04/doug-macmahon-buys-union-square-gucci-building/",
+  "notes": "Duplicate of stockton-e-240 for the lane frontage."
+ },
+ {
+  "id": "maiden-222stockton",
+  "name": "Tory Burch (Maiden Lane frontage)",
+  "address": "222 Stockton St (SE corner Maiden Lane/Stockton)",
+  "street": "Maiden Lane",
+  "side": "south",
+  "blockFrom": "Stockton St",
+  "blockTo": "Grant Ave",
+  "category": "luxury",
+  "buildingRef": "222 Stockton",
+  "approxWidthM": 12,
+  "signage": {
+   "text": "TORY BURCH",
+   "style": "see Stockton entry",
+   "logoDescription": "double-T",
+   "color": "gold"
+  },
+  "entrance": {
+   "position": "on Stockton",
+   "type": "see Stockton entry"
+  },
+  "windows": "windows on Maiden Lane",
+  "status": "open",
+  "asOf": "2025-11-19",
+  "confidence": "medium",
+  "source": "OpenStreetMap extract src/data/recon/osm_raw.json (timestamp 2026-09-01; per-node check_date cited)",
+  "notes": "Duplicate of stockton-e-222."
+ },
+ {
+  "id": "maiden-253post-rear",
+  "name": "The RealReal / Painted Leopard (Maiden Lane entrance)",
+  "address": "253 Post St (rear entrance on Maiden Lane)",
+  "street": "Maiden Lane",
+  "side": "north",
+  "blockFrom": "Stockton St",
+  "blockTo": "Grant Ave",
+  "category": "cafe",
+  "buildingRef": "253 Post building, through-block",
+  "approxWidthM": 10,
+  "signage": {
+   "text": "The RealReal / Painted Leopard",
+   "style": "black wordmark; cafe signage",
+   "logoDescription": "none",
+   "color": "black/green"
+  },
+  "entrance": {
+   "position": "on Maiden Lane",
+   "type": "single door"
+  },
+  "windows": "1-2 bays",
+  "status": "open",
+  "asOf": "2026-04-01",
+  "confidence": "high",
+  "source": "https://dailycoffeenews.com/2026/03/16/painted-leopard-opens-inside-the-realreal-in-san-francisco/",
+  "notes": "Painted Leopard cafe (1,550 sq ft) inside The RealReal, accessed from Maiden Lane; daily 9-5 from Apr 2026."
+ },
+ {
+  "id": "maiden-140",
+  "name": "ISAIA",
+  "address": "140 Maiden Lane",
+  "street": "Maiden Lane",
+  "side": "south",
+  "blockFrom": "Stockton St",
+  "blockTo": "Grant Ave",
+  "category": "luxury",
+  "buildingRef": "V.C. Morris Gift Shop building (Frank Lloyd Wright, 1948; SF Landmark #72)",
+  "approxWidthM": 15,
+  "signage": {
+   "text": "ISAIA",
+   "style": "small brass plaque/lettering; no fascia sign (landmark facade)",
+   "logoDescription": "coral branch (optional)",
+   "color": "brass on tan brick"
+  },
+  "entrance": {
+   "position": "single deep brick arch, center",
+   "type": "single door, appointment-only"
+  },
+  "windows": "solid brick wall pierced by one arched portal; no display windows",
+  "status": "open",
+  "asOf": "2026-05-11",
+  "confidence": "high",
+  "source": "https://www.yahoo.com/news/articles/exclusive-influential-fashion-retailer-open-170000099.html (SF Chronicle, 2026-05-11)",
+  "notes": "SF Chronicle (May 2026) lists Isaia among current Maiden Lane residents; OSM node ISAIA at this location."
+ },
+ {
+  "id": "maiden-135",
+  "name": "Sherri McMullen (boutique)",
+  "address": "135 Maiden Lane",
+  "street": "Maiden Lane",
+  "side": "north",
+  "blockFrom": "Stockton St",
+  "blockTo": "Grant Ave",
+  "category": "apparel",
+  "buildingRef": "135 Maiden Lane (Bottega Veneta temporary store in 2021)",
+  "approxWidthM": 12,
+  "signage": {
+   "text": "McMullen",
+   "style": "boutique serif wordmark (expected)",
+   "logoDescription": "none",
+   "color": "unknown"
+  },
+  "entrance": {
+   "position": "center",
+   "type": "single door"
+  },
+  "windows": "2 bays",
+  "status": "coming-soon",
+  "asOf": "2026-05-11",
+  "confidence": "high",
+  "source": "https://www.yahoo.com/news/articles/exclusive-influential-fashion-retailer-open-170000099.html (SF Chronicle, 2026-05-11)",
+  "notes": "Opening announced for Oct 2026 (SF Chronicle exclusive, 2026-05-11)."
+ },
+ {
+  "id": "maiden-margiela",
+  "name": "Maison Margiela",
+  "address": "Maiden Lane (house number unresolved)",
+  "street": "Maiden Lane",
+  "side": "north",
+  "blockFrom": "Stockton St",
+  "blockTo": "Grant Ave",
+  "category": "luxury",
+  "buildingRef": "Maiden Lane",
+  "approxWidthM": 10,
+  "signage": {
+   "text": "Maison Margiela",
+   "style": "brand-standard: minimal white, numeric 0-23 motif",
+   "logoDescription": "none",
+   "color": "white"
+  },
+  "entrance": {
+   "position": "unknown",
+   "type": "single door"
+  },
+  "windows": "whitewashed frontage",
+  "status": "open",
+  "asOf": "2026-05-11",
+  "confidence": "medium",
+  "source": "https://www.yahoo.com/news/articles/exclusive-influential-fashion-retailer-open-170000099.html (SF Chronicle, 2026-05-11)",
+  "notes": "Listed as a current Maiden Lane resident (SF Chronicle May 2026); address/side not verified."
+ },
+ {
+  "id": "maiden-suitsupply",
+  "name": "Suitsupply",
+  "address": "Maiden Lane (house number unresolved)",
+  "street": "Maiden Lane",
+  "side": "north",
+  "blockFrom": "Stockton St",
+  "blockTo": "Grant Ave",
+  "category": "apparel",
+  "buildingRef": "Maiden Lane",
+  "approxWidthM": 10,
+  "signage": {
+   "text": "SUITSUPPLY",
+   "style": "brand-standard: bold sans-serif capitals",
+   "logoDescription": "none",
+   "color": "navy/white"
+  },
+  "entrance": {
+   "position": "unknown",
+   "type": "single door"
+  },
+  "windows": "2 bays",
+  "status": "open",
+  "asOf": "2026-05-11",
+  "confidence": "medium",
+  "source": "https://www.yahoo.com/news/articles/exclusive-influential-fashion-retailer-open-170000099.html (SF Chronicle, 2026-05-11)",
+  "notes": "Listed as a current Maiden Lane resident (SF Chronicle May 2026); address/side not verified."
+ },
+ {
+  "id": "maiden-spectacles",
+  "name": "Spectacles of Union Square",
+  "address": "Maiden Lane (house number unresolved)",
+  "street": "Maiden Lane",
+  "side": "south",
+  "blockFrom": "Stockton St",
+  "blockTo": "Grant Ave",
+  "category": "other",
+  "buildingRef": "Maiden Lane",
+  "approxWidthM": 6,
+  "signage": {
+   "text": "Spectacles of Union Square",
+   "style": "independent optician signage",
+   "logoDescription": "none",
+   "color": "unknown"
+  },
+  "entrance": {
+   "position": "unknown",
+   "type": "single door"
+  },
+  "windows": "1 bay",
+  "status": "open",
+  "asOf": "2026-05-11",
+  "confidence": "medium",
+  "source": "https://www.yahoo.com/news/articles/exclusive-influential-fashion-retailer-open-170000099.html (SF Chronicle, 2026-05-11)",
+  "notes": "Listed as a current Maiden Lane resident (SF Chronicle May 2026); address/side not verified."
+ },
+ {
+  "id": "maiden-170",
+  "name": "UNRESOLVED",
+  "address": "170 Maiden Lane",
+  "street": "Maiden Lane",
+  "side": "south",
+  "blockFrom": "Stockton St",
+  "blockTo": "Grant Ave",
+  "category": "other",
+  "buildingRef": "170 Maiden Lane",
+  "approxWidthM": 8,
+  "signage": {
+   "text": "none",
+   "style": "none",
+   "logoDescription": "none",
+   "color": "none"
+  },
+  "entrance": {
+   "position": "unknown",
+   "type": "unknown"
+  },
+  "windows": "unknown",
+  "status": "unknown",
+  "asOf": "2026-09-01",
+  "confidence": "low",
+  "source": "OpenStreetMap extract src/data/recon/osm_raw.json (timestamp 2026-09-01; per-node check_date cited)",
+  "notes": "OSM address node without tenant. (Marc Jacobs and Alexander McQueen on the lane closed pre-2024 per FashionNetwork.)"
+ },
+ {
+  "id": "maiden-125grant",
+  "name": "Hermès",
+  "address": "125 Grant Ave (Maiden Lane / Grant corner)",
+  "street": "Maiden Lane",
+  "side": "south",
+  "blockFrom": "Stockton St",
+  "blockTo": "Grant Ave (corner)",
+  "category": "luxury",
+  "buildingRef": "125 Grant (Hermès since 2004)",
+  "approxWidthM": 18,
+  "signage": {
+   "text": "HERMÈS PARIS",
+   "style": "brand-standard: serif capitals; duc-carriage emblem",
+   "logoDescription": "horse & carriage",
+   "color": "orange/black on stone"
+  },
+  "entrance": {
+   "position": "on Grant at Maiden Lane",
+   "type": "double doors"
+  },
+  "windows": "vitrines on Grant and Maiden Lane",
+  "status": "open",
+  "asOf": "2026-04-25",
+  "confidence": "high",
+  "source": "OpenStreetMap extract src/data/recon/osm_raw.json (timestamp 2026-09-01; per-node check_date cited)",
+  "notes": "OSM check_date 2026-04-25; SF Standard 2026-08-24 lists Hermès as operating. Boundary corner (Grant)."
+ },
+ {
+  "id": "sutter-stockton-ne",
+  "name": "UNRESOLVED (former CVS ground floor)",
+  "address": "400 Sutter St / 444 Stockton St (NE corner Sutter/Stockton)",
+  "street": "Sutter St",
+  "side": "north",
+  "blockFrom": "Stockton St (NE corner)",
+  "blockTo": "Powell St",
+  "category": "parking",
+  "buildingRef": "Sutter-Stockton Garage (10 storeys, ~30 m) with ground-floor retail bays on Sutter",
+  "approxWidthM": 25,
+  "signage": {
+   "text": "none",
+   "style": "none",
+   "logoDescription": "none",
+   "color": "none"
+  },
+  "entrance": {
+   "position": "corner bay",
+   "type": "closed"
+  },
+  "windows": "corner retail bay (papered); garage ramps on Stockton/Bush",
+  "status": "vacant",
+  "asOf": "2023-07-31",
+  "confidence": "low",
+  "source": "OpenStreetMap extract src/data/recon/osm_raw.json (timestamp 2026-09-01; per-node check_date cited)",
+  "notes": "OSM disused shop (was CVS), check_date 2023-07-31; not re-verified."
+ },
+ {
+  "id": "sutter-stockton-nw",
+  "name": "UNRESOLVED",
+  "address": "415 Stockton St (NW corner Sutter/Stockton)",
+  "street": "Sutter St",
+  "side": "north",
+  "blockFrom": "Stockton St (NW corner)",
+  "blockTo": "Powell St",
+  "category": "other",
+  "buildingRef": "415 Stockton building (Atelier Emmanuel salon on 4th floor)",
+  "approxWidthM": 15,
+  "signage": {
+   "text": "none",
+   "style": "none",
+   "logoDescription": "none",
+   "color": "none"
+  },
+  "entrance": {
+   "position": "corner",
+   "type": "unknown"
+  },
+  "windows": "unknown",
+  "status": "unknown",
+  "asOf": "2026-09-01",
+  "confidence": "low",
+  "source": "OpenStreetMap extract src/data/recon/osm_raw.json (timestamp 2026-09-01; per-node check_date cited)",
+  "notes": "Ground-floor tenant not verified."
+ },
+ {
+  "id": "sutter-powell-ne",
+  "name": "UNRESOLVED",
+  "address": "480 Sutter St (NE corner Sutter/Powell)",
+  "street": "Sutter St",
+  "side": "north",
+  "blockFrom": "Stockton St",
+  "blockTo": "Powell St (NE corner)",
+  "category": "hotel",
+  "buildingRef": "480 Sutter",
+  "approxWidthM": 30,
+  "signage": {
+   "text": "none",
+   "style": "none",
+   "logoDescription": "none",
+   "color": "none"
+  },
+  "entrance": {
+   "position": "corner",
+   "type": "hotel entrance"
+  },
+  "windows": "hotel ground floor",
+  "status": "unknown",
+  "asOf": "2026-09-01",
+  "confidence": "low",
+  "source": "https://visitunionsquaresf.com/directory/",
+  "notes": "Last-known: San Francisco Marriott Union Square (unionsquareshop directory, undated). No 2024+ source in this session."
+ },
+ {
+  "id": "sutter-powell-nw",
+  "name": "UNRESOLVED",
+  "address": "Sutter/Powell NW corner (5xx Sutter / 5xx Powell)",
+  "street": "Sutter St",
+  "side": "north",
+  "blockFrom": "Powell St (NW corner)",
+  "blockTo": "Mason St",
+  "category": "other",
+  "buildingRef": "NW corner building",
+  "approxWidthM": 15,
+  "signage": {
+   "text": "none",
+   "style": "none",
+   "logoDescription": "none",
+   "color": "none"
+  },
+  "entrance": {
+   "position": "corner",
+   "type": "unknown"
+  },
+  "windows": "unknown",
+  "status": "unknown",
+  "asOf": "2026-09-01",
+  "confidence": "low",
+  "source": "OpenStreetMap extract src/data/recon/osm_raw.json (timestamp 2026-09-01; per-node check_date cited)",
+  "notes": "Outside strict boundary; no data gathered."
+ },
+ {
+  "id": "ofarrell-stockton-sw",
+  "name": "UNRESOLVED (Chalk offices above)",
+  "address": "55 Stockton St (SW corner O'Farrell/Stockton)",
+  "street": "O'Farrell St",
+  "side": "south",
+  "blockFrom": "Stockton St (SW corner)",
+  "blockTo": "Powell St",
+  "category": "other",
+  "buildingRef": "55 Stockton, 7-floor mixed-use",
+  "approxWidthM": 20,
+  "signage": {
+   "text": "none",
+   "style": "none",
+   "logoDescription": "none",
+   "color": "none"
+  },
+  "entrance": {
+   "position": "corner",
+   "type": "lobby"
+  },
+  "windows": "unknown",
+  "status": "unknown",
+  "asOf": "2025-11-12",
+  "confidence": "low",
+  "source": "https://sfstandard.com/2025/11/12/union-square-ai-company-offices-chalk/",
+  "notes": "Chalk leased ~15,000 sq ft of office (Nov 2025); ground-floor retail not verified. Outside strict boundary."
+ },
+ {
+  "id": "ofarrell-n-macys-corner",
+  "name": "Macy's Union Square (O'Farrell St frontage; Boudin cafe)",
+  "address": "170 O'Farrell St",
+  "street": "O'Farrell St",
+  "side": "north",
+  "blockFrom": "Stockton St (NW corner)",
+  "blockTo": "Powell St",
+  "category": "department-store",
+  "buildingRef": "Macy's main building",
+  "approxWidthM": 100,
+  "signage": {
+   "text": "macy's",
+   "style": "script wordmark + red star",
+   "logoDescription": "red star",
+   "color": "red"
+  },
+  "entrance": {
+   "position": "main entrance on O'Farrell at Stockton",
+   "type": "multiple double doors"
+  },
+  "windows": "display windows; Boudin Bakery Cafe bay (OSM check 2024-09-14); Wetzel's (2025-02)",
+  "status": "open",
+  "asOf": "2026-04-09",
+  "confidence": "high",
+  "source": "https://www.sfgate.com/local/article/macys-union-square-san-francisco-isnt-closing-yet-21141588.php",
+  "notes": "O'Farrell frontage runs from Stockton to the 180-184 O'Farrell corner strip near Powell."
+ }
+]

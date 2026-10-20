@@ -1,0 +1,1734 @@
+{
+ "meta": {
+  "agent": "GEO AGENT A - Union Square plaza",
+  "date": "2026-09-01",
+  "coordinate_frame": {
+   "description": "Plaza-local frame. Origin = Dewey Monument axis. u = metres east along the Geary/Post direction (true bearing 80.9 deg, toward Stockton). v = metres north along the Powell/Stockton direction (bearing 350.9 deg, toward Post). Streets are rotated 9.1 deg counter-clockwise from true E/N. latlon = WGS84 [lat, lon].",
+   "origin_latlon": [
+    37.787934,
+    -122.40752
+   ],
+   "u_axis_bearing_deg": 80.9,
+   "v_axis_bearing_deg": 350.9,
+   "source": "OpenStreetMap via Overpass API, fetched 2026-09-01 (ODbL) (monument node 11699339397; bearing from park polygon way 25278818)"
+  },
+  "elevation_datum": "NAVD88 metres from USGS 3DEP 1 m DEM; treat absolute values as +/-0.3 m, relative values as +/-0.2 m. Heights above Geary sidewalk are relative to the Geary mid-block sidewalk (19.9 m).",
+  "confidence_legend": "high = official/primary source or multiple agreeing sources; medium = single reliable source, OSM geometry, or DEM-derived; low = inferred from photos, undated blogs, or memory-level knowledge.",
+  "sources": {
+   "wiki_us": "https://en.wikipedia.org/wiki/Union_Square,_San_Francisco",
+   "wiki_dewey": "https://en.wikipedia.org/wiki/Dewey_Monument",
+   "siris": "https://www.si.edu/object/dewey-monument-sculpture:siris_ari_342041 (via search snippet; page returned 403)",
+   "recpark_2023": "SF Rec & Park Commission staff report, Union Square Café lease, 2023-09-21: https://sfrecpark.org/DocumentCenter/View/21087/",
+   "west_rfp_2026": "SF Rec & Park, Union Square West Café RFP, issued 2026-03-05: https://sfrecpark.org/DocumentCenter/View/28464/",
+   "east_rfp_2025": "SF Rec & Park Union Square East Café RFP page / Q&A 2025-07-28: https://sfrecpark.org/1838/ and https://sfrecpark.org/DocumentCenter/View/26399/",
+   "recpark_superduper": "SF Rec & Park newsflash 2026-01-09: https://sfrecpark.org/m/newsflash/home/detail/2646",
+   "recpark_brv": "SF Rec & Park newsflash 2026-02-10 (Mayor Lurie, BRV programming): https://sfrecpark.org/m/newsflash/home/detail/2708",
+   "recpark_plaza": "https://sfrecpark.org/899/Union-Square-Plaza (event rental page)",
+   "apdw": "April Philips Design Works project page: https://apdw.com/portfolio/urban/union-square/",
+   "sfmta_garage": "https://www.sfmta.com/garages-lots/union-square-garage",
+   "osm": "OpenStreetMap via Overpass API, fetched 2026-09-01 (ODbL)",
+   "usgs": "USGS 3DEP Elevation Point Query Service (epqs.nationalmap.gov), queried 2026-09-01, bare-earth DEM, NAVD88 metres",
+   "photo_macys": "refs/plaza/03_elevated_from_macys_south_2012.jpg (Commons, S. Rae, CC BY 2.0, 2012)",
+   "photo_2022": "refs/plaza/02_plaza_2022_july.jpg (Commons, CC0, 2022)",
+   "block_book": "50-vara survey block geometry (412.5 x 275 ft blocks, 68.75 ft streets): SF General Plan Van Ness element https://generalplan.sfplanning.org/Van_Ness_Ave.htm and Wikipedia 50-vara references",
+   "fischer": "SF Arts Commission / Americans for the Arts, Union Square Colonnade (R.M. Fischer): https://www.americansforthearts.org/.../union-square-colonnade ; https://artandarchitecture-sf.com/union-square-san-francisco-march-25-2012.html",
+   "foundsf": "https://www.foundsf.org/UNION_SQUARE_AFTER_1906",
+   "sfghf_2025": "SF General Hospital Foundation, 2025-10-15: https://sfghf.org/news/new-union-square-heart-brightens-up-downtown/",
+   "funcheap_hearts": "https://sf.funcheap.com/city-guide/union-squares-brand-hearts/ (2020)",
+   "tix_close": "BroadwayWorld 2019-09-26: https://www.broadwayworld.com/san-francisco/article/Tix-Bay-Area-Ticket-Booth-To-Close-This-Saturday-September-28-20190926",
+   "rink": "https://unionsquareicerink.com/ and https://sf.funcheap.com/event-series/holiday-ice-skating-rink-union-square-sf/",
+   "tree": "https://sf.funcheap.com/macys-tree-lighting-san-francisco/ ; https://sfist.com/2025/11/11/",
+   "sfstandard": "SF Standard 2026-08-24: https://sfstandard.com/2026/08/24/union-square-san-francisco-turnaround/",
+   "powell": "https://visitunionsquaresf.com/powell-street-improvement-project ; https://sfddc.org/wp-content/uploads/2026/06/DDC_Press-Release_Powell-St.-Improvement-Project.pdf",
+   "sfgov_florence": "https://www.sf.gov/news--mayor-breed-announces-partnership-renowned-chef-tyler-florence-open-two-new-union-square-cafes (2023-09-04)",
+   "programs": "https://visitunionsquaresf.com/park-programs"
+  }
+ },
+ "footprint": {
+  "block_property_line": {
+   "width_ew_m": {
+    "value": 125.7,
+    "confidence": "high",
+    "source": "50-vara survey block geometry (412.5 x 275 ft blocks, 68.75 ft streets): SF General Plan Van Ness element https://generalplan.sfplanning.org/Van_Ness_Ave.htm and Wikipedia 50-vara references",
+    "note": "412.5 ft, 50-vara survey block; Powell to Stockton property lines"
+   },
+   "depth_ns_m": {
+    "value": 83.8,
+    "confidence": "high",
+    "source": "50-vara survey block geometry (412.5 x 275 ft blocks, 68.75 ft streets): SF General Plan Van Ness element https://generalplan.sfplanning.org/Van_Ness_Ave.htm and Wikipedia 50-vara references",
+    "note": "275 ft; Geary to Post property lines"
+   },
+   "area": {
+    "value": "10,536 m2 = 2.60 acres",
+    "confidence": "high",
+    "source": "https://en.wikipedia.org/wiki/Union_Square,_San_Francisco ; SF Rec & Park Commission staff report, Union Square Café lease, 2023-09-21: https://sfrecpark.org/DocumentCenter/View/21087/",
+    "note": "Rec Park event page says 2.4 ac (paved/rentable), OSM polygon 2.28 ac"
+   },
+   "corners_latlon": {
+    "NW_Post_Powell": {
+     "u_m": -62.85,
+     "v_m": 41.9,
+     "latlon": [
+      37.787472,
+      -122.40815
+     ]
+    },
+    "NE_Post_Stockton": {
+     "u_m": 62.85,
+     "v_m": 41.9,
+     "latlon": [
+      37.787651,
+      -122.406739
+     ]
+    },
+    "SE_Geary_Stockton": {
+     "u_m": 62.85,
+     "v_m": -41.9,
+     "latlon": [
+      37.788396,
+      -122.40689
+     ]
+    },
+    "SW_Geary_Powell": {
+     "u_m": -62.85,
+     "v_m": -41.9,
+     "latlon": [
+      37.788217,
+      -122.408301
+     ]
+    }
+   },
+   "note": "Corner lat/lon are computed from the frame; OSM park polygon (way 25278818) spans u -60.0..60.5, v -39.1..39.1 with ~14 m chamfered corners, i.e. 2.5-3 m inside the property line - probably the face of the perimeter planters/walls or mapping offset (medium)."
+  },
+  "osm_plaza_polygon_uv": [
+   [
+    -59.9,
+    26.2
+   ],
+   [
+    -60.0,
+    -25.6
+   ],
+   [
+    -57.1,
+    -32.5
+   ],
+   [
+    -53.8,
+    -36.0
+   ],
+   [
+    -50.0,
+    -38.2
+   ],
+   [
+    -45.5,
+    -39.1
+   ],
+   [
+    46.8,
+    -39.1
+   ],
+   [
+    51.7,
+    -37.7
+   ],
+   [
+    55.7,
+    -35.2
+   ],
+   [
+    58.9,
+    -31.2
+   ],
+   [
+    60.5,
+    -25.8
+   ],
+   [
+    60.5,
+    26.1
+   ],
+   [
+    59.5,
+    30.5
+   ],
+   [
+    57.1,
+    33.8
+   ],
+   [
+    52.8,
+    37.4
+   ],
+   [
+    45.7,
+    39.1
+   ],
+   [
+    -47.7,
+    39.0
+   ],
+   [
+    -51.3,
+    37.8
+   ],
+   [
+    -55.2,
+    35.0
+   ],
+   [
+    -58.4,
+    31.5
+   ]
+  ],
+  "building_face_to_building_face": {
+   "across_geary_post_ns_m": {
+    "value": 125.7,
+    "confidence": "high",
+    "source": "50-vara survey block geometry (412.5 x 275 ft blocks, 68.75 ft streets): SF General Plan Van Ness element https://generalplan.sfplanning.org/Van_Ness_Ave.htm and Wikipedia 50-vara references",
+    "note": "83.8 m block + 2 x 20.96 m street ROW"
+   },
+   "across_powell_stockton_ew_m": {
+    "value": 167.7,
+    "confidence": "high",
+    "source": "50-vara survey block geometry (412.5 x 275 ft blocks, 68.75 ft streets): SF General Plan Van Ness element https://generalplan.sfplanning.org/Van_Ness_Ave.htm and Wikipedia 50-vara references",
+    "note": "125.7 m block + 2 x 20.96 m ROW"
+   }
+  },
+  "central_plaza_banded_paving": {
+   "value": "approx u -45..+45, v -15..+10 (about 90 x 25-28 m, 2,100-2,500 m2); Rec Park rentable area 17,600 sq ft (1,635 m2)",
+   "confidence": "medium",
+   "source": "refs/plaza/03_elevated_from_macys_south_2012.jpg (Commons, S. Rae, CC BY 2.0, 2012) ; https://sfrecpark.org/899/Union-Square-Plaza (event rental page)"
+  },
+  "axes": {
+   "value": "Bi-symmetrical cross axes through the monument; the E-W axis aligns with Maiden Lane (Maiden Lane stair at v=0.0), the N-S axis with the stage on Post and the garage entry portal on Geary.",
+   "confidence": "high",
+   "source": "April Philips Design Works project page: https://apdw.com/portfolio/urban/union-square/ ; OpenStreetMap via Overpass API, fetched 2026-09-01 (ODbL)"
+  }
+ },
+ "streets": {
+  "right_of_way_m": {
+   "value": 20.96,
+   "confidence": "medium",
+   "source": "50-vara survey block geometry (412.5 x 275 ft blocks, 68.75 ft streets): SF General Plan Van Ness element https://generalplan.sfplanning.org/Van_Ness_Ave.htm and Wikipedia 50-vara references",
+   "note": "68.75 ft (25 vara) standard for Geary, Post, Powell, Stockton in the 50-vara survey; OSM centrelines sit 9.6-11.1 m outside the property line, consistent"
+  },
+  "centreline_offsets_from_monument": {
+   "geary_v_m": {
+    "value": -51.5,
+    "confidence": "medium",
+    "source": "OpenStreetMap via Overpass API, fetched 2026-09-01 (ODbL)"
+   },
+   "post_v_m": {
+    "value": 52.0,
+    "confidence": "medium",
+    "source": "OpenStreetMap via Overpass API, fetched 2026-09-01 (ODbL)"
+   },
+   "powell_u_m": {
+    "value": -73.0,
+    "confidence": "medium",
+    "source": "OpenStreetMap via Overpass API, fetched 2026-09-01 (ODbL)"
+   },
+   "stockton_u_m": {
+    "value": 73.9,
+    "confidence": "medium",
+    "source": "OpenStreetMap via Overpass API, fetched 2026-09-01 (ODbL)"
+   }
+  },
+  "geary": {
+   "direction": {
+    "value": "one-way westbound",
+    "confidence": "high",
+    "source": "OpenStreetMap via Overpass API, fetched 2026-09-01 (ODbL)"
+   },
+   "lanes": {
+    "value": "3 lanes (OSM) plus curb parking/loading; Muni 38 stops at Stockton and Powell",
+    "confidence": "medium",
+    "source": "OpenStreetMap via Overpass API, fetched 2026-09-01 (ODbL)"
+   },
+   "sidewalk_plaza_side_m": {
+    "value": 3.7,
+    "confidence": "low",
+    "source": "estimate: 12 ft typical downtown; photo suggests plaza-side sidewalk may be 3.7-4.6 m"
+   },
+   "sidewalk_far_side_m": {
+    "value": 3.7,
+    "confidence": "low",
+    "source": "estimate"
+   },
+   "curb_to_curb_m": {
+    "value": 13.6,
+    "confidence": "low",
+    "source": "20.96 - 2 x 3.66 m; 44.75 ft"
+   },
+   "slope": {
+    "value": "falls east: 21.4 m at Powell, 19.9 m mid-block, 19.1 m at Stockton (-2.3 m over 126 m, ~1.8%)",
+    "confidence": "medium",
+    "source": "USGS 3DEP Elevation Point Query Service (epqs.nationalmap.gov), queried 2026-09-01, bare-earth DEM, NAVD88 metres"
+   }
+  },
+  "post": {
+   "direction": {
+    "value": "one-way eastbound",
+    "confidence": "medium",
+    "source": "OpenStreetMap via Overpass API, fetched 2026-09-01 (ODbL) (way direction with oneway=yes)"
+   },
+   "lanes": {
+    "value": "3-4 lanes (OSM)",
+    "confidence": "medium",
+    "source": "OpenStreetMap via Overpass API, fetched 2026-09-01 (ODbL)"
+   },
+   "sidewalk_m": {
+    "value": 3.7,
+    "confidence": "low",
+    "source": "estimate 12 ft"
+   },
+   "curb_to_curb_m": {
+    "value": 13.6,
+    "confidence": "low",
+    "source": "estimate"
+   },
+   "slope": {
+    "value": "falls east: 25.8 m at Powell, 24.2 m mid-block, 22.4 m at Stockton (-3.4 m, ~2.7%)",
+    "confidence": "medium",
+    "source": "USGS 3DEP Elevation Point Query Service (epqs.nationalmap.gov), queried 2026-09-01, bare-earth DEM, NAVD88 metres"
+   }
+  },
+  "powell": {
+   "direction": {
+    "value": "two-way, cable car tracks (Powell-Mason & Powell-Hyde) in both directions",
+    "confidence": "high",
+    "source": "OpenStreetMap via Overpass API, fetched 2026-09-01 (ODbL) ; brief"
+   },
+   "lanes": {
+    "value": "2 traffic lanes shared with cable cars + parking/taxi zone on west (Westin) side; OSM lanes 2-4",
+    "confidence": "medium",
+    "source": "OpenStreetMap via Overpass API, fetched 2026-09-01 (ODbL)"
+   },
+   "sidewalk_m": {
+    "value": 3.7,
+    "confidence": "low",
+    "source": "estimate 12 ft; the 2026-27 Powell St Improvement Project (21 ft sidewalks) covers Market-Geary only, NOT the square frontage"
+   },
+   "curb_to_curb_m": {
+    "value": 13.6,
+    "confidence": "low",
+    "source": "estimate"
+   },
+   "slope": {
+    "value": "rises north: 21.4 m at Geary, 23.6 m mid-block, 25.8 m at Post (+4.4 m over 84 m, ~5.2%)",
+    "confidence": "medium",
+    "source": "USGS 3DEP Elevation Point Query Service (epqs.nationalmap.gov), queried 2026-09-01, bare-earth DEM, NAVD88 metres"
+   }
+  },
+  "stockton": {
+   "direction": {
+    "value": "one-way southbound",
+    "confidence": "medium",
+    "source": "OpenStreetMap via Overpass API, fetched 2026-09-01 (ODbL)"
+   },
+   "lanes": {
+    "value": "2-3 lanes (OSM), bus stops (30/45) at Geary",
+    "confidence": "medium",
+    "source": "OpenStreetMap via Overpass API, fetched 2026-09-01 (ODbL)"
+   },
+   "sidewalk_m": {
+    "value": 3.7,
+    "confidence": "low",
+    "source": "estimate"
+   },
+   "curb_to_curb_m": {
+    "value": 13.6,
+    "confidence": "low",
+    "source": "estimate"
+   },
+   "slope": {
+    "value": "rises north: 19.1 m at Geary, 20.5 m mid-block, 22.4 m at Post (+3.3 m, ~3.9%)",
+    "confidence": "medium",
+    "source": "USGS 3DEP Elevation Point Query Service (epqs.nationalmap.gov), queried 2026-09-01, bare-earth DEM, NAVD88 metres"
+   }
+  }
+ },
+ "elevation": {
+  "street_samples_navd88_m": {
+   "corner_NW_Post_Powell": {
+    "value": 25.8,
+    "confidence": "medium",
+    "source": "USGS 3DEP Elevation Point Query Service (epqs.nationalmap.gov), queried 2026-09-01, bare-earth DEM, NAVD88 metres"
+   },
+   "corner_NE_Post_Stockton": {
+    "value": 22.4,
+    "confidence": "medium",
+    "source": "USGS 3DEP Elevation Point Query Service (epqs.nationalmap.gov), queried 2026-09-01, bare-earth DEM, NAVD88 metres"
+   },
+   "corner_SE_Geary_Stockton": {
+    "value": 19.1,
+    "confidence": "medium",
+    "source": "USGS 3DEP Elevation Point Query Service (epqs.nationalmap.gov), queried 2026-09-01, bare-earth DEM, NAVD88 metres"
+   },
+   "corner_SW_Geary_Powell": {
+    "value": 21.4,
+    "confidence": "medium",
+    "source": "USGS 3DEP Elevation Point Query Service (epqs.nationalmap.gov), queried 2026-09-01, bare-earth DEM, NAVD88 metres"
+   },
+   "mid_Post": {
+    "value": 24.2,
+    "confidence": "medium",
+    "source": "USGS 3DEP Elevation Point Query Service (epqs.nationalmap.gov), queried 2026-09-01, bare-earth DEM, NAVD88 metres"
+   },
+   "mid_Geary": {
+    "value": 19.9,
+    "confidence": "medium",
+    "source": "USGS 3DEP Elevation Point Query Service (epqs.nationalmap.gov), queried 2026-09-01, bare-earth DEM, NAVD88 metres"
+   },
+   "mid_Powell": {
+    "value": 23.6,
+    "confidence": "medium",
+    "source": "USGS 3DEP Elevation Point Query Service (epqs.nationalmap.gov), queried 2026-09-01, bare-earth DEM, NAVD88 metres"
+   },
+   "mid_Stockton": {
+    "value": 20.5,
+    "confidence": "medium",
+    "source": "USGS 3DEP Elevation Point Query Service (epqs.nationalmap.gov), queried 2026-09-01, bare-earth DEM, NAVD88 metres"
+   }
+  },
+  "plaza_levels": {
+   "central_plaza": {
+    "value": {
+     "z_m": 23.9,
+     "above_geary_sidewalk_m": 4.0
+    },
+    "confidence": "medium",
+    "source": "USGS 3DEP Elevation Point Query Service (epqs.nationalmap.gov), queried 2026-09-01, bare-earth DEM, NAVD88 metres (centre 23.94, west edge 23.74)",
+    "note": "Level deck over garage roof; near-level with Powell mid-block sidewalk (23.6)"
+   },
+   "north_terrace_stage_level": {
+    "value": {
+     "z_m": 24.8,
+     "above_geary_sidewalk_m": 4.9,
+     "above_central_plaza_m": 0.9
+    },
+    "confidence": "medium",
+    "source": "USGS 3DEP Elevation Point Query Service (epqs.nationalmap.gov), queried 2026-09-01, bare-earth DEM, NAVD88 metres (sample 24.8 at u 16, v 26) ; OpenStreetMap via Overpass API, fetched 2026-09-01 (ODbL) (6-step stairs 616479974/980)",
+    "note": "Band v ~ +12..+30 along Post; reached from the central plaza by 6-riser stairs/seat-steps"
+   },
+   "nw_corner_entrance": {
+    "value": {
+     "z_m": 25.5,
+     "above_geary_sidewalk_m": 5.6
+    },
+    "confidence": "medium",
+    "source": "USGS 3DEP Elevation Point Query Service (epqs.nationalmap.gov), queried 2026-09-01, bare-earth DEM, NAVD88 metres",
+    "note": "Essentially level with the Post/Powell sidewalk (25.8); slopes/steps down ~1.6 m to the central plaza across the NW lawn terrace"
+   },
+   "south_promenade": {
+    "value": {
+     "z_m": 22.9,
+     "above_geary_sidewalk_m": 3.0,
+     "below_central_plaza_m": 1.0
+    },
+    "confidence": "medium",
+    "source": "OpenStreetMap via Overpass API, fetched 2026-09-01 (ODbL) (6-step stair 616479979 down from v -15 to v -21) ; refs/plaza/03_elevated_from_macys_south_2012.jpg (Commons, S. Rae, CC BY 2.0, 2012)",
+    "note": "Walk with bench rows at v ~ -20 in front of the planted band that separates lawn terraces from the plaza"
+   },
+   "east_promenade": {
+    "value": {
+     "z_m": 23.0,
+     "above_geary_sidewalk_m": 3.1,
+     "below_central_plaza_m": 0.9
+    },
+    "confidence": "medium",
+    "source": "USGS 3DEP Elevation Point Query Service (epqs.nationalmap.gov), queried 2026-09-01, bare-earth DEM, NAVD88 metres (23.0-23.2 at u 43) ; OpenStreetMap via Overpass API, fetched 2026-09-01 (ODbL)",
+    "note": "Cafe/arbor level along Stockton, top of the 17-step Maiden Lane stair"
+   },
+   "sw_corner_entrance": {
+    "value": {
+     "z_m": 22.2,
+     "above_geary_sidewalk_m": 2.3
+    },
+    "confidence": "medium",
+    "source": "USGS 3DEP Elevation Point Query Service (epqs.nationalmap.gov), queried 2026-09-01, bare-earth DEM, NAVD88 metres",
+    "note": "~0.8 m above the SW sidewalk (21.4); then ~1.7 m more up to the plaza"
+   },
+   "se_corner_entrance": {
+    "value": {
+     "z_m": 20.0,
+     "above_geary_sidewalk_m": 0.1
+    },
+    "confidence": "medium",
+    "source": "USGS 3DEP Elevation Point Query Service (epqs.nationalmap.gov), queried 2026-09-01, bare-earth DEM, NAVD88 metres",
+    "note": "~0.9 m above the SE sidewalk (19.1); the lowest corner - longest stair runs here"
+   },
+   "lawn_terrace_tiers_south": {
+    "value": {
+     "tiers": "3-4 stepped grass tiers per lawn, 0.5-0.75 m each, from ~20.5 to 22.9 m",
+     "sampled_z": {
+      "SW_lawn_mid": 22.2,
+      "SE_lawn_lower": 21.2
+     }
+    },
+    "confidence": "medium",
+    "source": "USGS 3DEP Elevation Point Query Service (epqs.nationalmap.gov), queried 2026-09-01, bare-earth DEM, NAVD88 metres ; refs/plaza/03_elevated_from_macys_south_2012.jpg (Commons, S. Rae, CC BY 2.0, 2012)"
+   },
+   "garage_ramp_cuts": {
+    "value": {
+     "geary_portal_floor_at_property_line_m": 19.8,
+     "post_portal_west_m": 22.1
+    },
+    "confidence": "medium",
+    "source": "USGS 3DEP Elevation Point Query Service (epqs.nationalmap.gov), queried 2026-09-01, bare-earth DEM, NAVD88 metres",
+    "note": "DEM dips at u -8, v +28 (Post-side west portal) and u 0, v -40 (Geary portal)"
+   }
+  },
+  "garage_roof_note": {
+   "value": "The 2002 design levelled the sloping garage roof: \"Existing slopes of the garage roof were redesigned to create a level center with terraced edges of stairs, architecture and plantings.\"",
+   "confidence": "high",
+   "source": "April Philips Design Works project page: https://apdw.com/portfolio/urban/union-square/"
+  }
+ },
+ "edges": {
+  "south_geary": {
+   "summary": "Highest retaining edge (3-4.7 m). Two corner entrance plazas with palms, two stepped lawn terraces (SW and SE lawns) facing north as amphitheatre seating, the garage vehicle portal at mid-block bridged by the plaza deck, long stair runs with landings flanking the lawns, then a planted band with benches and a 6-riser stair up to the central plaza.",
+   "garage_portal": {
+    "value": {
+     "position": {
+      "u_m": 2,
+      "v_m": -41.9,
+      "latlon": [
+       37.78831,
+       -122.407573
+      ]
+     },
+     "width_m": "~24 (u -10..+14): two entry lanes (left 6 ft 7 in clearance, right 8 ft) plus exit lane on the west",
+     "deck_bridge_above": "plaza deck at ~22.9-23.9 m spans the portal; portal headwall faced in grey granite/concrete with ENTRANCE / DO NOT ENTER signage"
+    },
+    "confidence": "high",
+    "source": "https://www.sfmta.com/garages-lots/union-square-garage ; OpenStreetMap via Overpass API, fetched 2026-09-01 (ODbL) (parking_entrance nodes at u -7.3 and +7.4, level -1) ; refs/plaza/03_elevated_from_macys_south_2012.jpg (Commons, S. Rae, CC BY 2.0, 2012)"
+   },
+   "public_toilets": {
+    "value": {
+     "position": {
+      "u_m": 2.4,
+      "v_m": -28.2,
+      "latlon": [
+       37.788188,
+       -122.407544
+      ]
+     },
+     "level": "street/garage entry level"
+    },
+    "confidence": "low",
+    "source": "OpenStreetMap via Overpass API, fetched 2026-09-01 (ODbL) (amenity=toilets, wheelchair, no fee); Rec Park event page says no restrooms - treat as garage-lobby toilets, status unverified"
+   },
+   "garage_pedestrian_entry": {
+    "value": {
+     "u_m": 7.5,
+     "v_m": -24.5,
+     "latlon": [
+      37.788163,
+      -122.40748
+     ]
+    },
+    "confidence": "medium",
+    "source": "OpenStreetMap via Overpass API, fetched 2026-09-01 (ODbL) (entrance access=customers, level -1)"
+   },
+   "round_kiosk": {
+    "value": {
+     "position": {
+      "u_m": 14,
+      "v_m": -36,
+      "latlon": [
+       37.788274,
+       -122.407428
+      ]
+     },
+     "description": "dark-green cylindrical kiosk ~3 m dia x 3.5 m east of the portal at sidewalk level (garage elevator/vent housing)"
+    },
+    "confidence": "low",
+    "source": "refs/plaza/03_elevated_from_macys_south_2012.jpg (Commons, S. Rae, CC BY 2.0, 2012)"
+   },
+   "stairs": [
+    {
+     "value": {
+      "name": "SW lawn stair west",
+      "from": {
+       "u_m": -31.7,
+       "v_m": -39.5,
+       "latlon": [
+        37.78824,
+        -122.407947
+       ]
+      },
+      "to": {
+       "u_m": -31.6,
+       "v_m": -23.4,
+       "latlon": [
+        37.788097,
+        -122.407917
+       ]
+      },
+      "length_m": 16.0,
+      "rise_m": "~3.0 (19.9 -> 22.9) in ~18-20 risers with 2-3 landings",
+      "width_m": "~3"
+     },
+     "confidence": "medium",
+     "source": "OpenStreetMap via Overpass API, fetched 2026-09-01 (ODbL) way 115921767 ; rise from DEM"
+    },
+    {
+     "value": {
+      "name": "SW lawn stair east",
+      "from": {
+       "u_m": -19.3,
+       "v_m": -39.5,
+       "latlon": [
+        37.788258,
+        -122.407808
+       ]
+      },
+      "to": {
+       "u_m": -18.9,
+       "v_m": -23.4,
+       "latlon": [
+        37.788115,
+        -122.407774
+       ]
+      },
+      "length_m": 16.1,
+      "rise_m": "~3.0",
+      "width_m": "~3"
+     },
+     "confidence": "medium",
+     "source": "OpenStreetMap via Overpass API, fetched 2026-09-01 (ODbL) way 115921788"
+    },
+    {
+     "value": {
+      "name": "SE lawn stair west",
+      "from": {
+       "u_m": 16.1,
+       "v_m": -39.6,
+       "latlon": [
+        37.788309,
+        -122.40741
+       ]
+      },
+      "to": {
+       "u_m": 16.2,
+       "v_m": -23.2,
+       "latlon": [
+        37.788164,
+        -122.40738
+       ]
+      },
+      "length_m": 16.4,
+      "rise_m": "~3.0"
+     },
+     "confidence": "medium",
+     "source": "OpenStreetMap via Overpass API, fetched 2026-09-01 (ODbL) way 1161445108"
+    },
+    {
+     "value": {
+      "name": "SE lawn cross stairs (pair, E-W)",
+      "from": {
+       "u_m": 40.9,
+       "v_m": -33.6,
+       "latlon": [
+        37.788291,
+        -122.407121
+       ]
+      },
+      "to": {
+       "u_m": 27.9,
+       "v_m": -33.3,
+       "latlon": [
+        37.78827,
+        -122.407267
+       ]
+      },
+      "length_m": 13.0,
+      "note": "two parallel E-W flights at v -33.6 and -31.8; OSM step_count 50 is implausible - treat as ~12-16 risers"
+     },
+     "confidence": "low",
+     "source": "OpenStreetMap via Overpass API, fetched 2026-09-01 (ODbL) ways 1382445883/4"
+    },
+    {
+     "value": {
+      "name": "central south stair (plaza to south promenade)",
+      "from": {
+       "u_m": 0.3,
+       "v_m": -14.9,
+       "latlon": [
+        37.788067,
+        -122.407543
+       ]
+      },
+      "to": {
+       "u_m": 0.3,
+       "v_m": -21.1,
+       "latlon": [
+        37.788122,
+        -122.407555
+       ]
+      },
+      "risers": 6,
+      "rise_m": 1.0,
+      "width_m": "~12, with 3 handrails"
+     },
+     "confidence": "high",
+     "source": "OpenStreetMap via Overpass API, fetched 2026-09-01 (ODbL) way 616479979 ; refs/plaza/03_elevated_from_macys_south_2012.jpg (Commons, S. Rae, CC BY 2.0, 2012)"
+    },
+    {
+     "value": {
+      "name": "SE terrace stair",
+      "from": {
+       "u_m": 39.7,
+       "v_m": -23.2,
+       "latlon": [
+        37.788197,
+        -122.407116
+       ]
+      },
+      "to": {
+       "u_m": 39.2,
+       "v_m": -15.0,
+       "latlon": [
+        37.788123,
+        -122.407107
+       ]
+      },
+      "risers": 9,
+      "rise_m": "~1.4"
+     },
+     "confidence": "medium",
+     "source": "OpenStreetMap via Overpass API, fetched 2026-09-01 (ODbL) way 1161445107"
+    },
+    {
+     "value": {
+      "name": "SE corner stair to Geary/Stockton",
+      "from": {
+       "u_m": 49.1,
+       "v_m": -26.3,
+       "latlon": [
+        37.788238,
+        -122.407016
+       ]
+      },
+      "to": {
+       "u_m": 56.1,
+       "v_m": -33.4,
+       "latlon": [
+        37.788311,
+        -122.40695
+       ]
+      },
+      "risers": 18,
+      "rise_m": "~2.7 (23.0 -> 20.3)",
+      "length_m": 10.0
+     },
+     "confidence": "medium",
+     "source": "OpenStreetMap via Overpass API, fetched 2026-09-01 (ODbL) way 115921784"
+    },
+    {
+     "value": {
+      "name": "SW corner stair",
+      "from": {
+       "u_m": -49.3,
+       "v_m": -33.4,
+       "latlon": [
+        37.788161,
+        -122.408133
+       ]
+      },
+      "to": {
+       "u_m": -50.8,
+       "v_m": -36.3,
+       "latlon": [
+        37.788185,
+        -122.408155
+       ]
+      },
+      "risers": "~5",
+      "rise_m": "~0.8"
+     },
+     "confidence": "medium",
+     "source": "OpenStreetMap via Overpass API, fetched 2026-09-01 (ODbL) way 616479983"
+    }
+   ],
+   "lawns": {
+    "value": {
+     "SW_lawn": {
+      "extent_uv": "u -45..-10, v -40..-24",
+      "tiers": "3-4 stepped grass tiers with granite-faced risers ~0.5 m; 4 broadleaf trees in a 2x2 grid at u -26/-15, v -34/-27"
+     },
+     "SE_lawn": {
+      "extent_uv": "u +10..+45, v -40..-24",
+      "tiers": "same, mirrored; trees at u 42.6, v -27/-35 and u 48.6/56, v -20"
+     }
+    },
+    "confidence": "medium",
+    "source": "OpenStreetMap via Overpass API, fetched 2026-09-01 (ODbL) tree nodes ; refs/plaza/03_elevated_from_macys_south_2012.jpg (Commons, S. Rae, CC BY 2.0, 2012)"
+   },
+   "planted_band": {
+    "value": {
+     "extent_uv": "v -24..-16, u -45..+45 (interrupted at the axis)",
+     "description": "raised planter 0.6-0.9 m with dense shrubs/hedges and small trees; granite seat-wall on plaza side; benches on the south promenade in front"
+    },
+    "confidence": "medium",
+    "source": "refs/plaza/03_elevated_from_macys_south_2012.jpg (Commons, S. Rae, CC BY 2.0, 2012)"
+   },
+   "ramps": {
+    "value": "ADA access to the plaza is via the near-level NW corner and the west (Powell) mid-block entrance; no dedicated ramp on the Geary side observed",
+    "confidence": "low",
+    "source": "inference from DEM + photos"
+   }
+  },
+  "west_powell": {
+   "summary": "Near-level edge. Powell rises 4.4 m from Geary to Post; the plaza (23.9) is level with the mid-block sidewalk (23.6), ~2.5 m above the SW corner and ~1.9 m below the NW corner. Perimeter planters with palms; two kiosk pavilions (West Complex) set ~7 m in from the edge, flanking the west axis.",
+   "mid_block_entrance": {
+    "value": {
+     "position": {
+      "u_m": -60,
+      "v_m": 0,
+      "latlon": [
+       37.787848,
+       -122.408193
+      ]
+     },
+     "steps": "0-2 risers",
+     "description": "primary accessible entry"
+    },
+    "confidence": "medium",
+    "source": "USGS 3DEP Elevation Point Query Service (epqs.nationalmap.gov), queried 2026-09-01, bare-earth DEM, NAVD88 metres ; OpenStreetMap via Overpass API, fetched 2026-09-01 (ODbL)"
+   },
+   "nw_corner": {
+    "value": {
+     "sidewalk_z": 25.8,
+     "plaza_z": 25.5,
+     "description": "Near-level corner entrance plaza with 3 palms (u -43..-58, v 14..29), lawn panel with curved seat-wall; steps/ramp down ~1.6 m to the central plaza"
+    },
+    "confidence": "medium",
+    "source": "USGS 3DEP Elevation Point Query Service (epqs.nationalmap.gov), queried 2026-09-01, bare-earth DEM, NAVD88 metres ; OpenStreetMap via Overpass API, fetched 2026-09-01 (ODbL) ; refs/plaza/03_elevated_from_macys_south_2012.jpg (Commons, S. Rae, CC BY 2.0, 2012)"
+   },
+   "sw_corner": {
+    "value": {
+     "sidewalk_z": 21.4,
+     "description": "Corner entrance plaza with 4 palms (u -57..-43, v -21..-36); ~5 risers up from the sidewalk then further stairs to the plaza; SOL heart sculpture"
+    },
+    "confidence": "medium",
+    "source": "OpenStreetMap via Overpass API, fetched 2026-09-01 (ODbL) ; USGS 3DEP Elevation Point Query Service (epqs.nationalmap.gov), queried 2026-09-01, bare-earth DEM, NAVD88 metres"
+   },
+   "small_steps": [
+    {
+     "value": {
+      "from": {
+       "u_m": -38.7,
+       "v_m": 8.5,
+       "latlon": [
+        37.787803,
+        -122.407939
+       ]
+      },
+      "to": {
+       "u_m": -38.3,
+       "v_m": 5.4,
+       "latlon": [
+        37.787831,
+        -122.40794
+       ]
+      }
+     },
+     "confidence": "medium",
+     "source": "OpenStreetMap via Overpass API, fetched 2026-09-01 (ODbL) way 616479975 (kiosk-terrace step)"
+    },
+    {
+     "value": {
+      "from": {
+       "u_m": -35.4,
+       "v_m": 13.9,
+       "latlon": [
+        37.78776,
+        -122.407892
+       ]
+      },
+      "to": {
+       "u_m": -37.1,
+       "v_m": 15.9,
+       "latlon": [
+        37.78774,
+        -122.407908
+       ]
+      }
+     },
+     "confidence": "medium",
+     "source": "OpenStreetMap via Overpass API, fetched 2026-09-01 (ODbL) way 616479992"
+    }
+   ]
+  },
+  "north_post": {
+   "summary": "Post falls 3.4 m from Powell to Stockton. A raised north terrace (~24.8 m) carries the permanent stage on the axis with the two Post-side garage portals either side; seat-steps (6 risers) drop to the central plaza. NW corner near-level; NE corner ~2.4 m above the sidewalk with a corner stair.",
+   "stage": {
+    "value": {
+     "canopy_footprint_uv": "u -6.7..+7.2, v 17.6..25.5 (14 x 8 m)",
+     "deck_z_m": "~24.8 (north terrace level), ~0.9 m above the central plaza",
+     "description": "Permanent stage (\"symphony-sized\") with steel roof/lighting canopy, faces south; back to Post St",
+     "latlon": [
+      37.787743,
+      -122.407481
+     ]
+    },
+    "confidence": "medium",
+    "source": "OpenStreetMap via Overpass API, fetched 2026-09-01 (ODbL) way 616479965 (amenity=theatre, building=roof) ; SF Rec & Park Commission staff report, Union Square Café lease, 2023-09-21: https://sfrecpark.org/DocumentCenter/View/21087/ ; April Philips Design Works project page: https://apdw.com/portfolio/urban/union-square/"
+   },
+   "seat_steps": {
+    "value": {
+     "west_block": "u -28.3..-11.4, v 10..16",
+     "east_block": "u -7.1..7.3, v 10..12.4 (and mirrored east of axis)",
+     "risers": 6,
+     "description": "wide granite seat-steps/bleachers facing south onto the plaza, flanking the stage"
+    },
+    "confidence": "medium",
+    "source": "OpenStreetMap via Overpass API, fetched 2026-09-01 (ODbL) ways 616479958/961 (bench areas), steps 616479974/980"
+   },
+   "garage_portals_post": [
+    {
+     "value": {
+      "position": {
+       "u_m": -14.3,
+       "v_m": 26.2,
+       "latlon": [
+        37.78768,
+        -122.407633
+       ]
+      },
+      "role": "entrance/exit ramp (level 0 tag)"
+     },
+     "confidence": "medium",
+     "source": "OpenStreetMap via Overpass API, fetched 2026-09-01 (ODbL) node 1707762331 ; https://www.sfmta.com/garages-lots/union-square-garage (\"Post Street entrances\")"
+    },
+    {
+     "value": {
+      "position": {
+       "u_m": 15.1,
+       "v_m": 26.1,
+       "latlon": [
+        37.787723,
+        -122.407304
+       ]
+      },
+      "role": "entrance/exit ramp"
+     },
+     "confidence": "medium",
+     "source": "OpenStreetMap via Overpass API, fetched 2026-09-01 (ODbL) node 386885888"
+    }
+   ],
+   "garage_elevator_north": {
+    "value": {
+     "u_m": -4.4,
+     "v_m": 24.0,
+     "latlon": [
+      37.787714,
+      -122.407526
+     ]
+    },
+    "confidence": "medium",
+    "source": "OpenStreetMap via Overpass API, fetched 2026-09-01 (ODbL) node 13291506471 (\"Access to underground parking garage\", wheelchair)"
+   },
+   "stairs": [
+    {
+     "value": {
+      "name": "central axis stair Post -> terrace",
+      "from": {
+       "u_m": -0.4,
+       "v_m": 39.6,
+       "latlon": [
+        37.787581,
+        -122.407453
+       ]
+      },
+      "to": {
+       "u_m": -0.3,
+       "v_m": 31.0,
+       "latlon": [
+        37.787658,
+        -122.407468
+       ]
+      },
+      "length_m": 8.5,
+      "risers": "~3-4 (24.2 -> 24.8)"
+     },
+     "confidence": "medium",
+     "source": "OpenStreetMap via Overpass API, fetched 2026-09-01 (ODbL) way 1448722754"
+    },
+    {
+     "value": {
+      "name": "west flank stair beside portal",
+      "from": {
+       "u_m": -4.8,
+       "v_m": 28.5,
+       "latlon": [
+        37.787674,
+        -122.407523
+       ]
+      },
+      "to": {
+       "u_m": -7.3,
+       "v_m": 40.4,
+       "latlon": [
+        37.787564,
+        -122.407529
+       ]
+      },
+      "length_m": 12.1
+     },
+     "confidence": "medium",
+     "source": "OpenStreetMap via Overpass API, fetched 2026-09-01 (ODbL) way 115921793"
+    },
+    {
+     "value": {
+      "name": "east flank stair beside portal",
+      "from": {
+       "u_m": 7.4,
+       "v_m": 40.5,
+       "latlon": [
+        37.787584,
+        -122.407364
+       ]
+      },
+      "to": {
+       "u_m": 5.1,
+       "v_m": 28.9,
+       "latlon": [
+        37.787684,
+        -122.407411
+       ]
+      },
+      "length_m": 11.9
+     },
+     "confidence": "medium",
+     "source": "OpenStreetMap via Overpass API, fetched 2026-09-01 (ODbL) way 115921794"
+    },
+    {
+     "value": {
+      "name": "NE corner stair",
+      "from": {
+       "u_m": 58.4,
+       "v_m": 32.4,
+       "latlon": [
+        37.787729,
+        -122.406806
+       ]
+      },
+      "to": {
+       "u_m": 53.3,
+       "v_m": 29.0,
+       "latlon": [
+        37.787752,
+        -122.40687
+       ]
+      },
+      "length_m": 6.1,
+      "risers": "~12-15 (22.4 -> 24.5)"
+     },
+     "confidence": "medium",
+     "source": "OpenStreetMap via Overpass API, fetched 2026-09-01 (ODbL) way 616479984 ; USGS 3DEP Elevation Point Query Service (epqs.nationalmap.gov), queried 2026-09-01, bare-earth DEM, NAVD88 metres"
+    },
+    {
+     "value": {
+      "name": "2-riser steps along north terrace edge",
+      "positions_u": [
+       19.7,
+       25.1,
+       30.4,
+       35.7
+      ],
+      "v": 23.6
+     },
+     "confidence": "medium",
+     "source": "OpenStreetMap via Overpass API, fetched 2026-09-01 (ODbL) ways 1080173784-91"
+    }
+   ],
+   "trees_north": {
+    "value": "3 broadleaf trees on the terrace at u -9.4/8.5/21.8, v 31; 4 palms at the NE corner (u 42..57, v 23..38)",
+    "confidence": "medium",
+    "source": "OpenStreetMap via Overpass API, fetched 2026-09-01 (ODbL)"
+   },
+   "sfpd_mobile_command": {
+    "value": "SFPD mobile command centre parked on the Post St side of the plaza (2023; presence in 2026 unverified)",
+    "confidence": "low",
+    "source": "SF Rec & Park Commission staff report, Union Square Café lease, 2023-09-21: https://sfrecpark.org/DocumentCenter/View/21087/"
+   }
+  },
+  "east_stockton": {
+   "summary": "Stockton is 2.5-4.7 m below the plaza. Grand terraced stair on the Maiden Lane axis (17 risers, 2.5 m rise) lands on the east promenade (23.0) which is 6 risers below the central plaza. East Complex cafe pavilion north of the axis, secondary pavilion + garage elevator/art kiosk south of it. Palms at both corners.",
+   "maiden_lane_stair": {
+    "value": {
+     "from": {
+      "u_m": 60.6,
+      "v_m": 0.1,
+      "latlon": [
+       37.788019,
+       -122.40684
+      ]
+     },
+     "to": {
+      "u_m": 49.3,
+      "v_m": 0.0,
+      "latlon": [
+       37.788004,
+       -122.406967
+      ]
+     },
+     "length_m": 11.3,
+     "risers": 17,
+     "rise_m": 2.5,
+     "width_m": "~10-12",
+     "note": "gentle \"terraced steps aligned with Maiden Lane\" - treads ~0.6 m or with landings"
+    },
+    "confidence": "high",
+    "source": "OpenStreetMap via Overpass API, fetched 2026-09-01 (ODbL) way 616479991 ; April Philips Design Works project page: https://apdw.com/portfolio/urban/union-square/ ; USGS 3DEP Elevation Point Query Service (epqs.nationalmap.gov), queried 2026-09-01, bare-earth DEM, NAVD88 metres"
+   },
+   "promenade_to_plaza_steps": {
+    "value": "~6 risers (0.9 m) from the east promenade (23.0) up to the central plaza (23.9) along u ~ +40..+45",
+    "confidence": "medium",
+    "source": "USGS 3DEP Elevation Point Query Service (epqs.nationalmap.gov), queried 2026-09-01, bare-earth DEM, NAVD88 metres"
+   },
+   "garage_elevator_se": {
+    "value": {
+     "position": {
+      "u_m": 35.5,
+      "v_m": -35.9,
+      "latlon": [
+       37.788304,
+       -122.407186
+      ]
+     },
+     "description": "glazed elevator kiosk (level 0 to -1) with SF Arts Commission glass artwork \"Convergence: Commute Patterns\" (Hughen/Starkweather) and info board"
+    },
+    "confidence": "medium",
+    "source": "OpenStreetMap via Overpass API, fetched 2026-09-01 (ODbL) nodes 12799054507, 10802402429"
+   },
+   "secondary_pavilion": {
+    "value": {
+     "footprint_uv": "u 48.1..55.6, v -14.9..-6.0 (7.5 x 9 m)",
+     "height_m": 5,
+     "canopy": "roof u 42.5..53.4, v -19.4..-4.1",
+     "use": "UNRESOLVED (storage/annex or garage stair enclosure)"
+    },
+    "confidence": "low",
+    "source": "OpenStreetMap via Overpass API, fetched 2026-09-01 (ODbL) way 115921776, roof 616479964"
+   }
+  }
+ },
+ "dewey_monument": {
+  "position": {
+   "value": {
+    "uv": [
+     0,
+     0
+    ],
+    "latlon": [
+     37.787934,
+     -122.40752
+    ],
+    "note": "geometric centre of the block (computed centre 37.787934,-122.407517)"
+   },
+   "confidence": "high",
+   "source": "OpenStreetMap via Overpass API, fetched 2026-09-01 (ODbL) ; https://en.wikipedia.org/wiki/Dewey_Monument"
+  },
+  "total_height_m": {
+   "value": 29.0,
+   "confidence": "medium",
+   "source": "sources disagree: Wikipedia 85 ft column + 9 ft statue (28.6 m); SIRIS 83 ft column + 12 ft figure (29 m); Rec Park \"90-foot column\"; brief 97 ft. Use 29.0 +/- 1.0"
+  },
+  "shaft": {
+   "value": {
+    "style": "plain (unfluted) round Corinthian column, slight entasis",
+    "diameter_m": 1.55,
+    "height_m": "~21-22 (shaft only, capital excluded)",
+    "material": "grey California granite, blocks of ~18 t"
+   },
+   "confidence": "medium",
+   "source": "https://en.wikipedia.org/wiki/Dewey_Monument (\"over 5 ft diameter\") ; https://www.si.edu/object/dewey-monument-sculpture:siris_ari_342041 (via search snippet; page returned 403) ; refs/plaza/02_plaza_2022_july.jpg (Commons, CC0, 2022)"
+  },
+  "capital": {
+   "value": {
+    "style": "Corinthian, granite",
+    "height_m": "~2.0",
+    "width_m": "~2.6"
+   },
+   "confidence": "medium",
+   "source": "refs/plaza/02_plaza_2022_july.jpg (Commons, CC0, 2022) ; https://theclio.com/entry/11657"
+  },
+  "statue": {
+   "value": {
+    "subject": "Victory (Nike) with trident and wreath",
+    "material": "bronze",
+    "height_m": "2.7-3.7 (9 ft per Wikipedia, 12 ft per SIRIS)",
+    "sculptor": "Robert Ingersoll Aitken",
+    "architect": "Newton J. Tharp",
+    "dedicated": "1903-05-14"
+   },
+   "confidence": "high",
+   "source": "https://en.wikipedia.org/wiki/Dewey_Monument ; https://www.si.edu/object/dewey-monument-sculpture:siris_ari_342041 (via search snippet; page returned 403)"
+  },
+  "base": {
+   "value": {
+    "pedestal": "square granite pedestal ~3.35 x 3.35 m (11 ft), ~2.4 m (8 ft) tall, inscriptions on all four faces, moulded cap and base",
+    "plinth_steps": "2-3 granite steps below the pedestal, footprint ~5-6 m square",
+    "surround": "circular planted bed ~6-7 m diameter with low granite kerb (~0.3 m) and groundcover",
+    "bronze_plaque": "small plaque on south face"
+   },
+   "confidence": "medium",
+   "source": "https://www.si.edu/object/dewey-monument-sculpture:siris_ari_342041 (via search snippet; page returned 403) (8 x 11 x 11 ft) ; refs/plaza/02_plaza_2022_july.jpg (Commons, CC0, 2022) ; refs/plaza/08_dewey_base_inscription.jpg"
+  },
+  "lighting": {
+   "value": "floodlit/uplit at night from fixtures in the surround",
+   "confidence": "medium",
+   "source": "Commons \"Monument by night\" (2011) photo"
+  }
+ },
+ "paving": {
+  "central_plaza": {
+   "value": {
+    "material": "flame-finished granite pavers",
+    "pattern": "full-width E-W bands alternating light and dark, each ~3.5-4.5 m wide (about 6 light + 6 dark bands across the central plaza), continuous across the whole central level",
+    "light_colour": "warm beige/pale pink-grey granite (#c9b8a4 to #d9cbb8)",
+    "dark_colour": "charcoal/blue-grey granite (#5a5f63 to #6b7075)",
+    "module": "~0.6 x 0.9 m rectangular pavers, running bond within bands",
+    "edge_detail": "narrow dark border strip along band edges; concentric circle only around the monument bed"
+   },
+   "confidence": "medium",
+   "source": "refs/plaza/03_elevated_from_macys_south_2012.jpg (Commons, S. Rae, CC BY 2.0, 2012) ; refs/plaza/02_plaza_2022_july.jpg (Commons, CC0, 2022) ; APDW \"paving scheme recalls the site's natural heritage\""
+  },
+  "promenades_and_corners": {
+   "value": "uniform mid-grey granite/concrete-unit paving, larger modules; corner plazas plain grey with granite curbs",
+   "confidence": "low",
+   "source": "refs/plaza/03_elevated_from_macys_south_2012.jpg (Commons, S. Rae, CC BY 2.0, 2012)"
+  },
+  "steps_and_walls": {
+   "value": "grey granite treads and risers; retaining and planter walls faced in dark grey granite with flat coping usable as seating (0.45-0.9 m high)",
+   "confidence": "medium",
+   "source": "refs/plaza/03_elevated_from_macys_south_2012.jpg (Commons, S. Rae, CC BY 2.0, 2012)"
+  },
+  "sidewalks": {
+   "value": "standard SF grey concrete sidewalks with scored pattern",
+   "confidence": "low",
+   "source": "typical downtown condition"
+  }
+ },
+ "trees": {
+  "palms": {
+   "value": {
+    "species": "Phoenix canariensis (Canary Island date palm)",
+    "trunk_height_m": "6-9",
+    "crown_dia_m": "7-9",
+    "arrangement": "3-4 per corner entrance plaza (12-16 total), plus 3 along Powell",
+    "positions_uv": {
+     "NW": [
+      [
+       -43.4,
+       28.9
+      ],
+      [
+       -49.0,
+       21.5
+      ],
+      [
+       -57.8,
+       13.9
+      ]
+     ],
+     "NE": [
+      [
+       42.3,
+       37.5
+      ],
+      [
+       42.8,
+       29.1
+      ],
+      [
+       48.5,
+       23.0
+      ],
+      [
+       56.8,
+       22.7
+      ]
+     ],
+     "SE": [
+      [
+       56.0,
+       -20.4
+      ],
+      [
+       48.6,
+       -20.4
+      ],
+      [
+       42.6,
+       -27.1
+      ],
+      [
+       42.6,
+       -34.9
+      ]
+     ],
+     "SW": [
+      [
+       -57.4,
+       -20.6
+      ],
+      [
+       -48.7,
+       -21.3
+      ],
+      [
+       -43.1,
+       -26.9
+      ],
+      [
+       -42.6,
+       -35.7
+      ]
+     ]
+    }
+   },
+   "confidence": "medium",
+   "source": "OpenStreetMap via Overpass API, fetched 2026-09-01 (ODbL) tree nodes (no species tag) ; Commons \"Phoenix canariensis on Union Square\" (2020) ; https://www.foundsf.org/UNION_SQUARE_AFTER_1906 (\"palms line each entry\")"
+  },
+  "broadleaf_trees": {
+   "value": {
+    "species": "UNRESOLVED - round-headed deciduous/evergreen broadleaf ~5-8 m (olive or similar in lawns; larger specimens on the north terrace)",
+    "positions_uv": {
+     "SW_lawn": [
+      [
+       -25.5,
+       -34.3
+      ],
+      [
+       -15.1,
+       -34.0
+      ],
+      [
+       -26.1,
+       -26.5
+      ],
+      [
+       -15.7,
+       -26.6
+      ]
+     ],
+     "north_terrace": [
+      [
+       -9.4,
+       31.1
+      ],
+      [
+       8.5,
+       31.2
+      ],
+      [
+       21.8,
+       31.0
+      ]
+     ],
+     "SE_side": "mirror of SW lawn assumed (OSM incomplete)"
+    }
+   },
+   "confidence": "low",
+   "source": "OpenStreetMap via Overpass API, fetched 2026-09-01 (ODbL) ; refs/plaza/03_elevated_from_macys_south_2012.jpg (Commons, S. Rae, CC BY 2.0, 2012)"
+  },
+  "hedges_planters": {
+   "value": "Dense low shrub/hedge planting (boxwood-type, ~0.6-1.0 m) in the raised bands south and north of the central plaza, in perimeter planters along Powell and Stockton, and in pots at the kiosks; seasonal flower beds in the NW lawn panel and monument bed. Historic 16 Irish yews in planter boxes (1942 design) are gone.",
+   "confidence": "medium",
+   "source": "refs/plaza/03_elevated_from_macys_south_2012.jpg (Commons, S. Rae, CC BY 2.0, 2012) ; https://www.foundsf.org/UNION_SQUARE_AFTER_1906"
+  },
+  "lawns": {
+   "value": {
+    "count": 4,
+    "description": "SW and SE lawns are stepped amphitheatre terraces (see edges.south_geary); NW corner has a flat/gently sloped lawn panel with curved seat-wall; NE corner lawn is small (cafe terrace dominates)"
+   },
+   "confidence": "medium",
+   "source": "refs/plaza/03_elevated_from_macys_south_2012.jpg (Commons, S. Rae, CC BY 2.0, 2012) ; https://en.wikipedia.org/wiki/Union_Square,_San_Francisco (\"four grand entrance corners\")"
+  }
+ },
+ "seating": {
+  "fixed_benches": {
+   "value": {
+    "count": "~16 mapped",
+    "type": "metal slat benches with backrests, ~1.8 m",
+    "rows": {
+     "south_edge_of_plaza_v-15": [
+      -30.5,
+      -24.5,
+      -18.3,
+      -12.2,
+      11.8,
+      17.9,
+      23.5,
+      29.6
+     ],
+     "south_promenade_v-20": [
+      -30.4,
+      -24.0,
+      -18.2,
+      -11.8
+     ],
+     "north_terrace_v19_facing_S": [
+      -18.2,
+      -27.2,
+      -32.5
+     ],
+     "east_v-6": [
+      43.4
+     ]
+    }
+   },
+   "confidence": "medium",
+   "source": "OpenStreetMap via Overpass API, fetched 2026-09-01 (ODbL) bench nodes 990099968x/990103632x"
+  },
+  "seat_steps": {
+   "value": "granite bleacher/seat-steps flanking the stage (north) and the tops of the south planted-band walls",
+   "confidence": "medium",
+   "source": "OpenStreetMap via Overpass API, fetched 2026-09-01 (ODbL) ; refs/plaza/03_elevated_from_macys_south_2012.jpg (Commons, S. Rae, CC BY 2.0, 2012)"
+  },
+  "ledge_seating": {
+   "value": "lawn terrace risers and planter walls (0.45-0.6 m) used as seating; SE lawn cross-stairs act as bleachers",
+   "confidence": "medium",
+   "source": "refs/plaza/03_elevated_from_macys_south_2012.jpg (Commons, S. Rae, CC BY 2.0, 2012)"
+  },
+  "movable_furniture": {
+   "value": "green metal bistro tables and chairs across the central plaza (present since at least 2022); BRV programming (2025-2027) staffs \"tables and chairs\" daily, plus umbrellas, game tables, kids-zone foam blocks, chess/reading pavilion at the SE corner",
+   "confidence": "high",
+   "source": "refs/plaza/02_plaza_2022_july.jpg (Commons, CC0, 2022) ; SF Rec & Park newsflash 2026-02-10 (Mayor Lurie, BRV programming): https://sfrecpark.org/m/newsflash/home/detail/2708 ; https://visitunionsquaresf.com/park-programs"
+  },
+  "cafe_seating": {
+   "value": "East Complex: interior + veranda + arbor seating (~40-60 seats); West Complex: glass-fenced veranda 56 m2, 34 seats, green umbrellas",
+   "confidence": "high",
+   "source": "SF Rec & Park, Union Square West Café RFP, issued 2026-03-05: https://sfrecpark.org/DocumentCenter/View/28464/ ; SF Rec & Park Commission staff report, Union Square Café lease, 2023-09-21: https://sfrecpark.org/DocumentCenter/View/21087/"
+  }
+ },
+ "lighting": {
+  "light_sculptures": {
+   "value": {
+    "name": "Union Square Colonnade (4 pieces)",
+    "artist": "R.M. Fischer, 1999-2002",
+    "base": "13 ft (4.0 m) polished red granite column, ~0.6 m dia",
+    "crown": "cast-aluminium historic lamp components with polished stainless globes and clear illuminated polycarbonate spheres; the 4th is a single 5 ft (1.5 m) brushed stainless sphere split horizontally, lit from within",
+    "total_height_m": "5.5-7.3 (18-24 ft)",
+    "positions_uv_approx": [
+     [
+      -45,
+      -14
+     ],
+     [
+      -14,
+      -14
+     ],
+     [
+      14,
+      -14
+     ],
+     [
+      45,
+      -14
+     ]
+    ],
+    "note": "row along the south edge of the central plaza; exact u values +/-5 m from photo"
+   },
+   "confidence": "medium",
+   "source": "SF Arts Commission / Americans for the Arts, Union Square Colonnade (R.M. Fischer): https://www.americansforthearts.org/.../union-square-colonnade ; https://artandarchitecture-sf.com/union-square-san-francisco-march-25-2012.html ; refs/plaza/03_elevated_from_macys_south_2012.jpg (Commons, S. Rae, CC BY 2.0, 2012)"
+  },
+  "pole_lights": {
+   "value": {
+    "type": "slender pedestrian poles ~5 m with twin small globe/lantern luminaires",
+    "locations": "south and north promenades, corner plazas, along stairs; spacing ~10-15 m",
+    "count": "UNRESOLVED (est. 20-30)"
+   },
+   "confidence": "low",
+   "source": "refs/plaza/03_elevated_from_macys_south_2012.jpg (Commons, S. Rae, CC BY 2.0, 2012)"
+  },
+  "street_lights": {
+   "value": "Powell St: ornamental black cast-iron cable-car-street poles with 3 globes (~7 m); Geary/Post/Stockton: SF standard cobra-head/\"twin acorn\" poles on the far sidewalks",
+   "confidence": "low",
+   "source": "refs/plaza/04-05 and 13 photos"
+  },
+  "monument_uplights": {
+   "value": "in-ground floodlights in the monument bed",
+   "confidence": "medium",
+   "source": "Commons night photo 2011"
+  },
+  "holiday_lighting": {
+   "value": "Palms and trees wrapped in string lights Nov-Jan; Macy's Great Tree (43,000 LEDs) and ice-rink lighting; Bill Graham Menorah (Chabad) in December",
+   "confidence": "medium",
+   "source": "https://sf.funcheap.com/macys-tree-lighting-san-francisco/ ; https://sfist.com/2025/11/11/ ; https://unionsquareicerink.com/ and https://sf.funcheap.com/event-series/holiday-ice-skating-rink-union-square-sf/"
+  }
+ },
+ "structures": {
+  "west_complex_cafe": {
+   "value": {
+    "name_2026": "b. Patisserie (one-year permit Mar 2026 - Feb 2027; new lessee from ~Mar 2027 via RFP issued 2026-03-05)",
+    "footprint_uv": "u -53.2..-43.9, v -18.7..-3.5 (9.3 x 15.2 m incl. veranda)",
+    "building": "~86 m2 (930 sq ft) indoor, single storey ~4 m, glass front 21 linear ft toward plaza; glass-fenced veranda 56 m2 (34 seats) facing the plaza and wrapping the back; curved glass canopy over veranda (roof u -49..-41.7)",
+    "former_ticket_booth": "ex TIX Bay Area booth windows (closed 2019) are part of this building",
+    "storage": "garage-level storage with walk-in cooler",
+    "latlon": [
+     37.787963,
+     -122.408084
+    ],
+    "history": "Bancarella Cafe / See's / TIX (2012-2020) -> McCalls (2021-Aug 2023) -> Miller & Lux Provisions (Tyler Florence, late 2023 - Feb 2025) -> b. Patisserie (Mar 2025-)"
+   },
+   "confidence": "high",
+   "source": "SF Rec & Park, Union Square West Café RFP, issued 2026-03-05: https://sfrecpark.org/DocumentCenter/View/28464/ ; SF Rec & Park Commission staff report, Union Square Café lease, 2023-09-21: https://sfrecpark.org/DocumentCenter/View/21087/ ; OpenStreetMap via Overpass API, fetched 2026-09-01 (ODbL) way 332500661 ; BroadwayWorld 2019-09-26: https://www.broadwayworld.com/san-francisco/article/Tix-Bay-Area-Ticket-Booth-To-Close-This-Saturday-September-28-20190926"
+  },
+  "west_north_kiosk": {
+   "value": {
+    "name": "Park Wide Bike Rentals (OSM) / former visitor-info annex - 2026 use UNRESOLVED",
+    "footprint_uv": "u -53.3..-48.3, v 6.0..14.2 (5 x 8 m), canopy u -53.4..-42.3, v 3.3..19.3",
+    "height_m": 3,
+    "latlon": [
+     37.787773,
+     -122.408072
+    ]
+   },
+   "confidence": "low",
+   "source": "OpenStreetMap via Overpass API, fetched 2026-09-01 (ODbL) way 332499923, roof 616479967 ; SF Rec & Park Commission staff report, Union Square Café lease, 2023-09-21: https://sfrecpark.org/DocumentCenter/View/21087/ (\"Annex Storage Space - 7\")"
+  },
+  "east_complex_cafe": {
+   "value": {
+    "name_2026": "Super Duper Burgers (5-yr lease + 2x5-yr options, approved Jan 2026; opening early fall 2026 after renovation adding cooking) - formerly Emporio Rulli (2003-2020), McCalls (2021-23), Miller & Lux Provisions (2023 - Feb 2025); vacant/under renovation late 2025 - summer 2026",
+    "footprint_uv": "u 44.4..55.6, v 3.8..17.8 (11 x 14 m)",
+    "building": "~93 m2 (1,000 sq ft) interior, single storey ~6 m, custom display cases, dumbwaiter to garage-level prep/walk-in cooler; veranda seating on the plaza side; arbor seating area under trellis (roof u 42.5..49.3, v 5.1..18.7)",
+    "latlon": [
+     37.787909,
+     -122.406939
+    ]
+   },
+   "confidence": "high",
+   "source": "SF Rec & Park newsflash 2026-01-09: https://sfrecpark.org/m/newsflash/home/detail/2646 ; SF Rec & Park Union Square East Café RFP page / Q&A 2025-07-28: https://sfrecpark.org/1838/ and https://sfrecpark.org/DocumentCenter/View/26399/ ; SF Rec & Park Commission staff report, Union Square Café lease, 2023-09-21: https://sfrecpark.org/DocumentCenter/View/21087/ ; OpenStreetMap via Overpass API, fetched 2026-09-01 (ODbL) way 115921779"
+  },
+  "ticket_booth": {
+   "value": "TIX Bay Area booth closed permanently 2019-09-28; no ticket booth on the plaza in 2025-26 (Yelp lists TIX Bay Area as closed, 350 Powell)",
+   "confidence": "high",
+   "source": "BroadwayWorld 2019-09-26: https://www.broadwayworld.com/san-francisco/article/Tix-Bay-Area-Ticket-Booth-To-Close-This-Saturday-September-28-20190926"
+  },
+  "restrooms": {
+   "value": "No public restrooms on the plaza deck; OSM maps toilets at the Geary garage lobby (u 2.4, v -28.2); staff restroom inside the West Complex",
+   "confidence": "medium",
+   "source": "https://sfrecpark.org/899/Union-Square-Plaza (event rental page) ; OpenStreetMap via Overpass API, fetched 2026-09-01 (ODbL) ; SF Rec & Park, Union Square West Café RFP, issued 2026-03-05: https://sfrecpark.org/DocumentCenter/View/28464/"
+  },
+  "union_square_garage": {
+   "value": {
+    "operator": "SFMTA, 333 Post St",
+    "levels": 4,
+    "capacity": "670 spaces (SFMTA 2026) - older sources say up to 1,700",
+    "built": "1941-42, first underground garage under a park",
+    "vehicle_portals": {
+     "geary_mid_block": {
+      "u_m": 2,
+      "v_m": -41.9,
+      "latlon": [
+       37.78831,
+       -122.407573
+      ]
+     },
+     "post_west": {
+      "u_m": -14.3,
+      "v_m": 26.2,
+      "latlon": [
+       37.78768,
+       -122.407633
+      ]
+     },
+     "post_east": {
+      "u_m": 15.1,
+      "v_m": 26.1,
+      "latlon": [
+       37.787723,
+       -122.407304
+      ]
+     }
+    },
+    "clearance": "6 ft 7 in general; 8 ft on Geary right-hand entry lane only",
+    "after_hours": "keypad on Geary side",
+    "pedestrian": "elevator kiosks at SE (u 35.5, v -35.9) and north (u -4.4, v 24); stairs at the Geary lobby and Post side",
+    "ev_charging": "5 stations",
+    "footprint_osm_uv": "u -41.4..41.8, v -25.8..26.2 (OSM outline; real footprint likely near the whole block)"
+   },
+   "confidence": "high",
+   "source": "https://www.sfmta.com/garages-lots/union-square-garage ; OpenStreetMap via Overpass API, fetched 2026-09-01 (ODbL) ; https://unionsquareshop.com/parking.html"
+  },
+  "stage": "see edges.north_post.stage",
+  "flagpoles": {
+   "value": "none on the plaza deck identified (OSM flagpole at Post/Stockton NE is on the opposite corner building)",
+   "confidence": "low",
+   "source": "OpenStreetMap via Overpass API, fetched 2026-09-01 (ODbL)"
+  },
+  "program_kiosks_2025_26": {
+   "value": "BRV \"Reading & Chess Pavilion\" (tent/umbrella pavilion) at the SE corner; games cart, kids zone and Recess cart on the central plaza; ping-pong tables; positions vary daily",
+   "confidence": "medium",
+   "source": "https://visitunionsquaresf.com/park-programs ; SF Rec & Park newsflash 2026-02-10 (Mayor Lurie, BRV programming): https://sfrecpark.org/m/newsflash/home/detail/2708"
+  },
+  "ice_rink_seasonal": {
+   "value": {
+    "season_2025_26": "2025-11-05 to 2026-01-19 (18th season)",
+    "season_2026_27": "opens 2026-11-04",
+    "position": "central plaza west of the monument, \"near the corner of Geary and Powell\"; size UNRESOLVED (order of 20 x 35 m) with skate-rental/warming tents on the west side",
+    "operator": "Safeway Holiday Ice Rink presented by Kaiser Permanente, 333 Post St"
+   },
+   "confidence": "medium",
+   "source": "https://unionsquareicerink.com/ and https://sf.funcheap.com/event-series/holiday-ice-skating-rink-union-square-sf/"
+  },
+  "macys_great_tree_seasonal": {
+   "value": {
+    "2025": "lit 2025-11-11 (no public ceremony), on view to 2026-01-01",
+    "height_ft": 83,
+    "lights": 43000,
+    "ornaments": 700,
+    "position": "central plaza, east of the monument (position low confidence)"
+   },
+   "confidence": "medium",
+   "source": "https://sf.funcheap.com/macys-tree-lighting-san-francisco/ ; https://sfist.com/2025/11/11/"
+  }
+ },
+ "hearts_in_sf": {
+  "note": "Large fibreglass hearts (~1.5 m tall on ~0.5 m plinths) at all four corners since 2004/2009; three corners rotate roughly yearly (auctioned for SF General Hospital Foundation); NW corner heart is permanent.",
+  "NW_Post_Powell": {
+   "value": {
+    "title": "America's Greatest City by the Bay",
+    "artist": "Tony Bennett",
+    "status": "permanent since 2016",
+    "position": {
+     "u_m": -57,
+     "v_m": 24,
+     "latlon": [
+      37.787639,
+      -122.408117
+     ]
+    }
+   },
+   "confidence": "high",
+   "source": "https://sf.funcheap.com/city-guide/union-squares-brand-hearts/ (2020) ; OpenStreetMap via Overpass API, fetched 2026-09-01 (ODbL) node 13007545430"
+  },
+  "SW_Geary_Powell": {
+   "value": {
+    "title": "SOL",
+    "artist": "Dev Heyrana",
+    "installed": "2025-10-15",
+    "replaced": "Butterflight (Naomi Duben) per OSM",
+    "position": {
+     "u_m": -50.1,
+     "v_m": -33.4,
+     "latlon": [
+      37.78816,
+      -122.408142
+     ]
+    }
+   },
+   "confidence": "high",
+   "source": "SF General Hospital Foundation, 2025-10-15: https://sfghf.org/news/new-union-square-heart-brightens-up-downtown/ ; OpenStreetMap via Overpass API, fetched 2026-09-01 (ODbL)"
+  },
+  "SE_Geary_Stockton": {
+   "value": {
+    "title": "Labyrinthine Heart",
+    "artist": "Wendy Ackrell",
+    "installed": 2023,
+    "status": "may have rotated since; verify",
+    "position": {
+     "u_m": 52.4,
+     "v_m": -31.4,
+     "latlon": [
+      37.788288,
+      -122.406988
+     ]
+    }
+   },
+   "confidence": "medium",
+   "source": "OpenStreetMap via Overpass API, fetched 2026-09-01 (ODbL) node 10982692520"
+  },
+  "NE_Post_Stockton": {
+   "value": {
+    "title": "UNRESOLVED (a Jeremy Fish heart reported at Post & Stockton, undated blog)",
+    "position": {
+     "u_m": 52,
+     "v_m": 34,
+     "latlon": [
+      37.787706,
+      -122.406875
+     ]
+    }
+   },
+   "confidence": "low",
+   "source": "blog snippets (travelingwithsweeney.com, zandyrestaurant.com); SFGHF 2025-10-15 confirms four hearts on the square"
+  }
+ },
+ "changes_2025_2026": [
+  {
+   "value": "2025-01-30: Bryant-Park-style daily programming begins (Biederman Redevelopment Ventures for OEWD/Union Square Alliance): movable tables/chairs, kids zone, games, chess & reading pavilion (SE corner), music/dance/fitness; funded through 2027, doubled offerings for summer/fall 2026 incl. concerts and movies",
+   "confidence": "high",
+   "source": "SF Rec & Park newsflash 2026-02-10 (Mayor Lurie, BRV programming): https://sfrecpark.org/m/newsflash/home/detail/2708 ; https://visitunionsquaresf.com/park-programs"
+  },
+  {
+   "value": "2025-02: Miller & Lux Provisions (Tyler Florence) closed both kiosks; 2025-03: b. Patisserie opened in the West Complex on a one-year permit, renewed to 2027-02-28",
+   "confidence": "high",
+   "source": "SF Rec & Park newsflash 2026-01-09: https://sfrecpark.org/m/newsflash/home/detail/2646 ; SF Rec & Park, Union Square West Café RFP, issued 2026-03-05: https://sfrecpark.org/DocumentCenter/View/28464/"
+  },
+  {
+   "value": "2025-05-15: Nintendo San Francisco opened at 331 Powell (SW corner across Powell) - crowd-control barriers on Powell during launch",
+   "confidence": "high",
+   "source": "refs/plaza/15 + brief"
+  },
+  {
+   "value": "2025-06-26: East Cafe RFP issued; 2026-01: Super Duper Burgers selected (5-yr lease); East Complex renovated late 2025 - 2026 with a state grant, opening early fall 2026",
+   "confidence": "high",
+   "source": "SF Rec & Park Union Square East Café RFP page / Q&A 2025-07-28: https://sfrecpark.org/1838/ and https://sfrecpark.org/DocumentCenter/View/26399/ ; SF Rec & Park newsflash 2026-01-09: https://sfrecpark.org/m/newsflash/home/detail/2646"
+  },
+  {
+   "value": "2025-10-15: SOL heart (Dev Heyrana) unveiled at Powell & Geary",
+   "confidence": "high",
+   "source": "SF General Hospital Foundation, 2025-10-15: https://sfghf.org/news/new-union-square-heart-brightens-up-downtown/"
+  },
+  {
+   "value": "2025-11-05 to 2026-01-19: Safeway Holiday Ice Rink (18th season); Macy's Great Tree lit 2025-11-11 without ceremony; rink returns 2026-11-04",
+   "confidence": "high",
+   "source": "https://unionsquareicerink.com/ and https://sf.funcheap.com/event-series/holiday-ice-skating-rink-union-square-sf/ ; https://sf.funcheap.com/macys-tree-lighting-san-francisco/ ; https://sfist.com/2025/11/11/"
+  },
+  {
+   "value": "2026-02: Super Bowl LX week \"Big Game on the Square\" activations (13,000+ visitors over 3 days)",
+   "confidence": "high",
+   "source": "SF Rec & Park newsflash 2026-02-10 (Mayor Lurie, BRV programming): https://sfrecpark.org/m/newsflash/home/detail/2708"
+  },
+  {
+   "value": "2026-03-05: West Cafe RFP issued (proposals due 2026-04-30) for a lessee starting ~2027-03",
+   "confidence": "high",
+   "source": "SF Rec & Park, Union Square West Café RFP, issued 2026-03-05: https://sfrecpark.org/DocumentCenter/View/28464/"
+  },
+  {
+   "value": "2026: Powell Street Improvement Project (Market-Geary, $40M; 21 ft sidewalks, hanging lanterns, red brick roadway) - construction from late 2026, ribbon-cutting late 2027; does NOT touch the square's own Powell frontage",
+   "confidence": "high",
+   "source": "https://visitunionsquaresf.com/powell-street-improvement-project ; https://sfddc.org/wp-content/uploads/2026/06/DDC_Press-Release_Powell-St.-Improvement-Project.pdf"
+  },
+  {
+   "value": "2026-08: SF Standard reports the square \"back\": busker program, toddler foam-block play area, ping-pong, chess tables with umbrellas, 500+ cameras and drone surveillance; new retail around the square (Zara flagship Post & Powell, Kith 100 Stockton, BAPE, Bang & Olufsen)",
+   "confidence": "medium",
+   "source": "SF Standard 2026-08-24: https://sfstandard.com/2026/08/24/union-square-san-francisco-turnaround/"
+  },
+  {
+   "value": "No capital renovation or \"reimagining\" of the plaza itself was found for 2025-2026; the 2002 Fotheringham/Philips layout is unchanged. Emporio Rulli and TIX are gone (2020 / 2019).",
+   "confidence": "medium",
+   "source": "absence of evidence across Rec Park, Alliance, SF Standard sources"
+  }
+ ],
+ "unresolved": [
+  "exact sidewalk widths (curb lines) on all four sides",
+  "broadleaf tree species in lawns and north terrace",
+  "pedestrian light-pole count and exact positions",
+  "exact light-sculpture positions (+/-5 m)",
+  "ice-rink and Macy's tree exact placement/dimensions",
+  "current use of the west-north kiosk (bike rental / info)",
+  "NE-corner heart identity in 2026",
+  "garage true footprint under the plaza",
+  "whether the Geary-lobby public toilets are open"
+ ]
+}

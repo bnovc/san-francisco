@@ -1,0 +1,1490 @@
+[
+ {
+  "osmId": "way/32863633",
+  "name": "Macy's Union Square block: 1998 Geary curtain wall + 233 Geary (ex-I. Magnin) marble box + 1929 Hobart store",
+  "wall": "limestone",
+  "base": {
+   "material": "granite_grey",
+   "height": 0.5
+  },
+  "groundH": 10.9,
+  "floorH": 5.2,
+  "heightM": 38.4,
+  "cornice": "none",
+  "stringcourseAfterFloors": [],
+  "parapet": true,
+  "rooftop": [
+   "none"
+  ],
+  "notes": "OSM way spans Stockton->Powell and Geary->O'Farrell. Engine baseY = -8.26 (lowest corner at O'Farrell) while the Geary sidewalk is at -3.3..-5.0, so every Geary height is written relative to baseY: bow sidewalk burial 4.4 m -> storefront tops at 9.3 (=4.9 m visible), ground band 10.9 (=6.5 m), 1998 parapet 38.4 (=34 m), marble box top 46.2 (=43 m above its corner sidewalk), roof levels to 49.4 (=45 m). Geary edge 7 upper wall is 'none' and is clad by masses: 6 m + 8 m granite piers, 19 m (5-bay) and 13 m (3-bay) aluminium/glass wings, faceted 13 m bow projecting 2 m (glass_tint), 233 Geary white-marble box with a 7x7 punched grid, and the set-back 1929 roof levels. Missing engine features (listed in report): rooftop 'macy's' logotype on the bow parapet (a fascia 'macys' sign sits over the entrance doors instead), 12 m entrance canopy (canopy_metal is pinned at baseY+3.4 which is below the sidewalk here), three roof flagpoles, Cheesecake Factory/Burger Bar plaques should sit at 3rd/4th floor on the piers (placed at fascia height on the pier bays). Dyson/Swarovski were mapped to the 285 Geary corner building; the 1998 building's east-wing carved-out bays were still 'for lease' Dec 2024 per photo 02.",
+  "edges": [
+   {
+    "edge": 7,
+    "window": "none",
+    "endPad": 0,
+    "storefront": "storefront_bay_3.0x4.5"
+   },
+   {
+    "edge": 8,
+    "window": "none",
+    "bayW": 4.5,
+    "endPad": 1.5,
+    "storefront": "storefront_bay_3.0x4.5"
+   },
+   {
+    "edge": 9,
+    "window": "win_dh_stone_1.5x2.6",
+    "bayW": 4.5,
+    "endPad": 1.5,
+    "storefront": "storefront_bay_3.0x4.5"
+   },
+   {
+    "edge": 0,
+    "window": "win_dh_stone_1.5x2.6",
+    "bayW": 4.5,
+    "endPad": 1.5,
+    "storefront": "storefront_bay_3.0x4.5"
+   }
+  ],
+  "storefronts": [
+   {
+    "edge": 7,
+    "from": 0,
+    "to": 6,
+    "module": "wall",
+    "tenant": {
+     "name": "The Cheesecake Factory",
+     "brand": "cheesecakefactory",
+     "signType": "fascia",
+     "category": "restaurant",
+     "status": "open",
+     "confidence": "medium",
+     "address": "251 Geary St (Macy's 8th floor)",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 7,
+    "from": 6,
+    "to": 13.6,
+    "module": "storefront_bay_3.0x4.5"
+   },
+   {
+    "edge": 7,
+    "from": 13.6,
+    "to": 21.2,
+    "module": "storefront_bay_3.0x4.5"
+   },
+   {
+    "edge": 7,
+    "from": 21.2,
+    "to": 25,
+    "module": "storefront_bay_3.0x4.5"
+   },
+   {
+    "edge": 7,
+    "from": 25,
+    "to": 28.3,
+    "module": "storefront_bay_3.0x4.5"
+   },
+   {
+    "edge": 7,
+    "from": 28.3,
+    "to": 31.3,
+    "module": "storefront_door_double_2.0x2.8",
+    "tenant": {
+     "name": "Macy's Union Square",
+     "brand": "macys",
+     "signType": "fascia",
+     "illuminated": true,
+     "category": "department-store",
+     "status": "open",
+     "confidence": "high",
+     "address": "251 Geary St",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 7,
+    "from": 31.3,
+    "to": 34.3,
+    "module": "storefront_door_double_2.0x2.8"
+   },
+   {
+    "edge": 7,
+    "from": 34.3,
+    "to": 38,
+    "module": "storefront_bay_3.0x4.5"
+   },
+   {
+    "edge": 7,
+    "from": 38,
+    "to": 42.3,
+    "module": "storefront_bay_3.0x4.5"
+   },
+   {
+    "edge": 7,
+    "from": 42.3,
+    "to": 46.7,
+    "module": "storefront_bay_3.0x4.5",
+    "tenant": {
+     "name": "Retail Shop For Lease",
+     "signType": "fascia",
+     "color": "#f2f2f2",
+     "bg": "#111111",
+     "category": "vacant",
+     "status": "vacant",
+     "confidence": "medium",
+     "address": "235-249 Geary St",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 7,
+    "from": 46.7,
+    "to": 51,
+    "module": "storefront_bay_3.0x4.5",
+    "tenant": {
+     "name": "Retail Shops For Lease",
+     "signType": "fascia",
+     "color": "#f2f2f2",
+     "bg": "#111111",
+     "category": "vacant",
+     "status": "vacant",
+     "confidence": "medium",
+     "address": "235-249 Geary St",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 7,
+    "from": 51,
+    "to": 59,
+    "module": "wall",
+    "tenant": {
+     "name": "The Cheesecake Factory",
+     "brand": "cheesecakefactory",
+     "signType": "fascia",
+     "category": "restaurant",
+     "status": "open",
+     "confidence": "medium",
+     "address": "251 Geary St (Macy's 8th floor)",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 7,
+    "from": 59,
+    "to": 74,
+    "module": "storefront_luxury_4.0x5.0",
+    "tenant": {
+     "name": "Loro Piana",
+     "brand": "loropiana",
+     "signType": "fascia",
+     "category": "luxury",
+     "status": "open",
+     "confidence": "medium",
+     "address": "233 Geary St",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 7,
+    "from": 74,
+    "to": 86,
+    "module": "storefront_luxury_4.0x5.0",
+    "tenant": {
+     "name": "Louis Vuitton",
+     "brand": "louisvuitton",
+     "signType": "fascia",
+     "category": "luxury",
+     "status": "open",
+     "confidence": "high",
+     "address": "233 Geary St",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 7,
+    "from": 86,
+    "to": 89,
+    "module": "storefront_door_double_2.0x2.8"
+   },
+   {
+    "edge": 7,
+    "from": 89,
+    "to": 99.4,
+    "module": "storefront_luxury_4.0x5.0"
+   },
+   {
+    "edge": 7,
+    "from": 99.4,
+    "to": 101.9,
+    "module": "wall"
+   },
+   {
+    "edge": 8,
+    "from": 0,
+    "to": 2.5,
+    "module": "wall"
+   },
+   {
+    "edge": 8,
+    "from": 2.5,
+    "to": 5.5,
+    "module": "storefront_door_double_2.0x2.8"
+   },
+   {
+    "edge": 8,
+    "from": 5.5,
+    "to": 20,
+    "module": "storefront_luxury_4.0x5.0",
+    "tenant": {
+     "name": "Louis Vuitton",
+     "brand": "louisvuitton",
+     "signType": "fascia",
+     "category": "luxury",
+     "status": "open",
+     "confidence": "high",
+     "address": "135 Stockton St",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 8,
+    "from": 20,
+    "to": 40,
+    "module": "storefront_bay_3.0x4.5"
+   },
+   {
+    "edge": 8,
+    "from": 40,
+    "to": 66,
+    "module": "storefront_bay_3.0x4.5"
+   },
+   {
+    "edge": 8,
+    "from": 66,
+    "to": 72,
+    "module": "storefront_door_double_2.0x2.8",
+    "tenant": {
+     "name": "Macy's",
+     "brand": "macysred",
+     "signType": "fascia",
+     "illuminated": true,
+     "category": "department-store",
+     "status": "open",
+     "confidence": "medium",
+     "address": "170 O'Farrell St (Stockton entrance)",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 8,
+    "from": 72,
+    "to": 82.5,
+    "module": "storefront_bay_3.0x4.5"
+   },
+   {
+    "edge": 9,
+    "from": 1,
+    "to": 16,
+    "module": "storefront_bay_3.0x4.5"
+   },
+   {
+    "edge": 9,
+    "from": 16,
+    "to": 22,
+    "module": "storefront_door_double_2.0x2.8",
+    "tenant": {
+     "name": "Macy's",
+     "brand": "macysred",
+     "signType": "fascia",
+     "illuminated": true,
+     "category": "department-store",
+     "status": "open",
+     "confidence": "medium",
+     "address": "170 O'Farrell St",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 9,
+    "from": 22,
+    "to": 40.4,
+    "module": "storefront_bay_3.0x4.5"
+   },
+   {
+    "edge": 0,
+    "from": 1,
+    "to": 57.8,
+    "module": "storefront_bay_3.0x4.5"
+   }
+  ],
+  "extras": [],
+  "masses": [
+   {
+    "polygon": [
+     [
+      -38.7,
+      62.7
+     ],
+     [
+      -32.7,
+      62.7
+     ],
+     [
+      -32.7,
+      63.6
+     ],
+     [
+      -38.7,
+      63.6
+     ]
+    ],
+    "baseY": 10.9,
+    "height": 27.5,
+    "wall": "granite_grey",
+    "window": "none",
+    "cornice": "none"
+   },
+   {
+    "polygon": [
+     [
+      -32.7,
+      62.7
+     ],
+     [
+      -13.7,
+      62.7
+     ],
+     [
+      -13.7,
+      63.6
+     ],
+     [
+      -32.7,
+      63.6
+     ]
+    ],
+    "baseY": 10.9,
+    "height": 27.5,
+    "wall": "metal_alu",
+    "window": "win_curtain_3.0x3.6",
+    "bayW": 3.8,
+    "cornice": "none"
+   },
+   {
+    "polygon": [
+     [
+      -13.7,
+      62.7
+     ],
+     [
+      -10.1,
+      60.7
+     ],
+     [
+      -4.3,
+      60.7
+     ],
+     [
+      -0.7,
+      62.7
+     ],
+     [
+      -0.7,
+      63.6
+     ],
+     [
+      -13.7,
+      63.6
+     ]
+    ],
+    "baseY": 10.9,
+    "height": 27.5,
+    "wall": "glass_dark",
+    "window": "win_curtain_3.0x3.6",
+    "bayW": 3,
+    "cornice": "none"
+   },
+   {
+    "polygon": [
+     [
+      -0.7,
+      62.7
+     ],
+     [
+      12.3,
+      62.7
+     ],
+     [
+      12.3,
+      63.6
+     ],
+     [
+      -0.7,
+      63.6
+     ]
+    ],
+    "baseY": 10.9,
+    "height": 27.5,
+    "wall": "metal_alu",
+    "window": "win_curtain_3.0x3.6",
+    "bayW": 4.4,
+    "cornice": "none"
+   },
+   {
+    "polygon": [
+     [
+      12.3,
+      62.7
+     ],
+     [
+      20.3,
+      62.7
+     ],
+     [
+      20.3,
+      63.6
+     ],
+     [
+      12.3,
+      63.6
+     ]
+    ],
+    "baseY": 10.9,
+    "height": 27.5,
+    "wall": "granite_grey",
+    "window": "none",
+    "cornice": "none"
+   },
+   {
+    "polygon": [
+     [
+      20.3,
+      62.7
+     ],
+     [
+      63.6,
+      62.7
+     ],
+     [
+      63.6,
+      103
+     ],
+     [
+      20.3,
+      103
+     ]
+    ],
+    "baseY": 10.9,
+    "height": 35.3,
+    "wall": "marble_white",
+    "window": "win_punched_modern_1.8x2.0",
+    "bayW": 6,
+    "cornice": "none"
+   },
+   {
+    "polygon": [
+     [
+      -33,
+      69
+     ],
+     [
+      16,
+      69
+     ],
+     [
+      16,
+      103
+     ],
+     [
+      63.6,
+      103
+     ],
+     [
+      63.6,
+      146.6
+     ],
+     [
+      -37.1,
+      146.6
+     ],
+     [
+      -37.1,
+      105.2
+     ],
+     [
+      -39.1,
+      105.2
+     ],
+     [
+      -39.1,
+      89.9
+     ],
+     [
+      -33,
+      89.9
+     ]
+    ],
+    "baseY": 38.4,
+    "height": 11,
+    "wall": "limestone",
+    "window": "win_dh_stone_1.5x2.6",
+    "bayW": 4.5,
+    "cornice": "none"
+   }
+  ],
+  "signs": [
+   {
+    "brand": "macys",
+    "edge": 7,
+    "at": 31,
+    "y": 32.6,
+    "widthM": 9,
+    "heightM": 2.2,
+    "illuminated": true,
+    "color": "#ffffff",
+    "bg": null
+   },
+   {
+    "text": "The Cheesecake Factory",
+    "edge": 7,
+    "at": 3,
+    "y": 14,
+    "widthM": 4.5,
+    "heightM": 1.2,
+    "color": "#ffffff"
+   },
+   {
+    "text": "The Cheesecake Factory",
+    "edge": 7,
+    "at": 98,
+    "y": 14,
+    "widthM": 4.5,
+    "heightM": 1.2,
+    "color": "#ffffff"
+   }
+  ]
+ },
+ {
+  "osmId": "way/585642018",
+  "name": "333 Geary St (ex-Theatre St. Francis / Lefty O'Doul's)",
+  "wall": "plaster_cream",
+  "base": {
+   "material": "granite_dark",
+   "height": 0.5
+  },
+  "groundH": 7.7,
+  "floorH": 3.5,
+  "heightM": 12.7,
+  "cornice": "medium",
+  "parapet": false,
+  "rooftop": [
+   "none"
+  ],
+  "notes": "OSM has no height; recon 2-3 floors / 10 m. baseY -4.52 vs sidewalk -1.8 (2.7 m burial). Tenant unresolved (possibly Shoe Palace annex) - blank fascia.",
+  "edges": [
+   {
+    "edge": 4,
+    "window": "win_dh_stone_1.5x2.6",
+    "bayW": 3.6,
+    "endPad": 0.8,
+    "storefront": "storefront_bay_3.0x4.5"
+   }
+  ],
+  "storefronts": []
+ },
+ {
+  "osmId": "way/35024386",
+  "name": "Handlery Union Square Hotel (1908 Hotel Stewart), 347-373 Geary",
+  "wall": "plaster_cream",
+  "base": {
+   "material": "granite_dark",
+   "height": 0.5
+  },
+  "groundH": 7.7,
+  "floorH": 3,
+  "heightM": 29.2,
+  "cornice": "medium",
+  "stringcourseAfterFloors": [
+   1
+  ],
+  "parapet": false,
+  "rooftop": [
+   "penthouse",
+   "watertank"
+  ],
+  "notes": "8 floors / 26 m painted light-cream masonry, regular sash grid. baseY -4.25 vs Geary sidewalk -1.6 (E) .. -0.3 (W): 2.6-4 m burial folded into groundH/heightM. Hotel marquee module would put its canopy 1.4 m above the sidewalk, so the entrance uses a recessed door + 'handlery' fascia + two facade flags. 347 (ex-Daily Grill, temporarily closed) and 353-373 bays left blank.",
+  "edges": [
+   {
+    "edge": 11,
+    "window": "win_dh_stone_1.2x2.2",
+    "bayW": 4,
+    "endPad": 1,
+    "storefront": "storefront_bay_3.0x4.5"
+   }
+  ],
+  "storefronts": [
+   {
+    "edge": 11,
+    "from": 1,
+    "to": 9,
+    "module": "storefront_bay_3.0x4.5"
+   },
+   {
+    "edge": 11,
+    "from": 9,
+    "to": 16,
+    "module": "storefront_bay_3.0x4.5",
+    "tenant": {
+     "name": "Art Thou Gallery",
+     "signType": "fascia",
+     "color": "#f2f2f2",
+     "bg": "#1f1f1f",
+     "category": "gallery",
+     "status": "open",
+     "confidence": "medium",
+     "address": "361-375 Geary St",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 11,
+    "from": 16,
+    "to": 31,
+    "module": "storefront_bay_3.0x4.5"
+   },
+   {
+    "edge": 11,
+    "from": 31,
+    "to": 35,
+    "module": "storefront_door_recessed_3.0x4.5",
+    "tenant": {
+     "name": "Handlery Union Square Hotel",
+     "brand": "handlery",
+     "signType": "fascia",
+     "illuminated": true,
+     "category": "hotel",
+     "status": "open",
+     "confidence": "high",
+     "address": "351 Geary St",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 11,
+    "from": 35,
+    "to": 38.5,
+    "module": "storefront_bay_3.0x4.5"
+   },
+   {
+    "edge": 11,
+    "from": 38.5,
+    "to": 48,
+    "module": "storefront_bay_3.0x4.5"
+   }
+  ],
+  "extras": [
+   {
+    "kind": "flag",
+    "edge": 11,
+    "at": 29.5
+   },
+   {
+    "kind": "flag",
+    "edge": 11,
+    "at": 36.5
+   }
+  ]
+ },
+ {
+  "osmId": "way/274592035",
+  "name": "377 Geary St (2-storey infill)",
+  "wall": "plaster_grey",
+  "base": {
+   "material": "granite_dark",
+   "height": 0.5
+  },
+  "groundH": 4.9,
+  "floorH": 3,
+  "heightM": 7.9,
+  "cornice": "none",
+  "parapet": true,
+  "rooftop": [
+   "none"
+  ],
+  "edges": [
+   {
+    "edge": 9,
+    "window": "win_office_strip_3.0x1.8",
+    "bayW": 4,
+    "endPad": 0.8,
+    "storefront": "storefront_bay_3.0x4.5"
+   }
+  ],
+  "storefronts": []
+ },
+ {
+  "osmId": "way/274592036",
+  "name": "381-389 Geary St (3-storey infill; 389 ex-Sushi Boat vacant)",
+  "wall": "plaster_cream",
+  "base": {
+   "material": "granite_dark",
+   "height": 0.5
+  },
+  "groundH": 4.8,
+  "floorH": 3,
+  "heightM": 10.8,
+  "cornice": "none",
+  "parapet": true,
+  "rooftop": [
+   "none"
+  ],
+  "edges": [
+   {
+    "edge": 3,
+    "window": "win_dh_stone_1.2x2.2",
+    "bayW": 3.6,
+    "endPad": 0.6,
+    "storefront": "storefront_bay_3.0x4.5"
+   }
+  ],
+  "storefronts": [
+   {
+    "edge": 3,
+    "from": 0.4,
+    "to": 3.7,
+    "module": "storefront_bay_3.0x4.5",
+    "tenant": {
+     "name": "For Lease",
+     "signType": "fascia",
+     "color": "#dddddd",
+     "bg": "#2a2a2a",
+     "category": "vacant",
+     "status": "vacant",
+     "confidence": "low",
+     "address": "389 Geary St",
+     "enterable": false
+    }
+   }
+  ]
+ },
+ {
+  "osmId": "way/274592034",
+  "name": "399 Geary St - SE corner Geary & Mason (ex-CVS vacant; Mastro's Steakhouse upstairs)",
+  "wall": "plaster_grey",
+  "base": {
+   "material": "granite_dark",
+   "height": 0.5
+  },
+  "groundH": 5.7,
+  "floorH": 3.5,
+  "heightM": 11.2,
+  "cornice": "none",
+  "parapet": true,
+  "rooftop": [
+   "none"
+  ],
+  "edges": [
+   {
+    "edge": 8,
+    "window": "win_office_strip_3.0x1.8",
+    "bayW": 4.5,
+    "endPad": 0.8,
+    "storefront": "storefront_bay_3.0x4.5"
+   },
+   {
+    "edge": 7,
+    "window": "win_office_strip_3.0x1.8",
+    "bayW": 4.5,
+    "endPad": 0.8,
+    "storefront": "storefront_bay_3.0x4.5"
+   }
+  ],
+  "storefronts": [
+   {
+    "edge": 8,
+    "from": 0.8,
+    "to": 11,
+    "module": "storefront_bay_3.0x4.5",
+    "tenant": {
+     "name": "For Lease",
+     "signType": "fascia",
+     "color": "#dddddd",
+     "bg": "#2a2a2a",
+     "category": "vacant",
+     "status": "vacant",
+     "confidence": "medium",
+     "address": "399 Geary St",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 8,
+    "from": 12,
+    "to": 15.5,
+    "module": "storefront_door_double_2.0x2.8",
+    "tenant": {
+     "name": "Mastro's Steakhouse",
+     "signType": "fascia",
+     "color": "#f0e0c0",
+     "bg": "#1a1010",
+     "category": "restaurant",
+     "status": "open",
+     "confidence": "medium",
+     "address": "399 Geary St (upstairs)",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 7,
+    "from": 20,
+    "to": 30.5,
+    "module": "storefront_bay_3.0x4.5",
+    "tenant": {
+     "name": "For Lease",
+     "signType": "fascia",
+     "color": "#dddddd",
+     "bg": "#2a2a2a",
+     "category": "vacant",
+     "status": "vacant",
+     "confidence": "medium",
+     "address": "399 Geary St (Mason face)",
+     "enterable": false
+    }
+   }
+  ]
+ },
+ {
+  "osmId": "way/71504438",
+  "name": "Toni Rembe Theater (Geary Theater, A.C.T.), 415 Geary",
+  "wall": "terracotta_white",
+  "base": {
+   "material": "sandstone",
+   "height": 0.5
+  },
+  "groundH": 7.3,
+  "floors": 2,
+  "heightM": 25.3,
+  "cornice": "heavy",
+  "stringcourseAfterFloors": [
+   1
+  ],
+  "parapet": false,
+  "rooftop": [
+   "none"
+  ],
+  "notes": "1910 Bliss & Faville: rusticated base, four giant Corinthian columns (pilaster_giant x4) framing three tall arched windows, blank end panels 8 m (endPad), attic of small square windows. baseY -0.69 vs sidewalk +1.3..+2.0. The full-width iron marquee is omitted: canopy_metal is pinned at baseY+3.4 = 0.7-1.4 m above this sidewalk.",
+  "edges": [
+   {
+    "edge": 5,
+    "window": "win_punched_modern_1.8x2.0",
+    "windowFloor2": "win_arch_stone_1.5x3.0",
+    "bayW": 4.9,
+    "endPad": 8,
+    "storefront": "storefront_bay_3.0x4.5"
+   }
+  ],
+  "storefronts": [
+   {
+    "edge": 5,
+    "from": 1,
+    "to": 4.5,
+    "module": "storefront_door_double_2.0x2.8",
+    "height": 6.5
+   },
+   {
+    "edge": 5,
+    "from": 4.5,
+    "to": 8.5,
+    "module": "wall"
+   },
+   {
+    "edge": 5,
+    "from": 8.5,
+    "to": 12,
+    "module": "storefront_door_double_2.0x2.8",
+    "height": 6.5
+   },
+   {
+    "edge": 5,
+    "from": 12,
+    "to": 18.6,
+    "module": "storefront_bay_3.0x4.5",
+    "height": 6.5,
+    "tenant": {
+     "name": "A.C.T. Geary Theater",
+     "signType": "fascia",
+     "color": "#f4e9c8",
+     "bg": "#141414",
+     "illuminated": true,
+     "category": "theatre",
+     "status": "open",
+     "confidence": "high",
+     "address": "415 Geary St",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 5,
+    "from": 18.6,
+    "to": 22.1,
+    "module": "storefront_door_double_2.0x2.8",
+    "height": 6.5
+   },
+   {
+    "edge": 5,
+    "from": 22.1,
+    "to": 29.6,
+    "module": "storefront_bay_3.0x4.5",
+    "height": 6.5
+   }
+  ],
+  "extras": [
+   {
+    "kind": "pilaster_giant",
+    "edge": 5,
+    "at": 8,
+    "count": 4
+   }
+  ]
+ },
+ {
+  "osmId": "way/71504452",
+  "name": "Curran Theatre, 445 Geary (1922)",
+  "wall": "terracotta_white",
+  "base": {
+   "material": "sandstone",
+   "height": 0.5
+  },
+  "groundH": 7.2,
+  "floors": 2,
+  "heightM": 23.2,
+  "cornice": "heavy",
+  "stringcourseAfterFloors": [
+   1
+  ],
+  "parapet": false,
+  "rooftop": [
+   "none"
+  ],
+  "notes": "Cream terra cotta, three 2-storey arched windows with balconettes, oculi attic (approximated with small sash), modillioned cornice; slate mansard, black iron marquee and the red vertical CURRAN neon blade are not representable (marquee/blade would sit ~1 m above this uphill sidewalk). baseY 0.06 vs sidewalk +2.1..+2.5.",
+  "edges": [
+   {
+    "edge": 3,
+    "window": "win_dh_stone_1.2x2.2",
+    "windowFloor2": "win_arch_stone_1.5x3.0",
+    "bayW": 5,
+    "endPad": 6.4,
+    "storefront": "storefront_bay_3.0x4.5"
+   }
+  ],
+  "storefronts": [
+   {
+    "edge": 3,
+    "from": 1,
+    "to": 4.5,
+    "module": "storefront_door_double_2.0x2.8",
+    "height": 6.4
+   },
+   {
+    "edge": 3,
+    "from": 4.5,
+    "to": 8,
+    "module": "wall"
+   },
+   {
+    "edge": 3,
+    "from": 8,
+    "to": 11.5,
+    "module": "storefront_door_double_2.0x2.8",
+    "height": 6.4
+   },
+   {
+    "edge": 3,
+    "from": 11.5,
+    "to": 16.5,
+    "module": "storefront_bay_3.0x4.5",
+    "height": 6.4,
+    "tenant": {
+     "name": "Curran",
+     "signType": "fascia",
+     "color": "#ff5a4a",
+     "bg": "#1b1416",
+     "illuminated": true,
+     "category": "theatre",
+     "status": "open",
+     "confidence": "high",
+     "address": "445 Geary St",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 3,
+    "from": 16.5,
+    "to": 20,
+    "module": "storefront_door_double_2.0x2.8",
+    "height": 6.4
+   },
+   {
+    "edge": 3,
+    "from": 20,
+    "to": 23,
+    "module": "wall"
+   },
+   {
+    "edge": 3,
+    "from": 23,
+    "to": 27,
+    "module": "storefront_arcade_arch_4.0x5.5",
+    "height": 6.4
+   }
+  ],
+  "extras": [
+   {
+    "kind": "balcony_stone",
+    "edge": 3,
+    "at": 8.9,
+    "floor": 1
+   },
+   {
+    "kind": "balcony_stone",
+    "edge": 3,
+    "at": 13.9,
+    "floor": 1
+   },
+   {
+    "kind": "balcony_stone",
+    "edge": 3,
+    "at": 18.9,
+    "floor": 1
+   }
+  ]
+ },
+ {
+  "osmId": "way/35536855",
+  "name": "Whittell Building, 166 Geary (1907, Shea & Shea)",
+  "wall": "brick_red",
+  "base": {
+   "material": "granite_dark",
+   "height": 0.5
+  },
+  "groundH": 5.4,
+  "floors": 15,
+  "heightM": 66.4,
+  "cornice": "heavy",
+  "stringcourseAfterFloors": [
+   8,
+   13
+  ],
+  "parapet": false,
+  "rooftop": [
+   "penthouse"
+  ],
+  "notes": "Tall narrow orange-brown brick slab, 16 storeys / 217 ft (OSM 56 m overridden to 66 m + 0.4 m burial), 5 bays of paired sash, belt course at the 8th floor and a two-storey crown; hipped white roof and green trim not representable. Ground tenant unresolved.",
+  "edges": [
+   {
+    "edge": 1,
+    "window": "win_pair_stone_2.4x2.4",
+    "bayW": 2.8,
+    "endPad": 0.8,
+    "storefront": "storefront_bay_3.0x4.5"
+   }
+  ],
+  "storefronts": []
+ },
+ {
+  "osmId": "way/256917336",
+  "name": "156 Geary (Chanel)",
+  "wall": "limestone",
+  "base": {
+   "material": "granite_dark",
+   "height": 0.5
+  },
+  "groundH": 5.3,
+  "floorH": 4,
+  "heightM": 14.3,
+  "cornice": "none",
+  "parapet": true,
+  "rooftop": [
+   "none"
+  ],
+  "edges": [
+   {
+    "edge": 3,
+    "window": "win_punched_modern_1.8x2.0",
+    "bayW": 3.1,
+    "endPad": 0.6,
+    "storefront": "storefront_bay_3.0x4.5"
+   }
+  ],
+  "storefronts": [
+   {
+    "edge": 1,
+    "from": 0.5,
+    "to": 6.2,
+    "module": "storefront_luxury_4.0x5.0",
+    "tenant": {
+     "name": "Chanel",
+     "brand": "chanel",
+     "signType": "fascia",
+     "category": "luxury",
+     "status": "open",
+     "confidence": "high",
+     "address": "156 Geary St",
+     "enterable": false
+    }
+   }
+  ]
+ },
+ {
+  "osmId": "way/939466406",
+  "name": "150-152 Geary (ex-Banana Republic, closed)",
+  "wall": "limestone",
+  "base": {
+   "material": "granite_dark",
+   "height": 0.5
+  },
+  "groundH": 5.3,
+  "floorH": 4,
+  "heightM": 14.3,
+  "cornice": "none",
+  "parapet": true,
+  "rooftop": [
+   "none"
+  ],
+  "edges": [
+   {
+    "edge": 1,
+    "window": "win_punched_modern_1.8x2.0",
+    "bayW": 3.3,
+    "endPad": 0.6,
+    "storefront": "storefront_luxury_4.0x5.0"
+   }
+  ],
+  "storefronts": [
+   {
+    "edge": 3,
+    "from": 0.5,
+    "to": 5.8,
+    "module": "storefront_bay_3.0x4.5",
+    "tenant": {
+     "name": "For Lease",
+     "signType": "fascia",
+     "color": "#dddddd",
+     "bg": "#2a2a2a",
+     "category": "vacant",
+     "status": "closed",
+     "confidence": "medium",
+     "address": "150-152 Geary St (ex-Banana Republic)",
+     "enterable": false
+    }
+   }
+  ]
+ },
+ {
+  "osmId": "way/256917329",
+  "name": "Britex Building, 146 Geary (Bang & Olufsen)",
+  "wall": "limestone",
+  "base": {
+   "material": "granite_dark",
+   "height": 0.5
+  },
+  "groundH": 5.8,
+  "floors": 3,
+  "heightM": 23.3,
+  "cornice": "medium",
+  "stringcourseAfterFloors": [
+   1
+  ],
+  "parapet": false,
+  "rooftop": [
+   "none"
+  ],
+  "edges": [
+   {
+    "edge": 3,
+    "window": "win_dh_stone_1.5x2.6",
+    "bayW": 3.6,
+    "endPad": 0.6,
+    "storefront": "storefront_bay_3.0x4.5"
+   }
+  ],
+  "storefronts": [
+   {
+    "edge": 3,
+    "from": 0.5,
+    "to": 6.7,
+    "module": "storefront_bay_3.0x4.5",
+    "tenant": {
+     "name": "Bang & Olufsen",
+     "signType": "fascia",
+     "color": "#e9e9e9",
+     "bg": "#121212",
+     "category": "electronics",
+     "status": "open",
+     "confidence": "high",
+     "address": "146 Geary St",
+     "enterable": false
+    }
+   }
+  ]
+ },
+ {
+  "osmId": "way/474354570",
+  "name": "140 Geary (11-storey office block)",
+  "wall": "limestone",
+  "base": {
+   "material": "granite_dark",
+   "height": 0.5
+  },
+  "groundH": 5.4,
+  "floorH": 3.7,
+  "heightM": 42.4,
+  "cornice": "heavy",
+  "stringcourseAfterFloors": [
+   1
+  ],
+  "parapet": false,
+  "rooftop": [
+   "penthouse",
+   "watertank"
+  ],
+  "edges": [
+   {
+    "edge": 1,
+    "window": "win_dh_stone_1.5x2.6",
+    "bayW": 4.6,
+    "endPad": 0.8,
+    "storefront": "storefront_bay_3.0x4.5"
+   }
+  ],
+  "storefronts": []
+ },
+ {
+  "osmId": "way/256917327",
+  "name": "100-136 Geary (Burberry, Bottega Veneta, Van Cleef & Arpels)",
+  "wall": "limestone",
+  "base": {
+   "material": "granite_dark",
+   "height": 0.5
+  },
+  "groundH": 6.1,
+  "floorH": 3.6,
+  "heightM": 25.6,
+  "cornice": "medium",
+  "stringcourseAfterFloors": [
+   1
+  ],
+  "parapet": false,
+  "rooftop": [
+   "penthouse"
+  ],
+  "edges": [
+   {
+    "edge": 3,
+    "window": "win_dh_stone_1.5x2.6",
+    "bayW": 5,
+    "endPad": 1,
+    "storefront": "storefront_luxury_4.0x5.0"
+   },
+   {
+    "edge": 0,
+    "window": "win_dh_stone_1.5x2.6",
+    "bayW": 5,
+    "endPad": 1,
+    "storefront": "storefront_bay_3.0x4.5"
+   }
+  ],
+  "storefronts": [
+   {
+    "edge": 3,
+    "from": 0.6,
+    "to": 9.6,
+    "module": "storefront_luxury_4.0x5.0",
+    "tenant": {
+     "name": "Burberry",
+     "brand": "burberry",
+     "signType": "fascia",
+     "category": "luxury",
+     "status": "open",
+     "confidence": "medium",
+     "address": "108-116 Geary St",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 3,
+    "from": 9.6,
+    "to": 20.6,
+    "module": "storefront_luxury_4.0x5.0",
+    "tenant": {
+     "name": "Bottega Veneta",
+     "signType": "fascia",
+     "color": "#f0f0f0",
+     "bg": "#234a35",
+     "category": "luxury",
+     "status": "open",
+     "confidence": "high",
+     "address": "124 Geary St",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 3,
+    "from": 20.6,
+    "to": 26.8,
+    "module": "storefront_luxury_4.0x5.0",
+    "tenant": {
+     "name": "Van Cleef & Arpels",
+     "signType": "fascia",
+     "color": "#d9b96a",
+     "bg": "#141414",
+     "category": "jewelry",
+     "status": "open",
+     "confidence": "medium",
+     "address": "130-136 Geary St",
+     "enterable": false
+    }
+   }
+  ]
+ },
+ {
+  "osmId": "way/939466407",
+  "name": "105 Grant Ave corner piece (Valentino)",
+  "wall": "limestone",
+  "base": {
+   "material": "granite_dark",
+   "height": 0.5
+  },
+  "groundH": 5.8,
+  "floorH": 3,
+  "heightM": 14.7,
+  "cornice": "none",
+  "parapet": true,
+  "rooftop": [
+   "none"
+  ],
+  "edges": [
+   {
+    "edge": 2,
+    "window": "win_punched_modern_1.8x2.0",
+    "bayW": 4,
+    "endPad": 0.8,
+    "storefront": "storefront_luxury_4.0x5.0"
+   },
+   {
+    "edge": 1,
+    "window": "win_punched_modern_1.8x2.0",
+    "bayW": 4,
+    "endPad": 0.8,
+    "storefront": "storefront_luxury_4.0x5.0"
+   }
+  ],
+  "storefronts": [
+   {
+    "edge": 2,
+    "from": 0.6,
+    "to": 12.6,
+    "module": "storefront_luxury_4.0x5.0",
+    "tenant": {
+     "name": "Valentino",
+     "signType": "fascia",
+     "color": "#f2f2f2",
+     "bg": "#111111",
+     "category": "luxury",
+     "status": "open",
+     "confidence": "high",
+     "address": "105 Grant Ave",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 1,
+    "from": 2,
+    "to": 16.6,
+    "module": "storefront_luxury_4.0x5.0"
+   }
+  ]
+ },
+ {
+  "osmId": "way/332520725",
+  "name": "101-111 Geary - SW corner Geary & Grant (Dita / Omega)",
+  "wall": "limestone",
+  "base": {
+   "material": "granite_dark",
+   "height": 0.5
+  },
+  "groundH": 5.2,
+  "floorH": 3.6,
+  "heightM": 19.7,
+  "cornice": "medium",
+  "stringcourseAfterFloors": [
+   1
+  ],
+  "parapet": false,
+  "rooftop": [
+   "none"
+  ],
+  "edges": [
+   {
+    "edge": 0,
+    "window": "win_dh_stone_1.2x2.2",
+    "bayW": 6,
+    "endPad": 0.8,
+    "storefront": "storefront_luxury_4.0x5.0"
+   },
+   {
+    "edge": 1,
+    "window": "win_dh_stone_1.2x2.2",
+    "bayW": 4,
+    "endPad": 0.8,
+    "storefront": "storefront_bay_3.0x4.5"
+   }
+  ],
+  "storefronts": [
+   {
+    "edge": 0,
+    "from": 0.8,
+    "to": 8.8,
+    "module": "storefront_luxury_4.0x5.0",
+    "tenant": {
+     "name": "Omega",
+     "signType": "fascia",
+     "color": "#e63946",
+     "bg": "#111111",
+     "category": "jewelry",
+     "status": "open",
+     "confidence": "medium",
+     "address": "107-111 Geary St",
+     "enterable": false
+    }
+   },
+   {
+    "edge": 0,
+    "from": 8.8,
+    "to": 15.5,
+    "module": "storefront_luxury_4.0x5.0"
+   },
+   {
+    "edge": 0,
+    "from": 15.5,
+    "to": 23.2,
+    "module": "storefront_luxury_4.0x5.0",
+    "tenant": {
+     "name": "Dita",
+     "signType": "fascia",
+     "color": "#f2f2f2",
+     "bg": "#111111",
+     "category": "luxury",
+     "status": "open",
+     "confidence": "medium",
+     "address": "101-105 Geary St",
+     "enterable": false
+    }
+   }
+  ]
+ }
+]

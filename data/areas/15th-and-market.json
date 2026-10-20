@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "15th-and-market",
+  "status": "prototype",
+  "fidelity": "base",
+  "coordinateFrame": "union-square-local-v1",
+  "bboxWgs84": {
+    "south": 37.7635,
+    "west": -122.4345,
+    "north": 37.7675,
+    "east": -122.4285
+  },
+  "dataFiles": [
+    "src/data/market15AddressLabels.ts"
+  ],
+  "sourceRefs": [
+    {
+      "id": "bbbike-osm-2026-10-18",
+      "role": "exact OSM way IDs, name and address tags for four address subtitles; city-base footprints and roads",
+      "url": "https://download.bbbike.org/osm/bbbike/SanFrancisco/SanFrancisco.osm.gz",
+      "license": "OpenStreetMap ODbL-1.0",
+      "retrievedAt": "2026-10-18",
+      "sha256": "2a4c97087e7f04bef0a92aec0c702894b7400f2abba8233466e77cecc050cd7a"
+    },
+    {
+      "id": "usgs-3dep-city-dem-2026-10-18",
+      "role": "coarse pilot terrain and uphill route baseline; 13.6 m grid, not curb survey",
+      "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage",
+      "license": "US government public domain",
+      "retrievedAt": "2026-10-18",
+      "sha256": "391d385137297a17717d4ab861c4b858abbd325892bac7f5366bda4d2ed0c415"
+    },
+    {
+      "id": "datasf-street-trees-2026-10-18",
+      "role": "city-base street tree inventory context; individual pilot locations need ground review",
+      "url": "https://data.sf.gov/City-Infrastructure/San-Francisco-Street-Tree-Inventory/tkzw-k3nq",
+      "license": "Open Data Commons Public Domain Dedication and License",
+      "retrievedAt": "2026-10-18",
+      "sha256": "9c0420c731b700f669d048b59550bdea8b6e386a82d62ba7fac4e24158ce6b6c"
+    },
+    {
+      "id": "sfmta-signals-2026-10-18",
+      "role": "city-base traffic signal inventory context; controller layout and timing are not surveyed by this visual proxy",
+      "url": "https://data.sf.gov/d/ybh5-27n2",
+      "license": "Open Data Commons Public Domain Dedication and License; SFMTA attribution",
+      "retrievedAt": "2026-10-18",
+      "sha256": "ef8f5186de88bc3aca82960dbcfb4fa52a014ec2806ccb330d8810e6ac26a64a"
+    },
+    {
+      "id": "commons-market-sanchez-view-candidates",
+      "role": "dated ground-level transit/station references only; no copies or derivatives; verify each file page's licence before any asset use",
+      "url": "https://commons.wikimedia.org/wiki/Category:Market_and_Sanchez_station",
+      "license": "File-specific licence not verified; reference-only",
+      "retrievedAt": "2026-10-19"
+    },
+    {
+      "id": "commons-market-noe-view-candidates",
+      "role": "dated ground-level transit/station references only; no copies or derivatives; verify each file page's licence before any asset use",
+      "url": "https://commons.wikimedia.org/wiki/Category:Market_and_Noe_station",
+      "license": "File-specific licence not verified; reference-only",
+      "retrievedAt": "2026-10-19"
+    }
+  ],
+  "notes": "Prototype address subtitles on four already-named OSM building labels. OSM way edit dates range from 2020 to 2024; tenants and exact sign placement are not field-verified. Bounds now cover the planned 15th/Market–16th/Noe walking loop and intersect the x=-2520 m and z=2100 m city-tile seams; this is a planning extent, not a surveyed detail footprint. See docs/DATA_REALISM_P0_BASELINE.md for route, counts, hashes, camera recipes, budgets, and open P0 checks. This manifest is metadata only; the city tile loader does not read it."
+}
